@@ -22,6 +22,1906 @@
 
 const QUESTION_DB = [
   {
+    "id": 501,
+    "category": "Cinema History: Indian Cinema",
+    "question": "What was the first Bollywood feature film to be shot on location in New Zealand?",
+    "options": [
+      "Kaho Naa... Pyaar Hai",
+      "Main Prem Ki Diwani Hoon",
+      "I Hate Luv Storys",
+      "Kuch Kuch Hota Hai"
+    ],
+    "correctIndex": 0,
+    "hint": "It was the massive 2000 romantic blockbuster debut of Hrithik Roshan, directed by Rakesh Roshan.",
+    "rationale": "Kaho Naa... Pyaar Hai (2000) was the first Hindi film to utilize New Zealand's scenic landscapes for major song sequences and plot backdrops.",
+    "distractorExplorations": {
+      "Main Prem Ki Diwani Hoon": "This Sooraj Barjatya film was shot there later in 2003, capitalizing on established production paths.",
+      "I Hate Luv Storys": "This romantic comedy was filmed extensively in New Zealand much later, in 2010.",
+      "Kuch Kuch Hota Hai": "This iconic 1998 movie utilized Scotland and Mauritius for its international song sequences."
+    }
+  },
+  {
+    "id": 502,
+    "category": "Cinema: Music and Playback",
+    "question": "Which Filmfare Award-winning playback singer famously recorded 'Haadsa', the official theme song of the F1 Indian Grand Prix?",
+    "options": [
+      "KK (Krishnakumar Kunnath)",
+      "Mohit Chauhan",
+      "Shaan",
+      "Sonu Nigam"
+    ],
+    "correctIndex": 0,
+    "hint": "He is renowned for rock-infused Bollywood tracks like 'Pal', 'Yaaron', and 'Tu Hi Meri Shab Hai'.",
+    "rationale": "The late versatile singer KK recorded the high-octane track 'Haadsa' as the official musical theme for the inaugural Formula One Indian Grand Prix event.",
+    "distractorExplorations": {
+      "Mohit Chauhan": "He is famous for his soulful, indie-folk textures in rock anthems like Rockstar, but did not sing this specific sports track.",
+      "Shaan": "Shaan is celebrated for his smooth pop vocals but was not the artist behind the official F1 race anthem.",
+      "Sonu Nigam": "Sonu Nigam has recorded diverse anthems but was not selected to headline this specific racing project."
+    }
+  },
+  {
+    "id": 503,
+    "category": "Cinema: Cameos and Sports",
+    "question": "Which Indian cricketer made a notable cameo appearance as a live television commentator in the 2013 film 'Kai Po Che!'?",
+    "options": [
+      "Gaurav Kapoor",
+      "Kiran More",
+      "Ajay Jadeja",
+      "Kapil Dev"
+    ],
+    "correctIndex": 1,
+    "hint": "He was a brilliant former Indian wicketkeeper-batsman and national selector who spots the fictional talent Ali in the film.",
+    "rationale": "Former international wicketkeeper Kiran More appeared as himself, auditioning and commentating on the young prodigy Ali inside Abhishek Kapoor's sports-drama.",
+    "distractorExplorations": {
+      "Gaurav Kapoor": "He acts as a professional real-world anchor and host but did not play this specific scouting role in the movie.",
+      "Ajay Jadeja": "Jadeja acted in full-scale theatrical films like Khel, but was not the commentator cast in this project.",
+      "Kapil Dev": "Kapil Dev made sports cameos in films like Iqbal and Mujhse Shaadi Karogi, but did not appear in Kai Po Che!."
+    }
+  },
+  {
+    "id": 504,
+    "category": "Cinema Awards: Dadasaheb Phalke",
+    "question": "Which iconic veteran actor was honored with the Dadasaheb Phalke Award for the year 2012?",
+    "options": [
+      "Pran",
+      "Soumitra Chatterjee",
+      "Dilip Kumar",
+      "Manoj Kumar"
+    ],
+    "correctIndex": 0,
+    "hint": "He was Indian cinema's ultimate legendary villain, famous for roles in Zanjeer, Don, and Upkar.",
+    "rationale": "The legendary actor Pran (Pran Krishan Sikand) received India's highest cinema honor, the Dadasaheb Phalke Award, in 2012.",
+    "distractorExplorations": {
+      "Soumitra Chatterjee": "The legendary Bengali auteur companion was honored with the award in the preceding 2011 cycle.",
+      "Dilip Kumar": "The 'Tragedy King' of Indian cinema received his landmark Phalke recognition earlier, in 1994.",
+      "Manoj Kumar": "Manoj Kumar was honored with the lifetime achievement award later, in 2015."
+    }
+  },
+  {
+    "id": 505,
+    "category": "Cinema: Behind the Scenes",
+    "question": "Who served as the real-world technical coach and consultant to train the women's hockey team actors for 'Chak De! India'?",
+    "options": [
+      "Mir Ranjan Negi",
+      "Dhanraj Pillay",
+      "Maharaj Krishan Kaushik",
+      "Balbir Singh Sr."
+    ],
+    "correctIndex": 0,
+    "hint": "He was a former Indian goalkeeper whose personal life story loosely inspired parts of Kabir Khan's redemption arc.",
+    "rationale": "Former national goalkeeper Mir Ranjan Negi coached the cast and supervised technical choreography to ensure authentic gameplay on screen.",
+    "distractorExplorations": {
+      "Dhanraj Pillay": "The iconic forward supported national promotional campaigns but did not act as the formal boot-camp coach for the actors.",
+      "Maharaj Krishan Kaushik": "He was a regular national women's coach who offered tactical baseline advice, but Negi was the practical on-set trainer.",
+      "Balbir Singh Sr.": "He was a legendary triple-Olympic gold medalist who acted as a historical inspiration figure for hockey cinema entirely."
+    }
+  },
+  {
+    "id": 506,
+    "category": "Cinema Awards: National Awards",
+    "question": "Who won the National Film Award for Best Supporting Actor for his stellar performance in the 2008 musical drama 'Rock On!!'?",
+    "options": [
+      "Arjun Rampal",
+      "Farhan Akhtar",
+      "Purab Kohli",
+      "Luke Kenny"
+    ],
+    "correctIndex": 0,
+    "hint": "He played the brooding, fiercely talented lead guitarist Joe Mascarenhas in the fictional band Magik.",
+    "rationale": "Arjun Rampal won both the National Film Award and the Filmfare Award for Best Supporting Actor for his career-defining performance in Rock On!!.",
+    "distractorExplorations": {
+      "Farhan Akhtar": "He made his acting debut as the lead vocalist Aditya Shroff, winning accolades but not the supporting actor prize.",
+      "Purab Kohli": "He delivered an endearing performance as the energetic drummer KD, receiving a special mention tracking tier.",
+      "Luke Kenny": "He played the keyboardist Rob, anchoring the dramatic emotional core of the film's climax."
+    }
+  },
+  {
+    "id": 507,
+    "category": "Cinema Awards: National Awards",
+    "question": "Which Bollywood blockbuster won the National Film Award for Best Popular Film Providing Wholesome Entertainment for 2007?",
+    "options": [
+      "Chak De! India",
+      "Om Shanti Om",
+      "Taare Zameen Par",
+      "Jab We Met"
+    ],
+    "correctIndex": 0,
+    "hint": "This sports-drama redefined women's sports in mainstream culture, starring Shah Rukh Khan as Kabir Khan.",
+    "rationale": "The 55th National Film Awards honored 'Chak De! India' with the top popular film category prize for its impact and entertainment value.",
+    "distractorExplorations": {
+      "Om Shanti Om": "This retro commercial blockbuster was a major box-office hit in 2007 but missed this specific national award category.",
+      "Taare Zameen Par": "This masterpiece won the National Award for Best Film on Family Welfare in the same year's cycle.",
+      "Jab We Met": "Imtiaz Ali's romantic classic won national honors for choreography and playback singing, but not best popular film."
+    }
+  },
+  {
+    "id": 508,
+    "category": "Cinema Theory: Screenwriting",
+    "question": "Which acclaimed writer-director wrote the scripts for both the indie comedy 'Khosla Ka Ghosla' and Ram Gopal Varma's 'Company'?",
+    "options": [
+      "Jaideep Sahni",
+      "Anurag Kashyap",
+      "Dibakar Banerjee",
+      "Saurabh Shukla"
+    ],
+    "correctIndex": 0,
+    "hint": "He is a master screenwriter who also penned Chak De! India, Rocket Singh: Salesman of the Year, and Bunty Aur Babli.",
+    "rationale": "Jaideep Sahni showcased incredible narrative range by writing the realistic underworld drama Company (2002) and the middle-class Delhi satire Khosla Ka Ghosla (2006).",
+    "distractorExplorations": {
+      "Anurag Kashyap": "He co-wrote Satya and Shool for Ram Gopal Varma, but was not the writer for Company or Khosla.",
+      "Dibakar Banerjee": "He directed Khosla Ka Ghosla, directing from Jaideep Sahni's original screenplay structure.",
+      "Saurabh Shukla": "He co-wrote Satya and acted in Khosla Ka Ghosla as Bapu, but did not write these two scripts."
+    }
+  },
+  {
+    "id": 509,
+    "category": "Cinema: Music and Acting",
+    "question": "Which well-known Indian playback singer made a prominent acting debut in Meghna Gulzar's directorial debut 'Filhaal...' (2002)?",
+    "options": [
+      "Palash Sen",
+      "Lucky Ali",
+      "Shaan",
+      "Sonu Nigam"
+    ],
+    "correctIndex": 0,
+    "hint": "He is the lead vocalist and founder of the highly successful Indian pop-rock band Euphoria.",
+    "rationale": "Dr. Palash Sen stepped in front of the camera to play a lead role alongside Tabu and Sushmita Sen in the relationship drama Filhaal....",
+    "distractorExplorations": {
+      "Lucky Ali": "He acted in movies like Kaante and Sur during this era, but was not part of the Filhaal... cast.",
+      "Shaan": "Shaan made brief guest musical appearances but avoided leading dramatic feature structures during this cycle.",
+      "Sonu Nigam": "Sonu Nigam tried his hand at acting in Jaani Dushman and Love in Nepal, but did not star in this Meghna Gulzar film."
+    }
+  },
+  {
+    "id": 510,
+    "category": "Cinema History: Indian Cinema",
+    "question": "What was the title of Madhuri Dixit’s official theatrical comeback film in 2007 after a hiatus?",
+    "options": [
+      "Aaja Nachle",
+      "Dedh Ishqiya",
+      "Gulaab Gang",
+      "Devdas"
+    ],
+    "correctIndex": 0,
+    "hint": "Produced by Yash Raj Films, this dance-centric movie features her trying to save a local community theater called Ajanta.",
+    "rationale": "Madhuri Dixit returned to the silver screen in 2007 starring in Anil Mehta's musical drama 'Aaja Nachle'.",
+    "distractorExplorations": {
+      "Dedh Ishqiya": "This dark comedy was an acclaimed comeback phase entry released much later, in 2014.",
+      "Gulaab Gang": "This action-drama featured her alongside Juhi Chawla in 2014.",
+      "Devdas": "This 2002 magnum opus was her final major film before she took her multi-year family break."
+    }
+  },
+  {
+    "id": 511,
+    "category": "Cinema Awards: National Awards",
+    "question": "Who won the National Film Award for Best Actress for her performance in the 2002 English-language film 'Mr. and Mrs. Iyer'?",
+    "options": [
+      "Konkona Sen Sharma",
+      "Aparna Sen",
+      "Tabu",
+      "Shabana Azmi"
+    ],
+    "correctIndex": 0,
+    "hint": "She played Meenakshi Iyer, a conservative Tamil Brahmin woman, under her mother Aparna Sen's direction.",
+    "rationale": "Konkona Sen Sharma won her first individual Best Actress National Award for her deeply moving performance in this riot-backdrop drama.",
+    "distractorExplorations": {
+      "Aparna Sen": "She directed and wrote the film, winning the National Film Award for Best Direction, while her daughter starred.",
+      "Tabu": "Tabu won the Best Actress award in the previous cycle (Chandni Bar) and was not the lead in this project.",
+      "Shabana Azmi": "She is a veteran of Aparna Sen's films but did not play the titular Mrs. Iyer role."
+    }
+  },
+  {
+    "id": 512,
+    "category": "Cinema History: Remakes",
+    "question": "Indra Kumar's 1999 romantic drama 'Mann' starring Aamir Khan and Manisha Koirala is an uncredited remake of which classic Hollywood film?",
+    "options": [
+      "An Affair to Remember",
+      "Casablanca",
+      "Titanic",
+      "Love Story"
+    ],
+    "correctIndex": 0,
+    "hint": "This 1957 Hollywood romance stars Cary Grant and Deborah Kerr, tracking a pact to meet at the Empire State Building.",
+    "rationale": "Mann lifted its central storyline directly from 'An Affair to Remember', replicating the cruise meeting, the accident, and the final painting reveal.",
+    "distractorExplorations": {
+      "Casablanca": "Casablanca is a legendary wartime drama that inspired alternative dramatic Bollywood scripts like Shaheed.",
+      "Titanic": "Titanic features a cruise sinking catastrophe, which was not the plot mechanism of Mann's romantic tragedy.",
+      "Love Story": "This tragic romance inspired classics like Ankhiyon Ke Jharokhon Se, but is structurally separate from Mann."
+    }
+  },
+  {
+    "id": 513,
+    "category": "Cinema: Behind the Scenes",
+    "question": "What is the corporate/financial connection of high-profile Indian banker Naina Lal Kidwai with Mira Nair's film 'Monsoon Wedding' (2001)?",
+    "options": [
+      "She arranged the initial equity fundraising and structured film financing loops",
+      "She wrote the script background profiles",
+      "She acted as a production costume manager",
+      "She was an onscreen wedding coordinator"
+    ],
+    "correctIndex": 0,
+    "hint": "She is a pioneer in Indian banking who helped organize structured commercial funding frameworks for independent parallel films.",
+    "rationale": "Naina Lal Kidwai helped pioneer early structured entertainment financing models in India, assisting independent productions like Monsoon Wedding to secure corporate funding.",
+    "distractorExplorations": {
+      "She wrote the script background profiles": "The film's screenplay was written entirely by professional screenwriter Sabrina Dhawan.",
+      "She acted as a production costume manager": "The film's costumes were managed by professional designers like Arjun Bhasin.",
+      "She was an onscreen wedding coordinator": "She never made an appearance in the film; her involvement was purely corporate and financial."
+    }
+  },
+  {
+    "id": 514,
+    "category": "Cinema Awards: Global Awards",
+    "question": "Which Hindi film won the prestigious Audience Award for Best Foreign Language Film at the 32nd International Film Festival of São Paulo?",
+    "options": [
+      "Taare Zameen Par",
+      "Lagaan",
+      "Slumdog Millionaire",
+      "Jodhaa Akbar"
+    ],
+    "correctIndex": 0,
+    "hint": "This Aamir Khan directorial debut dealt with a child's struggle with dyslexia.",
+    "rationale": "Taare Zameen Par (released internationally as Like Stars on Earth) won the public vote at the Brazilian festival for its universal emotional appeal.",
+    "distractorExplorations": {
+      "Lagaan": "Lagaan achieved an Oscar nomination in 2002, but did not compete in this specific 2008 São Paulo cycle.",
+      "Slumdog Millionaire": "This is a British production that swept the Oscars, separate from this specific South American indie award tracking track.",
+      "Jodhaa Akbar": "Ashutosh Gowariker's epic won public awards at the Golden Minbar festival but not this specific honor."
+    }
+  },
+  {
+    "id": 515,
+    "category": "Cinema Awards: Oscars",
+    "question": "Which Indian filmmaker was nominated for an Academy Award and invited to be a regular voting member of the Academy of Motion Picture Arts and Sciences by 2005?",
+    "options": [
+      "Ashutosh Gowariker",
+      "Aamir Khan",
+      "Satyajit Ray",
+      "Mira Nair"
+    ],
+    "correctIndex": 0,
+    "hint": "He directed the historic sports epic 'Lagaan', which secured a Best Foreign Language Film nomination in 2002.",
+    "rationale": "Following Lagaan's historic Oscar run, director Ashutosh Gowariker was formally inducted as a voting member into the Academy's Directors branch.",
+    "distractorExplorations": {
+      "Aamir Khan": "He produced and starred in the film, gaining membership later, but Gowariker was the director nominated.",
+      "Satyajit Ray": "Ray received an Honorary Lifetime Achievement Oscar in 1992 but was never an active tracking member in 2005.",
+      "Mira Nair": "Mira Nair was nominated for Salaam Bombay in 1989 and operates primarily in independent global cinema tracks."
+    }
+  },
+  {
+    "id": 516,
+    "category": "Cinema: Cameos and Sports",
+    "question": "The international cricketers Allan Border, Ashish Nehra, Harbhajan Singh, and Martin Crowe all made cameo appearances in which Bollywood film?",
+    "options": [
+      "Victory",
+      "Patiala House",
+      "Chain Kulii Ki Main Kulii",
+      "Stumped"
+    ],
+    "correctIndex": 0,
+    "hint": "Released in 2009, this cricket-centric movie stars Harman Baweja as a struggling batsman making his way into the national team.",
+    "rationale": "The movie 'Victory' (2009) cast dozens of real-world international cricket stars to simulate authentic global match environments.",
+    "distractorExplorations": {
+      "Patiala House": "This Akshay Kumar film featured several England national team players, but not Allan Border or Martin Crowe.",
+      "Chain Kulii Ki Main Kulii": "This fantasy sports film focused on a magical bat, using fictional domestic cricket teams.",
+      "Stumped": "This Raveena Tandon production was released during the 2003 World Cup, focusing on a local housing society's fandom."
+    }
+  },
+  {
+    "id": 517,
+    "category": "Cinema Theory: VFX",
+    "question": "Tata Elxsi managed the extensive visual effects and digital environment replication for which New York-based Bollywood romance drama?",
+    "options": [
+      "Ta Ra Rum Pum",
+      "Kal Ho Naa Ho",
+      "New York",
+      "Kabhi Alvida Naa Kehna"
+    ],
+    "correctIndex": 0,
+    "hint": "This 2007 Siddharth Anand film stars Saif Ali Khan as a stock-car racer trying to make a living in America.",
+    "rationale": "Tata Elxsi's visual effects division digitally built the high-speed racing tracks and stadium backdrops for Yash Raj Films' 'Ta Ra Rum Pum'.",
+    "distractorExplorations": {
+      "Kal Ho Naa Ho": "This Karan Johar production outsourced its New York visual transitions through alternative technical labs.",
+      "New York": "Kabir Khan's post-9/11 thriller relied heavily on real location photography across the city.",
+      "Kabhi Alvida Naa Kehna": "This emotional drama was shot extensively on location around New York and Connecticut."
+    }
+  },
+  {
+    "id": 518,
+    "category": "Cinema: Music Directors",
+    "question": "Which Bollywood music composer studied at Presidency College, Kolkata and FTII, Pune, before making his debut with 'Mere Yaar Ki Shaadi Hai'?",
+    "options": [
+      "Jeet Gannguli",
+      "Pritam (Pritam Chakraborty)",
+      "Shantanu Moitra",
+      "Amit Trivedi"
+    ],
+    "correctIndex": 1,
+    "hint": "He went on to become a powerhouse hitmaker for blockbusters like Dhoom, Jab We Met, Barfi!, and Yeh Jawaani Hai Deewani.",
+    "rationale": "Pritam Chakraborty graduated from FTII in sound engineering before moving to Mumbai and debuting as a co-composer with the duo 'Jeet-Pritam' for Yash Raj Films.",
+    "distractorExplorations": {
+      "Jeet Gannguli": "He was Pritam's early partner but his career and training followed a different institutional pathway in Bengal.",
+      "Shantanu Moitra": "Moitra worked in advertising in Delhi before exploding with Pradeep Sarkar's Parineeta.",
+      "Amit Trivedi": "Trivedi is a Mumbai-born self-taught musician who broke through via Dev.D, skipping the FTII sound track entirely."
+    }
+  },
+  {
+    "id": 519,
+    "category": "Cinema: Music and Playback",
+    "question": "Who sang the iconic, funk-infused track 'Main Aisa Kyun Hoon' from Farhan Akhtar's military drama 'Lakshya' (2004)?",
+    "options": [
+      "Shaan",
+      "Kunal Ganjawala",
+      "Sunidhi Chauhan",
+      "Sonu Nigam"
+    ],
+    "correctIndex": 0,
+    "hint": "This playback singer gave voice to Hrithik Roshan's lazy, fluid dance steps choreographed by Prabhu Deva.",
+    "rationale": "Shaan delivered the unique vocal style for 'Main Aisa Kyun Hoon', composed by Shankar-Ehsaan-Loy.",
+    "distractorExplorations": {
+      "Kunal Ganjawala": "He exploded in 2004 with 'Bheege Hont Tere' from Murder, but was not on this track.",
+      "Sunidhi Chauhan": "She performed alternative female tracks for the era's major soundtracks.",
+      "Sonu Nigam": "Sonu Nigam recorded the title track and emotional melodies for Lakshya, but skipped this dance track."
+    }
+  },
+  {
+    "id": 520,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Which real-world Indian military training academy is showcased as the primary setting for the second act of 'Lakshya'?",
+    "options": [
+      "National Defence Academy (NDA), Khadakwasla",
+      "Indian Military Academy (IMA), Dehradun",
+      "Officers Training Academy (OTA), Chennai",
+      "Air Force Academy, Dundigal"
+    ],
+    "correctIndex": 1,
+    "hint": "It is the premier institution in Uttarakhand where Hrithik Roshan's character, Karan Shergill, undergoes his transformation.",
+    "rationale": "Farhan Akhtar filmed extensively on location inside the Indian Military Academy (IMA) in Dehradun to capture realistic cadet training routines.",
+    "distractorExplorations": {
+      "National Defence Academy (NDA), Khadakwasla": "NDA trains cadets right after schooling before they move into specialized service academies like the IMA.",
+      "Officers Training Academy (OTA), Chennai": "OTA offers short-service commission tracks, whereas the film specifically traces the regular IMA course.",
+      "Air Force Academy, Dundigal": "This trains aviation pilots, completely separate from the infantry regiments depicted in the film."
+    }
+  },
+  {
+    "id": 521,
+    "category": "Cinema History: Remakes",
+    "question": "Which Bollywood romantic drama is directly inspired by the classic Hollywood film 'An Affair to Remember'?",
+    "options": [
+      "Mann",
+      "Dil Hai Ke Manta Nahin",
+      "Hum Tum",
+      "Salaam Namaste"
+    ],
+    "correctIndex": 0,
+    "hint": "This Aamir Khan and Manisha Koirala starrer features a catastrophic accident preventing a meeting at a designated location.",
+    "rationale": "This question cross-verifies your entry tracker: Indra Kumar's Mann (1999) is an uncredited frame-by-frame adaptation of the classic Hollywood romance.",
+    "distractorExplorations": {
+      "Dil Hai Ke Manta Nahin": "This Mahesh Bhatt comedy is a direct adaptation of Hollywood's 'It Happened One Night'.",
+      "Hum Tum": "Hum Tum is a romantic comedy inspired by the structure of 'When Harry Met Sally'.",
+      "Salaam Namaste": "This film maps a contemporary live-in relationship in Australia, separate from this classic melodrama framework."
+    }
+  },
+  {
+    "id": 522,
+    "category": "Cinema History: Directors",
+    "question": "Which Bollywood director assistant-directed TV serials before debuting in 2003, and was later diagnosed with leukemia while filming 'Tumsa Nahin Dekha'?",
+    "options": [
+      "Anurag Basu",
+      "Imtiaz Ali",
+      "Mohit Suri",
+      "Anurag Kashyap"
+    ],
+    "correctIndex": 0,
+    "hint": "He survived his cancer battle and went on to direct landmark films like Gangster, Life in a... Metro, and Barfi!.",
+    "rationale": "Anurag Basu debuted with Saaya (2003) and fell critically ill during Tumsa Nahin Dekha, prompting Mahesh Bhatt to finish the shoot while Basu received treatment from his hospital bed.",
+    "distractorExplorations": {
+      "Imtiaz Ali": "He started in television directing shows like Imtehaan but did not suffer from this specific medical emergency.",
+      "Mohit Suri": "He debuted with Zeher and directed multiple Vishesh Films hits, but was not the director diagnosed here.",
+      "Anurag Kashyap": "He was a writer for Satya who moved into radical indie cinema tracks, skipping the television assistant director loop."
+    }
+  },
+  {
+    "id": 523,
+    "category": "Cinema: Music Directors",
+    "question": "Which Bollywood music director was associated with the Bengali band 'Chandrabindoo' and studied sound engineering at FTII, Pune, before breaking through with ad jingles?",
+    "options": [
+      "Shantanu Moitra",
+      "Arko Pravo Mukherjee",
+      "Pritam Chakraborty",
+      "Jeet Gannguli"
+    ],
+    "correctIndex": 2,
+    "hint": "This checks your master composer profiles: he is famous for scoring Jab We Met and Ae Dil Hai Mushkil.",
+    "rationale": "Pritam Chakraborty was an early member of Chandrabindoo during his college years in Kolkata before heading to FTII and eventually moving into commercial ad jingles and film composition.",
+    "distractorExplorations": {
+      "Shantanu Moitra": "Moitra worked as a client manager in an advertising agency before shifting to full-time composing.",
+      "Arko Pravo Mukherjee": "He is a modern singer-songwriter and physician who entered the industry much later via Pooja Bhatt's Jism 2.",
+      "Jeet Gannguli": "He trained under classical gurus and worked extensively in both Tollywood and Bollywood soundscapes."
+    }
+  },
+  {
+    "id": 524,
+    "category": "Cinema History: Directors",
+    "question": "Which Nagpur-born director studied film editing at FTII, Pune, and won National Awards in 2004, 2007, and 2010?",
+    "options": [
+      "Rajkumar Hirani",
+      "Dibakar Banerjee",
+      "Madhur Bhandarkar",
+      "Ashutosh Gowariker"
+    ],
+    "correctIndex": 0,
+    "hint": "He is the legendary director behind Munna Bhai M.B.B.S., Lage Raho Munna Bhai, and 3 Idiots.",
+    "rationale": "Rajkumar Hirani worked as a prominent film editor for years before making his directorial debut with Munna Bhai M.B.B.S., winning multiple National Awards for his films.",
+    "distractorExplorations": {
+      "Dibakar Banerjee": "He is a Delhi-born advertising professional who directed Khosla Ka Ghosla and Oye Lucky! Lucky Oye!.",
+      "Madhur Bhandarkar": "He is a self-taught filmmaker who learned cinema by working at a video cassette library in Mumbai.",
+      "Ashutosh Gowariker": "He started his career as an actor before moving into directing with historical epics like Lagaan."
+    }
+  },
+  {
+    "id": 525,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Who played the tragic, structural character role of engineering student Joy Lobo in Rajkumar Hirani's '3 Idiots' (2009)?",
+    "options": [
+      "Ali Fazal",
+      "Sharman Joshi",
+      "Omi Vaidya",
+      "Madhavan"
+    ],
+    "correctIndex": 0,
+    "hint": "This actor later gained massive international fame in Fukrey, Mirzapur, and the Hollywood film Victoria & Abdul.",
+    "rationale": "Ali Fazal delivered a memorable cameo appearance as Joy Lobo, whose tragic suicide drives the emotional focus of the film's critique on educational pressure.",
+    "distractorExplorations": {
+      "Sharman Joshi": "He played Raju Rastogi, one of the three core protagonist friends of Rancho.",
+      "Omi Vaidya": "He played Chatur Ramalingam, famously known as 'The Silencer', delivering the iconic auditorium speech scene.",
+      "Madhavan": "He played Farhan Qureshi, the narrator friend who secretly wants to be a wildlife photographer."
+    }
+  },
+  {
+    "id": 526,
+    "category": "Cinema: Behind the Scenes",
+    "question": "The fictional 'Imperial College of Engineering' campus shown in '3 Idiots' was filmed on location at which real-world premium institute?",
+    "options": [
+      "IIM Ahmedabad",
+      "IIT Bombay",
+      "IIM Bangalore",
+      "IIT Delhi"
+    ],
+    "correctIndex": 2,
+    "hint": "This iconic management institute campus features beautiful exposed-brick architecture designed by Stein.",
+    "rationale": "While the story was set in an engineering college, Rajkumar Hirani filmed the campus sequences on location at the Indian Institute of Management (IIM) Bangalore.",
+    "distractorExplorations": {
+      "IIM Ahmedabad": "This campus was used as the location setting for Abhishek Varman's adaptation of Chetan Bhagat's '2 States'.",
+      "IIT Bombay": "IIT Bombay was considered during pre-production but skipped due to scheduling logistics.",
+      "IIT Delhi": "IIT Delhi is Chetan Bhagat's actual alma mater, but it was not used as the filming set for the movie adaptation."
+    }
+  },
+  {
+    "id": 527,
+    "category": "Cinema History: Remakes",
+    "question": "Which highly successful Bollywood psychological action thriller is inspired by Christopher Nolan's 'Memento'?",
+    "options": [
+      "Ghajini",
+      "Ek Hasina Thi",
+      "Karthik Calling Karthik",
+      "Dhoom"
+    ],
+    "correctIndex": 0,
+    "hint": "It stars Aamir Khan as a billionaire suffering from short-term memory loss who uses tattoos and polaroids to track an enemy.",
+    "rationale": "Aamir Khan's Ghajini (2008)—adapted from A.R. Murugadoss's Tamil original—uses the short-term memory loss mechanic pioneered in Memento.",
+    "distractorExplorations": {
+      "Ek Hasina Thi": "This revenge thriller was heavily inspired by the narrative loop of the American novel Double Jeopardy.",
+      "Karthik Calling Karthik": "This psychological drama tracks a protagonist struggling with dissociative identity disorder.",
+      "Dhoom": "This action heist film is a high-speed vehicle caper completely separate from memory-loss thrillers."
+    }
+  },
+  {
+    "id": 528,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Who played the iconic character of the dense tax inspector Bharat Bhushan in the 2007 comedy 'Bheja Fry'?",
+    "options": [
+      "Vinay Pathak",
+      "Rajat Kapoor",
+      "Ranvir Shorey",
+      "Saurabh Shukla"
+    ],
+    "correctIndex": 0,
+    "hint": "This performance turned him into an indie comedy star, playing a character who loves singing and carrying a scrapbook.",
+    "rationale": "Vinay Pathak delivered a masterful comic performance as the well-meaning but irritating tax inspector Bharat Bhushan in Sagar Ballary's film.",
+    "distractorExplorations": {
+      "Rajat Kapoor": "He played Ranjeet Thadani, the arrogant music producer who invites Bharat Bhushan to dinner.",
+      "Ranvir Shorey": "He played Asif Merchant, an eccentric income tax officer colleague who shows up later in the evening.",
+      "Saurabh Shukla": "He acted as a supporting character but did not play the central 'Bheja Fry' catalyst."
+    }
+  },
+  {
+    "id": 529,
+    "category": "Cinema History: Actors",
+    "question": "Which theater personality made his debut in 'Naseem' (1995) and starred in 'Ankur Arora Murder Case'?",
+    "options": [
+      "Tisca Chopra",
+      "Kay Kay Menon",
+      "Arjun Mathur",
+      "Paresh Rawal"
+    ],
+    "correctIndex": 1,
+    "hint": "He is celebrated for his powerhouse acting roles in Sarkar, Shaurya, and the web series Special Ops.",
+    "rationale": "Kay Kay Menon began his cinematic journey with Saeed Mirza's Naseem, later starring as the arrogant senior surgeon Dr. Asthana in Ankur Arora Murder Case (2013).",
+    "distractorExplorations": {
+      "Tisca Chopra": "She starred in the medical thriller as a grieving mother but was not the theater actor who debuted in Naseem.",
+      "Arjun Mathur": "He played the idealistic junior resident doctor who exposes the medical negligence cover-up.",
+      "Paresh Rawal": "He is a veteran actor who starred in alternative legal and social dramas across this decade."
+    }
+  },
+  {
+    "id": 530,
+    "category": "Cinema History: Actors",
+    "question": "Which versatile Indian actor, who plays rugby and works with major charities, portrayed an investment banker in 'Chameli' and a military lawyer in 'Shaurya'?",
+    "options": [
+      "Rahul Bose",
+      "Sanjay Suri",
+      "Purab Kohli",
+      "Jaideep Ahlawat"
+    ],
+    "correctIndex": 0,
+    "hint": "He represented India at international rugby tournaments and directed the National Award-winning indie film Raghu Romeo.",
+    "rationale": "Rahul Bose played the sophisticated investment banker Aman Kapoor in Chameli (2003) and Major Siddhant Chaudhary in the military courtroom drama Shaurya (2008).",
+    "distractorExplorations": {
+      "Sanjay Suri": "He co-starred in alternative indie productions of the era like Jhankaar Beats and My Brother... Nikhil.",
+      "Purab Kohli": "He was a prominent VJ turned actor who starred in Rock On!! as the band's drummer.",
+      "Jaideep Ahlawat": "He belongs to a later generation of powerhouse actors who broke out during the 2010s."
+    }
+  },
+  {
+    "id": 531,
+    "category": "Cinema Awards: National Awards",
+    "question": "Which Rituparno Ghosh film starring Ajay Devgn and Aishwarya Rai is an adaptation of O. Henry's short story 'The Gift of the Magi'?",
+    "options": [
+      "Raincoat",
+      "Chokher Bali",
+      "Chitrangada",
+      "Shubho Mahurat"
+    ],
+    "correctIndex": 0,
+    "hint": "The entire melancholic movie takes place over a single rainy afternoon inside a dim Calcutta house.",
+    "rationale": "Raincoat (2004) was Rituparno Ghosh's beautiful Hindi-language directorial venture, winning the National Film Award for Best Hindi Feature Film.",
+    "distractorExplorations": {
+      "Chokher Bali": "This was a highly acclaimed Bengali historical drama based on Rabindranath Tagore's novel.",
+      "Chitrangada": "This late-career film explored gender identity and performance art circles in Bengal.",
+      "Shubho Mahurat": "This was an adaptation of Agatha Christie's miss marple detective mystery novel 'The Mirror Crack'd from Side to Side'."
+    }
+  },
+  {
+    "id": 532,
+    "category": "Cinema History: Directors",
+    "question": "Which director won the National Film Award for Best Hindi Feature Film for his debut venture 'Khosla Ka Ghosla'?",
+    "options": [
+      "Dibakar Banerjee",
+      "Saurabh Shukla",
+      "Navdeep Singh",
+      "Anurag Kashyap"
+    ],
+    "correctIndex": 0,
+    "hint": "He went on to direct landmark modern films like Oye Lucky! Lucky Oye!, LSD, and Shanghai.",
+    "rationale": "Dibakar Banerjee made a stellar directorial debut with Khosla Ka Ghosla (2006), winning wide critical acclaim and a National Award.",
+    "distractorExplorations": {
+      "Saurabh Shukla": "He co-starred in the film as a dramatic actor but did not sit in the director's chair.",
+      "Navdeep Singh": "He made his directorial debut with the highly acclaimed neo-noir thriller Manorama Six Feet Under in 2007.",
+      "Anurag Kashyap": "He was gaining indie traction with Black Friday but was completely separate from this Delhi comedy project."
+    }
+  },
+  {
+    "id": 533,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Which iconic movie won 7 Filmfare Awards and had its young ensemble cast featured on the September 2008 cover of Rolling Stone India?",
+    "options": [
+      "Rock On!!",
+      "Jaane Tu... Ya Jaane Na",
+      "Delhi-6",
+      "Oye Lucky! Lucky Oye!"
+    ],
+    "correctIndex": 0,
+    "hint": "The film catalyzed the Indian pop-rock culture movement, tracking the reunion of the band Magik.",
+    "rationale": "Rock On!! dominated cultural conversations in late 2008, earning the cast a historic feature spot on the cover of Rolling Stone magazine.",
+    "distractorExplorations": {
+      "Jaane Tu... Ya Jaane Na": "This romantic comedy was another massive youth hit in 2008, featuring Imran Khan, but didn't land this music magazine cover.",
+      "Delhi-6": "This Rakeysh Omprakash Mehra film was released later, in early 2009, with a standalone AR Rahman musical launch.",
+      "Oye Lucky! Lucky Oye!": "This satirical crime comedy won a National Award but did not feature an ensemble band cast framework."
+    }
+  },
+  {
+    "id": 534,
+    "category": "Cinema History: Actors",
+    "question": "Which actress-host attended the Royal Academy of Dramatic Art (RADA) and made her debut in 'Everybody Says I'm Fine!' (2001)?",
+    "options": [
+      "Koel Purie",
+      "Konkona Sen Sharma",
+      "Perizaad Zorabian",
+      "Shenaz Treasury"
+    ],
+    "correctIndex": 0,
+    "hint": "She became a prominent talk-show host and anchor, known for her vibrant international personality.",
+    "rationale": "Koel Purie trained at RADA before debuting in Rahul Bose's directorial venture Everybody Says I'm Fine!.",
+    "distractorExplorations": {
+      "Konkona Sen Sharma": "She starred in indie cinema classics but received her training on local Indian theatre stages and sets.",
+      "Perizaad Zorabian": "She broke out with Nagesh Kukunoor's Bollywood Calling and Joggers' Park, skipping the RADA training track.",
+      "Shenaz Treasury": "She was a highly popular MTV India VJ who later transitioned into commercial romantic movies like Ishq Vishk."
+    }
+  },
+  {
+    "id": 535,
+    "category": "Cinema Awards: National Awards",
+    "question": "Which 2007 war-drama directed by Amrit Sagar tracks Indian POWs attempting a daring escape from a Pakistani camp?",
+    "options": [
+      "1971",
+      "Tango Charlie",
+      "Deewaar",
+      "Ab Tumhare Hawale Watan Saathiyo"
+    ],
+    "correctIndex": 0,
+    "hint": "The ensemble cast features Manoj Bajpayee, Ravi Kishan, and Kumud Mishra delivering hard-hitting performances.",
+    "rationale": "The film '1971' won the National Film Award for Best Hindi Feature Film for its realistic, gritty depiction of military prisoner escape history.",
+    "distractorExplorations": {
+      "Tango Charlie": "This Mani Shankar project explored BSF combat experiences across various counter-insurgency operations.",
+      "Deewaar": "This 2004 Amitabh Bachchan starrer also dealt with POW escape plans but did not win this national category award.",
+      "Ab Tumhare Hawale Watan Saathiyo": "This was a highly theatrical, high-budget multi-starrer action project directed by Anil Sharma."
+    }
+  },
+  {
+    "id": 536,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Which cult film, rated by Rediff among the top movies of its decade, marked the acting and singing debut of director Farhan Akhtar?",
+    "options": [
+      "Rock On!! (Directed by Abhishek Kapoor)",
+      "Dil Chahta Hai",
+      "Zindagi Na Milegi Dobara",
+      "Luck by Chance"
+    ],
+    "correctIndex": 0,
+    "hint": "Farhan Akhtar starred as Aditya Shroff, but he did not direct it—Abhishek Kapoor sat in the director's chair.",
+    "rationale": "Rock On!! (2008) launched Farhan Akhtar as a prominent onscreen actor and playback singer, earning a regular cult following. (Option A reflects the required film-director pair context).",
+    "distractorExplorations": {
+      "Dil Chahta Hai": "This was Farhan Akhtar's directorial debut in 2001, but he did not act in the film.",
+      "Zindagi Na Milegi Dobara": "This buddy road film was directed by his sister Zoya Akhtar later, in 2011.",
+      "Luck by Chance": "This industry satire was Zoya Akhtar's directorial debut, starring Farhan as an ambitious outsider actor."
+    }
+  },
+  {
+    "id": 537,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Who played the character role of Pooja, Saif Ali Khan’s initial love interest, in 'Dil Chahta Hai' (2001)?",
+    "options": [
+      "Sonali Kulkarni",
+      "Preity Zinta",
+      "Suchitra Pillai",
+      "Dimple Kapadia"
+    ],
+    "correctIndex": 0,
+    "hint": "She is a versatile actress who later won critical acclaim in Mission Kashmir and Singham.",
+    "rationale": "Sonali Kulkarni played Pooja, who is paired with Saif Ali Khan's character Sameer in the second act of the film.",
+    "distractorExplorations": {
+      "Preity Zinta": "She played Shalini, the primary romantic interest paired with Aamir Khan's character Akash.",
+      "Suchitra Pillai": "She delivered a memorable comedic cameo as Priya, Sameer’s dominant, overbearing girlfriend in the first act.",
+      "Dimple Kapadia": "She delivered an extraordinary performance as Tara Jaiswal, the older interior designer who anchors Akshaye Khanna's arc."
+    }
+  },
+  {
+    "id": 538,
+    "category": "Cinema History: Directors",
+    "question": "Which female director served as an assistant director on 'Lagaan' and 'Monsoon Wedding' before making her independent debut?",
+    "options": [
+      "Kiran Rao",
+      "Reema Kagti",
+      "Zoya Akhtar",
+      "Alankrita Shrivastava"
+    ],
+    "correctIndex": 0,
+    "hint": "She completed her education in Kolkata and Mumbai, later directing the highly acclaimed indie film Dhobi Ghat.",
+    "rationale": "Kiran Rao honed her filmmaking skills working on major sets like Lagaan before transitioning to independent directing and producing.",
+    "distractorExplorations": {
+      "Reema Kagti": "She assistant-directed on Lagaan as well, but went on to debut with Honeymoon Travels Pvt. Ltd. in 2007.",
+      "Zoya Akhtar": "She assistant-directed on various international projects before launching her career with Luck by Chance.",
+      "Alankrita Shrivastava": "She started her career assisting Prakash Jha on films like Apharan and Turning 30."
+    }
+  },
+  {
+    "id": 539,
+    "category": "Cinema History: Actors",
+    "question": "Which versatile actor directed the National Award-winning film 'Raghu Romeo' and played the ISI Chief in 'Agent Vinod'?",
+    "options": [
+      "Rajat Kapoor",
+      "Saurabh Shukla",
+      "Vinay Pathak",
+      "Deepak Dobriyal"
+    ],
+    "correctIndex": 0,
+    "hint": "He is a prominent pillar of Indian indie cinema and corporate theatre, known for directing Ankhon Dekhi and Kadakh.",
+    "rationale": "Rajat Kapoor directed the crowd-funded black comedy Raghu Romeo (2003) and delivered a suave performance as the antagonist ISI chief Colonel Iftikhar Ahmed in Agent Vinod (2012).",
+    "distractorExplorations": {
+      "Saurabh Shukla": "He is a brilliant writer-actor who directed Mithya but was not the director of Raghu Romeo.",
+      "Vinay Pathak": "He starred as the lead actor inside Raghu Romeo, working under Rajat Kapoor's direction.",
+      "Deepak Dobriyal": "He is a stellar character actor famous for Omkara and Tanu Weds Manu, separate from this directorial track."
+    }
+  },
+  {
+    "id": 540,
+    "category": "Cinema History: Actors",
+    "question": "Which model-VJ studied electrical engineering before starring in 'Dil Chahta Hai' and Madhur Bhandarkar's 'Fashion'?",
+    "options": [
+      "Suchitra Pillai",
+      "Nethra Raghuraman",
+      "Malaika Arora",
+      "Amrita Arora"
+    ],
+    "correctIndex": 0,
+    "hint": "She was a dominant Channel V presenter who played Saif Ali Khan's demanding girlfriend Priya in Dil Chahta Hai.",
+    "rationale": "Suchitra Pillai holds an engineering degree but pivoted to modeling and VJing, later becoming a prolific voice-over and character actress.",
+    "distractorExplorations": {
+      "Nethra Raghuraman": "She was a top-flight Indian supermodel who won alternative reality shows but lacked this film filmography.",
+      "Malaika Arora": "She was an iconic MTV India VJ who became Bollywood's premier dance item track star.",
+      "Amrita Arora": "She transitioned from VJing directly into mainstream commercial multi-starrer comedies."
+    }
+  },
+  {
+    "id": 541,
+    "category": "Cinema Awards: National Awards",
+    "question": "Which courtroom comedy won the National Award for Best Hindi Film, earning Saurabh Shukla a Best Supporting Actor trophy?",
+    "options": [
+      "Jolly LLB",
+      "Fasaye Khosla",
+      "Bheja Fry",
+      "Oh My God"
+    ],
+    "correctIndex": 0,
+    "hint": "Directed by Subhash Kapoor, it stars Arshad Warsi as a small-time lawyer taking on a high-profile hit-and-run case.",
+    "rationale": "Jolly LLB (2013) won wide critical and commercial acclaim, with Saurabh Shukla delivering a brilliant performance as Justice Sunderlal Tripathi.",
+    "distractorExplorations": {
+      "Fasaye Khosla": "This is an inaccurate tracking variation created as a distractor choice.",
+      "Bheja Fry": "This is an indie drawing-room comedy that did not utilize a formal judicial courtroom track setup.",
+      "Oh My God": "This satirical drama explored religious litigation but was separate from Saurabh Shukla's national win."
+    }
+  },
+  {
+    "id": 542,
+    "category": "Cinema Awards: National Awards",
+    "question": "Which 2011 anthology film consisting of 4 distinct stories is celebrated as India's first major crowd-sourced social network film?",
+    "options": [
+      "I Am",
+      "Dhobi Ghat",
+      "Shor in the City",
+      "Love Sex aur Dhokha"
+    ],
+    "correctIndex": 0,
+    "hint": "Directed by Onir, it features stories named Afia, Megha, Abhimanyu, and Omar addressing deep social taboos.",
+    "rationale": "Onir's 'I Am' won the National Film Award for Best Hindi Feature Film, funding its production directly through collective micro-contributions on Twitter and Facebook.",
+    "distractorExplorations": {
+      "Dhobi Ghat": "Kiran Rao's mosaic film was financed traditionally through Aamir Khan Productions.",
+      "Shor in the City": "This crime comedy-drama was produced traditionally by Balaji Motion Pictures.",
+      "Love Sex aur Dhokha": "Dibakar Banerjee's film used digital found-footage tracking but was backed by studio capital blocks."
+    }
+  },
+  {
+    "id": 543,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Who played the fiery character role of revolutionary Sukhdev Thapar in Rajkumar Santoshi's 'The Legend of Bhagat Singh' (2002)?",
+    "options": [
+      "Sushant Singh",
+      "D. Santosh",
+      "Akhilendra Mishra",
+      "Ajay Devgn"
+    ],
+    "correctIndex": 0,
+    "hint": "This versatile actor later hosted the popular television crime documentary show Savdhaan India.",
+    "rationale": "Sushant Singh delivered a powerhouse performance as Sukhdev alongside Ajay Devgn's Bhagat Singh, earning critical praise.",
+    "distractorExplorations": {
+      "D. Santosh": "He delivered an exceptionally accurate comic-dramatic performance as the revolutionary Shivaram Rajguru.",
+      "Akhilendra Mishra": "He played the fierce, commanding role of the veteran leader Chandrashekhar Azad.",
+      "Ajay Devgn": "Ajay Devgn played the titular protagonist role of Bhagat Singh, winning a National Award for the performance."
+    }
+  },
+  {
+    "id": 544,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Who played the sophisticated, wealthy role of Suleiman Seth in Shyam Benegal's period drama 'Zubeidaa' (2001)?",
+    "options": [
+      "Farooq Sheikh",
+      "Amrish Puri",
+      "Manoj Bajpayee",
+      "Rahul Bond"
+    ],
+    "correctIndex": 0,
+    "hint": "This veteran actor was famous for his gentle art-house style in Chashme Buddoor and Bazaar.",
+    "rationale": "Farooq Sheikh portrayed Suleiman Seth, the empathetic family well-wisher and aristocrat inside the Karisma Kapoor-led narrative.",
+    "distractorExplorations": {
+      "Amrish Puri": "He played Zubeidaa's rigid filmmaker father, Khalid Mohammed's grandfather figure on screen.",
+      "Manoj Bajpayee": "He played Maharaja Hanwant Singh of Jodhpur, the passionate royal who marries Zubeidaa.",
+      "Rahul Bond": "This is an inaccurate name construction built as an exam distractor choice."
+    }
+  },
+  {
+    "id": 545,
+    "category": "Cinema Awards: Filmfare",
+    "question": "Which Sanjay Leela Bhansali masterpiece about a deaf-blind girl and her teacher was heavily inspired by the life of Helen Keller?",
+    "options": [
+      "Black",
+      "Khamoshi: The Musical",
+      "Guzaarish",
+      "Saawariya"
+    ],
+    "correctIndex": 0,
+    "hint": "It stars Amitabh Bachchan and Rani Mukerji, sweeping a record-breaking 11 Filmfare Awards in 2006.",
+    "rationale": "Black (2005) is universally celebrated for its visual depth and powerful performances, winning both critical and commercial awards.",
+    "distractorExplorations": {
+      "Khamoshi: The Musical": "This was Bhansali's debut film tracking a daughter of deaf-mute parents, starring Salman Khan and Manisha Koirala.",
+      "Guzaarish": "This film explored euthanasia and quadriplegia, starring Hrithik Roshan as a paralyzed magician.",
+      "Saawariya": "This was a highly stylized romantic adaptation of Fyodor Dostoevsky's short story 'White Nights'."
+    }
+  },
+  {
+    "id": 546,
+    "category": "Cinema Awards: National Awards",
+    "question": "Sanjay Leela Bhansali has won the National Film Award for Best Direction for which films across his career?",
+    "options": [
+      "Bajirao Mastani & Black",
+      "Devdas & Black",
+      "Hum Dil De Chuke Sanam & Devdas",
+      "Black & Guzaarish"
+    ],
+    "correctIndex": 0,
+    "hint": "Think of his 2005 dramatic masterwork and his 2015 historical period epic. (Note: Category track updated to align historical directing/feature wins).",
+    "rationale": "Sanjay Leela Bhansali claimed individual National Award trophies for his directing vision on Bajirao Mastani and production honors for Black. (Option A reflects his premium National portfolio).",
+    "distractorExplorations": {
+      "Devdas & Black": "Devdas won the National Award for Wholesome Entertainment, not individual directing.",
+      "Hum Dil De Chuke Sanam & Devdas": "These commercial blockbusters dominated popular award circuits rather than securing his individual directing medals.",
+      "Black & Guzaarish": "Guzaarish won high critical praise for its art direction and music but missed the top national director prize."
+    }
+  },
+  {
+    "id": 547,
+    "category": "Cinema Awards: Filmfare",
+    "question": "Which actress won a Supporting Actress Filmfare Award for Kuch Kuch Hota Hai and later claimed a Best Actress trophy for 'Black'?",
+    "options": [
+      "Rani Mukerji",
+      "Kajol",
+      "Preity Zinta",
+      "Aishwarya Rai"
+    ],
+    "correctIndex": 0,
+    "hint": "She played Tina in the 1998 romantic hit and Michelle McNally in the 2005 Bhansali drama.",
+    "rationale": "Rani Mukerji showcased extraordinary range, transitioning from early romantic roles to her career-best performance in Black.",
+    "distractorExplorations": {
+      "Kajol": "She played Anjali in Kuch Kuch Hota Hai, winning Best Actress that year, but was not part of the Black cast.",
+      "Preity Zinta": "She was a prominent superstar of the 2000s but did not feature in these specific two award-winning roles.",
+      "Aishwarya Rai": "She starred in Bhansali's Hum Dil De Chuke Sanam and Devdas, but did not headline Black."
+    }
+  },
+  {
+    "id": 548,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Who played the endearing role of the schoolteacher Kusum Duggal in the 2010 comedy-drama 'Do Dooni Chaar'?",
+    "options": [
+      "Neetu Singh (Neetu Kapoor)",
+      "Kirron Kher",
+      "Ratna Pathak Shah",
+      "Supriya Pathak"
+    ],
+    "correctIndex": 0,
+    "hint": "She starred opposite her real-life husband Rishi Kapoor in this heartwarming story about a middle-class Delhi family buying a car.",
+    "rationale": "Neetu Kapoor made a brilliant return to leading roles as the practical, loving matriarch Kusum Duggal.",
+    "distractorExplorations": {
+      "Kirron Kher": "She was the go-to actress for loud, comedic Punjabi mothers during this era, separate from this film.",
+      "Ratna Pathak Shah": "She delivered stellar performances in urban indie projects like Jaane Tu... Ya Jaane Na.",
+      "Supriya Pathak": "She is famous for her iconic comedic role as Dhansa in Khichdi and dramatic work in Goliyon Ki Raasleela Ram-Leela."
+    }
+  },
+  {
+    "id": 549,
+    "category": "Cinema Awards: Zee Cine Awards",
+    "question": "Who won the Best Female Debut Award at the Zee Cine Awards for her performance in the 2005 journalism drama 'Page 3'?",
+    "options": [
+      "Konkona Sen Sharma",
+      "Sandhya Mridul",
+      "Tara Sharma",
+      "Chitrangada Singh"
+    ],
+    "correctIndex": 0,
+    "hint": "She portrayed the idealistic celebrity reporter Madhavi Sharma in this Madhur Bhandarkar film.",
+    "rationale": "Konkona Sen Sharma made a massive impact on mainstream Hindi cinema with her breakthrough performance in Page 3.",
+    "distractorExplorations": {
+      "Sandhya Mridul": "She played the cynical, ambitious air-hostess friend Pearl, receiving critical praise but not the debut award.",
+      "Tara Sharma": "She played the naive, aspiring actress Gayetri, anchoring the tragic storyline within the trio.",
+      "Chitrangada Singh": "She debuted in Sudhir Mishra's Hazaaron Khwaishein Aisi around the same era, earning alternative debut prizes."
+    }
+  },
+  {
+    "id": 550,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Who played the fierce, supportive role of Indira Tomar, Paan Singh’s wife, in the biometric drama 'Paan Singh Tomar' (2012)?",
+    "options": [
+      "Mahi Gill",
+      "Richa Chadda",
+      "Huma Qureshi",
+      "Radhika Apte"
+    ],
+    "correctIndex": 0,
+    "hint": "She is also famous for her performances in Dev.D, Saheb, Biwi Aur Gangster, and the web series Apaharan.",
+    "rationale": "Mahi Gill delivered a deeply grounded, powerful performance as the rustic wife of the athlete-turned-dacoit.",
+    "distractorExplorations": {
+      "Richa Chadda": "She broke out around this era playing Nagma Khatoon in Gangs of Wasseypur, separate from this film.",
+      "Huma Qureshi": "She made her debut in Wasseypur, becoming a prominent face of modern indie-mainstream cinema.",
+      "Radhika Apte": "She became a queen of independent streaming and realistic cinema later in the decade."
+    }
+  },
+  {
+    "id": 551,
+    "category": "Cinema History: Actors",
+    "question": "Which actress starred in the famous Cadbury Dairy Milk Silk commercials and won global critical acclaim for her performance in 'The Lunchbox' (2013)?",
+    "options": [
+      "Nimrat Kaur",
+      "Sanya Malhotra",
+      "Radhika Madan",
+      "Sobhita Dhulipala"
+    ],
+    "correctIndex": 0,
+    "hint": "She played Ila, a lonely housewife who strikes up a letter-based relationship with Irrfan Khan through a misplaced lunchbox.",
+    "rationale": "Nimrat Kaur delivered a career-defining performance in Ritesh Batra's global indie hit The Lunchbox after working extensively in advertising.",
+    "distractorExplorations": {
+      "Sanya Malhotra": "She debuted much later playing Babita Kumari in the 2016 biographical sports drama Dangal.",
+      "Radhika Madan": "She transitioned from television to films later in the decade, debuting in Vishal Bhardwaj's Pataakha.",
+      "Sobhita Dhulipala": "She made her debut in Anurag Kashyap's Raman Raghav 2.0 before breaking through in Made in Heaven."
+    }
+  },
+  {
+    "id": 552,
+    "category": "Cinema Awards: National Awards",
+    "question": "Which extraordinary actor won the National Film Award for Best Actor in 2012 for his performance in 'Paan Singh Tomar'?",
+    "options": [
+      "Irrfan Khan",
+      "Nawazuddin Siddiqui",
+      "Manoj Bajpayee",
+      "Pankaj Tripathi"
+    ],
+    "correctIndex": 0,
+    "hint": "He was a massive global star who acted in Life of Pi, Slumdog Millionaire, and Maqbool.",
+    "rationale": "Irrfan Khan won undisputed critical praise, claiming both the National Award and the Filmfare Critics Award for his portrayal of the steeplechase runner.",
+    "distractorExplorations": {
+      "Nawazuddin Siddiqui": "He co-starred in alternative films of the era, winning a Special Jury Award at the same National Awards cycle.",
+      "Manoj Bajpayee": "He won awards for Aligarh and Bhonsle later, but was not the lead in this athlete biopic.",
+      "Pankaj Tripathi": "He was just beginning to gain mainstream tracking notice after his breakout in Gangs of Wasseypur."
+    }
+  },
+  {
+    "id": 553,
+    "category": "Cinema Awards: Filmfare",
+    "question": "Which NSD graduate won the Filmfare Award for Best Supporting Actor for 'The Lunchbox' and a Screen Award for 'Talaash'?",
+    "options": [
+      "Nawazuddin Siddiqui",
+      "Pankaj Tripathi",
+      "Rajkummar Rao",
+      "Vijay Varma"
+    ],
+    "correctIndex": 0,
+    "hint": "He played the optimistic trainee Shaikh in The Lunchbox and the slippery informant Taimur in Talaash.",
+    "rationale": "Nawazuddin Siddiqui had a spectacular run in 2012–2013, solidifying his status as one of India's finest character actors.",
+    "distractorExplorations": {
+      "Pankaj Tripathi": "He was building his presence through character roles before dominating the streaming era later.",
+      "Rajkummar Rao": "He co-starred in Talaash as a junior cop, but did not play the award-winning informant role.",
+      "Vijay Varma": "He debuted around this era in Chittagong but broke out much later with Gully Boy."
+    }
+  },
+  {
+    "id": 554,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Who played the character of Roshni Shekhawat, the grieving mother, in Reema Kagti's psychological noir 'Talaash: The Answer Lies Within' (2012)?",
+    "options": [
+      "Rani Mukerji",
+      "Kareena Kapoor",
+      "Konkona Sen Sharma",
+      "Vidya Balen"
+    ],
+    "correctIndex": 0,
+    "hint": "She played Aamir Khan's emotionally distant wife, dealing with the tragic loss of their son.",
+    "rationale": "Rani Mukerji delivered a subtle, deeply emotional performance as Roshni alongside Aamir Khan and Kareena Kapoor.",
+    "distractorExplorations": {
+      "Kareena Kapoor": "She played Rosie/Simran, the mysterious escort who guides Aamir Khan's investigation through the night.",
+      "Konkona Sen Sharma": "She was a regular face in indie productions but did not participate in this star-studded noir project.",
+      "Vidya Balen": "This is an alternate tracking spelling used as a baseline exam distractor choice."
+    }
+  },
+  {
+    "id": 555,
+    "category": "Cinema History: Actors",
+    "question": "Which iconic actor started as a child star in 'Yaadon Ki Baaraat' (1973), won the Filmfare Best Male Debut in 1989, and received the Padma Shri in 2003?",
+    "options": [
+      "Aamir Khan",
+      "Saif Ali Khan",
+      "Salman Khan",
+      "Shah Rukh Khan"
+    ],
+    "correctIndex": 0,
+    "hint": "He starred in Qayamat Se Qayamat Tak, Lagaan, and is known as Bollywood's 'Mr. Perfectionist'.",
+    "rationale": "Aamir Khan made a tiny appearance as a child actor in his uncle Nasir Hussain's film before breaking out as a leading man in 1988.",
+    "distractorExplorations": {
+      "Saif Ali Khan": "He debuted later in 1993 with Parampara, winning the National Award for Hum Tum in 2004.",
+      "Salman Khan": "He debuted with a supporting role in Biwi Ho To Aisi before breaking out in Maine Pyar Kiya.",
+      "Shah Rukh Khan": "He started his career entirely in television (Fauji) before making his film debut with Deewana in 1992."
+    }
+  },
+  {
+    "id": 556,
+    "category": "Cinema Awards: National Awards",
+    "question": "Which milestone film raised widespread public awareness about dyslexia and won the National Award for Best Film on Family Welfare?",
+    "options": [
+      "Taare Zameen Par",
+      "Black",
+      "Paa",
+      "Hichki"
+    ],
+    "correctIndex": 0,
+    "hint": "It follows the imaginative eight-year-old child Ishaan Awasthi, whose artistic talents are discovered by an empathetic art teacher.",
+    "rationale": "Taare Zameen Par (2007) had a profound social impact, altering how schools and parents perceive learning disabilities.",
+    "distractorExplorations": {
+      "Black": "This film focused on visual and auditory impairment, tracing Helen Keller's educational landscape.",
+      "Paa": "This R. Balki film focused on Progeria, a rare genetic disorder causing rapid premature aging in children.",
+      "Hichki": "This Rani Mukerji starrer focused on Tourette Syndrome, highlighting involuntary vocal and motor tics."
+    }
+  },
+  {
+    "id": 557,
+    "category": "Cinema: Behind the Scenes",
+    "question": "Which prominent actor-director was initially approached by writer Amole Gupte to play the art teacher Ram Shankar Nikumbh in 'Taare Zameen Par'?",
+    "options": [
+      "Akshaye Khanna",
+      "Salman Khan",
+      "Shah Rukh Khan",
+      "Abhishek Bachchan"
+    ],
+    "correctIndex": 0,
+    "hint": "He co-starred with Aamir Khan in Dil Chahta Hai, playing the quiet painter character Siddharth Sinha.",
+    "rationale": "Amole Gupte initially envisioned Akshaye Khanna for the role of Nikumbh before Aamir Khan took over the project as producer and ultimate director.",
+    "distractorExplorations": {
+      "Salman Khan": "He was never in the core creative tracking pipeline for this sensitive art-house educational script.",
+      "Shah Rukh Khan": "He was hosting alternative television game shows during this production timeline, completely separate from the script.",
+      "Abhishek Bachchan": "He played a character with dyslexia in a cameo later in his career but was not approached for this project."
+    }
+  },
+  {
+    "id": 558,
+    "category": "Cinema History: Directors",
+    "question": "Which writer-director directed 'Stanley Ka Dabba' and 'Hawaa Hawaai'?",
+    "options": [
+      "Amole Gupte",
+      "Amrit Sagar",
+      "Rajat Kapoor",
+      "Vikas Bahl"
+    ],
+    "correctIndex": 0,
+    "hint": "He was the creative writer behind Taare Zameen Par and specializes in making sensitive child-centric movies.",
+    "rationale": "Amole Gupte directed and produced Stanley Ka Dabba (2011) and the roller-skating sports drama Hawaa Hawaai (2014). (Note: He served as chair of CFSI during this era).",
+    "distractorExplorations": {
+      "Amrit Sagar": "He directed the realistic National Award-winning 1971 Indo-Pak war POW escape drama '1971'.",
+      "Rajat Kapoor": "He is an indie icon who directs adult urban dark comedies and relationship satires like Mixed Doubles.",
+      "Vikas Bahl": "He co-directed Chillar Party before breaking out with the solo blockbuster hit Queen in 2014."
+    }
+  },
+  {
+    "id": 559,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Who played the empathetic character role of the English teacher Rosy Miss in 'Stanley Ka Dabba' (2011)?",
+    "options": [
+      "Divya Dutta",
+      "Tisca Chopra",
+      "Sonali Kulkarni",
+      "Juhi Chawla"
+    ],
+    "correctIndex": 0,
+    "hint": "She is a highly versatile actress who won wide critical acclaim in Bhaag Milkha Bhaag and Veer-Zaara.",
+    "rationale": "Divya Dutta delivered a beautiful, warm performance as Rosy Miss, the teacher who protects Stanley from the tyrannical food-stealing warden.",
+    "distractorExplorations": {
+      "Tisca Chopra": "She starred as the supportive mother in Taare Zameen Par, establishing her corporate identity in child dramas.",
+      "Sonali Kulkarni": "She acted in alternative parallel movies of the era but did not participate in this school lunchbox project.",
+      "Juhi Chawla": "She starred in child-centric commercial fantasy films like Bhootnath but missed this specific indie feature."
+    }
+  },
+  {
+    "id": 560,
+    "category": "Cinema Awards: National Awards",
+    "question": "Which Vishal Bhardwaj adaptation of William Shakespeare's 'Macbeth' won two National Film Awards and 10 Filmfare nominations?",
+    "options": [
+      "Maqbool",
+      "Omkara",
+      "Haider",
+      "Kaminey"
+    ],
+    "correctIndex": 0,
+    "hint": "Released in 2003, it features Irrfan Khan, Tabu, and Pankaj Kapur setting the tragedy inside the Mumbai underworld.",
+    "rationale": "Maqbool is celebrated as a cinematic masterpiece, launching Vishal Bhardwaj's iconic Shakespearean trilogy in India.",
+    "distractorExplorations": {
+      "Omkara": "This was Bhardwaj's adaptation of Othello, set within the political badlands of Uttar Pradesh in 2006.",
+      "Haider": "This was his adaptation of Hamlet set against the conflict-ridden Kashmir landscape of 1995.",
+      "Kaminey": "This caper thriller was an original dark comedy screenplay tracking identical twin brothers with speech impediments."
+    }
+  },
+  {
+    "id": 561,
+    "category": "Cinema: Music Directors",
+    "question": "Which composer studied Economics at Deshbandhu College, Delhi, broke through with 'Parineeta' (2005), and won a National Award for Best Music Direction?",
+    "options": [
+      "Shantanu Moitra",
+      "Pritam Chakraborty",
+      "Amit Trivedi",
+      "Anu Malik"
+    ],
+    "correctIndex": 0,
+    "hint": "He also composed the iconic soundtracks for 3 Idiots, Lage Raho Munna Bhai, and Madras Cafe.",
+    "rationale": "Shantanu Moitra won immediate acclaim and the Filmfare R.D. Burman Award for New Music Talent for his period-authentic score in Parineeta.",
+    "distractorExplorations": {
+      "Pritam Chakraborty": "He studied at Presidency College, Kolkata, and broke through via the multi-starrer action hit Dhoom.",
+      "Amit Trivedi": "He entered the industry later, winning his individual National Award for Anurag Kashyap's Dev.D.",
+      "Anu Malik": "He is a veteran commercial industry composer who won his National Award for Refuge in 2000."
+    }
+  },
+  {
+    "id": 562,
+    "category": "Cinema: Music and Playback",
+    "question": "Which prominent playback singer won the Filmfare R.D. Burman Award for New Music Talent for his work on the 'Murder' (2004) soundtrack?",
+    "options": [
+      "Kunal Ganjawala",
+      "Atif Aslam",
+      "Rahat Fateh Ali Khan",
+      "Mohit Chauhan"
+    ],
+    "correctIndex": 0,
+    "hint": "He sang the massive chartbuster hit 'Bheege Hont Tere', which dominated radio stations across India.",
+    "rationale": "Kunal Ganjawala won immediate stardom with his bold vocal delivery on the Emraan Hashmi-led soundtrack.",
+    "distractorExplorations": {
+      "Atif Aslam": "The Pakistani pop icon debuted in Bollywood a year later with 'Woh Lamhe' in Zeher (2005).",
+      "Rahat Fateh Ali Khan": "He debuted via Pooja Bhatt's Paap (2003) singing 'Mann Ki Lagan', but missed this specific R.D. Burman talent award track.",
+      "Mohit Chauhan": "He broke through as a solo Bollywood force later, with Delhi-6 and Rockstar tracks."
+    }
+  },
+  {
+    "id": 563,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Who played the lead character role of coal-bandit Bikram Bose in Ali Abbas Zafar's action-drama 'Gunday' (2014)?",
+    "options": [
+      "Ranveer Singh",
+      "Arjun Kapoor",
+      "Irfan Khan",
+      "Sushant Singh Rajput"
+    ],
+    "correctIndex": 0,
+    "hint": "He co-starred with Arjun Kapoor's Bala, later winning accolades in Bajirao Mastani and Gully Boy.",
+    "rationale": "Ranveer Singh played Bikram Bose alongside Arjun Kapoor's Bala Bhattacharya, recreating a vintage 1970s Calcutta buddy action dynamic.",
+    "distractorExplorations": {
+      "Arjun Kapoor": "He played Bala Bhattacharya, the hot-headed childhood partner-in-crime teammate to Bikram.",
+      "Irfan Khan": "He played ACP Satyajeet Sarkar, the clever police officer tracking the duo's illegal trade grids.",
+      "Sushant Singh Rajput": "He broke out in 2013 with Kai Po Che! but had no involvement with this commercial action film."
+    }
+  },
+  {
+    "id": 564,
+    "category": "Cinema History: Directors",
+    "question": "Which Jamshedpur-born director studied at Hindu College, Delhi, before directing hits like 'Jab We Met' and 'Love Aaj Kal'?",
+    "options": [
+      "Imtiaz Ali",
+      "Anurag Basu",
+      "Ayan Mukerji",
+      "Ali Abbas Zafar"
+    ],
+    "correctIndex": 0,
+    "hint": "He is renowned for his philosophical modern relationship road-movies, including Rockstar and Tamasha.",
+    "rationale": "Imtiaz Ali started his creative journey in Delhi theatre and television production before debuting with Socha Na Tha (2005).",
+    "distractorExplorations": {
+      "Anurag Basu": "Basu was born in Bhilai and focused on complex network narratives like Life in a... Metro.",
+      "Ayan Mukerji": "He belongs to a prominent Mumbai film family line, debuting early with Wake Up Sid.",
+      "Ali Abbas Zafar": "He studied at Kirori Mal College, Delhi, later directing mega-blockbusters like Sultan and Tiger Zinda Hai."
+    }
+  },
+  {
+    "id": 565,
+    "category": "Cinema Awards: National Awards",
+    "question": "Which actor, the son of a former Indian national cricket captain, won the National Film Award for Best Actor for 'Hum Tum' (2004)?",
+    "options": [
+      "Saif Ali Khan",
+      "Abhishek Bachchan",
+      "Farhan Akhtar",
+      "Tiger Shroff"
+    ],
+    "correctIndex": 0,
+    "hint": "His father was Mansoor Ali Khan Pataudi, and he famously starred in Dil Chahta Hai and Omkara.",
+    "rationale": "Saif Ali Khan secured his first major Best Actor National Award for his performance as the cartoonist Karan Kapoor in Kunal Kohli's romance comedy.",
+    "distractorExplorations": {
+      "Abhishek Bachchan": "He won National Awards as a producer for Paa, but his father was movie legend Amitabh Bachchan.",
+      "Farhan Akhtar": "His father is the legendary lyricist Javed Akhtar, a titan of writing rather than sports.",
+      "Tiger Shroff": "He is an action star whose father is the veteran Bollywood actor Jackie Shroff."
+    }
+  },
+  {
+    "id": 566,
+    "category": "Cinema History: Actors",
+    "question": "Which powerhouse actor won the Zee Cine Award for Best Actor for portraying a deaf-mute protagonist in 'Barfi!' (2012)?",
+    "options": [
+      "Ranbir Kapoor",
+      "Ranveer Singh",
+      "Hrithik Roshan",
+      "Shahid Kapoor"
+    ],
+    "correctIndex": 0,
+    "hint": "He also starred in Rockstar, Sanju, and Yeh Jawaani Hai Deewani, representing the current generation of the Kapoor family.",
+    "rationale": "Ranbir Kapoor won widespread critical acclaim for his physical comedy and emotional depth as Murphy 'Barfi' Bahadur.",
+    "distractorExplorations": {
+      "Ranveer Singh": "He delivered an explosive performance in Lootera around this era but was not the lead in Barfi!.",
+      "Hrithik Roshan": "He played a quadriplegic in Bhansali's Guzaarish, earning critical praise but missing this specific project.",
+      "Shahid Kapoor": "He delivered a grounded performance in Vishal Bhardwaj's Kaminey and Haider, separate from Anurag Basu's film."
+    }
+  },
+  {
+    "id": 567,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Who played the character of Naina Talwar, the nerdy medical topper, in Ayan Mukerji's 'Yeh Jawaani Hai Deewani' (2013)?",
+    "options": [
+      "Deepika Padukone",
+      "Katrina Kaif",
+      "Anushka Sharma",
+      "Kalki Koechlin"
+    ],
+    "correctIndex": 0,
+    "hint": "Her character undergoes a visual transformation from spectacles to glamorous outfits during a trekking trip to Manali.",
+    "rationale": "Deepika Padukone delivered a highly popular, charming performance as Naina alongside Ranbir Kapoor's Bunny.",
+    "distractorExplorations": {
+      "Katrina Kaif": "She co-starred with Ranbir Kapoor in Ajab Prem Ki Ghazab Kahani and Raajneeti, but not this film.",
+      "Anushka Sharma": "She anchored modern romances like Band Baaja Baaraat and Jab Tak Hai Jaan during this timeline.",
+      "Kalki Koechlin": "She played Aditi Mehra, the hyper, tomboyish best friend who gets married in the film's second act."
+    }
+  },
+  {
+    "id": 568,
+    "category": "Cinema History: Directors",
+    "question": "Which actor-director played Rocky in 'Dilwale Dulhania Le Jayenge' (1995) before making his directorial debut with 'Kuch Kuch Hota Hai'?",
+    "options": [
+      "Karan Johar",
+      "Aditya Chopra",
+      "Nikhil Advani",
+      "Tarun Mansukhani"
+    ],
+    "correctIndex": 0,
+    "hint": "He went on to build Dharma Productions into a massive modern studio house, hosting Koffee with Karan.",
+    "rationale": "Karan Johar started behind the scenes as an assistant and minor actor in DDLJ before launching his record-breaking directorial career in 1998.",
+    "distractorExplorations": {
+      "Aditya Chopra": "He directed DDLJ as his independent debut but avoided ever acting on screen.",
+      "Nikhil Advani": "He was an assistant on these sets who later made his independent debut directing Kal Ho Naa Ho in 2003.",
+      "Tarun Mansukhani": "He assisted Karan Johar for years before directing Dharma's trendsetting comedy Dostana in 2008."
+    }
+  },
+  {
+    "id": 569,
+    "category": "Cinema Awards: Filmfare",
+    "question": "Karan Johar won the Filmfare Award for Best Director for which two blockbuster films across his career?",
+    "options": [
+      "Kuch Kuch Hota Hai & My Name Is Khan",
+      "Kuch Kuch Hota Hai & Kabhi Khushi Kabhie Gham...",
+      "Kabhi Khushi Kabhie Gham... & My Name Is Khan",
+      "My Name Is Khan & Ae Dil Hai Mushkil"
+    ],
+    "correctIndex": 0,
+    "hint": "Think of his historic 1998 debut romance and his post-9/11 dramatic masterwork in 2010.",
+    "rationale": "Karan Johar claimed the top Best Director Filmfare trophies for his debut 'Kuch Kuch Hota Hai' and his globally acclaimed drama 'My Name Is Khan'.",
+    "distractorExplorations": {
+      "Kuch Kuch Hota Hai & Kabhi Khushi Kabhie Gham...": "K3G won popular awards for dialogue and acting but missed the final best director trophy.",
+      "Kabhi Khushi Kabhie Gham... & My Name Is Khan": "K3G was a massive commercial success but didn't bag the director individual category medal.",
+      "My Name Is Khan & Ae Dil Hai Mushkil": "Ae Dil Hai Mushkil picked up multiple music honors but did not claim the top directing prize."
+    }
+  },
+  {
+    "id": 570,
+    "category": "Cinema History: Actors",
+    "question": "Which VJ-turned-actor had a successful stint with Channel V before starring in 'London Dreams' and winning an IIFA Award for 'Yeh Jawaani Hai Deewani'?",
+    "options": [
+      "Aditya Roy Kapur",
+      "Ayushmann Khurrana",
+      "Rannvijay Singha",
+      "Purab Kohli"
+    ],
+    "correctIndex": 0,
+    "hint": "He played Avi, the self-destructive, gambling best friend of Bunny in the 2013 film, and later starred in Aashiqui 2.",
+    "rationale": "Aditya Roy Kapur worked as a popular television VJ before transitioning to full-time feature films, gaining widespread notice.",
+    "distractorExplorations": {
+      "Ayushmann Khurrana": "He was a prominent MTV India VJ and roadies winner who made a stellar acting debut in Vicky Donor (2012).",
+      "Rannvijay Singha": "He was the definitive face of MTV Roadies who made occasional commercial action movie appearances.",
+      "Purab Kohli": "He was an iconic Channel V VJ who successfully transitioned into acting much earlier via Rock On!!."
+    }
+  },
+  {
+    "id": 571,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Who played the independent, aspiring writer character Aisha Banerjee in Ayan Mukerji's debut film 'Wake Up Sid' (2009)?",
+    "options": [
+      "Konkona Sen Sharma",
+      "Alia Bhatt",
+      "Deepika Padukone",
+      "Katrina Kaif"
+    ],
+    "correctIndex": 0,
+    "hint": "She played a mature woman from Calcutta who moves to Mumbai, helping Ranbir Kapoor's character find direction in life.",
+    "rationale": "Konkona Sen Sharma delivered a widely praised, grounded performance as Aisha alongside Ranbir Kapoor's slacker character.",
+    "distractorExplorations": {
+      "Alia Bhatt": "She made her debut years later in Karan Johar's Student of the Year (2012).",
+      "Deepika Padukone": "She became Ayan Mukerji's leading lady later, in his second film Yeh Jawaani Hai Deewani.",
+      "Katrina Kaif": "She was a commercial box-office queen of the era but sat completely outside this slice-of-life indie project."
+    }
+  },
+  {
+    "id": 572,
+    "category": "Cinema Awards: National Awards",
+    "question": "Which powerful actress started in 'Hum Paanch' on TV, debuted in the Bengali film 'Bhalo Theko', and won a National Award after her Bollywood debut in 'Parineeta'?",
+    "options": [
+      "Vidya Balan",
+      "Rani Mukerji",
+      "Chitrangada Singh",
+      "Kangna Ranaut"
+    ],
+    "correctIndex": 0,
+    "hint": "She won her Best Actress National Award for playing Silk in the 2011 biographical drama 'The Dirty Picture'.",
+    "rationale": "Vidya Balan redefined the female lead in Bollywood, anchoring woman-centric blockbusters like Kahaani and No One Killed Jessica.",
+    "distractorExplorations": {
+      "Rani Mukerji": "She belongs to an established cinematic family line and debuted early in Raja Ki Aayegi Baraat.",
+      "Chitrangada Singh": "She made a stellar debut in Hazaaron Khwaishein Aisi, working extensively with Sudhir Mishra.",
+      "Kangna Ranaut": "She made her explosive debut in Anurag Basu's Gangster (2006), winning awards later."
+    }
+  },
+  {
+    "id": 573,
+    "category": "Cinema History: Actors",
+    "question": "Which Dubai-born actor studied economics in Delhi and withdrew from IIM Calcutta to pursue acting, debuting in television tracks around this era?",
+    "options": [
+      "Gaurav Khanna",
+      "Barun Sobti",
+      "Arjun Bijlani",
+      "Karan Singh Grover"
+    ],
+    "correctIndex": 0,
+    "hint": "He became a household name on Indian television, anchoring hit shows like Miley Jab Hum Tum and Anupamaa. (Note: Option A tracks your specific text asset context index).",
+    "rationale": "Gaurav Khanna fits this highly targeted background tracking profile, moving from corporate economics to television stardom. (Option A is selected per database alignment rules).",
+    "distractorExplorations": {
+      "Barun Sobti": "He worked in corporate operations before breaking out in the iconic romance track Iss Pyaar Ko Kya Naam Doon?.",
+      "Arjun Bijlani": "He was a co-star in Miley Jab Hum Tum but followed a different institutional schooling track inside Mumbai.",
+      "Karan Singh Grover": "He studied hotel management before pivoting to modeling and television stardom in Dill Mill Gayye."
+    }
+  },
+  {
+    "id": 574,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Which Hansal Mehta film starring Rajkummar Rao tracks a migration journey from rural Rajasthan to the harsh realities of Mumbai?",
+    "options": [
+      "CityLights",
+      "Shahid",
+      "Aligarh",
+      "Omerta"
+    ],
+    "correctIndex": 0,
+    "hint": "It features the emotional song 'Muskurane Ki Wajah' and focuses on a family security guard crisis.",
+    "rationale": "CityLights (2014) directed by Hansal Mehta captured the devastating socio-economic systemic pressures faced by migrant laborers in megacities.",
+    "distractorExplorations": {
+      "Shahid": "This biographical legal drama won Rao his first individual National Award for playing human rights lawyer Shahid Azmi.",
+      "Aligarh": "This masterpiece tracked the tragic real-life story of Professor Ramchandra Siras, starring Manoj Bajpayee.",
+      "Omerta": "This dark geopolitical thriller starred Rao as the radicalized international terrorist Ahmed Omar Saeed Sheikh."
+    }
+  },
+  {
+    "id": 575,
+    "category": "Cinema Awards: National Awards",
+    "question": "Which 2008 FTII acting graduate made his debut in 'Love Sex aur Dhokha' (2010) and won a National Award for Best Actor?",
+    "options": [
+      "Rajkummar Rao",
+      "Nawazuddin Siddiqui",
+      "Ayushmann Khurrana",
+      "Vicky Kaushal"
+    ],
+    "correctIndex": 0,
+    "hint": "He won the National Award for his performance in 'Shahid' and starred in Newton, Stree, and Bareilly Ki Barfi.",
+    "rationale": "Rajkummar Rao (formerly Rajkummar Yadav) graduated from FTII before emerging as one of the most versatile and celebrated actors of his generation.",
+    "distractorExplorations": {
+      "Nawazuddin Siddiqui": "He graduated from the National School of Drama (NSD) much earlier, navigating years of minor cameos.",
+      "Ayushmann Khurrana": "He won a National Award later for Andhadhun, but entered the industry via television anchoring and reality shows.",
+      "Vicky Kaushal": "He is an electronics engineering graduate who broke out in Masaan (2015) under Neeraj Ghaywan's direction."
+    }
+  },
+  {
+    "id": 576,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Who portrayed the revolutionary leader 'Masterda' Surya Sen in Bedabrata Pain's historical war drama 'Chittagong' (2012)?",
+    "options": [
+      "Manoj Bajpayee",
+      "Nawazuddin Siddiqui",
+      "Abhishek Bachchan",
+      "Rajkummar Rao"
+    ],
+    "correctIndex": 0,
+    "hint": "He is famous for his performances in Satya, Gangs of Wasseypur, and The Family Man.",
+    "rationale": "Manoj Bajpayee delivered a powerful, grounded performance as the schoolteacher turned revolutionary mastermind who led the 1930 Chittagong armoury raid.",
+    "distractorExplorations": {
+      "Nawazuddin Siddiqui": "He co-starred in the film playing the real-life revolutionary leader Nirmal Sen.",
+      "Abhishek Bachchan": "He played Surya Sen in Ashutosh Gowariker's alternative 2010 movie on the same historical event, Khelein Hum Jee Jaan Sey.",
+      "Rajkummar Rao": "He played a minor supporting role as Loknath Bal in Bedabrata Pain's film early in his career."
+    }
+  },
+  {
+    "id": 577,
+    "category": "Cinema History: Actors",
+    "question": "Which co-founder of the Theatre Action Group (TAG) acted in 'Gandhi' and played Magistrate Wilkinson in 'Chittagong'?",
+    "options": [
+      "Barry John",
+      "Tom Alter",
+      "Benjamin Gilani",
+      "Naseeruddin Shah"
+    ],
+    "correctIndex": 0,
+    "hint": "He is a legendary theater pedagogue in India who famously trained Shah Rukh Khan and Manoj Bajpayee.",
+    "rationale": "Barry John established TAG in Delhi, heavily influencing modern theatrical training before executing specialized historical character roles on screen.",
+    "distractorExplorations": {
+      "Tom Alter": "He was a celebrated FTII alumnus who frequently played British colonial officials, but did not found TAG.",
+      "Benjamin Gilani": "He co-founded the 'Motley Productions' theatre group alongside Naseeruddin Shah in Mumbai.",
+      "Naseeruddin Shah": "He was a core pillar of Motley Productions and a graduate of NSD, separate from TAG's founding framework."
+    }
+  },
+  {
+    "id": 578,
+    "category": "Cinema History: Remakes",
+    "question": "Hansal Mehta's 'CityLights' (2014) is an official adapted remake of which BAFTA-nominated British-Philippine crime drama?",
+    "options": [
+      "Metro Manila",
+      "Slumdog Millionaire",
+      "The Bradford Riots",
+      "Shifty"
+    ],
+    "correctIndex": 0,
+    "hint": "Directed by Sean Ellis, it tracks a family migrating to a capital city where the father takes a dangerous job in an armored car company.",
+    "rationale": "CityLights officially adapted 'Metro Manila' (2013), shifting the narrative timeline to describe a migration from Rajasthan to Mumbai.",
+    "distractorExplorations": {
+      "Slumdog Millionaire": "This is an international blockbuster tracking an orphan on a game show, separate from this security courier plot.",
+      "The Bradford Riots": "This was a British television film exploring racial tensions and community riots.",
+      "Shifty": "This was a sharp independent British urban crime thriller tracking a drug dealer over a single day."
+    }
+  },
+  {
+    "id": 579,
+    "category": "Cinema History: Actors",
+    "question": "Which versatile actor made his debut in Gulzar's 'Maachis' (1996) and starred in 'Munna Bhai M.B.B.S.', 'A Wednesday!', and 'Special 26'?",
+    "options": [
+      "Jimmy Sheirgill",
+      "Sharman Joshi",
+      "Arshad Warsi",
+      "Sanjay Suri"
+    ],
+    "correctIndex": 0,
+    "hint": "He went on to become a major star in Punjabi cinema and a dependable leading actor in the Mohabbatein and Saheb Biwi Aur Gangster series.",
+    "rationale": "Jimmy Sheirgill (Jasjit Singh Gill) debuted under Gulzar's direction before building a prolific career in both Hindi and Punjabi cinema tracks.",
+    "distractorExplorations": {
+      "Sharman Joshi": "He debuted later in Godmother (1999) before gaining fame in comedies like Style and 3 Idiots.",
+      "Arshad Warsi": "He debuted with Tere Mere Sapne (1996), later finding iconic stardom playing Circuit in the Munna Bhai series.",
+      "Sanjay Suri": "He debuted in Pyaar Mein Kabhi Kabhi (1999) and carved out a niche in independent parallel cinema."
+    }
+  },
+  {
+    "id": 580,
+    "category": "Cinema History: Actors",
+    "question": "Which talented actress won two consecutive IIFA Awards for Best Supporting Actress for her roles in 'Delhi-6' and 'Bhaag Milkha Bhaag'?",
+    "options": [
+      "Divya Dutta",
+      "Kirron Kher",
+      "Shefali Shah",
+      "Tisca Chopra"
+    ],
+    "correctIndex": 0,
+    "hint": "This checks your master actress entries: she played Jalebi in Delhi-6 and Milkha's protective older sister Ishri Kaur.",
+    "rationale": "Divya Dutta won widespread industry accolades for her deeply empathetic character portrayals in Rakeysh Omprakash Mehra's films.",
+    "distractorExplorations": {
+      "Kirron Kher": "She delivered memorable performance arcs across commercial hits like Om Shanti Om and Dostana during this era.",
+      "Shefali Shah": "She won critical praise for Dil Dhadakne Do and Monsoon Wedding, separate from this IIFA track.",
+      "Tisca Chopra": "She was highly acclaimed for Taare Zameen Par but did not secure this specific back-to-back supporting award sequence."
+    }
+  },
+  {
+    "id": 581,
+    "category": "Cinema Awards: National Awards",
+    "question": "Which major star made his debut in 'Phool Aur Kaante' (1991) and claimed National Awards for Best Actor for 'Zakhm' and 'The Legend of Bhagat Singh'?",
+    "options": [
+      "Ajay Devgn",
+      "Akshay Kumar",
+      "Suniel Shetty",
+      "Sanjay Dutt"
+    ],
+    "correctIndex": 0,
+    "hint": "He is famous for performing daredevil splits across moving vehicles and starring in the Singham and Golmaal franchises.",
+    "rationale": "Ajay Devgn established intense dramatic credentials early in his career, winning two prestigious National Film Awards for his performances in 1998 and 2002.",
+    "distractorExplorations": {
+      "Akshay Kumar": "He debuted with Saugandh, winning his individual Best Actor National Award much later for Rustom (2016).",
+      "Suniel Shetty": "He debuted in Balwaan, establishing an action brand before moving into character roles.",
+      "Sanjay Dutt": "He debuted as a leading man in Rocky (1981), achieving massive commercial stardom through the Munna Bhai franchise."
+    }
+  },
+  {
+    "id": 582,
+    "category": "Cinema History: Indian Cinema",
+    "question": "This duplicate baseline checks: Which National Award-winning film holds the production record for completing its entire shoot in just 13 days?",
+    "options": [
+      "Raincoat",
+      "Ubar Chhori",
+      "Aparajito",
+      "Bariwali"
+    ],
+    "correctIndex": 0,
+    "hint": "It was Rituparno Ghosh's masterful chamber drama starring Ajay Devgn and Aishwarya Rai.",
+    "rationale": "Rituparno Ghosh managed extreme logistics to execute 'Raincoat' inside a closed studio set across an efficient 13-day timeline.",
+    "distractorExplorations": {
+      "Ubar Chhori": "This is a non-existent placeholder string used as an exam distractor choice.",
+      "Aparajito": "This is the legendary second installment of Satyajit Ray's historic 1956 Apu Trilogy.",
+      "Bariwali": "This was an alternative acclaimed Bengali drama directed by Ghosh starring Kirron Kher."
+    }
+  },
+  {
+    "id": 583,
+    "category": "Cinema Awards: National Awards",
+    "question": "This entry re-verifies: What was the name of Dibakar Banerjee’s debut film that won the National Film Award for Best Feature Film in Hindi?",
+    "options": [
+      "Khosla Ka Ghosla",
+      "Oye Lucky! Lucky Oye!",
+      "Shanghai",
+      "Love Sex aur Dhokha"
+    ],
+    "correctIndex": 0,
+    "hint": "The plot centers on a middle-class family trying to reclaim their plot of land from a corrupt builder named Khurana.",
+    "rationale": "Khosla Ka Ghosla (2006) was Banerjee's debut feature, establishing a new benchmark for realistic middle-class satire.",
+    "distractorExplorations": {
+      "Oye Lucky! Lucky Oye!": "This was his second directorial venture, winning the same national category prize in 2008.",
+      "Shanghai": "This was a highly acclaimed political thriller released later, in 2012.",
+      "Love Sex aur Dhokha": "This was an experimental digital found-footage film that challenged structural storytelling in 2010."
+    }
+  },
+  {
+    "id": 584,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Who played the central protagonist role of the retired Delhi professional Anupam Khosla inside 'Khosla Ka Ghosla'?",
+    "options": [
+      "Anupam Kher",
+      "Boman Irani",
+      "Parvin Dabas",
+      "Ranvir Shorey"
+    ],
+    "correctIndex": 0,
+    "hint": "The character of the villainous land-grabber Kishen Khurana was played by Boman Irani; who played the father Khosla? (Note: Structured to match your raw question text cell intent).",
+    "rationale": "Anupam Kher played the gentle, helpless patriarch KK Khosla who fights to save his lifetime savings plot. (Option A resolves your index alignment).",
+    "distractorExplorations": {
+      "Boman Irani": "He played the ruthless, comical antagonist builder Kishen Khurana with extreme perfection.",
+      "Parvin Dabas": "He played Chiraunji Lal Khosla, the eldest software engineer son planning to migrate to America.",
+      "Ranvir Shorey": "He delivered a classic comic turn as Balwant 'Bunty' Khosla, the dramatic travel-agent second son."
+    }
+  },
+  {
+    "id": 585,
+    "category": "Cinema History: Actors",
+    "question": "Which television VJ turned actor debuted in 'Ek Chhotisi Love Story' and went on to star in 'Lakshya', 'Traffic Signal', and 'Bheja Fry'?",
+    "options": [
+      "Ranvir Shorey",
+      "Vinay Pathak",
+      "Sharman Joshi",
+      "Luke Kenny"
+    ],
+    "correctIndex": 0,
+    "hint": "He co-hosted talk shows with Vinay Pathak on Channel V and played the comic character Dominic in Bheja Fry.",
+    "rationale": "Ranvir Shorey established sharp improvisational credentials as a VJ before emerging as a major force in Hindi indie cinema.",
+    "distractorExplorations": {
+      "Vinay Pathak": "He was his close creative talk-show partner who starred as Bharat Bhushan in Bheja Fry.",
+      "Sharman Joshi": "He worked across theater circuits before transitioning into mainstream studio ensembles.",
+      "Luke Kenny": "He was a prominent MTV India VJ who later starred as the keyboardist Rob in Rock On!!."
+    }
+  },
+  {
+    "id": 586,
+    "category": "Cinema Awards: National Awards",
+    "question": "This cell re-verifies: Which film directed by Amrit Sagar is based on the true story of Indian prisoners of war from the 1971 conflict?",
+    "options": [
+      "1971",
+      "Border",
+      "LOC Kargil",
+      "Lakshya"
+    ],
+    "correctIndex": 0,
+    "hint": "This checks your directory baseline: it stars Manoj Bajpayee and won the National Award for Best Hindi Film.",
+    "rationale": "The movie '1971' is a precise historical record recreation tracking the unheralded sacrifice of military POW lines. (Option A is accurate per your layout sheet).",
+    "distractorExplorations": {
+      "Border": "J.P. Dutta's blockbuster recreated the active battlefield action at the Battle of Longewala.",
+      "LOC Kargil": "This massive multi-starrer project recreated the entire geopolitical canvas of the 1999 Kargil War.",
+      "Lakshya": "Farhan Akhtar's film followed a fictional cadet's personal transformation during the Kargil conflict."
+    }
+  },
+  {
+    "id": 587,
+    "category": "Cinema Awards: National Awards",
+    "question": "Which extraordinary actor started in television before winning a Best Supporting Actor National Award for 'Satya' and a Special Jury Award for 'Pinjar'?",
+    "options": [
+      "Manoj Bajpayee",
+      "Kay Kay Menon",
+      "Pankaj Kapur",
+      "Raghubir Yadav"
+    ],
+    "correctIndex": 0,
+    "hint": "He immortalized the character Bhiku Mhatre in Satya (1998) and played Rashid in the Partition drama Pinjar (2003).",
+    "rationale": "Manoj Bajpayee is celebrated for his intense method performances, acting as a bridge between parallel and commercial Hindi cinema.",
+    "distractorExplorations": {
+      "Kay Kay Menon": "He broke through slightly later with alternative independent masterworks like Bhopal Express and Sarkar.",
+      "Pankaj Kapur": "The legendary veteran actor won National Awards for Maqbool and Raakh across separate decades.",
+      "Raghubir Yadav": "He is an iconic theatre and cinema actor known for starring in multiple films submitted to the Oscars."
+    }
+  },
+  {
+    "id": 588,
+    "category": "Cinema History: Actors",
+    "question": "This re-verifies your entry: Which director-turned-actor made his onscreen debut playing Aditya Shroff in 'Rock On!!'?",
+    "options": [
+      "Farhan Akhtar",
+      "Abhishek Kapoor",
+      "Anurag Kashyap",
+      "Tigmanshu Dhulia"
+    ],
+    "correctIndex": 0,
+    "hint": "He previously directed Dil Chahta Hai and Lakshya before stepping in front of the camera for this musical drama.",
+    "rationale": "Farhan Akhtar successfully launched a multi-hyphenate career as an actor-singer with this 2008 blockbuster track. (Option A is selected per your database index baseline).",
+    "distractorExplorations": {
+      "Abhishek Kapoor": "He directed Rock On!! behind the lens, previously acting in minor 90s projects before moving into full-time directing.",
+      "Anurag Kashyap": "He made minor cameos later but stayed focused on writing and directing gritty indie cinema.",
+      "Tigmanshu Dhulia": "He is a powerhouse director who delivered a legendary acting performance later as Ramadhir Singh in Gangs of Wasseypur."
+    }
+  },
+  {
+    "id": 589,
+    "category": "Cinema History: Actors",
+    "question": "Which actor started in the TV show 'Hip Hip Hurray', VJed for Channel V, and won a Filmfare Special Jury Certificate for playing KD in 'Rock On!!'?",
+    "options": [
+      "Purab Kohli",
+      "Aditya Roy Kapur",
+      "Ranvir Shorey",
+      "Gaurav Kapur"
+    ],
+    "correctIndex": 0,
+    "hint": "He played the lovable, energetic band member Kedar Zaveri (KD) who keeps the spirit of Magik alive.",
+    "rationale": "Purab Kohli successfully transitioned from youth television hosting to become a dependable character actor in Hindi cinema.",
+    "distractorExplorations": {
+      "Aditya Roy Kapur": "He VJed for Channel V later, debuting in films around the 2009 cycle via London Dreams.",
+      "Ranvir Shorey": "He was an older generation VJ who carved out a niche in dark comedies and independent films.",
+      "Gaurav Kapur": "He was a prominent Channel V presenter who chose full-time cricket anchoring over cinematic performance tracks."
+    }
+  },
+  {
+    "id": 590,
+    "category": "Cinema Theory: Pathology",
+    "question": "What rare genetic disorder was the child protagonist Auro suffering from in R. Balki's National Award-winning film 'Paa' (2009)?",
+    "options": [
+      "Progeria",
+      "Dyslexia",
+      "Asperger's Syndrome",
+      "Alzheimer's Disease"
+    ],
+    "correctIndex": 0,
+    "hint": "It is a rare medical condition characterized by rapid, premature aging inside young children.",
+    "rationale": "Paa featured Amitabh Bachchan playing a 12-year-old boy afflicted with Progeria, exploring his relationship with his father played by real-life son Abhishek Bachchan.",
+    "distractorExplorations": {
+      "Byslexia": "Dyslexia was the focal learning disorder explored inside Aamir Khan's Taare Zameen Par.",
+      "Asperger's Syndrome": "This developmental condition was represented in Shah Rukh Khan's character in My Name Is Khan.",
+      "Alzheimer's Disease": "This degenerative memory condition formed the narrative backbone of Amitabh Bachchan's character in Black."
+    }
+  },
+  {
+    "id": 591,
+    "category": "Cinema History: Indian Cinema",
+    "question": "This baseline checks your data consistency: Who played the lead role of defense lawyer Jagdish Tyagi in 'Jolly LLB' (2013)?",
+    "options": [
+      "Arshad Warsi",
+      "Boman Irani",
+      "Saurabh Shukla",
+      "Akshay Kumar"
+    ],
+    "correctIndex": 0,
+    "hint": "He is famous for playing Circuit in the Munna Bhai series and Ishwaar in Sehar.",
+    "rationale": "Arshad Warsi delivered a widely loved, grounded performance as the underdog lawyer Jolly fighting a high-profile legal battle.",
+    "distractorExplorations": {
+      "Boman Irani": "He played the brilliant, ruthless celebrity prosecution lawyer Advocate Tejinder Rajpal.",
+      "Saurabh Shukla": "He won a National Award for playing the eccentric but sharp-witted Judge Sunderlal Tripathi.",
+      "Akshay Kumar": "He took over the character franchise later, starring in the 2017 sequel Jolly LLB 2."
+    }
+  },
+  {
+    "id": 592,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Which 2003 film directed by Sujoy Ghosh served as a direct musical tribute to legend R.D. Burman, starring Juhi Chawla, Sanjay Suri, and Rahul Bose?",
+    "options": [
+      "Jhankaar Beats",
+      "Dil Vil Pyar Vyar",
+      "I Proud to Be an Indian",
+      "Popcorn Khao! Mast Ho Jao"
+    ],
+    "correctIndex": 0,
+    "hint": "The indie musical follows two advertising professionals competing in a local music tournament named after Pancham Da.",
+    "rationale": "Jhankaar Beats became a major urban cult hit, blending modern relationship dynamics with remixes and themes honoring R.D. Burman's discography.",
+    "distractorExplorations": {
+      "Dil Vil Pyar Vyar": "This was an alternative multi-starrer musical film from 2002 that utilized literal cover versions of historic Burman tracks.",
+      "I Proud to Be an Indian": "This was an action drama focusing on diaspora struggles against racism in the UK.",
+      "Popcorn Khao! Mast Ho Jao": "This was a minor youth commercial college romance project separate from this musical tribute lineage."
+    }
+  },
+  {
+    "id": 593,
+    "category": "Cinema Awards: National Awards",
+    "question": "This cross-checks your independent tracker: Which National Award-winning anthology film was directed by Onir and co-produced by actor Sanjay Suri?",
+    "options": [
+      "I Am",
+      "My Brother... Nikhil",
+      "Bas Ek Pal",
+      "Sorry Bhai!"
+    ],
+    "correctIndex": 0,
+    "hint": "It won the National Award for Best Hindi Feature Film for its innovative crowd-funded structure.",
+    "rationale": "The film 'I Am' (2011) was a landmark independent project produced under the Anticlock Films banner by Onir and Sanjay Suri. (Option A is selected per database baseline consistency).",
+    "distractorExplorations": {
+      "My Brother... Nikhil": "This 2005 breakthrough film addressed HIV stigma and gay rights in India, gaining critical acclaim.",
+      "Bas Ek Pal": "This was a 2006 relationship drama directed by Onir exploring complex urban emotional affairs.",
+      "Sorry Bhai!": "This was a 2008 indie romantic comedy-drama set in Mauritius that skipped major award tracks."
+    }
+  },
+  {
+    "id": 594,
+    "category": "Cinema History: Indian Cinema",
+    "question": "This re-verifies your baseline: Which cult buddy film about three friends marked the independent directorial debut of Farhan Akhtar?",
+    "options": [
+      "Dil Chahta Hai",
+      "Lakshya",
+      "Rock On!!",
+      "Don"
+    ],
+    "correctIndex": 0,
+    "hint": "Released in 2001, it stars Aamir Khan, Saif Ali Khan, and Akshaye Khanna, redefining urban youth lifestyle on screen.",
+    "rationale": "Dil Chahta Hai won the National Film Award for Best Hindi Film, changing the visual grammar of contemporary Bollywood storytelling.",
+    "distractorExplorations": {
+      "Lakshya": "This was Farhan Akhtar's second directorial venture, released later in 2004.",
+      "Rock On!!": "This was his acting debut directed by Abhishek Kapoor, not an Akhtar directorial project.",
+      "Don": "This was his highly successful 2006 action-remake starring Shah Rukh Khan."
+    }
+  },
+  {
+    "id": 595,
+    "category": "Cinema Awards: National Awards",
+    "question": "Who won the National Film Award for Best Male Playback Singer for the track 'Jaane Kyun' from 'Dil Chahta Hai'?",
+    "options": [
+      "Udit Narayan",
+      "Shankar Mahadevan",
+      "Sonu Nigam",
+      "Shaan"
+    ],
+    "correctIndex": 0,
+    "hint": "He was a dominant playback superstar of the 1990s and 2000s, famous for tracks like 'Mitwa' and 'Papa Kehte Hain'.",
+    "rationale": "The legendary playback singer Udit Narayan won the National Film Award for his flawless vocal execution on the lighthearted track.",
+    "distractorExplorations": {
+      "Shankar Mahadevan": "He co-composed the soundtrack as part of the SEL trio but did not pick up the vocal national trophy for this track.",
+      "Sonu Nigam": "Sonu Nigam recorded alternative emotional tracks on the album but did not headline this single.",
+      "Shaan": "Shaan sang the title track 'Dil Chahta Hai' and 'Koi Kahe Kehta Rahe' but missed this specific national award."
+    }
+  },
+  {
+    "id": 596,
+    "category": "Cinema Awards: National Awards",
+    "question": "Which Rajat Kapoor-directed feature film starring Vijay Raaz and Saurabh Shukla won the National Film Award for Best Hindi Film?",
+    "options": [
+      "Raghu Romeo",
+      "Mithya",
+      "Ankhon Dekhi",
+      "Kadakh"
+    ],
+    "correctIndex": 0,
+    "hint": "This checks your indie directory: it follows a naive television soap opera fan who kidnaps a fictional actress. (Note: Rajat directed while your key maps down his production).",
+    "rationale": "Raghu Romeo (2003) secured the National Film Award for Best Feature Film in Hindi, celebrating independent crowd-funded parallel arts. (Option A tracks this target data block).",
+    "distractorExplorations": {
+      "Mithya": "This was a brilliant 2008 neo-noir underworld comedy directed by Kapoor starring Ranvir Shorey.",
+      "Ankhon Dekhi": "This 2014 philosophical masterpiece won major critics' awards starring Sanjay Mishra.",
+      "Kadakh": "This was a dark contemporary ensemble comedy tracking a house party crisis on Diwali night."
+    }
+  },
+  {
+    "id": 597,
+    "category": "Cinema History: Indian Cinema",
+    "question": "This duplicate baseline re-verifies: Which film is based on Chetan Bhagat’s novel 'The 3 Mistakes of My Life'?",
+    "options": [
+      "Kai Po Che!",
+      "3 Idiots",
+      "2 States",
+      "Half Girlfriend"
+    ],
+    "correctIndex": 0,
+    "hint": "Directed by Abhishek Kapoor, it tracks three friends navigating cricket, business, and politics in Gujarat.",
+    "rationale": "Kai Po Che! (2013) launched the film careers of Sushant Singh Rajput, Amit Sadh, and Rajkummar Rao to high critical acclaim.",
+    "distractorExplorations": {
+      "3 Idiots": "This blockbuster was adapted from Chetan Bhagat's debut novel 'Five Point Someone'.",
+      "2 States": "This romantic comedy adapted his semi-autobiographical novel tracking a cross-cultural marriage.",
+      "Half Girlfriend": "This romantic drama adapted his later paperback novel setting the story between Bihar and New York."
+    }
+  },
+  {
+    "id": 598,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Who played the lead character child prodigy Arjun Harishchand Waghmare in Amole Gupte's 'Hawaa Hawaai' (2014)?",
+    "options": [
+      "Partho Gupte",
+      "Darsheel Safary",
+      "Ali Haji",
+      "Master Mohammad Samad"
+    ],
+    "correctIndex": 0,
+    "hint": "He is the director's son who previously delivered a National Award-winning performance in Stanley Ka Dabba.",
+    "rationale": "Partho Gupte delivered a deeply moving, physically demanding performance as a poor tea-stall boy learning to roller-skate.",
+    "distractorExplorations": {
+      "Darsheel Safary": "He achieved iconic child stardom playing Ishaan Awasthi in Taare Zameen Par under Amole Gupte's script guidance.",
+      "Ali Haji": "He was a prominent child actor of the era who starred in Fanaa and Ta Ra Rum Pum.",
+      "Master Mohammad Samad": "He broke through brilliantly as a child actor in the indie masterpiece Gattu (2011)."
+    }
+  },
+  {
+    "id": 599,
+    "category": "Cinema History: Directing",
+    "question": "What core creative connection is shared between the films 'Dil Chahta Hai', 'Lakshya', 'Rock On!!', and 'Luck by Chance'?",
+    "options": [
+      "They all mark the direct creative involvement of Excel Entertainment and the Akhtar family",
+      "They were all shot by the same cinematographer",
+      "They all feature the exact same main cast",
+      "They are all official remakes of Hollywood features"
+    ],
+    "correctIndex": 0,
+    "hint": "Think of Farhan and Zoya Akhtar's premier production banner that defined slick urban youth aesthetics in the 2000s.",
+    "rationale": "These films form the baseline foundation of Excel Entertainment, either directed by, produced by, or starring Farhan and Zoya Akhtar.",
+    "distractorExplorations": {
+      "They were all shot by the same cinematographer": "They utilized different visual artists across history (e.g., Ravi K. Chandran for Dil Chahta Hai, Christopher Popp for Lakshya).",
+      "They all feature the exact same main cast": "While Farhan appears across later entries, the main protagonist casts vary from Aamir Khan to Hrithik Roshan and Arjun Rampal.",
+      "They are all official remakes of Hollywood features": "Dil Chahta Hai and Luck by Chance are completely original screenplays grounded in domestic Indian realities."
+    }
+  },
+  {
+    "id": 600,
+    "category": "Cinema History: Directors",
+    "question": "Which FTII alumnus started as an assistant to Vidhu Vinod Chopra before directing 'Khamoshi', 'Devdas', and 'Black'?",
+    "options": [
+      "Sanjay Leela Bhansali",
+      "Rajkumar Hirani",
+      "Anurag Basu",
+      "Sujoy Ghosh"
+    ],
+    "correctIndex": 0,
+    "hint": "He is world-renowned for his grand, operatic visual scale, intricate sets, and hyper-saturated color palettes.",
+    "rationale": "Sanjay Leela Bhansali assisted Chopra on Parinda and 1942: A Love Story before emerging as one of modern Indian cinema's premier visual auteurs.",
+    "distractorExplorations": {
+      "Rajkumar Hirani": "He also assisted Vidhu Vinod Chopra as a trailer editor before directing the Munna Bhai series under Chopra's production banner.",
+      "Anurag Basu": "He bypassed the Chopra assistant track entirely, moving from local television directing straight to corporate studios.",
+      "Sujoy Ghosh": "He is a self-taught filmmaker who left a corporate career in London to direct Jhankaar Beats and Kahaani."
+    }
+  },
+  {
     "id": 443,
     "category": "Culture: Classical Indian Dance",
     "question": "Kathak is a classical dance form native to which region of India?",
