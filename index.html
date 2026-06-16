@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>FTII JET – MCQ Assessment Portal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+          serif: ['"Playfair Display"', 'serif'],
+        }
+      }
+    }
+  }
+</script>
+<style>
+  :root { --amber: #f59e0b; --emerald: #10b981; --rose: #f43f5e; }
+  * { box-sizing: border-box; }
+  body { 
+    margin: 0; 
+    font-family: 'Plus Jakarta Sans', sans-serif; 
+    background: #08070b; 
+    color: #e7e5e4; 
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* Ambient Background Blobs */
+  .bg-glow-1 {
+    position: fixed;
+    top: -20%;
+    left: -10%;
+    width: 60vw;
+    height: 60vw;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(139, 92, 246, 0.15) 0%, rgba(139, 92, 246, 0) 70%);
+    filter: blur(80px);
+    pointer-events: none;
+    z-index: 0;
+  }
+  .bg-glow-2 {
+    position: fixed;
+    bottom: -10%;
+    right: -10%;
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(245, 158, 11, 0.08) 0%, rgba(245, 158, 11, 0) 70%);
+    filter: blur(80px);
+    pointer-events: none;
+    z-index: 0;
+  }
+  .bg-glow-3 {
+    position: fixed;
+    top: 40%;
+    right: 15%;
+    width: 35vw;
+    height: 35vw;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(244, 63, 94, 0.06) 0%, rgba(244, 63, 94, 0) 70%);
+    filter: blur(60px);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* Translucent Glass System */
+  .glass-panel {
+    background: rgba(18, 16, 24, 0.45);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 24px;
+  }
+
+  /* Drawer animation */
+  .drawer { max-height: 0; overflow: hidden; transition: max-height 0.5s cubic-bezier(0.4,0,0.2,1); }
+  .drawer.open { max-height: 1000px; }
+
+  /* Nav tile glass states */
+  .tile-unanswered {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    color: #a8a29e;
+  }
+  .tile-unanswered:hover {
+    background: rgba(255, 255, 255, 0.07);
+    border-color: rgba(255, 255, 255, 0.2);
+    color: #e7e5e4;
+  }
+  .tile-review {
+    background: rgba(245, 158, 11, 0.08);
+    border: 1px solid rgba(245, 158, 11, 0.5);
+    color: #fcd34d;
+    box-shadow: 0 0 8px rgba(245, 158, 11, 0.08);
+  }
+  .tile-correct {
+    background: rgba(16, 185, 129, 0.1);
+    border: 1px solid rgba(16, 185, 129, 0.45);
+    color: #6ee7b7;
+    box-shadow: 0 0 8px rgba(16, 185, 129, 0.08);
+  }
+  .tile-incorrect {
+    background: rgba(244, 63, 94, 0.1);
+    border: 1px solid rgba(244, 63, 94, 0.45);
+    color: #fda4af;
+    box-shadow: 0 0 8px rgba(244, 63, 94, 0.08);
+  }
+  .tile-active {
+    outline: 2px solid rgba(255, 255, 255, 0.4);
+    outline-offset: 1px;
+  }
+
+  /* Option glass states */
+  .opt-default {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .opt-default:hover:not(:disabled) {
+    background: rgba(255, 255, 255, 0.06);
+    border-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+  .opt-selected {
+    background: rgba(167, 139, 250, 0.12);
+    border: 1px solid rgba(167, 139, 250, 0.45);
+    box-shadow: 0 0 15px rgba(167, 139, 250, 0.1);
+  }
+  .opt-correct {
+    background: rgba(16, 185, 129, 0.12);
+    border: 1px solid rgba(16, 185, 129, 0.5);
+    box-shadow: 0 0 15px rgba(16, 185, 129, 0.1);
+  }
+  .opt-wrong {
+    background: rgba(244, 63, 94, 0.12);
+    border: 1px solid rgba(244, 63, 94, 0.5);
+    box-shadow: 0 0 15px rgba(244, 63, 94, 0.1);
+  }
+  .opt-missed {
+    background: rgba(16, 185, 129, 0.03);
+    border: 1px dashed rgba(16, 185, 129, 0.5);
+  }
+
+  /* Bullet styling under different option states */
+  .opt-default span { border-color: rgba(255, 255, 255, 0.15); color: rgba(255, 255, 255, 0.6); }
+  .opt-selected span { border-color: rgba(167, 139, 250, 0.6); color: rgba(167, 139, 250, 1); background: rgba(167, 139, 250, 0.1); }
+  .opt-correct span { border-color: rgba(16, 185, 129, 0.6); color: rgba(16, 185, 129, 1); background: rgba(16, 185, 129, 0.1); }
+  .opt-wrong span { border-color: rgba(244, 63, 94, 0.6); color: rgba(244, 63, 94, 1); background: rgba(244, 63, 94, 0.1); }
+
+  /* Progress bar animation */
+  @keyframes fillBar { from { width: 0; } to { width: var(--w); } }
+  .bar-fill { animation: fillBar 1.2s ease forwards; }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.15); border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: rgba(255, 255, 255, 0.25); }
+
+  /* Timer pulse on low time */
+  @keyframes timerPulse { 
+    0%, 100% { color: #f43f5e; box-shadow: 0 0 8px rgba(244, 63, 94, 0.15); border-color: rgba(244, 63, 94, 0.4); } 
+    50% { color: #fca5a5; box-shadow: 0 0 15px rgba(244, 63, 94, 0.3); border-color: rgba(244, 63, 94, 0.6); } 
+  }
+  .timer-urgent { animation: timerPulse 1s infinite; background: rgba(244, 63, 94, 0.1) !important; }
+
+  .screen { display: none; }
+  .screen.active { display: flex; }
+</style>
+</head>
+<body class="min-h-screen">
+
+<!-- Ambient Glowing Background Blobs -->
+<div class="bg-glow-1"></div>
+<div class="bg-glow-2"></div>
+<div class="bg-glow-3"></div>
+
+<!-- ═══════════════════════════════════════════════════════ SPLASH SCREEN -->
+<div id="screen-splash" class="screen active flex-col items-center justify-center min-h-screen px-4 py-12 relative z-10">
+  <div class="glass-panel w-full max-w-md p-8 md:p-10 flex flex-col items-center text-center">
+    <p class="text-xs tracking-[0.3em] text-stone-400 uppercase mb-4 font-semibold">Film & Television Institute of India</p>
+    <h1 class="font-serif text-4xl md:text-5xl text-stone-100 mb-4 leading-tight">Joint Entrance<br /><span class="text-amber-500 font-normal italic">Test</span></h1>
+    <p class="text-stone-400 text-xs md:text-sm mb-8 max-w-sm leading-relaxed">A competitive-grade diagnostic assessment for Direction, Screenplay & Documentary specialisations.</p>
+
+    <div class="flex flex-col gap-3.5 w-full text-xs md:text-sm text-stone-400 mb-8 border border-white/5 rounded-xl p-4 bg-white/[0.01]">
+      <div class="flex justify-between border-b border-white/5 pb-2"><span>Questions</span><span class="text-stone-200 font-semibold">25</span></div>
+      <div class="flex justify-between border-b border-white/5 pb-2"><span>Max Marks</span><span class="text-stone-200 font-semibold">50.00</span></div>
+      <div class="flex justify-between border-b border-white/5 pb-2"><span>Correct</span><span class="text-emerald-400 font-semibold">+2.00</span></div>
+      <div class="flex justify-between border-b border-white/5 pb-2"><span>Incorrect</span><span class="text-rose-400 font-semibold">−0.50</span></div>
+      <div class="flex justify-between"><span>Duration</span><span class="text-stone-200 font-semibold">45 mins</span></div>
+    </div>
+
+    <button onclick="initAssessment()" class="w-full py-3.5 rounded-xl text-sm font-semibold tracking-wide text-stone-950 transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] shadow-lg shadow-amber-500/20 hover:shadow-amber-500/35" style="background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);">
+      Begin Assessment →
+    </button>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════ EXAM SCREEN -->
+<div id="screen-exam" class="screen flex-col min-h-screen px-4 md:px-8 py-6 relative z-10 max-w-7xl mx-auto w-full gap-6">
+
+  <!-- TOP DASHBOARD BAR -->
+  <header class="w-full glass-panel px-5 py-4 flex flex-col sm:flex-row gap-4 justify-between items-start sm:items-center flex-shrink-0">
+    <div class="flex items-center gap-3">
+      <span class="flex h-2.5 w-2.5 relative flex-shrink-0">
+        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+        <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
+      </span>
+      <div>
+        <p id="q-category" class="text-xs text-stone-400 tracking-wider uppercase font-semibold truncate max-w-[200px] sm:max-w-md"></p>
+        <p class="text-xs text-stone-500 mt-0.5">Active · Question <span id="q-num" class="text-stone-300 font-semibold">1</span> of 25</p>
+      </div>
+    </div>
+    <div class="flex items-center gap-3 w-full sm:w-auto justify-between sm:justify-end">
+      <div id="timer-box" class="font-mono text-xs sm:text-sm font-semibold px-3.5 py-1.5 rounded-xl border border-amber-500/20 bg-amber-500/5 text-amber-500 transition-all duration-300">45:00</div>
+      <button onclick="confirmSubmit()" class="text-xs font-semibold px-3.5 py-1.5 rounded-xl bg-red-500/10 border border-red-500/25 text-red-400 hover:bg-red-500/20 hover:text-red-300 transition-all duration-200">Submit Exam</button>
+    </div>
+  </header>
+
+  <!-- CONTENT DIVISION (Main Exam Card & Sidebar) -->
+  <div class="w-full flex flex-col lg:flex-row gap-6 flex-1 items-start">
+    <!-- LEFT / MAIN QUESTION CARD -->
+    <main class="flex-1 w-full glass-panel p-6 md:p-8 flex flex-col justify-between self-stretch overflow-y-auto">
+      <div class="flex-1">
+        <p id="q-hint" class="text-xs italic text-stone-400 bg-white/[0.02] border border-white/5 rounded-xl px-4 py-2 mb-6 hidden"></p>
+        <h2 id="q-text" class="font-serif text-lg md:text-xl text-stone-100 leading-relaxed mb-8"></h2>
+
+        <!-- Options -->
+        <div id="options-wrap" class="flex flex-col gap-3.5"></div>
+
+        <!-- Action row -->
+        <div class="flex flex-wrap items-center gap-3 mt-8">
+          <button id="btn-review" onclick="toggleReview()" class="flex-1 text-sm py-3 px-4 rounded-xl border border-amber-500/20 bg-amber-500/5 text-amber-400 hover:bg-amber-500/10 transition-all duration-250 font-semibold">
+            Mark for Review
+          </button>
+          <button id="btn-verify" onclick="verifyAnswer()" class="flex-1 text-sm py-3 px-4 rounded-xl font-semibold transition-all duration-250 hover:scale-[1.01] active:scale-[0.99] disabled:opacity-40 disabled:cursor-not-allowed" style="background:#f59e0b; color:#0c0a09;" disabled>
+            Verify Answer
+          </button>
+        </div>
+      </div>
+
+      <!-- Navigation row -->
+      <footer class="flex items-center justify-between mt-8 pt-6 border-t border-white/5">
+        <button onclick="navigate(-1)" class="text-sm px-5 py-2.5 rounded-xl border border-white/10 text-stone-300 hover:bg-white/[0.03] hover:text-white transition-colors flex items-center gap-1">← Prev</button>
+        <button onclick="navigate(1)" class="text-sm px-5 py-2.5 rounded-xl border border-white/10 text-stone-300 hover:bg-white/[0.03] hover:text-white transition-colors flex items-center gap-1">Next →</button>
+      </footer>
+
+      <!-- Rationale Drawer -->
+      <div id="rationale-drawer" class="drawer border-t border-white/5 mt-6">
+        <div class="pt-6">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="w-1.5 h-3.5 rounded bg-amber-500"></span>
+            <p class="text-xs tracking-widest uppercase text-stone-400 font-semibold">Rationale</p>
+          </div>
+          <p id="drawer-rationale" class="text-stone-300 text-sm leading-relaxed mb-6 bg-white/[0.01] border border-white/5 p-4 rounded-xl"></p>
+          
+          <div class="flex items-center gap-2 mb-4">
+            <span class="w-1.5 h-3.5 rounded bg-stone-500"></span>
+            <p class="text-xs tracking-widest uppercase text-stone-400 font-semibold">All Options Explained</p>
+          </div>
+          <div id="drawer-distractors" class="flex flex-col gap-3"></div>
+        </div>
+      </div>
+    </main>
+
+    <!-- RIGHT SIDEBAR — Question Matrix -->
+    <aside class="w-full lg:w-80 glass-panel p-6 flex flex-col justify-between gap-6 self-stretch lg:sticky lg:top-24">
+      <div>
+        <div class="flex items-center gap-2 mb-4">
+          <span class="w-1.5 h-3.5 rounded bg-violet-500"></span>
+          <p class="text-xs tracking-widest uppercase text-stone-400 font-semibold">Question Matrix</p>
+        </div>
+        <div id="nav-grid" class="grid grid-cols-5 gap-2.5"></div>
+      </div>
+      
+      <div class="border-t border-white/5 pt-4 text-xs text-stone-400 flex flex-col gap-2.5">
+        <div class="flex gap-2.5 items-center"><span class="w-3.5 h-3.5 rounded-md inline-block" style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.08);"></span>Unanswered</div>
+        <div class="flex gap-2.5 items-center"><span class="w-3.5 h-3.5 rounded-md inline-block" style="background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.5);"></span>For Review</div>
+        <div class="flex gap-2.5 items-center"><span class="w-3.5 h-3.5 rounded-md inline-block" style="background:rgba(16,185,129,0.1);border:1px solid rgba(16,185,129,0.45);"></span>Correct</div>
+        <div class="flex gap-2.5 items-center"><span class="w-3.5 h-3.5 rounded-md inline-block" style="background:rgba(244,63,94,0.1);border:1px solid rgba(244,63,94,0.45);"></span>Incorrect</div>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════ RESULTS SCREEN -->
+<div id="screen-results" class="screen flex-col items-center justify-start min-h-screen px-4 py-12 relative z-10">
+  <div class="w-full max-w-3xl glass-panel p-6 md:p-10 flex flex-col items-center">
+    <p class="text-xs tracking-[0.3em] text-stone-400 uppercase mb-2 font-semibold">Assessment Complete</p>
+    <h1 class="font-serif text-3xl md:text-5xl text-stone-100 mb-1">Final Report</h1>
+    <p id="result-badge" class="text-xs font-semibold px-4 py-1.5 rounded-full mb-8 mt-3 tracking-wider"></p>
+
+    <!-- Stats Grid -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 w-full mb-10">
+      <div class="bg-white/[0.02] border border-white/5 rounded-2xl p-4 text-center">
+        <p class="text-xs text-stone-400 mb-1.5 font-medium">Score</p>
+        <p id="res-score" class="text-xl md:text-2xl font-bold text-stone-100"></p>
+      </div>
+      <div class="bg-white/[0.02] border border-white/5 rounded-2xl p-4 text-center">
+        <p class="text-xs text-stone-400 mb-1.5 font-medium">Correct</p>
+        <p id="res-correct" class="text-xl md:text-2xl font-bold text-emerald-400"></p>
+      </div>
+      <div class="bg-white/[0.02] border border-white/5 rounded-2xl p-4 text-center">
+        <p class="text-xs text-stone-400 mb-1.5 font-medium">Incorrect</p>
+        <p id="res-incorrect" class="text-xl md:text-2xl font-bold text-rose-400"></p>
+      </div>
+      <div class="bg-white/[0.02] border border-white/5 rounded-2xl p-4 text-center">
+        <p class="text-xs text-stone-400 mb-1.5 font-medium">Skipped</p>
+        <p id="res-skipped" class="text-xl md:text-2xl font-bold text-stone-400"></p>
+      </div>
+    </div>
+
+    <!-- Category analytics -->
+    <div class="w-full mb-10 border-t border-white/5 pt-8">
+      <div class="flex items-center gap-2 mb-5">
+        <span class="w-1.5 h-3.5 rounded bg-violet-500"></span>
+        <p class="text-xs tracking-widest uppercase text-stone-400 font-semibold">Category Breakdown</p>
+      </div>
+      <div id="cat-bars" class="flex flex-col gap-4"></div>
+    </div>
+
+    <!-- Question Review -->
+    <div class="w-full border-t border-white/5 pt-8">
+      <div class="flex items-center gap-2 mb-5">
+        <span class="w-1.5 h-3.5 rounded bg-amber-500"></span>
+        <p class="text-xs tracking-widest uppercase text-stone-400 font-semibold">Question Review</p>
+      </div>
+      <div id="review-list" class="flex flex-col gap-4"></div>
+    </div>
+
+    <button onclick="resetPortal()" class="mt-12 px-10 py-3.5 rounded-xl text-sm font-semibold tracking-wide text-stone-950 transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] shadow-lg shadow-amber-500/20 hover:shadow-amber-500/35" style="background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);">
+      Restart Assessment
+    </button>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════ CONFIRM MODAL -->
+<div id="modal-overlay" class="fixed inset-0 z-50 hidden items-center justify-center p-4" style="background: rgba(8, 7, 10, 0.6); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);">
+  <div class="glass-panel p-8 max-w-sm w-full border border-white/10 shadow-2xl relative z-50">
+    <h3 class="font-serif text-xl text-stone-100 mb-2">Submit Assessment?</h3>
+    <p id="modal-msg" class="text-sm text-stone-400 mb-6 leading-relaxed"></p>
+    <div class="flex gap-3">
+      <button onclick="closeModal()" class="flex-1 py-2.5 rounded-xl border border-white/10 text-stone-300 text-sm hover:bg-white/[0.03] hover:text-white transition-all">Cancel</button>
+      <button onclick="finalSubmit()" class="flex-1 py-2.5 rounded-xl text-sm font-semibold text-stone-950 transition-all duration-200 hover:scale-105 active:scale-95" style="background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);">Submit</button>
+    </div>
+  </div>
+</div>
+
+<script src="js/question.js"></script>
+<script>
+/* ══════════════════════════════════════════════════════════════════════
+   STATE
+══════════════════════════════════════════════════════════════════════ */
+let activeQuestions = [];
+let userStateMap = [];
+let currentIdx = 0;
+let timerInterval = null;
+let secondsLeft = 45 * 60;
+
+/* ══════════════════════════════════════════════════════════════════════
+   INIT
+══════════════════════════════════════════════════════════════════════ */
+function initAssessment() {
+  // Sample 25 non-repeating questions
+  const shuffled = [...QUESTION_DB].sort(() => Math.random() - 0.5);
+  const selected = shuffled.slice(0, 25);
+
+  // Double-shuffle: shuffle question order AND each question's options
+  activeQuestions = selected.sort(() => Math.random() - 0.5).map(q => {
+    const optionObjects = q.options.map((text, i) => ({ text, isCorrect: i === q.correctIndex }));
+    optionObjects.sort(() => Math.random() - 0.5);
+    const newCorrectIndex = optionObjects.findIndex(o => o.isCorrect);
+    return {
+      ...q,
+      options: optionObjects.map(o => o.text),
+      correctIndex: newCorrectIndex
+    };
+  });
+
+  // Init state ledger
+  userStateMap = activeQuestions.map(() => ({
+    selectedOptionIndex: null,
+    isVerified: false,
+    isCorrect: null,
+    markedForReview: false
+  }));
+
+  currentIdx = 0;
+  secondsLeft = 45 * 60;
+
+  const box = document.getElementById('timer-box');
+  if (box) {
+    box.classList.remove('timer-urgent');
+    box.textContent = '45:00';
+  }
+
+  showScreen('screen-exam');
+  buildNavGrid();
+  renderQuestion(0);
+  startTimer();
+}
+
+/* ══════════════════════════════════════════════════════════════════════
+   SCREEN MANAGEMENT
+══════════════════════════════════════════════════════════════════════ */
+function showScreen(id) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+}
+
+/* ══════════════════════════════════════════════════════════════════════
+   TIMER
+══════════════════════════════════════════════════════════════════════ */
+function startTimer() {
+  clearInterval(timerInterval);
+  timerInterval = setInterval(() => {
+    secondsLeft--;
+    const m = Math.floor(secondsLeft / 60);
+    const s = secondsLeft % 60;
+    const box = document.getElementById('timer-box');
+    box.textContent = `${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+    if (secondsLeft <= 60) box.classList.add('timer-urgent');
+    if (secondsLeft <= 0) { clearInterval(timerInterval); finalSubmit(); }
+  }, 1000);
+}
+
+/* ══════════════════════════════════════════════════════════════════════
+   NAV GRID
+══════════════════════════════════════════════════════════════════════ */
+function buildNavGrid() {
+  const grid = document.getElementById('nav-grid');
+  grid.innerHTML = '';
+  activeQuestions.forEach((_, i) => {
+    const btn = document.createElement('button');
+    btn.id = `tile-${i}`;
+    btn.textContent = i + 1;
+    btn.className = 'tile-unanswered rounded-xl text-xs font-semibold py-2.5 transition-all duration-200';
+    btn.onclick = () => navigate(i - currentIdx);
+    grid.appendChild(btn);
+  });
+}
+
+function updateTile(i) {
+  const tile = document.getElementById(`tile-${i}`);
+  if (!tile) return;
+  const state = userStateMap[i];
+  tile.className = 'rounded-xl text-xs font-semibold py-2.5 transition-all duration-200';
+  if (state.isVerified) {
+    tile.classList.add(state.isCorrect ? 'tile-correct' : 'tile-incorrect');
+  } else if (state.markedForReview) {
+    tile.classList.add('tile-review');
+  } else {
+    tile.classList.add('tile-unanswered');
+  }
+  if (i === currentIdx) tile.classList.add('tile-active');
+}
+
+function refreshAllTiles() {
+  activeQuestions.forEach((_, i) => updateTile(i));
+}
+
+/* ══════════════════════════════════════════════════════════════════════
+   RENDER QUESTION
+══════════════════════════════════════════════════════════════════════ */
+function renderQuestion(idx) {
+  const q = activeQuestions[idx];
+  const state = userStateMap[idx];
+
+  document.getElementById('q-num').textContent = idx + 1;
+  document.getElementById('q-category').textContent = q.category;
+  document.getElementById('q-text').textContent = q.question;
+
+  const hintEl = document.getElementById('q-hint');
+  if (q.hint) { hintEl.textContent = `Hint: ${q.hint}`; hintEl.classList.remove('hidden'); }
+  else hintEl.classList.add('hidden');
+
+  // Build options
+  const wrap = document.getElementById('options-wrap');
+  wrap.innerHTML = '';
+  q.options.forEach((opt, i) => {
+    const btn = document.createElement('button');
+    btn.id = `opt-${i}`;
+    btn.className = 'opt-default w-full text-left px-4 py-3 rounded-xl text-sm text-stone-200 transition-all duration-200';
+    btn.innerHTML = `<span class="inline-block w-5 h-5 rounded-full border border-stone-600 mr-3 text-xs text-center leading-5 font-semibold">${['A','B','C','D'][i]}</span>${opt}`;
+
+    if (!state.isVerified) {
+      btn.onclick = () => selectOption(i);
+      if (state.selectedOptionIndex === i) btn.className = 'opt-selected w-full text-left px-4 py-3 rounded-xl text-sm text-stone-200 transition-all duration-200';
+    } else {
+      btn.disabled = true;
+      btn.style.cursor = 'default';
+      if (i === q.correctIndex) {
+        btn.className = 'opt-correct w-full text-left px-4 py-3 rounded-xl text-sm text-stone-200 transition-all duration-200';
+      } else if (i === state.selectedOptionIndex) {
+        btn.className = 'opt-wrong w-full text-left px-4 py-3 rounded-xl text-sm text-stone-200 transition-all duration-200';
+      } else {
+        btn.className = 'opt-default opacity-50 w-full text-left px-4 py-3 rounded-xl text-sm text-stone-200 transition-all duration-200';
+      }
+    }
+    wrap.appendChild(btn);
+  });
+
+  // Verify button state
+  const verifyBtn = document.getElementById('btn-verify');
+  if (state.isVerified) {
+    verifyBtn.textContent = 'Verified ✓';
+    verifyBtn.disabled = true;
+    verifyBtn.style.background = 'rgba(255, 255, 255, 0.05)';
+    verifyBtn.style.color = '#a8a29e';
+    verifyBtn.style.border = '1px solid rgba(255, 255, 255, 0.08)';
+  } else {
+    verifyBtn.textContent = 'Verify Answer';
+    verifyBtn.disabled = state.selectedOptionIndex === null;
+    verifyBtn.style.background = '#f59e0b';
+    verifyBtn.style.color = '#0c0a09';
+    verifyBtn.style.border = 'none';
+  }
+
+  // Review button state
+  const reviewBtn = document.getElementById('btn-review');
+  if (state.isVerified) {
+    reviewBtn.disabled = true;
+    reviewBtn.style.opacity = '0.4';
+    reviewBtn.style.cursor = 'default';
+  } else {
+    reviewBtn.disabled = false;
+    reviewBtn.style.opacity = '1';
+    reviewBtn.style.cursor = 'pointer';
+    reviewBtn.style.borderColor = state.markedForReview ? 'rgba(245, 158, 11, 0.6)' : '';
+    reviewBtn.style.color = state.markedForReview ? '#fcd34d' : '';
+    reviewBtn.style.background = state.markedForReview ? 'rgba(245, 158, 11, 0.08)' : '';
+    reviewBtn.textContent = state.markedForReview ? '★ Marked for Review' : 'Mark for Review';
+  }
+
+  // Drawer
+  const drawer = document.getElementById('rationale-drawer');
+  if (state.isVerified) {
+    document.getElementById('drawer-rationale').textContent = q.rationale;
+    const distEl = document.getElementById('drawer-distractors');
+    distEl.innerHTML = '';
+    q.options.forEach((opt, i) => {
+      const isCorrect = i === q.correctIndex;
+      const expl = isCorrect ? q.rationale : (q.distractorExplorations[opt] || '');
+      if (!expl) return;
+      const div = document.createElement('div');
+      div.className = 'rounded-xl p-4 text-sm';
+      div.style.background = isCorrect ? 'rgba(16,185,129,0.08)' : 'rgba(255,255,255,0.02)';
+      div.style.border = isCorrect ? '1px solid rgba(16,185,129,0.3)' : '1px solid rgba(255, 255, 255, 0.05)';
+      div.innerHTML = `<p class="font-semibold mb-1.5" style="color:${isCorrect?'#6ee7b7':'#a8a29e'}">${['A','B','C','D'][i]}. ${opt}</p><p style="color:#a8a29e; font-size: 0.85rem; line-height: 1.5;">${expl}</p>`;
+      distEl.appendChild(div);
+    });
+    drawer.classList.add('open');
+  } else {
+    drawer.classList.remove('open');
+  }
+
+  refreshAllTiles();
+}
+
+/* ══════════════════════════════════════════════════════════════════════
+   INTERACTIONS
+══════════════════════════════════════════════════════════════════════ */
+function selectOption(i) {
+  if (userStateMap[currentIdx].isVerified) return;
+  userStateMap[currentIdx].selectedOptionIndex = i;
+  renderQuestion(currentIdx);
+}
+
+function verifyAnswer() {
+  const state = userStateMap[currentIdx];
+  if (state.isVerified || state.selectedOptionIndex === null) return;
+  state.isVerified = true;
+  state.isCorrect = state.selectedOptionIndex === activeQuestions[currentIdx].correctIndex;
+  state.markedForReview = false;
+  renderQuestion(currentIdx);
+}
+
+function toggleReview() {
+  const state = userStateMap[currentIdx];
+  if (state.isVerified) return;
+  state.markedForReview = !state.markedForReview;
+  renderQuestion(currentIdx);
+}
+
+function navigate(delta) {
+  if (typeof delta === 'number') {
+    currentIdx = Math.max(0, Math.min(24, currentIdx + delta));
+  }
+  renderQuestion(currentIdx);
+}
+
+/* ══════════════════════════════════════════════════════════════════════
+   SUBMIT FLOW
+══════════════════════════════════════════════════════════════════════ */
+function confirmSubmit() {
+  const unanswered = userStateMap.filter(s => !s.isVerified).length;
+  const forReview = userStateMap.filter(s => s.markedForReview).length;
+  let msg = '';
+  if (unanswered > 0) msg += `${unanswered} question${unanswered > 1 ? 's' : ''} not yet verified. `;
+  if (forReview > 0) msg += `${forReview} marked for review. `;
+  msg = msg || 'All questions answered. ';
+  msg += 'Submit the assessment?';
+  document.getElementById('modal-msg').textContent = msg;
+  document.getElementById('modal-overlay').style.display = 'flex';
+}
+
+function closeModal() {
+  document.getElementById('modal-overlay').style.display = 'none';
+}
+
+function finalSubmit() {
+  clearInterval(timerInterval);
+  closeModal();
+  buildResultsScreen();
+  showScreen('screen-results');
+}
+
+/* ══════════════════════════════════════════════════════════════════════
+   RESULTS ENGINE
+══════════════════════════════════════════════════════════════════════ */
+function buildResultsScreen() {
+  let correct = 0, incorrect = 0, skipped = 0;
+  userStateMap.forEach(s => {
+    if (!s.isVerified) { skipped++; }
+    else if (s.isCorrect) { correct++; }
+    else { incorrect++; }
+  });
+
+  const score = correct * 2 - incorrect * 0.5;
+
+  document.getElementById('res-score').textContent = score.toFixed(2) + ' / 50';
+  document.getElementById('res-correct').textContent = correct;
+  document.getElementById('res-incorrect').textContent = incorrect;
+  document.getElementById('res-skipped').textContent = skipped;
+
+  // Merit badge
+  const badgeEl = document.getElementById('result-badge');
+  let badge, badgeColor;
+  if (score >= 42) { badge = '🎬 Master Auteur'; badgeColor = '#f59e0b'; }
+  else if (score >= 32) { badge = '🎥 Directing Fellow'; badgeColor = '#10b981'; }
+  else if (score >= 20) { badge = '📽 Apprentice Scholar'; badgeColor = '#a78bfa'; }
+  else { badge = '🎞 Cinematic Aspirant'; badgeColor = '#78716c'; }
+  badgeEl.textContent = badge;
+  badgeEl.style.background = badgeColor + '22';
+  badgeEl.style.color = badgeColor;
+  badgeEl.style.border = `1px solid ${badgeColor}55`;
+
+  // Category analytics
+  const cats = {};
+  activeQuestions.forEach((q, i) => {
+    const cat = q.category.split(':')[0].trim();
+    if (!cats[cat]) cats[cat] = { total: 0, correct: 0, attempted: 0 };
+    cats[cat].total++;
+    if (userStateMap[i].isVerified) {
+      cats[cat].attempted++;
+      if (userStateMap[i].isCorrect) cats[cat].correct++;
+    }
+  });
+
+  const catBarsEl = document.getElementById('cat-bars');
+  catBarsEl.innerHTML = '';
+  const catColors = { 'Cinema History': '#f59e0b', 'Film Theory': '#a78bfa', 'Documentary Traditions': '#10b981', 'Technical Basics': '#38bdf8', 'Media & Allied Arts': '#fb7185', 'FTII/SRFTI Alumni Filmography': '#f97316', 'General Awareness': '#6ee7b7' };
+  Object.entries(cats).forEach(([cat, data]) => {
+    const pct = data.total > 0 ? Math.round((data.correct / data.total) * 100) : 0;
+    const color = catColors[cat] || '#f59e0b';
+    const div = document.createElement('div');
+    div.innerHTML = `
+      <div class="flex justify-between text-xs mb-1.5">
+        <span style="color:#a8a29e">${cat}</span>
+        <span style="color:#e7e5e4">${data.correct}/${data.total} correct (${pct}%)</span>
+      </div>
+      <div class="rounded-full overflow-hidden" style="height:6px;background:rgba(255,255,255,0.05);">
+        <div class="bar-fill rounded-full" style="--w:${pct}%;height:6px;background:${color};"></div>
+      </div>`;
+    catBarsEl.appendChild(div);
+  });
+
+  // Question review list
+  const reviewEl = document.getElementById('review-list');
+  reviewEl.innerHTML = '';
+  activeQuestions.forEach((q, i) => {
+    const state = userStateMap[i];
+    let statusColor = '#78716c', statusText = 'Skipped';
+    if (state.isVerified && state.isCorrect) { statusColor = '#10b981'; statusText = 'Correct'; }
+    else if (state.isVerified && !state.isCorrect) { statusColor = '#f43f5e'; statusText = 'Incorrect'; }
+    const div = document.createElement('div');
+    div.className = 'rounded-xl p-4 text-sm';
+    div.style.background = 'rgba(255, 255, 255, 0.02)';
+    div.style.border = `1px solid ${state.isVerified ? (state.isCorrect ? 'rgba(16, 185, 129, 0.2)' : 'rgba(244, 63, 94, 0.2)') : 'rgba(255, 255, 255, 0.08)'}`;
+    div.innerHTML = `
+      <div class="flex items-start gap-3">
+        <span class="text-xs font-semibold px-2 py-0.5 rounded-full flex-shrink-0" style="background:${statusColor}22;color:${statusColor}">${i+1}. ${statusText}</span>
+        <p class="text-stone-300 leading-snug">${q.question}</p>
+      </div>
+      ${state.isVerified ? `
+        <div class="mt-3 text-xs text-stone-500 leading-relaxed pl-2 border-l border-stone-700">
+          <p>${state.isCorrect ? '✓' : '✗'} Your answer: <span style="color:${statusColor}">${q.options[state.selectedOptionIndex]}</span>
+          ${!state.isCorrect ? ` &nbsp;·&nbsp; Correct: <span style="color:#10b981">${q.options[q.correctIndex]}</span>` : ''}</p>
+          <p class="mt-1 italic" style="color:#57534e">${q.rationale}</p>
+        </div>` : ''}`;
+    reviewEl.appendChild(div);
+  });
+}
+
+/* ══════════════════════════════════════════════════════════════════════
+   RESET
+══════════════════════════════════════════════════════════════════════ */
+function resetPortal() {
+  clearInterval(timerInterval);
+  const box = document.getElementById('timer-box');
+  if (box) {
+    box.classList.remove('timer-urgent');
+    box.textContent = '45:00';
+  }
+  showScreen('screen-splash');
+}
+</script>
+</body>
+</html>
