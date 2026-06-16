@@ -196,7 +196,7 @@
       <div class="flex justify-between border-b border-white/5 pb-2"><span>Max Marks</span><span class="text-stone-200 font-semibold">50.00</span></div>
       <div class="flex justify-between border-b border-white/5 pb-2"><span>Correct</span><span class="text-emerald-400 font-semibold">+2.00</span></div>
       <div class="flex justify-between border-b border-white/5 pb-2"><span>Incorrect</span><span class="text-rose-400 font-semibold">−0.50</span></div>
-      <div class="flex justify-between"><span>Duration</span><span class="text-stone-200 font-semibold">45 mins</span></div>
+      <div class="flex justify-between"><span>Duration</span><span class="text-stone-200 font-semibold">30 mins</span></div>
     </div>
 
     <button onclick="initAssessment()" class="w-full py-3.5 rounded-xl text-sm font-semibold tracking-wide text-stone-950 transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] shadow-lg shadow-amber-500/20 hover:shadow-amber-500/35" style="background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);">
@@ -221,7 +221,7 @@
       </div>
     </div>
     <div class="flex items-center gap-3 w-full sm:w-auto justify-between sm:justify-end">
-      <div id="timer-box" class="font-mono text-xs sm:text-sm font-semibold px-3.5 py-1.5 rounded-xl border border-amber-500/20 bg-amber-500/5 text-amber-500 transition-all duration-300">45:00</div>
+      <div id="timer-box" class="font-mono text-xs sm:text-sm font-semibold px-3.5 py-1.5 rounded-xl border border-amber-500/20 bg-amber-500/5 text-amber-500 transition-all duration-300">30:00</div>
       <button onclick="confirmSubmit()" class="text-xs font-semibold px-3.5 py-1.5 rounded-xl bg-red-500/10 border border-red-500/25 text-red-400 hover:bg-red-500/20 hover:text-red-300 transition-all duration-200">Submit Exam</button>
     </div>
   </header>
@@ -364,7 +364,7 @@ let activeQuestions = [];
 let userStateMap = [];
 let currentIdx = 0;
 let timerInterval = null;
-let secondsLeft = 45 * 60;
+let secondsLeft = 30 * 60;
 
 /* ══════════════════════════════════════════════════════════════════════
    INIT
@@ -395,12 +395,12 @@ function initAssessment() {
   }));
 
   currentIdx = 0;
-  secondsLeft = 45 * 60;
+  secondsLeft = 30 * 60;
 
   const box = document.getElementById('timer-box');
   if (box) {
     box.classList.remove('timer-urgent');
-    box.textContent = '45:00';
+    box.textContent = '30:00';
   }
 
   showScreen('screen-exam');
@@ -719,7 +719,7 @@ function resetPortal() {
   const box = document.getElementById('timer-box');
   if (box) {
     box.classList.remove('timer-urgent');
-    box.textContent = '45:00';
+    box.textContent = '30:00';
   }
   showScreen('screen-splash');
 }
