@@ -364,7 +364,7 @@ let activeQuestions = [];
 let userStateMap = [];
 let currentIdx = 0;
 let timerInterval = null;
-let secondsLeft = 45 * 60;
+let secondsLeft = 30 * 60;
 
 /* ══════════════════════════════════════════════════════════════════════
    INIT
@@ -395,12 +395,12 @@ function initAssessment() {
   }));
 
   currentIdx = 0;
-  secondsLeft = 45 * 60;
+  secondsLeft = 30 * 60;
 
   const box = document.getElementById('timer-box');
   if (box) {
     box.classList.remove('timer-urgent');
-    box.textContent = '45:00';
+    box.textContent = '30:00';
   }
 
   showScreen('screen-exam');
@@ -719,7 +719,7 @@ function resetPortal() {
   const box = document.getElementById('timer-box');
   if (box) {
     box.classList.remove('timer-urgent');
-    box.textContent = '45:00';
+    box.textContent = '30:00';
   }
   showScreen('screen-splash');
 }
