@@ -6904,9 +6904,7 @@ const QUESTION_DB = [
       "Francois Truffaut": "Truffaut was a leader of the French New Wave who focused on rapid edits and breaking traditional rules.",
       "Yasujiro Ozu": "Ozu used a calm, rhythmic style featuring low camera angles, but did not coin this specific phrase."
     }
-  }
-  ,
-  [
+  },
   {
     "id": 331,
     "category": "Art History: Prehistoric Art",
