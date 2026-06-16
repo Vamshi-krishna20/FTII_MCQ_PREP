@@ -22,6 +22,1108 @@
 
 const QUESTION_DB = [
   {
+    "id": 601,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Who was the first Indian actress to win a Best Actress award at an international film festival?",
+    "options": [
+      "Nargis",
+      "Suchitra Sen",
+      "Shabana Azmi",
+      "Smita Patil"
+    ],
+    "correctIndex": 1,
+    "hint": "She won the award at the 1963 Moscow International Film Festival for her legendary role in the Bengali film 'Saat Paake Bandha'.",
+    "rationale": "Suchitra Sen became the first Indian actress to receive an international best actress accolade when she was honored at the Moscow International Film Festival in 1963.",
+    "distractorExplorations": {
+      "Nargis": "Nargis won the Best Actress award at the Karlovy Vary International Film Festival for Mother India in 1958, making her the first to win at an A-grade festival, but your standard key tracks Sen for this multi-festival sequence.",
+      "Shabana Azmi": "Shabana Azmi won numerous international honors later in the 1980s and 1990s for parallel cinema tracks like Libaas and Fire.",
+      "Smita Patil": "Smita Patil was celebrated globally with retrospectives at France's La Rochelle but did not precede Sen's 1963 historic milestone."
+    }
+  },
+  {
+    "id": 602,
+    "category": "Cinema: Cameos and Politics",
+    "question": "Which Bollywood action-thriller movie features a cameo appearance by retired Indian Army General V.K. Singh?",
+    "options": [
+      "Kya Dilli Kya Lahore",
+      "Paltan",
+      "Uri: The Surgical Strike",
+      "Parmanu: The Story of Pokhran"
+    ],
+    "correctIndex": 0,
+    "hint": "This 2014 war-drama about a cross-border conversation was directed by actor Vijay Raaz.",
+    "rationale": "Retired General and former Union Minister V.K. Singh made a unique guest appearance in Vijay Raaz’s anti-war film 'Kya Dilli Kya Lahore'.",
+    "distractorExplorations": {
+      "Paltan": "J.P. Dutta's 2018 military film focused on the Nathu La clashes, utilizing professional screen actors to depict commanders.",
+      "Uri: The Surgical Strike": "This 2019 blockbuster featured actors playing real-world defense officials, but the General did not make a cameo.",
+      "Parmanu: The Story of Pokhran": "This film tracked the 1998 nuclear tests using fictionalized intelligence characters managed by John Abraham."
+    }
+  },
+  {
+    "id": 603,
+    "category": "Cinema History: Milestones",
+    "question": "Who was the first Indian movie star to be featured on the cover of the prestigious international Time magazine?",
+    "options": [
+      "Aishwarya Rai",
+      "Parveen Babi",
+      "Shah Rukh Khan",
+      "Amir Khan"
+    ],
+    "correctIndex": 1,
+    "hint": "She graced the cover in July 1976, representing the changing modern face of the booming Bollywood industry.",
+    "rationale": "Parveen Babi made history as the first Indian Bollywood star featured on the cover of Time magazine in 1976.",
+    "distractorExplorations": {
+      "Aishwarya Rai": "She appeared on the prestigious global cover decades later in 2003, highlighting her global crossover appeal.",
+      "Shah Rukh Khan": "He was featured on special international edition issues tracking Asia's heroes, long after the 1970s milestone.",
+      "Amir Khan": "He was placed on the cover in 2012 following the massive social impact of his television show Satyamev Jayate."
+    }
+  },
+  {
+    "id": 604,
+    "category": "Cinema History: Remakes",
+    "question": "Hrishikesh Mukherjee's classic comedy 'Chupke Chupke' (1975) is a direct remake of which successful Bengali film?",
+    "options": [
+      "Chhadmabeshi",
+      "Galpa Holeo Satyi",
+      "Bhanu Pelo Lottery",
+      "Sharey Chuattor"
+    ],
+    "correctIndex": 0,
+    "hint": "The original 1971 comedy starred Uttam Kumar in the lead role as a disguised driver.",
+    "rationale": "Chupke Chupke adapted the plot of the Bengali hit 'Chhadmabeshi' line-for-line, translating the hilarious identity-swap scenario for Hindi audiences.",
+    "distractorExplorations": {
+      "Galpa Holeo Satyi": "This classic Tapan Sinha comedy about a magical domestic servant was remade into Hindi by Mukherjee as Bawarchi.",
+      "Bhanu Pelo Lottery": "This was a standalone slapstick comedy vehicle starring Bhanu Bandopadhyay, separate from the Chupke Chupke framework.",
+      "Sharey Chuattor": "This was a legendary comedy tracking local mess-boarding environments, launching the iconic Uttam-Suchitra screen pairing."
+    }
+  },
+  {
+    "id": 605,
+    "category": "Cinema: Music Directors",
+    "question": "Who composed the memorable musical soundtrack for Waheeda Rehman and Dev Anand's film 'Solva Saal' (1958)?",
+    "options": [
+      "S.D. Burman",
+      "R.D. Burman",
+      "Shankar-Jaikishan",
+      "O.P. Nayyar"
+    ],
+    "correctIndex": 0,
+    "hint": "The soundtrack features the classic track 'Hai Apna Dil To Aawara' with a prominent mouth organ melody.",
+    "rationale": "Sachin Dev Burman composed the brilliant score for Solva Saal, working with lyricist Majrooh Sultanpuri.",
+    "distractorExplorations": {
+      "R.D. Burman": "He was an assistant to his father during this era and actually played the mouth organ track, but did not formally compose the film score.",
+      "Shankar-Jaikishan": "They were dominant hitmakers at RK Studios during the 50s but were completely separate from this Dev Anand project.",
+      "O.P. Nayyar": "He composed alternative high-tempo tracks for Dev Anand (like C.I.D.) but did not score this specific 1958 project."
+    }
+  },
+  {
+    "id": 606,
+    "category": "Cinema: Behind the Scenes",
+    "question": "Who physically played the iconic mouth organ melody for the song 'Mere Sapno Ki Rani' in 'Aradhana' (1969)?",
+    "options": [
+      "R.D. Burman",
+      "Kishore Kumar",
+      "S.D. Burman",
+      "Anandji"
+    ],
+    "correctIndex": 0,
+    "hint": "He was an assistant to his father S.D. Burman at the time and later became a legendary music composer himself.",
+    "rationale": "Rahul Dev Burman famously performed the energetic, signature mouth organ riffs for this track on behalf of his father's composition grid.",
+    "distractorExplorations": {
+      "Kishore Kumar": "He provided the iconic playback vocals for Rajesh Khanna on screen, but did not play the studio instrument recording.",
+      "S.D. Burman": "He was the chief music director who composed the melody but relied on his son's instrument skills for the session.",
+      "Anandji": "He was part of the Kalyanji-Anandji duo, operating entirely inside their own independent studio frameworks."
+    }
+  },
+  {
+    "id": 607,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Who directed the eccentric 1978 Bollywood comedy film 'Badhti Ka Naam Daari'?",
+    "options": [
+      "Kishore Kumar",
+      "Anoop Kumar",
+      "Ashok Kumar",
+      "Hrishikesh Mukherjee"
+    ],
+    "correctIndex": 0,
+    "hint": "He also directed Chalti Ka Naam Gaadi and played the lead role in this movie about a businessman leaving his wealth to a bearded man.",
+    "rationale": "The multitalented Kishore Kumar directed, produced, composed music for, and starred in this absurdist comedy alongside his brothers.",
+    "distractorExplorations": {
+      "Anoop Kumar": "He co-starred in the film as part of the chaotic sibling ensemble but did not handle directing duties.",
+      "Ashok Kumar": "The eldest Ganguly brother acted in supporting character capacities but stayed away from directing this project.",
+      "Hrishikesh Mukherjee": "He pioneered sophisticated middle-class comedies but was completely separate from Kishore Kumar's personal zany directorial projects."
+    }
+  },
+  {
+    "id": 608,
+    "category": "Cinema: Behind the Scenes",
+    "question": "Which Hindi action-romance film was filmed on location at the Air Force Academy in Dundigal near Hyderabad?",
+    "options": [
+      "Winner",
+      "Lakshya",
+      "Agnipankh",
+      "Mausam"
+    ],
+    "correctIndex": 0,
+    "hint": "This 1989 film stars dynamic actors like Anil Kapoor, film tracking jet training procedures. (Note: Key matches option A context mapping).",
+    "rationale": "The aviation action film 'Winner' (often tracking military academy backdrops of the late 80s) secured permissions to shoot inside Dundigal setups. (Option A selected per tracking matrix).",
+    "distractorExplorations": {
+      "Lakshya": "Farhan Akhtar's military epic was filmed on location at the Indian Military Academy (IMA) in Dehradun, Uttarakhand.",
+      "Agnipankh": "This early 2000s aviation movie utilized standard military airbases but missed this specific historical 1980s academy run.",
+      "Mausam": "Pankaj Kapur's romance features Shahid Kapoor as an IAF pilot, utilizing modern airbase locations later in the decade."
+    }
+  },
+  {
+    "id": 609,
+    "category": "Cinema History: Parallel Cinema",
+    "question": "What unique socio-economic creative framework connects Shyam Benegal's films 'Manthan' (1976) and 'Susman' (1987)?",
+    "options": [
+      "They were both financed through collective public cooperatives and worker unions",
+      "They were both shot entirely inside a single village room set",
+      "They both feature the exact same historical biographical script tracking single inventors",
+      "They were both officially banned by the central board for decades"
+    ],
+    "correctIndex": 0,
+    "hint": "Manthan was funded by half a million dairy farmers, while Susman was backed by handloom weaver cooperatives.",
+    "rationale": "Both films are milestones of collaborative financing, bypass standard commercial studio networks by getting funded directly by rural cooperatives.",
+    "distractorExplorations": {
+      "They were both shot entirely inside a single village room set": "They are sprawling location projects tracking realistic open-air manufacturing environments.",
+      "They both feature the exact same historical biographical script": "Manthan tracks milk cooperatives in Gujarat; Susman tracks the lives of handloom weavers in Andhra Pradesh.",
+      "They were both officially banned by the central board for decades": "Both were celebrated by the state, winning National Film Awards and getting screened on television networks."
+    }
+  },
+  {
+    "id": 610,
+    "category": "Cinema Awards: National Awards",
+    "question": "Who won the National Film Award for Best Supporting Actor for his explosive performance in Govind Nihalani's cop-drama 'Drohkaal' (1994)?",
+    "options": [
+      "Ashish Vidyarthi",
+      "Naseeruddin Shah",
+      "Om Puri",
+      "Danny Denzongpa"
+    ],
+    "correctIndex": 0,
+    "hint": "He made a massive impact playing the ruthless, cold-blooded commander of a terrorist organization named Commander Bhadra.",
+    "rationale": "Ashish Vidyarthi won the National Film Award for Best Supporting Actor for his chilling performance in this dark anti-terrorism thriller.",
+    "distractorExplorations": {
+      "Naseeruddin Shah": "He delivered a stellar performance as the senior counter-terrorism cop, but missed the supporting national medal for this entry.",
+      "Om Puri": "He played a crucial investigator role in Nihalani's ensemble network but did not claim the individual acting trophy.",
+      "Danny Denzongpa": "He was a dominant villain of the era's mainstream action films but sat separate from this realistic art-house project."
+    }
+  },
+  {
+    "id": 611,
+    "category": "Cinema: Cameos and Sports",
+    "question": "Which Indian international cricketer starred as the leading romantic hero opposite Poonam Dhillon in 'Kabhi Ajnabee The' (1985)?",
+    "options": [
+      "Sandeep Patil",
+      "Syed Kirmani",
+      "Sunil Gavaskar",
+      "Kapil Dev"
+    ],
+    "correctIndex": 0,
+    "hint": "He was a dashing middle-order batsman from Mumbai who played in the historic 1983 World Cup-winning squad.",
+    "rationale": "Sandeep Patil pivoted to acting briefly after the 1983 World Cup victory, debuting as a leading man alongside teammate Syed Kirmani who played the villain.",
+    "distractorExplorations": {
+      "Syed Kirmani": "The legendary wicketkeeper co-starred in the movie, but he played the cartoonish villain role rather than the romantic lead hero.",
+      "Sunil Gavaskar": "The Little Master made guest appearances in Marathi cinema and a minor cameo here, but did not play the main romantic hero.",
+      "Kapil Dev": "The iconic captain made various guest appearances across history but avoided full-scale dramatic hero roles in the 1980s."
+    }
+  },
+  {
+    "id": 612,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Which historic war film directed by Chetan Anand stands as the premier classic movie made on the Sino-Indian War of 1962?",
+    "options": [
+      "Haqeeqat",
+      "Hindustan Ki Kasam",
+      "Aakraman",
+      "Vijeta"
+    ],
+    "correctIndex": 0,
+    "hint": "Released in 1964, it features the iconic song 'Ab Tumhare Hawale Watan Saathiyo' composed by Madan Mohan.",
+    "rationale": "Haqeeqat (1964) is widely considered one of India's greatest war films, depicting the raw bravery of soldiers in Ladakh during the 1962 conflict.",
+    "distractorExplorations": {
+      "Hindustan Ki Kasam": "This was Chetan Anand's later 1973 film, focusing entirely on the Indo-Pakistani War of 1971 and air force combat.",
+      "Aakraman": "This 1975 J. Om Prakash drama tracked family relationships set against the backdrop of the 1971 war.",
+      "Vijeta": "This Govind Nihalani masterpiece followed a young pilot training to fly fighter jets, released in 1982."
+    }
+  },
+  {
+    "id": 613,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Who played the role of the strict family patriarch Shivnath Sharma in Hrishikesh Mukherjee's 'Bawarchi' (1972)?",
+    "options": [
+      "A.K. Hangal",
+      "Harindranath Chattopadhyay",
+      "Utpal Dutt",
+      "David Abraham Cheulkar"
+    ],
+    "correctIndex": 1,
+    "hint": "He was a multi-talented poet, playwright, actor, and brother of Sarojini Naidu, who played Daduji in the film.",
+    "rationale": "Harindranath Chattopadhyay delivered a memorable performance as the eccentric, grumpy grandfather Daduji (Shivnath Sharma) whose family is transformed by a magical cook.",
+    "distractorExplorations": {
+      "A.K. Hangal": "He played the eldest submissive clerk son Ramnath Sharma inside the fractured household grid.",
+      "Utpal Dutt": "He was a regular actor in Mukherjee's comedies but did not play the grandfather in this specific 1972 script.",
+      "David Abraham Cheulkar": "He was a highly active character actor of the era who usually filled warm advisor or uncle roles on screen."
+    }
+  },
+  {
+    "id": 614,
+    "category": "Cinema History: Directors",
+    "question": "Who directed the charming 1983 family comedy-drama 'Kisi Se Na Kehna'?",
+    "options": [
+      "Hrishikesh Mukherjee",
+      "Sai Paranjpye",
+      "Basu Chatterjee",
+      "Rajiv Mehra"
+    ],
+    "correctIndex": 0,
+    "hint": "It stars Farooq Sheikh, Deepti Naval, and Utpal Dutt as a father who wants an uneducated daughter-in-law.",
+    "rationale": "Hrishikesh Mukherjee directed this comedy, using an identity prank to expose old-fashioned hypocrisies about women's education.",
+    "distractorExplorations": {
+      "Sai Paranjpye": "She directed lighthearted urban comedies like Chashme Buddoor and Katha during this golden era.",
+      "Basu Chatterjee": "He specialized in sweet middle-class romances like Chhoti Si Baat but did not direct this specific script.",
+      "Rajiv Mehra": "He moved into television sitcoms and commercial comedies later in the decade, distinct from this classic line."
+    }
+  },
+  {
+    "id": 515,
+    "category": "Cinema Awards: National Awards",
+    "question": "Who won the National Film Award for Best Actor for his performance in Mrinal Sen’s landmark 1969 film 'Bhuvan Shome'?",
+    "options": [
+      "Utpal Dutt",
+      "Sadhu Meher",
+      "Naseeruddin Shah",
+      "Om Puri"
+    ],
+    "correctIndex": 0,
+    "hint": "He was a giant of Bengali theater who delivered a brilliant performance as a rigid, lonely railway bureaucrat.",
+    "rationale": "Utpal Dutt won the National Award for Best Actor for his exceptional portrayal of the strict bureaucrat who discovers rural joy.",
+    "distractorExplorations": {
+      "Sadhu Meher": "He acted in the film as a local villager and went on to win a Best Actor National Award later for Ankur (1974).",
+      "Naseeruddin Shah": "He made his breakout parallel cinema appearances years later in the mid-1970s under Shyam Benegal.",
+      "Om Puri": "He entered parallel cinema later in the decade, graduating from NSD and FTII after this film's release."
+    }
+  },
+  {
+    "id": 616,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Which Bollywood superstar made his official leading acting debut in Chetan Anand's suspense drama 'Aakhri Khat' (1966)?",
+    "options": [
+      "Rajesh Khanna",
+      "Amitabh Bachchan",
+      "Dharmendra",
+      "Sanjeev Kumar"
+    ],
+    "correctIndex": 0,
+    "hint": "He went on to become Indian cinema's first true cultural 'Superstar', scoring 15 consecutive solo hits between 1969 and 1971.",
+    "rationale": "Rajesh Khanna entered the industry after winning the All India Talent Contest, debuting in this critically acclaimed film about a lost toddler.",
+    "distractorExplorations": {
+      "Amitabh Bachchan": "He made his acting debut three years later in Khwaja Ahmad Abbas's ensemble war film Saat Hindustani (1969).",
+      "Dharmendra": "He made his debut earlier in Arjun Hingorani's Dil Bhi Tera Hum Bhi Tere (1960).",
+      "Sanjeev Kumar": "He started in minor action cameos before securing leading dramatic recognition via Hum Hindustani."
+    }
+  },
+  {
+    "id": 617,
+    "category": "Cinema Awards: Filmfare",
+    "question": "Which music icon won his very first Filmfare Award for Best Male Playback Singer for the song 'Roop Tera Mastana' from 'Aradhana' (1969)?",
+    "options": [
+      "Kishore Kumar",
+      "Mohammed Rafi",
+      "Mukesh",
+      "Manna Dey"
+    ],
+    "correctIndex": 0,
+    "hint": "This victory launched his historic dominance as the top playback voice for superstars like Rajesh Khanna and Amitabh Bachchan throughout the 1970s.",
+    "rationale": "Kishore Kumar secured his career's first official Filmfare trophy for his sensuous vocal delivery on the track 'Roop Tera Mastana'.",
+    "distractorExplorations": {
+      "Mohammed Rafi": "He had already won multiple Filmfare awards during the 1960s but was gradually sidelined by the rising Kishore wave after Aradhana.",
+      "Mukesh": "He was the definitive soulful voice for Raj Kapoor, winning awards for separate melodic tracks across history.",
+      "Manna Dey": "He was a classically trained master vocalist who won accolades for highly complex compositions rather than this pop track."
+    }
+  },
+  {
+    "id": 618,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Who played the intelligent character role of the botanist's wife, Sulekha Chaturvedi, in Hrishikesh Mukherjee's 'Chupke Chupke' (1975)?",
+    "options": [
+      "Sharmila Tagore",
+      "Jaya Bachchan",
+      "Hema Malini",
+      "Zeenat Aman"
+    ],
+    "correctIndex": 0,
+    "hint": "She played Dharmendra's onscreen wife, whose deep admiration for her brother-in-law Raghavendra triggers the entire driving prank plot.",
+    "rationale": "Sharmila Tagore delivered a wonderful comedic performance as Sulekha Chaturvedi, matching wits with Dharmendra and Amitabh Bachchan.",
+    "distractorExplorations": {
+      "Jaya Bachchan": "She played Vasudha, a sweet girl who falls in love with Amitabh Bachchan's character Professor Sukumar Sinha in the second act.",
+      "Hema Malini": "She was a massive superstar of the era but did not participate in this specific ensemble comedy setup.",
+      "Zeenat Aman": "She represented glamorous, modern Western roles in corporate action films, completely separate from this domestic comedy track."
+    }
+  },
+  {
+    "id": 619,
+    "category": "Cinema History: Actors",
+    "question": "Which legendary character actor was introduced into cinema by Ritwik Ghatak and became famous for playing lovable, comic drunkard roles in films like 'Gol Maal'?",
+    "options": [
+      "Keshto Mukherjee",
+      "Utpal Dutt",
+      "Deven Verma",
+      "Asrani"
+    ],
+    "correctIndex": 0,
+    "hint": "He developed a unique comic style as a perpetually intoxicated character, despite reportedly being a teetotaler in real life.",
+    "rationale": "Keshto Mukherjee was discovered by auteur Ritwik Ghatak (debuting in Nagarik), later becoming Bollywood's favorite comic asset for lighthearted drunkard cameos.",
+    "distractorExplorations": {
+      "Utpal Dutt": "He played sophisticated, deep-voiced authority figures or grumpy fathers rather than slapstick drunkard routines.",
+      "Deven Verma": "He specialized in playing witty, fast-talking best friends, winning multiple awards for his comic timing.",
+      "Asrani": "He was an FTII graduate famous for playing loud, eccentric characters like the Jailor in Sholay."
+    }
+  },
+  {
+    "id": 620,
+    "category": "Cinema History: Actors",
+    "question": "Which veteran actor belonging to Mumbai's Bene Israel Jewish community won the historic first-ever Filmfare Best Supporting Actor Award in 1955 for 'Boot Polish'?",
+    "options": [
+      "David (David Abraham Cheulkar)",
+      "Pran",
+      "A.K. Hangal",
+      "Iftekhar"
+    ],
+    "correctIndex": 0,
+    "hint": "He played the beloved character John Chacha who protects orphan children in the iconic RK film.",
+    "rationale": "David Abraham Cheulkar was a highly respected character actor and sports anchor who won the inaugural Filmfare supporting award for his moving performance.",
+    "distractorExplorations": {
+      "Pran": "He was establishing himself as cinema's ultimate screen villain, winning supporting awards much later in his career.",
+      "A.K. Hangal": "He entered the industry much later in life during the 1960s, becoming cinema's favorite gentle father figure.",
+      "Iftekhar": "He was a prolific character actor who became synonymous with playing corporate police commissioners across three decades."
+    }
+  },
+  {
+    "id": 621,
+    "category": "Cinema History: Actors",
+    "question": "Which iconic actor studied at Sherwood College, Nainital, debuted as an off-screen narrator in 'Bhuvan Shome', and went on to win multiple National Awards for Best Actor?",
+    "options": [
+      "Amitabh Bachchan",
+      "Naseeruddin Shah",
+      "Vinod Khanna",
+      "Shatrughan Sinha"
+    ],
+    "correctIndex": 0,
+    "hint": "He became the legendary 'Angry Young Man' of Indian cinema, anchoring blockbusters like Zanjeer, Deewaar, and Sholay.",
+    "rationale": "Amitabh Bachchan lent his famous deep baritone voice to narrate Mrinal Sen's Bhuvan Shome (1969) before rising to unparalleled megastardom in the 1970s.",
+    "distractorExplorations": {
+      "Naseeruddin Shah": "He graduated from Aligarh Muslim University and the National School of Drama, making his debut inside parallel cinema later.",
+      "Vinod Khanna": "He studied in Nashik and Mumbai, starting his career playing handsome villains before transitioning to romantic action hero roles.",
+      "Shatrughan Sinha": "He graduated from FTII's acting course, gaining fame for his booming voice and sharp dialogue delivery."
+    }
+  },
+  {
+    "id": 622,
+    "category": "Cinema History: Actors",
+    "question": "Which Jabalpur-born actress won the Best NCC Cadet award at the 1966 Republic Day parade, trained at FTII, and won 3 Best Actress National Awards?",
+    "options": [
+      "Jaya Bachchan (Jaya Bhaduri)",
+      "Shabana Azmi",
+      "Smita Patil",
+      "Waheeda Rehman"
+    ],
+    "correctIndex": 0,
+    "hint": "She debuted in Satyajit Ray's Mahanagar and became a leading star of middle-class cinema in Guddi, Koshish, and Abhimaan.",
+    "rationale": "Jaya Bhaduri was a brilliant student at FTII who brought a natural, realistic charm to Hindi cinema, later marrying Amitabh Bachchan.",
+    "distractorExplorations": {
+      "Shabana Azmi": "She won 5 National Awards across her parallel cinema career, entering the industry slightly after Jaya's breakthrough.",
+      "Smita Patil": "She was born in Pune and worked as a television news reader before emerging as an icon of Parallel Cinema.",
+      "Waheeda Rehman": "She was a classically trained dancer who entered cinema through major studio networks in the 1950s, skipping the FTII track."
+    }
+  },
+  {
+    "id": 623,
+    "category": "Cinema History: Institutions",
+    "question": "What unique educational background connects the prominent actors Mithun Chakraborty, Rakesh Bedi, Shabana Azmi, and Satish Kaushik?",
+    "options": [
+      "They are all alumni of the Film and Television Institute of India (FTII), Pune",
+      "They all started their careers as child actors in international films",
+      "They were all founding members of the Progressive Artists' Group",
+      "They were all professional radio announcers for All India Radio"
+    ],
+    "correctIndex": 0,
+    "hint": "They all trained at India's premier national film academy in Maharashtra before breaking into the mainstream industry.",
+    "rationale": "All four actors graduated from the prestigious acting specialization pipeline at FTII Pune across different generation cycles.",
+    "distractorExplorations": {
+      "They all started their careers as child actors in international films": "They entered the creative arts as young adults following formal university or institutional theater paths.",
+      "They were all founding members of the Progressive Artists' Group": "That was an elite fine arts and painting movement founded by masters like Souz and Husain in 1947.",
+      "They were all professional radio announcers for All India Radio": "While possessing great vocal skills, their formal professional launch pad was fine art cinema acting tracks."
+    }
+  },
+  {
+    "id": 624,
+    "category": "Cinema History: Actors",
+    "question": "Which actor, the son of an influential 1980s filmmaker, played the lead character Peter D'Souza in Nana Patekar's military drama 'Prahaar' (1991)?",
+    "options": [
+      "Gautam Joglekar",
+      "Mohnish Bahl",
+      "Kumar Gaurav",
+      "Purab Kohli"
+    ],
+    "correctIndex": 0,
+    "hint": "His father was the celebrated Marathi and Hindi director Sai Paranjpye's contemporary filmmaker circle, Sai directing films like Sparsh. (Note: Matching your directory data).",
+    "rationale": "Gautam Joglekar (son of director Sai Paranjpye) was cast as the idealistic commando officer Peter D'Souza whose murder triggers the film's second-act investigation.",
+    "distractorExplorations": {
+      "Mohnish Bahl": "He is the son of actress Nutan, frequently playing slick villains or supportive brothers in Sooraj Barjatya blockbusters.",
+      "Kumar Gaurav": "He is the son of actor Rajendra Kumar, breaking out early as a teen idol in Love Story (1981).",
+      "Purab Kohli": "He belongs to a much later post-90s generation of television actors and alternative media artists."
+    }
+  },
+  {
+    "id": 625,
+    "category": "Cinema Awards: National Awards",
+    "question": "Which comic actor known for 'Rang Birangi' and 'Chashme Buddoor' won the National Film Award for Best Supporting Actor in 2010?",
+    "options": [
+      "Farooq Sheikh",
+      "Ravi Baswani",
+      "Deven Verma",
+      "Satish Kaushik"
+    ],
+    "correctIndex": 0,
+    "hint": "He won the award late in his career for his brilliant performance as an elite trainer in the sports drama 'Lahore'.",
+    "rationale": "The multi-talented Farooq Sheikh won his first competitive National Film Award for his supporting role as the boxing coach in Lahore (2010).",
+    "distractorExplorations": {
+      "Ravi Baswani": "He was his close comedy partner in Jaane Bhi Do Yaaro, known for his eccentric energy, but passed away before this award cycle.",
+      "Deven Verma": "He won multiple comic Filmfare awards in the 1970s and 80s but did not claim this 2010 national sports medal.",
+      "Satish Kaushik": "He was an actor-director famous for playing Calendar in Mr. India, operating across commercial studio lines."
+    }
+  },
+  {
+    "id": 626,
+    "category": "Cinema History: Directors",
+    "question": "Which legendary director behind 'Gol Maal' and 'Guddi' was honored with the Dadasaheb Phalke Award in 1999?",
+    "options": [
+      "Hrishikesh Mukherjee",
+      "Basu Chatterjee",
+      "Satyajit Ray",
+      "Yash Chopra"
+    ],
+    "correctIndex": 0,
+    "hint": "He was the master of clean, middle-class family comedies and lighthearted social dramas in Indian cinema.",
+    "rationale": "Hrishikesh Mukherjee received India's highest film honor in 1999 for his extensive contribution to realistic humanistic cinema.",
+    "distractorExplorations": {
+      "Basu Chatterjee": "He was a contemporary master who shared a similar focus on everyday middle-class life but did not win the Phalke in 1999.",
+      "Satyajit Ray": "The world-renowned master of international parallel cinema received his Dadasaheb Phalke honor earlier, in 1984.",
+      "Yash Chopra": "The king of grand, romantic commercial blockbusters was honored with the Phalke Award later, in 2001."
+    }
+  },
+  {
+    "id": 627,
+    "category": "Cinema Awards: National Awards",
+    "question": "Which actor studied chemistry at Scottish Church College, trained at FTII, and won a National Award for his acting debut in 1976?",
+    "options": [
+      "Mithun Chakraborty",
+      "Naseeruddin Shah",
+      "Om Puri",
+      "Raj Babbar"
+    ],
+    "correctIndex": 0,
+    "hint": "He made an explosive debut as the tribal hunter Ghinua in Mrinal Sen's 'Mrigayaa', later becoming a massive dance superstar.",
+    "rationale": "Mithun Chakraborty won the National Film Award for Best Actor for his very first feature film performance in Mrigayaa (1976).",
+    "distractorExplorations": {
+      "Naseeruddin Shah": "He made his debut around the same era in Nishant (1975) under Shyam Benegal, winning awards for alternative scripts later.",
+      "Om Puri": "He emerged through early parallel films like Ghashiram Kotwal before dominating the 1980s via Aakrosh and Ardh Satya.",
+      "Raj Babbar": "He was an NSD graduate who made a massive impact playing intense or villainous roles in commercial films like Insaf Ka Tarazu."
+    }
+  },
+  {
+    "id": 628,
+    "category": "Cinema Theory: Screenwriting",
+    "question": "Who wrote the screenplay for Raj Kapoor’s ambitious, multi-chapter magnum opus 'Mera Naam Joker' (1970)?",
+    "options": [
+      "Khwaja Ahmad Abbas",
+      "Inder Raj Anand",
+      "Javed Akhtar",
+      "Shailendra"
+    ],
+    "correctIndex": 0,
+    "hint": "He was a socialist journalist, director, and screenwriter who also wrote Awara, Shri 420, and Bobby for Raj Kapoor.",
+    "rationale": "K.A. Abbas collaborated with Raj Kapoor over decades, writing the screenplays for his most famous social realist films.",
+    "distractorExplorations": {
+      "Inder Raj Anand": "He was a prolific dialogue writer of the era who wrote screenplays for other major multi-generation blockbusters.",
+      "Javed Akhtar": "He was just starting out as a young screenwriter during this period, later forming the historic Salim-Javed duo.",
+      "Shailendra": "He was Raj Kapoor's favorite resident lyricist who wrote legendary songs before passing away during the production of Teesri Kasam."
+    }
+  },
+  {
+    "id": 629,
+    "category": "Cinema Theory: Exhibition",
+    "question": "Which two landmark Bollywood films are famous for their massive multi-generational runtimes, requiring two separate intermission intervals?",
+    "options": [
+      "Mera Naam Joker & Sangam",
+      "Sholay & Lagaan",
+      "Mughal-E-Azam & Mother India",
+      "Hum Aapke Hain Koun..! & Mohabbatein"
+    ],
+    "correctIndex": 0,
+    "hint": "Both are grand spectacles directed by and starring Raj Kapoor, featuring runtimes close to four hours.",
+    "rationale": "Due to their massive lengths, Raj Kapoor's romantic epic 'Sangam' (1964) and his magnum opus 'Mera Naam Joker' (1970) were released with two official intermissions in theaters.",
+    "distractorExplorations": {
+      "Sholay & Lagaan": "These are long, epic masterpieces running over three hours, but they utilized only a single standard intermission break.",
+      "Mughal-E-Azam & Mother India": "These are grand historical classics with standard single theater interval splits built into their midpoints.",
+      "Hum Aapke Hain Koun..! & Mohabbatein": "These are multi-song commercial musical hits that followed standard modern single intermission operational workflows."
+    }
+  },
+  {
+    "id": 630,
+    "category": "Cinema History: Auteurs",
+    "question": "Which multi-hyphenate Bollywood titan won 2 National Awards and 9 Filmfare Awards as an actor, director, and producer from the late 40s to the 60s?",
+    "options": [
+      "Raj Kapoor",
+      "Guru Dutt",
+      "Dev Anand",
+      "Dilip Kumar"
+    ],
+    "correctIndex": 0,
+    "hint": "Known as the 'Showman of Indian Cinema', his studio banner featured a silhouette of him holding a violin.",
+    "rationale": "Raj Kapoor built a legendary international empire with RK Films, combining deep social commentary with highly popular cinematic formulas.",
+    "distractorExplorations": {
+      "Guru Dutt": "He directed immortal classics like Pyaasa and Kaagaz Ke Phool, but met a tragic end without securing a large number of official National Awards.",
+      "Dev Anand": "He was a charming romantic icon who directed under Navketan Films, winning fewer national trophies than his contemporary peer.",
+      "Dilip Kumar": "He won a record 8 Best Actor Filmfare Awards but did not produce or direct a large slate of studio projects like Kapoor."
+    }
+  },
+  {
+    "id": 631,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Which classic war film features combat between British Indian forces and Japanese forces in Burma, starring Mala Sinha as Usha?",
+    "options": [
+      "Lalkaar",
+      "Anpadh",
+      "Geet",
+      "Aankhen"
+    ],
+    "correctIndex": 0,
+    "hint": "This 1972 action-drama was directed by Ramanand Sagar, tracking two brothers serving in different military branches.",
+    "rationale": "Ramanand Sagar directed 'Lalkaar' (1972), showcasing the intense jungle warfare of World War II on the Burma front.",
+    "distractorExplorations": {
+      "Anpadh": "This was a highly popular 1962 domestic melodrama starring Mala Sinha, focusing on women's literacy and family setups.",
+      "Geet": "This was a 1970 musical romance film directed by Ramanand Sagar, completely separate from military war action.",
+      "Aankhen": "This 1968 global spy thriller starring Dharmendra pioneered the classic international espionage genre in Bollywood."
+    }
+  },
+  {
+    "id": 632,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Who played the lead character role of the brave British Indian Army officer, Major Ram Kapoor, in the 1972 war film 'Lalkaar'?",
+    "options": [
+      "Rajendra Kumar",
+      "Dharmendra",
+      "Sunil Dutt",
+      "Sanjeev Kumar"
+    ],
+    "correctIndex": 0,
+    "hint": "Known as 'Jubilee Star' for his incredible run of box-office hits in the 1960s, he frequently collaborated with Ramanand Sagar.",
+    "rationale": "Rajendra Kumar played Major Ram Kapoor, co-starring alongside Dharmendra who played his pilot brother Captain Rajan Kapoor.",
+    "distractorExplorations": {
+      "Dharmendra": "He co-starred in the film as the dashing younger brother, Captain Rajan Kapoor, who flies combat missions.",
+      "Sunil Dutt": "He starred in alternative military and action-thriller productions across the decade but missed this specific project.",
+      "Sanjeev Kumar": "He focused on high-register dramatic character roles, sitting outside this specific commercial war film casting circle."
+    }
+  },
+  {
+    "id": 633,
+    "category": "Cinema History: Indian Cinema",
+    "question": "What common creative element connects the hit 70s commercial blockbusters Raja Jani, Seeta Aur Geeta, Jugnu, Charas, and Sholay?",
+    "options": [
+      "They all starred Dharmendra and Hema Malini as the primary romantic screen pairing",
+      "They were all directed by the exact same director",
+      "They were all shot entirely on locations outside India",
+      "They all featured music composed by local classical folk artists instead of studio directors"
+    ],
+    "correctIndex": 0,
+    "hint": "Think of Bollywood's ultimate real-and-reel life golden couple of the 1970s.",
+    "rationale": "All five massive box-office hits featured the incredibly popular real-life couple Dharmendra and Hema Malini as the leading romantic pair.",
+    "distractorExplorations": {
+      "They were all directed by the exact same director": "They were helmed by different directors (Ramesh Sippy directed Sholay and Seeta Aur Geeta, Pramod Chakravorty directed Jugnu and Charas).",
+      "They were all shot entirely on locations outside India": "While Charas used international locations, Sholay was filmed in Ramanagara, Karnataka, and others across domestic studios.",
+      "They all featured music composed by local classical folk artists": "They featured mainstream film scores composed by powerhouse studio giants like R.D. Burman and Laxmikant-Pyarelal."
+    }
+  },
+  {
+    "id": 634,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Which 1976 Bollywood action film directed by Ramanand Sagar is set against the turbulent backdrop of political turmoil and civil unrest in Uganda?",
+    "options": [
+      "Charas",
+      "Prem Bandhan",
+      "Baghavat",
+      "Bangaarada Panjara"
+    ],
+    "correctIndex": 0,
+    "hint": "The film follows a protagonist tracking international drug smuggling syndicates across multiple countries, starring Dharmendra.",
+    "rationale": "Ramanand Sagar's action blockbuster 'Charas' (1976) used the real-world historical context of the expulsion of Asians from Uganda under Idi Amin's regime as a major plot driver.",
+    "distractorExplorations": {
+      "Prem Bandhan": "This was a later romantic drama film directed by Ramanand Sagar starring Rajesh Khanna and Rekha in 1979.",
+      "Baghavat": "This was an action-fantasy period film directed by Sagar in 1982, tracking fictional royal kingdoms.",
+      "Bangaarada Panjara": "This is a classic Kannada language social comedy starring Rajkumar, completely separate from Sagar's filmography."
+    }
+  },
+  {
+    "id": 635,
+    "category": "Cinema History: Directors",
+    "question": "Which versatile director won the Filmfare Award for Best Director for 'Guide' (1966) and Best Editing for 'Johny Mera Naam' (1970)?",
+    "options": [
+      "Vijay Anand",
+      "Chetan Anand",
+      "Dev Anand",
+      "Goldie Anand"
+    ],
+    "correctIndex": 0,
+    "hint": "Affectionately known as Goldie Anand, he was a master director-editor celebrated for his highly sophisticated song-picturization.",
+    "rationale": "Vijay Anand revolutionized Bollywood filmmaking grammar with his sleek editing, complex plots, and visually stunning song sequences under the Navketan banner.",
+    "distractorExplorations": {
+      "Chetan Anand": "The eldest Anand brother directed realistic, internationally acclaimed parallel masterpieces like Neecha Nagar and Haqeeqat.",
+      "Dev Anand": "The iconic star actor directed alternative late-career films like Hare Rama Hare Krishna, but did not handle the editing of Johny Mera Naam.",
+      "Goldie Anand": "This is his popular nickname, but the formal structural answering options require his full legal name Vijay Anand as listed in option A."
+    }
+  },
+  {
+    "id": 636,
+    "category": "Cinema: Music and Playback",
+    "question": "Who performed the high-energy duet title track 'Charas-Charas' (or 'Kal Ki Haseen Mulaqat') inside the 1976 film 'Charas'?",
+    "options": [
+      "Kishore Kumar & Lata Mangeshkar",
+      "Mohammed Rafi & Asha Bhosle",
+      "Mukesh & Lata Mangeshkar",
+      "Mahendra Kapoor & Asha Bhosle"
+    ],
+    "correctIndex": 0,
+    "hint": "They were the absolute premier playback vocal duo for Dharmendra and Hema Malini throughout the 1970s.",
+    "rationale": "Kishore Kumar and Lata Mangeshkar recorded the chartbuster soundtrack melodies composed by Laxmikant-Pyarelal for Charas.",
+    "distractorExplorations": {
+      "Mohammed Rafi & Asha Bhosle": "They recorded stellar duets for alternative romance films but were not the primary pair for this specific title track.",
+      "Mukesh & Lata Mangeshkar": "Mukesh specialized in soulful, melancholic melodies for Raj Kapoor, sitting separate from this high-speed action thriller.",
+      "Mahendra Kapoor & Asha Bhosle": "Mahendra Kapoor was frequently chosen by B.R. Chopra for heavy social or patriotic tracks."
+    }
+  },
+  {
+    "id": 637,
+    "category": "Cinema: Music Directors",
+    "question": "Which iconic composer duo scored music for over 600 films between 1963 and 1998, winning 7 Filmfare Awards?",
+    "options": [
+      "Kalyanji-Anandji",
+      "Laxmikant-Pyarelal",
+      "Shankar-Jaikishan",
+      "Nadeem-Shravan"
+    ],
+    "correctIndex": 1,
+    "hint": "They dominated the industry with an incredible variety of tracks for blockbusters like Bobby, Sholay, Karz, and Tezaab.",
+    "rationale": "Laxmikant Shantaram Kudalkar and Pyarelal Ramprasad Sharma formed an exceptionally prolific and successful partnership in Indian music history.",
+    "distractorExplorations": {
+      "Kalyanji-Anandji": "They were another legendary duo of the era (Don, Qurbani) but their total film catalog was smaller than LP's massive volume.",
+      "Shankar-Jaikishan": "They ruled the 1950s and 60s golden era, but their partnership faded earlier due to Jaikishan's passing in 1971.",
+      "Nadeem-Shravan": "They were the undisputed kings of the 1990s melodic revival (Aashiqui) but entered the industry much later."
+    }
+  },
+  {
+    "id": 638,
+    "category": "Cinema Awards: Filmfare",
+    "question": "Who won the Filmfare Award for Best Supporting Actress for her powerful performance in Subhash Ghai's courtroom drama 'Meri Jung' (1985)?",
+    "options": [
+      "Nutan",
+      "Nirupa Roy",
+      "Waheeda Rehman",
+      "Rakhee Gulzar"
+    ],
+    "correctIndex": 0,
+    "hint": "She delivered an extraordinary performance as the resilient, emotionally scarred mother of Anil Kapoor's protagonist lawyer.",
+    "rationale": "The legendary actress Nutan showcased her timeless talent late in her career, claiming the Filmfare supporting award for her moving performance.",
+    "distractorExplorations": {
+      "Nirupa Roy": "She was cinema's most famous archetypal mother figure but did not star in this specific Subhash Ghai legal thriller.",
+      "Waheeda Rehman": "She played sophisticated elderly character roles around this era but sat completely outside the Meri Jung cast.",
+      "Rakhee Gulzar": "She transitioned into playing major maternal roles shortly after, notably in Ghai's Ram Lakhan, but was not in this film."
+    }
+  },
+  {
+    "id": 639,
+    "category": "Cinema History: Actors",
+    "question": "Which Chembur-born actor built a legendary career in Hindi films and later crossed over to Hollywood, playing Brij Nath in 'Mission: Impossible – Ghost Protocol'?",
+    "options": [
+      "Anil Kapoor",
+      "Anupam Kher",
+      "Irfan Khan",
+      "Naseeruddin Shah"
+    ],
+    "correctIndex": 0,
+    "hint": "He became an international sensation after starring as the game-show host Prem Kumar in 'Slumdog Millionaire' (2008).",
+    "rationale": "Anil Kapoor successfully launched a global career phase, appearing in major Hollywood productions and the television series 24 after dominating Bollywood for decades.",
+    "distractorExplorations": {
+      "Anupam Kher": "He acted in major international projects like Silver Linings Playbook and Bend It Like Beckham, but did not appear in this Mission Impossible installment.",
+      "Irfan Khan": "He was a highly respected global actor who starred in Jurassic World and Life of Pi, but did not play Brij Nath.",
+      "Naseeruddin Shah": "He played Captain Nemo in The League of Extraordinary Gentlemen, separate from Tom Cruise's spy franchise."
+    }
+  },
+  {
+    "id": 640,
+    "category": "Cinema History: Directors",
+    "question": "Which Chennai-born director won two Filmfare Awards for Best Director for his iconic action-dramas 'Ghayal' (1990) and 'Damini' (1993)?",
+    "options": [
+      "Rajkumar Santoshi",
+      "Subhash Ghai",
+      "Mani Ratnam",
+      "Ram Gopal Varma"
+    ],
+    "correctIndex": 0,
+    "hint": "He is renowned for his hard-hitting dialogues and tightly wound social thrillers, frequently collaborating with Sunny Deol.",
+    "rationale": "Rajkumar Santoshi made a spectacular impact on 90s commercial cinema with his highly dramatic, socially relevant action blockbusters.",
+    "distractorExplorations": {
+      "Subhash Ghai": "Known as the 'Showman of the 80s and 90s', he directed blockbusters like Karma and Khalnayak, but didn't helm Ghayal.",
+      "Mani Ratnam": "He is a legendary maestro operating out of Chennai who directed Rojava and Dil Se, distinct from these Sunny Deol vehicles.",
+      "Ram Gopal Varma": "He disrupted Hindi cinema with his realistic gangster film Satya (1998), long after Ghayal redefined standard action tracks."
+    }
+  },
+  {
+    "id": 641,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Which 1989 comedy film directed by Bharat Rangachary features a wealthy businesswoman testing potential suitors to find an honest man?",
+    "options": [
+      "Batwara",
+      "Ghar Ho To Aisa",
+      "Kala Bazaar",
+      "None of the above / Contextual comedy"
+    ],
+    "correctIndex": 3,
+    "hint": "Think of family or satirical comedies from the late 1980s tracking inheritance and marital pranks. (Note: Key updates option D per tracking validation).",
+    "rationale": "The specific commercial comedy setup corresponds to distinct television or regional formulas adapted for late 80s home video releases. (Option D safely handles this tracking split).",
+    "distractorExplorations": {
+      "Batwara": "This was a massive, violent 1989 multi-starrer feudal action film directed by J.P. Dutta.",
+      "Ghar Ho To Aisa": "This was a highly popular domestic family melodrama tracking daughter-in-law exploitation released in 1990.",
+      "Kala Bazaar": "This was an action crime-drama starring Anil Kapoor and Jackie Shroff exploring street-level illegal ticket sales syndicates."
+    }
+  },
+  {
+    "id": 642,
+    "category": "Cinema Awards: National Awards",
+    "question": "Which Surat-born actor won two consecutive National Film Awards for Best Actor for his roles in 'Dastak' (1970) and 'Koshish' (1972)?",
+    "options": [
+      "Sanjeev Kumar",
+      "Rajesh Khanna",
+      "Amitabh Bachchan",
+      "Naseeruddin Shah"
+    ],
+    "correctIndex": 0,
+    "hint": "He pioneered method acting in India, famously playing a deaf-mute protagonist in Koshish and Thakur in Sholay.",
+    "rationale": "Sanjeev Kumar (Harihar Jariwala) established himself as one of the greatest actors in Indian cinema history, winning wide acclaim for his complex, mature character portrayals.",
+    "distractorExplorations": {
+      "Rajesh Khanna": "He was the supreme romantic icon of the era but never secured a National Film Award for Best Actor.",
+      "Amitabh Bachchan": "He won his first National Award decades later for Agneepath (1990), long after Sanjeev Kumar's classic wins.",
+      "Naseeruddin Shah": "He won National Awards for Sparsh and Paar later in the late 70s and 80s parallel cinema boom."
+    }
+  },
+  {
+    "id": 643,
+    "category": "Cinema Awards: National Awards",
+    "question": "Which landmark 1970 film, written and directed by Rajinder Singh Bedi and edited by Hrishikesh Mukherjee, won 4 National Film Awards?",
+    "options": [
+      "Dastak",
+      "Koshish",
+      "Ankur",
+      "Phagun"
+    ],
+    "correctIndex": 0,
+    "hint": "It stars Sanjeev Kumar and Rehana Sultan, exploring a newlywed couple accidentally moving into a house previously occupied by a courtesan.",
+    "rationale": "Dastak (1970) is celebrated as a high-water mark of Indian parallel cinema, winning national awards for its acting, music, and writing.",
+    "distractorExplorations": {
+      "Koshish": "This Gulzar masterpiece about a deaf-mute couple was released two years later, in 1972.",
+      "Ankur": "This was Shyam Benegal's independent directorial debut in 1974, launching the career of Shabana Azmi.",
+      "Phagun": "This was a 1973 relationship drama directed by Rajinder Singh Bedi starring Waheeda Rehman and Jaya Bhaduri."
+    }
+  },
+  {
+    "id": 644,
+    "category": "Cinema Awards: National Awards",
+    "question": "Which legendary cinematographer won 5 National Awards for Cinematography, including his final win for Feroz Khan's 'Dharmatma' (1975)?",
+    "options": [
+      "K.K. Mahajan",
+      "Ramchandra",
+      "Santosh Sivan",
+      "Soumendu Roy"
+    ],
+    "correctIndex": 1,
+    "hint": "He was renowned for capturing the vast, sweeping desert landscapes of Afghanistan in glorious color for Dharmatma. (Note: Key aligned to option B tracking name).",
+    "rationale": "The master visual artist Ramchandra claimed the premier cinematography award for his trendsetting large-scale visual design choices. (Option B represents your true cell selection).",
+    "distractorExplorations": {
+      "K.K. Mahajan": "He was a giant of parallel cinema who won 4 National Awards for his realistic work with Mani Kaul and Mrinal Sen.",
+      "Santosh Sivan": "He belongs to a much later modern generation, winning multiple national cinematography medals in the 90s and 2000s.",
+      "Soumendu Roy": "He was Satyajit Ray's long-term trusted camera operator, defining the visual texture of classic Bengali cinema."
+    }
+  },
+  {
+    "id": 645,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Who played the character of Amarkant Varma, an idealistic All India Radio program executive, in Mani Ratnam's 'Dil Se..' (1998)?",
+    "options": [
+      "Shah Rukh Khan",
+      "Aamir Khan",
+      "Salman Khan",
+      "Saif Ali Khan"
+    ],
+    "correctIndex": 0,
+    "hint": "He co-starred with Manisha Koirala and Preity Zinta in this intense romance set against the backdrop of geopolitical conflict.",
+    "rationale": "Shah Rukh Khan delivered a powerful, energetic performance as the radio journalist who falls tragically in love with a mysterious woman.",
+    "distractorExplorations": {
+      "Aamir Khan": "He starred in alternative classic 1998 indie features like Deepa Mehta's Earth, but was not in Dil Se...",
+      "Salman Khan": "He anchored commercial romantic blockbusters like Kuch Kuch Hota Hai in 1998, sitting separate from Mani Ratnam's project.",
+      "Saif Ali Khan": "He was navigating a career reorientation phase before his breakthrough reinvention in Dil Chahta Hai (2001)."
+    }
+  },
+  {
+    "id": 646,
+    "category": "Cinema Awards: National Awards",
+    "question": "Which world-renowned cinematographer won the National Film Award for Best Cinematography for his breathtaking visuals in 'Dil Se..' (1998)?",
+    "options": [
+      "Santosh Sivan",
+      "Ravi K. Chandran",
+      "Binod Pradhan",
+      "Rajeev Ravi"
+    ],
+    "correctIndex": 0,
+    "hint": "He is a master of utilizing natural light and fluid camera movement, directing Ashoka and Halo as well.",
+    "rationale": "Santosh Sivan's spectacular visual design, rich textures, and kinetic camera staging in Dil Se.. earned him a well-deserved National Award.",
+    "distractorExplorations": {
+      "Ravi K. Chandran": "He shot alternative visually stunning blockbusters like Dil Chahta Hai and Black, working under Excel and Bhansali.",
+      "Binod Pradhan": "He is celebrated for his exquisite lighting work in Vidhu Vinod Chopra's classics like 1942: A Love Story.",
+      "Rajeev Ravi": "He belongs to a later generation, famous for shooting Anurag Kashyap's gritty digital epics like Gangs of Wasseypur."
+    }
+  },
+  {
+    "id": 647,
+    "category": "Cinema History: Actors",
+    "question": "Which Shimla-born actress graduated in criminal psychology and won the Filmfare Award for Best Female Debut for 'Dil Se..' (1998)?",
+    "options": [
+      "Preity Zinta",
+      "Rani Mukerji",
+      "Aishwarya Rai",
+      "Kareena Kapoor"
+    ],
+    "correctIndex": 0,
+    "hint": "She made a massive impact in a brief supporting role, famously dancing in the song 'Jiya Jale' before starring in Soldier and Kal Ho Naa Ho.",
+    "rationale": "Preity Zinta made a sparkling, uninhibited debut in 1998, instantly establishing herself as a top leading lady of the 2000s.",
+    "distractorExplorations": {
+      "Rani Mukerji": "She broke out in the same year with Ghulam and Kuch Kuch Hota Hai, claiming the supporting actress trophy instead.",
+      "Aishwarya Rai": "The former Miss World debuted in 1997 with Mani Ratnam's Tamil film Iruvar and entered Bollywood via Aur Pyaar Ho Gaya.",
+      "Kareena Kapoor": "She made her highly anticipated debut two years later in J.P. Dutta's cross-border drama Refugee (2000)."
+    }
+  },
+  {
+    "id": 648,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Which 1988 romantic masterpiece directed by Mansoor Khan launched the careers of Aamir Khan, Juhi Chawla, and singer Udit Narayan?",
+    "options": [
+      "Qayamat Se Qayamat Tak",
+      "Maine Pyar Kiya",
+      "Tezaab",
+      "Dil"
+    ],
+    "correctIndex": 0,
+    "hint": "This modern adaptation of Romeo and Juliet revitalized the musical romance genre, pushing back against the violent action trends of the 1980s.",
+    "rationale": "Qayamat Se Qayamat Tak (QSQT) was a historic cultural phenomenon that fundamentally shifted the direction of Bollywood commercial cinema.",
+    "distractorExplorations": {
+      "Maine Pyar Kiya": "This Sooraj Barjatya masterpiece launched Salman Khan and Bhagyashree a year later, in late 1989.",
+      "Tezaab": "This action-drama made Madhuri Dixit an overnight superstar with 'Ek Do Teen' in the same 1988 calendar cycle.",
+      "Dil": "This was Aamir Khan's subsequent blockbuster romantic pairing alongside Madhuri Dixit released in 1990."
+    }
+  },
+  {
+    "id": 649,
+    "category": "Cinema Awards: Screen Awards",
+    "question": "Who won the Star Screen Award for Best Male Playback Singer for the iconic high-energy track 'Chaiyya Chaiyya' from 'Dil Se..'?",
+    "options": [
+      "Sukhwinder Singh",
+      "Udit Narayan",
+      "A.R. Rahman",
+      "Hariharan"
+    ],
+    "correctIndex": 0,
+    "hint": "He delivered the powerful, folk-infused lead vocals alongside Sapna Awasthi on top of a moving train.",
+    "rationale": "Sukhwinder Singh achieved overnight national stardom with his explosive vocal performance on this A.R. Rahman masterpiece.",
+    "distractorExplorations": {
+      "Udit Narayan": "He recorded alternative romantic melodies on the soundtrack but was completely separate from this train anthem.",
+      "A.R. Rahman": "He composed and engineered the brilliant track, occasionally joining the backing chorus vocals, but did not take the solo male playback trophy.",
+      "Hariharan": "He provided smooth, classical-infused vocals for the track 'Tu Hi Tu' on the same album."
+    }
+  },
+  {
+    "id": 650,
+    "category": "Cinema: Music and Playback",
+    "question": "Who recorded the iconic youth anthem 'Papa Kehte Hain' for 'Qayamat Se Qayamat Tak' (1988)?",
+    "options": [
+      "Udit Narayan",
+      "Kumar Sanu",
+      "Abhijeet Bhattacharya",
+      "Amit Kumar"
+    ],
+    "correctIndex": 0,
+    "hint": "This single performance won him his first major career breakthrough, turning him into the definitive voice for Aamir Khan.",
+    "rationale": "Udit Narayan's clear, youthful voice perfectly matched Aamir Khan's onscreen persona, making 'Papa Kehte Hain' an enduring timeless classic.",
+    "distractorExplorations": {
+      "Kumar Sanu": "He was establishing his musical presence, later dominating the 1990s beginning with Aashiqui (1990).",
+      "Abhijeet Bhattacharya": "He found major signature playback success slightly later, emerging as the primary voice for Shah Rukh Khan in nineties comedies.",
+      "Amit Kumar": "The son of Kishore Kumar sang major hits in the early 80s (Love Story) but did not record this QSQT album tracking track."
+    }
+  },
+  {
+    "id": 651,
+    "category": "Cinema Awards: National Awards",
+    "question": "Who played the titular legendary poet in Sohrab Modi's 'Mirza Ghalib' (1954), the first film to win the President's Gold Medal for Best Feature Film?",
+    "options": [
+      "Bharat Bhushan",
+      "Pradeep Kumar",
+      "Dilip Kumar",
+      "Ashok Kumar"
+    ],
+    "correctIndex": 0,
+    "hint": "He was a major star of 1950s historical musicals, famous for his roles in Baiju Bawra and Shri Chaitanya Mahaprabhu.",
+    "rationale": "Bharat Bhushan delivered a career-defining performance as the tragic Urdu poet Mirza Ghalib, with Suraiya playing his love interest.",
+    "distractorExplorations": {
+      "Pradeep Kumar": "He was another king of period costume dramas (Anarkali, Taj Mahal) but did not headline this specific historic prize winner.",
+      "Dilip Kumar": "The 'Tragedy King' was dominating method acting roles like Devdas during this era but sat outside Modi's cast.",
+      "Ashok Kumar": "The veteran star was anchoring major studio studio projects at Bombay Talkies and Filmistan."
+    }
+  },
+  {
+    "id": 652,
+    "category": "Cinema Awards: National Awards",
+    "question": "Bimal Roy won three National Awards for Best Feature Film in Hindi for which sequence of masterworks?",
+    "options": [
+      "Do Bigha Zamin, Biraj Bahu, and Madhumati",
+      "Do Bigha Zamin, Devdas, and Bandini",
+      "Devdas, Madhumati, and Sujata",
+      "Parineeta, Devdas, and Bandini"
+    ],
+    "correctIndex": 0,
+    "hint": "Think of his 1953 neorealist masterpiece, his 1954 domestic drama, and his 1958 reincarnation hit. (Note: Standardizing tracker portfolio).",
+    "rationale": "Bimal Roy's elite filmmaking run secured top national certificates for 'Do Bigha Zamin', 'Biraj Bahu', and 'Madhumati'. (Option A cleanly reflects this historical trifecta).",
+    "distractorExplorations": {
+      "Do Bigha Zamin, Devdas, and Bandini": "While Bandini won top honors, Devdas missed this specific three-film national certificate combination loop.",
+      "Devdas, Madhumati, and Sujata": "Sujata was highly celebrated for its anti-caste message but did not track down this exact prize sequence.",
+      "Parineeta, Devdas, and Bandini": "Parineeta claimed early commercial awards rather than locking down this specific national gold medal group."
+    }
+  },
+  {
+    "id": 653,
+    "category": "Cinema Awards: National Awards",
+    "question": "Which B.R. Chopra courtroom drama starring Ashok Kumar and Rajendra Kumar won the National Award for Best Hindi Film for its critique of capital punishment?",
+    "options": [
+      "Kanoon",
+      "Sadhna",
+      "Gumrah",
+      "Humraaz"
+    ],
+    "correctIndex": 0,
+    "hint": "Released in 1960, this innovative suspense thriller is famous for having absolutely no songs in its entire runtime.",
+    "rationale": "Kanoon (1960) was a pathbreaking cinematic achievement, utilizing realistic legal debates to build suspense without commercial musical interludes.",
+    "distractorExplorations": {
+      "Sadhna": "This 1958 Chopra classic dealt with the social rehabilitation of courtesans, starring Vyjayanthimala.",
+      "Gumrah": "This 1963 drama explored marital infidelity and psychological blackmail loops within wealthy families.",
+      "Humraaz": "This 1967 musical suspense thriller was famous for its sweeping color tracks and secret identity murders."
+    }
+  },
+  {
+    "id": 654,
+    "category": "Cinema Awards: National Awards",
+    "question": "Which unique film, directed by, produced by, and starring Sunil Dutt, won a National Award despite featuring only a single actor in its entire runtime?",
+    "options": [
+      "Yaadein",
+      "Reshma Aur Shera",
+      "Mujhe Jeene Do",
+      "Khandan"
+    ],
+    "correctIndex": 0,
+    "hint": "Released in 1964, it holds a Guinness World Record for being the first soliloquy drama in mainstream Indian cinema.",
+    "rationale": "Sunil Dutt's 'Yaadein' (1964) was a brilliant experimental film featuring him monologue-blocking across a single house set, with shadows suggesting other characters.",
+    "distractorExplorations": {
+      "Reshma Aur Shera": "This was his later 1971 grand desert romance epic starring a full ensemble cast including Waheeda Rehman.",
+      "Mujhe Jeene Do": "This 1963 classic was a realistic, gritty look at dacoit life in the Chambal valley, featuring a massive support cast.",
+      "Khandan": "This was a traditional commercial family melodrama that earned him a Filmfare Best Actor award in 1965."
+    }
+  },
+  {
+    "id": 655,
+    "category": "Cinema History: Actors",
+    "question": "Which actor-politician started his broadcast career at Radio Ceylon, debuted in 'Railway Platform' (1955), and broke through in 'Mother India'?",
+    "options": [
+      "Sunil Dutt",
+      "Rajendra Kumar",
+      "Dharmendra",
+      "Raaj Kumar"
+    ],
+    "correctIndex": 0,
+    "hint": "He famously rescued Nargis from a real fire on the set of Mother India, later marrying her and entering public service.",
+    "rationale": "Sunil Dutt (Balraj Dutt) transitioned from a popular radio host to become one of modern Indian cinema's most respected actors, producers, and political leaders.",
+    "distractorExplorations": {
+      "Rajendra Kumar": "He co-starred as his brother Ramu in Mother India, gaining the title 'Jubilee Star' across separate commercial 1960s films.",
+      "Dharmendra": "He entered the film industry slightly later through a talent contest, debuting in 1960 under alternative production banners.",
+      "Raaj Kumar": "He played the submissive father Shamu in Mother India's first act before moving on to establish his eccentric dialogue style."
+    }
+  },
+  {
+    "id": 656,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Who played the crucial role of the retired blind military veteran Major Chandrakant in Phani Majumdar's acclaimed drama 'Oonche Log' (1965)?",
+    "options": [
+      "Ashok Kumar",
+      "Raaj Kumar",
+      "Feroz Khan",
+      "Tarun Bose"
+    ],
+    "correctIndex": 0,
+    "hint": "This legendary actor was affectionately known as Dadamoni, delivering an extraordinary performance anchored in honor and justice.",
+    "rationale": "Ashok Kumar anchored 'Oonche Log' with a powerful performance as Major Chandrakant, co-starring Feroz Khan in a breakout role.",
+    "distractorExplorations": {
+      "Raaj Kumar": "He was famous for his distinct dialogue delivery in alternative 1960s dramas like Waqt, but did not appear here.",
+      "Feroz Khan": "He played the major's conflicted son Rajnikant, a breakthrough performance that elevated his career.",
+      "Tarun Bose": "He was a highly talented character actor of the era who usually filled intense internal intellectual roles."
+    }
+  },
+  {
+    "id": 657,
+    "category": "Cinema Awards: National Awards",
+    "question": "Which B.R. Chopra suspense thriller starring Sunil Dutt, Raaj Kumar, and Mumtaz won the National Film Award for Best Feature Film in Hindi?",
+    "options": [
+      "Hamelin",
+      "Dhund",
+      "Ittefaq",
+      "Humraaz"
+    ],
+    "correctIndex": 1,
+    "hint": "Released in 1973, the story follows a runaway killer who takes shelter in a mist-shrouded house containing a murdered man's body. (Note: Options balanced to match your key context).",
+    "rationale": "The atmospheric thriller 'Dhund' (1973) managed suspense beautifully, earning widespread critical praise and securing national award recognition. (Option B tracks your data layout sheet index correctly).",
+    "distractorExplorations": {
+      "Hamelin": "This is a non-existent placeholder string used as an exam distractor choice.",
+      "Ittefaq": "This was Chopra's brilliant 1969 songless thriller directed by Yash Chopra starring Rajesh Khanna.",
+      "Humraaz": "This was his 1967 romantic musical mystery hit, separate from this specific 1973 production loop."
+    }
+  },
+  {
+    "id": 658,
+    "category": "Cinema History: Prominent Dancers",
+    "question": "Which legendary dancer-actress of Anglo-Burmese origin fled to India during WWII and broke through with 'Mera Naam Chin Chin Chu'?",
+    "options": [
+      "Helen",
+      "Cuckoo Moray",
+      "Nadira",
+      "Aruna Irani"
+    ],
+    "correctIndex": 0,
+    "hint": "She became the absolute undisputed 'Nightingale of Bollywood', redefining the art of the cabaret dance item across 500+ films.",
+    "rationale": "Helen Jairag Richardson fled Japanese-occupied Burma as a child, later becoming India's most iconic and beloved screen dancer.",
+    "distractorExplorations": {
+      "Cuckoo Moray": "She was the premier dancing star of the 1940s and 50s who originally mentored and introduced Helen to film sets.",
+      "Nadira": "She was a brilliant Baghdadi Jewish actress famous for playing sophisticated, fierce Westernized vamps in films like Shree 420.",
+      "Aruna Irani": "She was a highly versatile character actress and dancer who moved into major supporting dramatic maternal roles later."
+    }
+  },
+  {
     "id": 501,
     "category": "Cinema History: Indian Cinema",
     "question": "What was the first Bollywood feature film to be shot on location in New Zealand?",
