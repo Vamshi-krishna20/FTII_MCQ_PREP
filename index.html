@@ -370,14 +370,33 @@ let secondsLeft = 30 * 60;
    INIT
 ══════════════════════════════════════════════════════════════════════ */
 function initAssessment() {
-  // Sample 30 non-repeating questions
-  const shuffled = [...QUESTION_DB].sort(() => Math.random() - 0.5);
-  const selected = shuffled.slice(0, 30);
+  // Sample 30 non-repeating questions using O(1) random index selection
+  const selected = [];
+  const seenIndices = new Set();
+  const dbLength = QUESTION_DB.length;
+  const countToSelect = Math.min(30, dbLength);
 
-  // Double-shuffle: shuffle question order AND each question's options
-  activeQuestions = selected.sort(() => Math.random() - 0.5).map(q => {
+  while (selected.length < countToSelect) {
+    const randomIndex = Math.floor(Math.random() * dbLength);
+    if (!seenIndices.has(randomIndex)) {
+      seenIndices.add(randomIndex);
+      selected.push(QUESTION_DB[randomIndex]);
+    }
+  }
+
+  // Shuffle the selected questions using Fisher-Yates algorithm
+  for (let i = selected.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [selected[i], selected[j]] = [selected[j], selected[i]];
+  }
+
+  // Double-shuffle: shuffle options within each selected question (Fisher-Yates)
+  activeQuestions = selected.map(q => {
     const optionObjects = q.options.map((text, i) => ({ text, isCorrect: i === q.correctIndex }));
-    optionObjects.sort(() => Math.random() - 0.5);
+    for (let i = optionObjects.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [optionObjects[i], optionObjects[j]] = [optionObjects[j], optionObjects[i]];
+    }
     const newCorrectIndex = optionObjects.findIndex(o => o.isCorrect);
     return {
       ...q,
