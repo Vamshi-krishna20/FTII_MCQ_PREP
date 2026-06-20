@@ -192,8 +192,8 @@
     <p class="text-stone-400 text-xs md:text-sm mb-8 max-w-sm leading-relaxed">A competitive-grade diagnostic assessment for Direction, Screenplay & Documentary specialisations.</p>
 
     <div class="flex flex-col gap-3.5 w-full text-xs md:text-sm text-stone-400 mb-8 border border-white/5 rounded-xl p-4 bg-white/[0.01]">
-      <div class="flex justify-between border-b border-white/5 pb-2"><span>Questions</span><span class="text-stone-200 font-semibold">25</span></div>
-      <div class="flex justify-between border-b border-white/5 pb-2"><span>Max Marks</span><span class="text-stone-200 font-semibold">50.00</span></div>
+      <div class="flex justify-between border-b border-white/5 pb-2"><span>Questions</span><span class="text-stone-200 font-semibold">30</span></div>
+      <div class="flex justify-between border-b border-white/5 pb-2"><span>Max Marks</span><span class="text-stone-200 font-semibold">60.00</span></div>
       <div class="flex justify-between border-b border-white/5 pb-2"><span>Correct</span><span class="text-emerald-400 font-semibold">+2.00</span></div>
       <div class="flex justify-between border-b border-white/5 pb-2"><span>Incorrect</span><span class="text-rose-400 font-semibold">−0.50</span></div>
       <div class="flex justify-between"><span>Duration</span><span class="text-stone-200 font-semibold">30 mins</span></div>
@@ -217,7 +217,7 @@
       </span>
       <div>
         <p id="q-category" class="text-xs text-stone-400 tracking-wider uppercase font-semibold truncate max-w-[200px] sm:max-w-md"></p>
-        <p class="text-xs text-stone-500 mt-0.5">Active · Question <span id="q-num" class="text-stone-300 font-semibold">1</span> of 25</p>
+        <p class="text-xs text-stone-500 mt-0.5">Active · Question <span id="q-num" class="text-stone-300 font-semibold">1</span> of 30</p>
       </div>
     </div>
     <div class="flex items-center gap-3 w-full sm:w-auto justify-between sm:justify-end">
@@ -370,9 +370,9 @@ let secondsLeft = 30 * 60;
    INIT
 ══════════════════════════════════════════════════════════════════════ */
 function initAssessment() {
-  // Sample 25 non-repeating questions
+  // Sample 30 non-repeating questions
   const shuffled = [...QUESTION_DB].sort(() => Math.random() - 0.5);
-  const selected = shuffled.slice(0, 25);
+  const selected = shuffled.slice(0, 30);
 
   // Double-shuffle: shuffle question order AND each question's options
   activeQuestions = selected.sort(() => Math.random() - 0.5).map(q => {
@@ -593,7 +593,7 @@ function toggleReview() {
 
 function navigate(delta) {
   if (typeof delta === 'number') {
-    currentIdx = Math.max(0, Math.min(24, currentIdx + delta));
+    currentIdx = Math.max(0, Math.min(activeQuestions.length - 1, currentIdx + delta));
   }
   renderQuestion(currentIdx);
 }
@@ -636,8 +636,9 @@ function buildResultsScreen() {
   });
 
   const score = correct * 2 - incorrect * 0.5;
+  const maxScore = activeQuestions.length * 2;
 
-  document.getElementById('res-score').textContent = score.toFixed(2) + ' / 50';
+  document.getElementById('res-score').textContent = score.toFixed(2) + ' / ' + maxScore;
   document.getElementById('res-correct').textContent = correct;
   document.getElementById('res-incorrect').textContent = incorrect;
   document.getElementById('res-skipped').textContent = skipped;
@@ -645,9 +646,10 @@ function buildResultsScreen() {
   // Merit badge
   const badgeEl = document.getElementById('result-badge');
   let badge, badgeColor;
-  if (score >= 42) { badge = '🎬 Master Auteur'; badgeColor = '#f59e0b'; }
-  else if (score >= 32) { badge = '🎥 Directing Fellow'; badgeColor = '#10b981'; }
-  else if (score >= 20) { badge = '📽 Apprentice Scholar'; badgeColor = '#a78bfa'; }
+  const pct = (score / maxScore) * 100;
+  if (pct >= 84) { badge = '🎬 Master Auteur'; badgeColor = '#f59e0b'; }
+  else if (pct >= 64) { badge = '🎥 Directing Fellow'; badgeColor = '#10b981'; }
+  else if (pct >= 40) { badge = '📽 Apprentice Scholar'; badgeColor = '#a78bfa'; }
   else { badge = '🎞 Cinematic Aspirant'; badgeColor = '#78716c'; }
   badgeEl.textContent = badge;
   badgeEl.style.background = badgeColor + '22';

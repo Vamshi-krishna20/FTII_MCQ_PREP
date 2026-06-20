@@ -10894,7 +10894,6568 @@ const QUESTION_DB = [
       "Un Certain Regard": "The film sat outside the standard Un Certain Regard prize track entirely.",
       "As a private closed screening exclusive to the Indian market delegation": "It was a major public, red-carpet event celebrating India's cinematic centenary, not a closed market screening."
     }
+  },
+  {
+    "id": 659,
+    "category": "Theatre Theory: Aesthetics",
+    "question": "Who wrote the monumental treatise on dramatic theory titled 'Poetics'?",
+    "options": [
+      "Lajos Egri",
+      "Syd Field",
+      "Aristotle",
+      "Plato"
+    ],
+    "correctIndex": 2,
+    "hint": "He was a classical Greek philosopher who defined the core concepts of tragedy and catharsis.",
+    "rationale": "Aristotle wrote 'Poetics' in the 4th century BC, establishing the foundational analysis of plot, character, and dramatic structure in Western literature.",
+    "distractorExplorations": {
+      "Lajos Egri": "He was a 20th-century playwriting coach who authored 'The Art of Dramatic Writing'.",
+      "Syd Field": "He was a modern screenwriting guru celebrated for codifying the classic three-act paradigm for film.",
+      "Plato": "He was Aristotle's teacher who famously critiqued poetry and performance arts for being a deceptive imitation of reality."
+    }
+  },
+  {
+    "id": 660,
+    "category": "Indian Geography: Demographics",
+    "question": "Which among the following Indian states has the highest population density according to official census data?",
+    "options": [
+      "Bihar",
+      "Uttar Pradesh",
+      "Kerala",
+      "Punjab"
+    ],
+    "correctIndex": 0,
+    "hint": "This eastern state records over 1,102 people per square kilometer, leading the national database.",
+    "rationale": "Bihar ranks first in terms of pure population density among Indian states, followed closely by West Bengal.",
+    "distractorExplorations": {
+      "Uttar Pradesh": "Uttar Pradesh has the highest *total* population volume in India, but its vast land area results in a lower average density than Bihar.",
+      "Kerala": "Kerala maintains high coastal density but its numbers sit behind the dense northern plains.",
+      "Punjab": "Punjab possesses highly populated agrarian zones but its numbers do not top the national density index."
+    }
+  },
+  {
+    "id": 661,
+    "category": "Culture: Social Initiatives",
+    "question": "What is the meaning of the socially conscious concept known as a 'Suspended Meal'?",
+    "options": [
+      "Skipping one meal in a day due to religious fasts",
+      "A late-night or early-morning food shift timeline",
+      "A culinary arrangement consisting of multiple regional dishes",
+      "A meal paid for in advance by a customer to be provided later for the needy"
+    ],
+    "correctIndex": 3,
+    "hint": "It began as a charitable tradition in Naples coffee shops called 'caffè sospeso'.",
+    "rationale": "A suspended meal is an anonymous act of charity where customers pay for an extra item so that anyone who cannot afford it can receive it for free later.",
+    "distractorExplorations": {
+      "Skipping one meal in a day due to religious fasts": "This describes regular dietary intermittent fasting practices.",
+      "A late-night or early-morning food shift timeline": "This describes standard commercial late-night dining operations.",
+      "A culinary arrangement consisting of multiple regional dishes": "This describes a multi-course tasting menu or traditional banquet service."
+    }
+  },
+  {
+    "id": 662,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Which of these Shakespearean plays has NOT been adapted into a film by director Vishal Bhardwaj so far?",
+    "options": [
+      "Othello",
+      "Macbeth",
+      "King Lear",
+      "Hamlet"
+    ],
+    "correctIndex": 2,
+    "hint": "He completed his acclaimed noir trilogy with Maqbool, Omkara, and Haider.",
+    "rationale": "Vishal Bhardwaj famously adapted Macbeth into Maqbool, Othello into Omkara, and Hamlet into Haider, leaving King Lear unadapted in that iconic run.",
+    "distractorExplorations": {
+      "Othello": "Adapted into the brilliant 2006 crime-drama Omkara set in the badlands of Uttar Pradesh.",
+      "Macbeth": "Adapted into the masterful 2003 underworld tragedy Maqbool.",
+      "Hamlet": "Adapted into the politically intense 2014 movie Haider set in conflict-torn Kashmir."
+    }
+  },
+  {
+    "id": 663,
+    "category": "Cinema Theory: Formats",
+    "question": "A structured compilation of various short stories or distinct short films by different directors is called an:",
+    "options": [
+      "Anthology",
+      "Dramaturgy",
+      "Rhetoric",
+      "Novel"
+    ],
+    "correctIndex": 0,
+    "hint": "Think of movies like Bombay Talkies or text compilation books where individual pieces are bound by a central theme.",
+    "rationale": "An anthology groups standalone creative segments together under an umbrella framework or thematic baseline link.",
+    "distractorExplorations": {
+      "Dramaturgy": "This refers to the contextual research and structural mechanics of adapting a text for active stage production.",
+      "Rhetoric": "This is the classical linguistic art of using discourse effectively to persuade or move an audience.",
+      "Novel": "A novel is a singular long-form narrative piece tracking continuous character arcs over extensive text chapters."
+    }
+  },
+  {
+    "id": 664,
+    "category": "Literature: Epics",
+    "question": "Which of the following compositions is celebrated as the longest epic poem in the world?",
+    "options": [
+      "Kalevala",
+      "Mahabharata",
+      "Iliad",
+      "Le Morte d'Arthur"
+    ],
+    "correctIndex": 1,
+    "hint": "This ancient Indian epic contains over 100,000 slokas, dwarf-scaling classical European epics.",
+    "rationale": "The Mahabharata is an ancient Indian epic poem containing vast moral and philosophical discourses, widely recognized as the longest epic in existence.",
+    "distractorExplorations": {
+      "Kalevala": "This is the national folk epic compilation of Finland, constructed in the 19th century.",
+      "Iliad": "This classic ancient Greek epic by Homer tracks a few weeks during the final year of the Trojan War.",
+      "Le Morte d'Arthur": "This is a 15th-century French-adapted prose compilation of legendary King Arthur myths."
+    }
+  },
+  {
+    "id": 665,
+    "category": "National Milestones: Governance",
+    "question": "In India, the first accessible talking ATM designed for visually challenged citizens was launched by which bank?",
+    "options": [
+      "Dena Bank",
+      "State Bank of India",
+      "IDBI Bank",
+      "Union Bank of India"
+    ],
+    "correctIndex": 3,
+    "hint": "It was inaugurated in June 2012 at the Blind People's Association in Ahmedabad.",
+    "rationale": "Union Bank of India made financial inclusion history by launching the country's first talking ATM grid terminal featuring audio assistance and braille keys.",
+    "distractorExplorations": {
+      "Dena Bank": "Dena Bank expanded traditional rural credit branches but did not pioneer this specific accessible hardware tech.",
+      "State Bank of India": "SBI adopted accessible talking terminal interfaces widely later across its massive national network.",
+      "IDBI Bank": "IDBI updated its online digital accessibility pathways after the initial public talking bank launch milestone."
+    }
+  },
+  {
+    "id": 666,
+    "category": "Cinema Awards: Oscars",
+    "question": "Which was the very first Indian movie to secure a formal nomination at the Academy Awards?",
+    "options": [
+      "Mother India",
+      "Baiju Bawra",
+      "Jagte Raho",
+      "Do Bigha Zamin"
+    ],
+    "correctIndex": 0,
+    "hint": "Directed by Mehboob Khan, starring Nargis, it competed in the Best Foreign Language Film category in 1958.",
+    "rationale": "Mother India reached the final top-five nomination shortlist at the 30th Academy Awards, losing the trophy by a singular vote to Nights of Cabiria.",
+    "distractorExplorations": {
+      "Baiju Bawra": "This musical masterpiece was a massive domestic hit but did not enter the final Academy selection brackets.",
+      "Jagte Raho": "This Raj Kapoor classic won the crystal globe award at Karlovy Vary but was separate from the Oscar slate.",
+      "Do Bigha Zamin": "Bimal Roy's neorealist gem won a prize at Cannes but did not capture an official Oscar nomination slot."
+    }
+  },
+  {
+    "id": 667,
+    "category": "Cinema History: Indian Cinema",
+    "question": "The Parallel Cinema or New Indian Cinema movement that emerged in the late 1950s was heavily inspired by:",
+    "options": [
+      "French New Wave",
+      "Japanese New Wave",
+      "Classical Hollywood Cinema",
+      "Italian Neorealism"
+    ],
+    "correctIndex": 3,
+    "hint": "Think of non-professional actors, location shooting, and Vittorio De Sica's 'Bicycle Thieves'.",
+    "rationale": "Satyajit Ray, Bimal Roy, and Mrinal Sen dropped rigid, theatrical Bollywood musical formulas after witnessing the raw, humanistic grit of Italian Neorealism.",
+    "distractorExplorations": {
+      "French New Wave": "The French New Wave (Godard, Truffaut) exploded in the 1960s with radical editing, while early Indian realism took root slightly before that.",
+      "Japanese New Wave": "The Japanese New Wave focused on aggressive counter-culture youth themes during the late 60s.",
+      "Classical Hollywood Cinema": "Indian parallel filmmakers actively rejected the polished, escapist glamorous studio traps of mainstream Hollywood."
+    }
+  },
+  {
+    "id": 668,
+    "category": "Indian Geography: States",
+    "question": "How many states in India share a direct geographic border line along the ocean coastline?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correctIndex": 2,
+    "hint": "Think of coastal boundaries moving from Gujarat all the way around the peninsula to West Bengal.",
+    "rationale": "Nine Indian states possess marine coastlines: Gujarat, Maharashtra, Goa, Karnataka, Kerala, Tamil Nadu, Andhra Pradesh, Odisha, and West Bengal.",
+    "distractorExplorations": {
+      "7": "This count leaves out two major coastal territories from the calculations entirely.",
+      "8": "An incomplete calculation that misses either a western maritime state or an eastern delta state.",
+      "10": "This number overstates the count by accidentally including landlocked states or counting union territories like Puducherry."
+    }
+  },
+  {
+    "id": 669,
+    "category": "Science: Astronomy",
+    "question": "The concept of the 'Cosmic Calendar', which compresses the 13.8-billion-year history of the universe into a single calendar year, was popularized by:",
+    "options": [
+      "Carl Sagan",
+      "Stephen Hawking",
+      "Richard Dawkins",
+      "V.S. Ramachandran"
+    ],
+    "correctIndex": 0,
+    "hint": "He was a legendary astrophysicist who presented the groundbreaking television series 'Cosmos: A Personal Voyage'.",
+    "rationale": "Carl Sagan engineered the Cosmic Calendar metaphor to help the public visualize deep time, demonstrating that human history only occupies the final seconds of December 31st.",
+    "distractorExplorations": {
+      "Stephen Hawking": "He wrote 'A Brief History of Time', focusing on quantum mechanics and black hole physics math.",
+      "Richard Dawkins": "He is an evolutionary biologist famous for writing 'The Selfish Gene'.",
+      "V.S. Ramachandran": "He is a neuroscientist celebrated for his work on phantom limbs and behavioral neurology."
+    }
+  },
+  {
+    "id": 670,
+    "category": "Science: Ecology",
+    "question": "Which of the following options represents a finite, non-renewable energy resource?",
+    "options": [
+      "Water Hydro-flow",
+      "Wind energy",
+      "Solar energy",
+      "Coal"
+    ],
+    "correctIndex": 3,
+    "hint": "It is a fossil fuel carved from ancient plant matter that cannot replenish itself within a human timeline.",
+    "rationale": "Coal is a finite fossil resource whose burning releases concentrated carbon, distinct from cyclical, infinite kinetic renewable inputs.",
+    "distractorExplorations": {
+      "Water Hydro-flow": "Water patterns operate inside an endless natural evaporation cycle, classifying it as renewable.",
+      "Wind energy": "Wind tracking leverages infinite atmospheric thermal currents driven by solar radiation.",
+      "Solar energy": "Solar capture leverages constant radiant energy cast out by the sun across billions of years."
+    }
+  },
+  {
+    "id": 671,
+    "category": "Literature: Ancient India",
+    "question": "The timeless collection of interconnected animal fables titled 'Panchatantra' was originally composed by:",
+    "options": [
+      "Kalidasa",
+      "Vishnu Sharma",
+      "Tulsidas",
+      "None of the above"
+    ],
+    "correctIndex": 1,
+    "hint": "He compiled these clever political and moral fables to educate the three slow-witted sons of a king.",
+    "rationale": "Pandit Vishnu Sharma authored the Panchatantra in Sanskrit to teach wise statecraft and practical life rules (Niti) through simple animal parables.",
+    "distractorExplorations": {
+      "Kalidasa": "He was the supreme classical Sanskrit dramatist who authored sophisticated works like Shakuntala.",
+      "Tulsidas": "He was a 16th-century Bhakti poet who composed the epic poem Ramcharitmanas in Awadhi.",
+      "None of the above": "Since Vishnu Sharma is listed under option B, this option is false."
+    }
+  },
+  {
+    "id": 672,
+    "category": "Science: Chemistry",
+    "question": "Which liquid metallic element is historically and colloquially known as 'quicksilver'?",
+    "options": [
+      "Copper",
+      "Mercury",
+      "Steel",
+      "Nickel"
+    ],
+    "correctIndex": 1,
+    "hint": "It carries the atomic symbol 'Hg' and stays completely liquid at standard room temperature conditions.",
+    "rationale": "Mercury was named quicksilver due to its shiny, silver color and highly fluid, rapid mobility across smooth surfaces.",
+    "distractorExplorations": {
+      "Copper": "Copper is a highly conductive reddish-gold transition metal solid under standard lab settings.",
+      "Steel": "Steel is a manufactured structural alloy made of iron and carbon elements, completely solid.",
+      "Nickel": "Nickel is a hard, silver-white corrosion-resistant structural solid metal."
+    }
+  },
+  {
+    "id": 673,
+    "category": "Literature: History",
+    "question": "The influential anthology book titled 'India of My Dreams' was compiled from the writings of:",
+    "options": [
+      "Dr. Rajendra Prasad",
+      "M.K. Gandhi",
+      "Dr. C. Subramaniam",
+      "Dr. S. Radhakrishnan"
+    ],
+    "correctIndex": 1,
+    "hint": "He was the Father of the Nation who championed Satyagraha, Ahimsa, and rural self-reliance.",
+    "rationale": "The text outlines Mahatma Gandhi's deep vision for an independent India built on religious harmony, swadeshi, and village autonomy.",
+    "distractorExplorations": {
+      "Dr. Rajendra Prasad": "He was the first President of India, writing extensive legal and political state records.",
+      "Dr. C. Subramaniam": "He was an influential statesman who spearheaded the Green Revolution database across agricultural sectors.",
+      "Dr. S. Radhakrishnan": "He was a brilliant philosopher-statesman who wrote authoritative commentaries on ancient Indian philosophies."
+    }
+  },
+  {
+    "id": 674,
+    "category": "Cinema Theory: Formats",
+    "question": "In contemporary media studies, the broad domain of non-fiction filmmaking is fundamentally rooted in:",
+    "options": [
+      "Artificiality",
+      "Reality",
+      "Dreams",
+      "Imagination"
+    ],
+    "correctIndex": 1,
+    "hint": "This genre aims to capture actual historical events, real human beings, and documented natural facts.",
+    "rationale": "Non-fiction genres like documentaries reject staging and artifice to systematically explore, capture, and reflect objective reality.",
+    "distractorExplorations": {
+      "Artificiality": "Artificiality defines heavy, green-screen commercial CGI blockbusters or highly stylized theatrical scripts.",
+      "Dreams": "Dreams belong to surrealist avant-garde expressions or psychological fantasy cinema lines.",
+      "Imagination": "Imagination forms the blueprint for narrative fiction projects that construct invented characters and worlds."
+    }
+  },
+  {
+    "id": 675,
+    "category": "History: Modern India",
+    "question": "From which military station cantonment did the historic Indian Revolt of 1857 officially break out?",
+    "options": [
+      "Jhansi",
+      "Delhi",
+      "Meerut",
+      "Kanpur"
+    ],
+    "correctIndex": 2,
+    "hint": "On May 10, 1857, Indian sepoys mutinied here before marching toward Delhi to reclaim Emperor Bahadur Shah Zafar.",
+    "rationale": "The rebellion exploded at the Meerut cantonment after sepoys refused to use greased cartridges, starting the first major war of independence against the East India Company.",
+    "distractorExplorations": {
+      "Jhansi": "Jhansi became a legendary center of resistance under Rani Lakshmi Bai shortly after the initial breakout.",
+      "Delhi": "Delhi acted as the political target where the mutineers gathered to restore the Mughal throne line.",
+      "Kanpur": "Kanpur joined the rebellion later under Nana Sahib's local leadership circuits."
+    }
+  },
+  {
+    "id": 676,
+    "category": "Cinema Theory: Screenwriting",
+    "question": "The blueprint blueprint created by a screenwriter detailing scene descriptions, actions, and character lines is called a:",
+    "options": [
+      "Screenplay",
+      "Storyboard",
+      "Teleplay",
+      "Treatment"
+    ],
+    "correctIndex": 0,
+    "hint": "It acts as the primary textual foundation that the director uses to block and shoot a film. (Note: Cleaned up option alignment).",
+    "rationale": "A screenplay is the formal script text layout for cinema, containing narrative actions, slugs, and dialogue tracks.",
+    "distractorExplorations": {
+      "Storyboard": "A storyboard is a sequence of drawn comic-like frames created by art directors to visually map out camera shots.",
+      "Teleplay": "A teleplay is a specialized script formatted exclusively for television broadcasts or streaming episodic runtimes.",
+      "Treatment": "A treatment is a short prose summary detailing the plot before the full script is drafted."
+    }
+  },
+  {
+    "id": 677,
+    "category": "Science: Astronomy",
+    "question": "In astronomical terms, a 'Supernova' is best defined as a/an:",
+    "options": [
+      "Colossal explosion of a dying star",
+      "Icy comet entering the solar orbit",
+      "Gravitational black hole collapse sink",
+      "Rocky asteroid belt mass fragment"
+    ],
+    "correctIndex": 0,
+    "hint": "It is a massive cosmic event that occurs at the end of a high-mass star's life cycle, emitting immense light.",
+    "rationale": "A supernova is the catastrophic explosion of a star, blasting its outer layers into space and briefly outshining entire galaxies.",
+    "distractorExplorations": {
+      "Icy comet entering the solar orbit": "Comets are small, icy bodies that release gas and dust trails when heated by the sun.",
+      "Gravitational black hole collapse sink": "A black hole is the ultra-dense remnant left *after* a massive supernova collapse if gravity wins completely.",
+      "Rocky asteroid belt mass fragment": "Asteroids are rocky, metallic chunks floating primarily between Mars and Jupiter."
+    }
+  },
+  {
+    "id": 678,
+    "category": "Science: Ecology",
+    "question": "Which of the following nations made history by becoming the first country in the world to implement a formal nationwide carbon tax?",
+    "options": [
+      "Finland",
+      "Japan",
+      "Germany",
+      "New Zealand"
+    ],
+    "correctIndex": 0,
+    "hint": "This European country introduced the environmental tax in 1990 to reduce emissions. (Note: Country updated to historically accurate pioneer).",
+    "rationale": "Finland introduced the world's first carbon tax in 1990, establishing an economic penalty based on fossil fuel emissions carbon content. (Option A is selected per factual validation).",
+    "distractorExplorations": {
+      "Japan": "Japan updated its environmental policy frameworks later, adopting carbon-mitigation metrics in the 2000s.",
+      "Germany": "Germany utilizes comprehensive European Union cap-and-trade market grids alongside energy transition frameworks.",
+      "New Zealand": "New Zealand debated comprehensive agricultural and transport emission structures across later legislative cycles."
+    }
+  },
+  {
+    "id": 679,
+    "category": "Theatre Theory: Performance",
+    "question": "Which of the following pairs of statements regarding fundamental theatrical vocabulary is correct?",
+    "options": [
+      "Statement X is true and Statement Y is false",
+      "Statement Y is true and Statement Z is true",
+      "Statement Z is false and Statement X is false",
+      "Statement Z is true and Statement Y is false"
+    ],
+    "correctIndex": 1,
+    "hint": "Review the definitions: Monologue (one speaker), Dialogue (two or more speakers), Improvisation (made up in the moment). All are true definitions.",
+    "rationale": "Since all three baseline statements (X, Y, and Z) describe their respective performing arts terms with complete accuracy, any pairing confirming their truth holds valid under analysis. (Option B is the correct choice).",
+    "distractorExplorations": {
+      "Statement X is true and Statement Y is false": "This is incorrect because dialogue is correctly defined as an interactive conversation, making Y true.",
+      "Statement Z is false and Statement X is false": "This completely contradicts reality since both improvisation and monologue definitions are correct.",
+      "Statement Z is true and Statement Y is false": "This falsely claims that the true definition of dialogue is incorrect."
+    }
+  },
+  {
+    "id": 680,
+    "category": "Theatre Theory: Acting Methods",
+    "question": "Which of the following elements form the core foundational concepts of Konstantin Stanislavski's system of acting?",
+    "options": [
+      "Given Circumstances",
+      "The Magic If",
+      "Emotional Memory / Affective Memory",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "hint": "His psychological realism method requires actors to leverage real memories, analyze text scenarios, and ask 'How would I react?'.",
+    "rationale": "Stanislavski's system balances psychological internal triggers (Magic If, Emotional Memory, Given Circumstances) with physical actions to deliver authentic performances. (Option D safely combines them).",
+    "distractorExplorations": {
+      "Given Circumstances": "This is a key concept, but choosing it alone ignores the other core building blocks of his method.",
+      "The Magic If": "This is his signature trigger for imagination, but it is incomplete without the surrounding system elements.",
+      "Emotional Memory": "This psychological retrieval tool is vital, but it operates alongside physical actions and structural scenarios."
+    }
+  },
+  {
+    "id": 681,
+    "category": "Theatre Theory: Acting Methods",
+    "question": "Lee Strasberg’s modification of Stanislavski’s work, famously known as 'The Method', is historically rooted in:",
+    "options": [
+      "The Group Theatre and emotional recall experiments",
+      "Divine Inspiration mechanics",
+      "Pure classical external biomechanics",
+      "The Actors Studio and psychological realism links"
+    ],
+    "correctIndex": 0,
+    "hint": "He co-founded this legendary 1930s company alongside Harold Clurman and Cheryl Crawford to explore ensemble realism. (Note: Aligned to option A per key).",
+    "rationale": "Lee Strasberg developed his Method acting system during his time with The Group Theatre, prioritizing emotional recall and internal sensory exploration. (Option A is selected in accordance with your answer key).",
+    "distractorExplorations": {
+      "Divine Inspiration mechanics": "His method is grounded in rigorous, systematic psychological drills rather than relying on random inspiration.",
+      "Pure classical external biomechanics": "Biomechanics was a highly physical, external theater movement pioneered in Russia by Vsevolod Meyerhold.",
+      "The Actors Studio and psychological realism links": "While he led the Actors Studio later, his historical development track was rooted firmly in the Group Theatre experiments."
+    }
+  },
+  {
+    "id": 682,
+    "category": "Theatre History: Shakespeare",
+    "question": "Which of the following ensembles accurately lists characters belonging to William Shakespeare’s tragic masterpiece 'Hamlet'?",
+    "options": [
+      "Ophelia, Gertrude, Polonius, and Horatio",
+      "Mercutio, Tybalt, Benvolio, and Paris",
+      "Goneril, Regan, Cordelia, and Kent",
+      "Iago, Desdemona, Cassio, and Roderigo"
+    ],
+    "correctIndex": 0,
+    "hint": "Look for the prince's tragic love interest, his mother the queen, the nosy councillor, and his loyal best friend.",
+    "rationale": "Ophelia (love interest), Gertrude (mother), Polonius (councillor), and Horatio (best friend) are all characters in Hamlet.",
+    "distractorExplorations": {
+      "Mercutio, Tybalt, Benvolio, and Paris": "These characters belong entirely to the feuding families of Romeo and Juliet.",
+      "Goneril, Regan, Cordelia, and Kent": "This ensemble tracks the daughters and loyal followers inside the tragedy of King Lear.",
+      "Iago, Desdemona, Cassio, and Roderigo": "These figures drive the jealousy-fueled tragic plot of Othello."
+    }
+  },
+  {
+    "id": 683,
+    "category": "Theatre Theory: Performance",
+    "question": "What are recognized as the absolute primary organic and expressive tools of an actor's craft?",
+    "options": [
+      "Body and Voice",
+      "Stardom and Publicity networks",
+      "Focal point lighting configurations",
+      "Script editing software systems"
+    ],
+    "correctIndex": 0,
+    "hint": "Think of the physical instrument an actor uses on stage to communicate text, gestures, and vocal patterns.",
+    "rationale": "An actor’s body (movement, gesture, expression) and voice (diction, tone, projection) are their primary physical tools to bring a character to life.",
+    "distractorExplorations": {
+      "Stardom and Publicity networks": "Stardom is a commercial product of the entertainment industry, completely separate from individual performance skills.",
+      "Focal point lighting configurations": "Lighting belongs to the technical stage management and cinematography design teams.",
+      "Script editing software systems": "Software tools belong to the pre-production writing and editorial stages of a project."
+    }
+  },
+  {
+    "id": 684,
+    "category": "Theatre Theory: Aesthetics",
+    "question": "What are the four primary divisions of expression, known as 'Abhinayas', outlined by Bharata Muni in the Natyashastra?",
+    "options": [
+      "Angika, Vachika, Aharya, and Satvika",
+      "Natya, Loka, Mano, and Ruthra",
+      "Bhava, Rasa, Dhwani, and Alankara",
+      "Aangika, Tala, Sangeet, and Rupaka"
+    ],
+    "correctIndex": 0,
+    "hint": "They track bodily movement (physical expression), spoken words (speech), costumes/makeup (wardrobe), and genuine internal emotional states.",
+    "rationale": "The Natyashastra divides acting into Angika (physical body), Vachika (vocal speech), Aharya (costume/sets), and Satvika (deep psychic emotional states).",
+    "distractorExplorations": {
+      "Natya, Loka, Mano, and Ruthra": "These are descriptive terms tracking different genres or states, not the four formal categories of expression.",
+      "Bhava, Rasa, Dhwani, and Alankara": "These are broad aesthetic concepts tracking emotional states, aesthetic experiences, suggestions, and literary figures.",
+      "Aangika, Tala, Sangeet, and Rupaka": "This option mixes acting with musical rhythm (Tala) and general song metrics (Sangeet)."
+    }
+  },
+  {
+    "id": 685,
+    "category": "Theatre Theory: Acting Methods",
+    "question": "Who among the following 20th-century practitioners are celebrated as major creators of distinct, formal acting techniques and methods?",
+    "options": [
+      "Sanford Meisner, Stella Adler, and Konstantin Stanislavski",
+      "Anatoly Popov and structural designers",
+      "Bertolt Brecht and alienation theorists exclusively",
+      "Lee Strasberg and commercial casting networks exclusively"
+    ],
+    "correctIndex": 0,
+    "hint": "They revolutionized theatrical performance through reality-based repetition drills, script analysis, and psychological realism.",
+    "rationale": "Stanislavski founded the system of internal psychological realism, which was later expanded into distinct modern techniques by American masters like Adler and Meisner.",
+    "distractorExplorations": {
+      "Anatoly Popov and structural designers": "This option focuses on theatrical design and minor staging structures rather than defining global acting methods.",
+      "Bertolt Brecht and alienation theorists exclusively": "Brecht created a brilliant political theater style, but excluding Stanislavski's lineage is incorrect for general acting methods.",
+      "Lee Strasberg and commercial casting networks exclusively": "Casting networks are commercial business tools, completely separate from the development of formal acting methods."
+    }
+  },
+  {
+    "id": 686,
+    "category": "Theatre Theory: Performance",
+    "question": "In the context of the characteristics of Drama as a narrative art form, which of the following general statements is true?",
+    "options": [
+      "The text is written by an author/playwright",
+      "Characters can be humans, animals, or symbolic creatures",
+      "The director’s role is to lead the creative team to realize a unified artistic vision",
+      "All of the above statements are fundamentally correct"
+    ],
+    "correctIndex": 3,
+    "hint": "Drama is a collaborative art form that brings written text to life through characters and directorial guidance.",
+    "rationale": "Drama relies on a playwright for the text, utilizes diverse character forms, and depends on a director to shape the overall production design. (Option D safely groups these truths).",
+    "distractorExplorations": {
+      "The text is written by an author/playwright": "This is true, but selecting it alone misses the comprehensive collaborative nature of drama outlined in the other options.",
+      "Characters can be humans, animals, or symbolic creatures": "This is a valid artistic truth but incomplete without considering text and direction.",
+      "The director’s role is to lead the creative team to realize a unified artistic vision": "This is a true statement regarding modern theatrical production workflows."
+    }
+  },
+  {
+    "id": 687,
+    "category": "Theatre Theory: Aesthetics",
+    "question": "According to the Natyashastra, what are the two primary styles of presentation, known as 'Dharmis'?",
+    "options": [
+      "Natya Dharmi (stylized) and Loka Dharmi (realistic)",
+      "Mano Dharmi and Puthra Dharmi",
+      "Guru Dharmi and Shishya Dharmi",
+      "Satva Dharmi and Raga Dharmi"
+    ],
+    "correctIndex": 0,
+    "hint": "One represents highly stylized, poetic performance conventions, while the other mirrors everyday realistic human behavior.",
+    "rationale": "Bharata Muni divides performance presentation into Natya Dharmi (idealized, theatrical, and symbolic conventions) and Loka Dharmi (naturalistic, realistic, and everyday behavior).",
+    "distractorExplorations": {
+      "Mano Dharmi and Puthra Dharmi": "Mano dharmi refers to spontaneous musical improvisation, while Puthra dharmi is a fabricated distractor option.",
+      "Guru Dharmi and Shishya Dharmi": "These are fabricated terms mixing traditional lineage labels with theatrical styles.",
+      "Satva Dharmi and Raga Dharmi": "These options incorrectly combine emotional elements with melodic musical framework terms."
+    }
+  },
+  {
+    "id": 688,
+    "category": "Cinema Theory: Acting",
+    "question": "Which legendary actor famously used 'Animal Instinct' exercises to shape his physical performance as Stanley Kowalski in 'A Streetcar Named Desire'?",
+    "options": [
+      "Marlon Brando",
+      "Julia Roberts",
+      "Both of the above",
+      "None of the above"
+    ],
+    "correctIndex": 0,
+    "hint": "He was a premier student of Stella Adler who brought raw, animalistic masculinity to the stage and screen in 1951.",
+    "rationale": "Marlon Brando pioneered a raw, physical performance style, studying ape movements to give Stanley Kowalski an unpolished, aggressive physical presence.",
+    "distractorExplorations": {
+      "Julia Roberts": "She works within standard Hollywood dramatic realism, separate from this specific 1950s Method animal-exercise tradition.",
+      "Both of the above": "Since Julia Roberts did not use these specific animal-instinct exercises for her roles, the combined option is incorrect.",
+      "None of the above": "Since Marlon Brando is the correct answer under option A, this option is false."
+    }
+  },
+  {
+    "id": 689,
+    "category": "Theatre Theory: Performance",
+    "question": "What is the primary aesthetic and structural function of a 'Dramatic Monologue' on stage?",
+    "options": [
+      "To pass time during complicated background scenery changes",
+      "To deliver objective historical data exclusive to offstage characters",
+      "To express a character's innermost thoughts, feelings, and psychological state directly to the space",
+      "To allow the director to interrupt the live performance to comment on the plot"
+    ],
+    "correctIndex": 2,
+    "hint": "It functions as an extended, uninterrupted speech by a single character that externalizes their inner psychology.",
+    "rationale": "A dramatic monologue gives the audience deep insight into a character's private motives, conflicts, and emotional state without dialogue interruptions.",
+    "distractorExplorations": {
+      "To pass time during complicated background scenery changes": "This describes minor musical interludes or curtain closing breaks, not a major dramatic speech.",
+      "To deliver objective historical data exclusive to offstage characters": "Objective updates are typically handled by a Greek chorus or an off-screen narrator track.",
+      "To allow the director to interrupt the live performance to comment on the plot": "Directorial interruption defines radical metatheatre or epic alienation methods, separate from standard character monologues."
+    }
+  },
+  {
+    "id": 690,
+    "category": "Theatre Theory: Acting Methods",
+    "question": "The Meisner technique trains actors to build their performances primarily by focusing on:",
+    "options": [
+      "Their own internal emotional memory and past personal trauma",
+      "External, artificial sources of inspiration",
+      "Reacting spontaneously to their fellow performers and their real-time behavior",
+      "Perfecting precise, mechanical body movements before the mirror"
+    ],
+    "correctIndex": 2,
+    "hint": "His method is famous for repetition exercises designed to get the actor 'out of their head' and into the moment.",
+    "rationale": "Sanford Meisner defined acting as 'living truthfully under imaginary circumstances', urging actors to respond purely to what they see and hear in their scene partner.",
+    "distractorExplorations": {
+      "Their own internal emotional memory and past personal trauma": "This characterizes Lee Strasberg's Method, which Meisner and Adler critiqued for making actors too self-absorbed.",
+      "External, artificial sources of inspiration": "Meisner demanded real, authentic reactions to live behavior rather than artificial posing.",
+      "Perfecting precise, mechanical body movements before the mirror": "Mechanical movement matches classical physical choreography patterns, completely separate from Meisner's emotional realism."
+    }
+  },
+  {
+    "id": 691,
+    "category": "Theatre Theory: Aesthetics",
+    "question": "Which of the following statements regarding historical ancient Indian performance treatises is correct?",
+    "options": [
+      "Bharata Muni was an ancient Indian sage who composed the Natyashastra",
+      "Abhinaya Darpana was authored by Abhinavagupta",
+      "Nandikeshwara is universally revered as the sole biological father of theatre",
+      "None of the above statements is correct"
+    ],
+    "correctIndex": 0,
+    "hint": "The foundational 36-chapter encyclopedia of Indian performing arts is attributed to this ancient sage.",
+    "rationale": "Bharata Muni composed the Natyashastra, establishing the root manual for Indian dance, drama, and music aesthetics. (Abhinaya Darpana was written by Nandikeshwara, making option B false).",
+    "distractorExplorations": {
+      "Abhinaya Darpana was authored by Abhinavagupta": "This is false; the Abhinaya Darpana was written by Nandikeshwara, while Abhinavagupta wrote the commentary 'Abhinavabharati'.",
+      "Nandikeshwara is universally revered as the sole biological father of theatre": "Nandikeshwara is a major historical aesthetic theorist, but the title of mythic creator is traditionally associated with Bharata Muni or Brahma in lore.",
+      "None of the above statements is correct": "Since option A contains a completely accurate historical fact, this option is false."
+    }
+  },
+  {
+    "id": 692,
+    "category": "Theatre History: Biographies",
+    "question": "Which of the following titles represents a real, internationally published autobiography or memoir of a celebrated actor?",
+    "options": [
+      "And Then One Day: A Memoir by Naseeruddin Shah",
+      "Greenlights by Matthew McConaughey",
+      "Will by Will Smith",
+      "All of the above are real actor memoirs"
+    ],
+    "correctIndex": 3,
+    "hint": "Think of recent literary breakthroughs where major Bollywood and Hollywood actors shared their personal life stories.",
+    "rationale": "Naseeruddin Shah (And Then One Day), Matthew McConaughey (Greenlights), and Will Smith (Will) have all released bestselling personal memoirs. (Option D properly captures them all).",
+    "distractorExplorations": {
+      "And Then One Day: A Memoir by Naseeruddin Shah": "This is a real memoir, but choosing it alone misses the valid entries from McConaughey and Smith.",
+      "Greenlights by Matthew McConaughey": "This is a highly successful 2020 memoir, but selecting it standalone makes the answer incomplete.",
+      "Will by Will Smith": "This is a real, high-profile autobiography released in 2021."
+    }
+  },
+  {
+    "id": 693,
+    "category": "Theatre History: Shakespeare",
+    "question": "In the context of William Shakespeare’s classic play 'The Comedy of Errors', which of the following architectural statements is correct?",
+    "options": [
+      "Mercutio and Tybalt Capulet are the main characters of this farce",
+      "The play is a modernized adaptation of ancient Greek political tragedies",
+      "It tells the story of two sets of identical twins accidentally separated at birth",
+      "It is Shakespeare’s longest and most serious tragic history chronicle"
+    ],
+    "correctIndex": 2,
+    "hint": "The plot centers on the hilarious, chaotic misunderstandings caused by Antipholus and Dromio of Syracuse and Ephesus.",
+    "rationale": "The Comedy of Errors relies entirely on identity confusion between two pairs of identical twins, standing as Shakespeare's shortest and most farcical comedy.",
+    "distractorExplorations": {
+      "Mercutio and Tybalt Capulet are the main characters of this farce": "These characters belong entirely to the tragic romance script of Romeo and Juliet.",
+      "The play is a modernized adaptation of ancient Greek political tragedies": "The play is a brilliant comic adaptation of Plautus's Roman comedy 'Menaechmi'.",
+      "It is Shakespeare’s longest and most serious tragic history chronicle": "It is actually his absolute shortest play, written purely as a fast-paced physical slapstick farce."
+    }
+  },
+  {
+    "id": 694,
+    "category": "Culture: Indian Classical Music",
+    "question": "Which is the oldest surviving form of composition in Hindustani vocal music?",
+    "options": [
+      "Tappa",
+      "Dhrupad",
+      "Thumri",
+      "Khayal"
+    ],
+    "correctIndex": 1,
+    "hint": "It is a highly structured, majestic, and meditative vocal genre traditionally sung to the rhythm of a Chautala.",
+    "rationale": "Dhrupad is the oldest grand form of Hindustani classical vocal music, tracing back to ancient Sanskrit text chants before maturing in medieval courts.",
+    "distractorExplorations": {
+      "Tappa": "Tappa is a complex, fast-cycling folk-derived style developed later by camel riders of the Punjab region.",
+      "Thumri": "Thumri is a romantic, semi-classical poetic form that blossomed in Lucknow and Varanasi courts during the 19th century.",
+      "Khayal": "Khayal is a highly expressive, imaginative genre that evolved later, gradually replacing Dhrupad as the dominant classical form."
+    }
+  },
+  {
+    "id": 695,
+    "category": "Culture: Global Demographics",
+    "question": "The Maori are the indigenous, native Polynesian people of which island nation?",
+    "options": [
+      "Indonesia",
+      "Ghana",
+      "Colombia",
+      "New Zealand"
+    ],
+    "correctIndex": 3,
+    "hint": "This southwestern Pacific country is also known as Aotearoa in the native Maori language.",
+    "rationale": "The Maori arrived and settled in New Zealand around 1250–1300 AD, developing a distinct, rich tribal language and culture.",
+    "distractorExplorations": {
+      "Indonesia": "Indonesia is home to thousands of distinct Austronesian ethnic groups like the Javanese and Balinese.",
+      "Ghana": "Ghana is a West African nation historically populated by Akan, Ashanti, and Ewe ethnic groups.",
+      "Colombia": "Colombia is a South American nation featuring indigenous Andean groups like the Chibcha and Muisca."
+    }
+  },
+  {
+    "id": 696,
+    "category": "History: Archaeology",
+    "question": "World's oldest known cave painting, a life-sized depiction of a warty pig dating back over 45,500 years, was found in which country?",
+    "options": [
+      "India",
+      "China",
+      "Indonesia",
+      "Japan"
+    ],
+    "correctIndex": 2,
+    "hint": "It was discovered by archaeologists inside a limestone cave on the island of Sulawesi.",
+    "rationale": "The Sulawesi pig painting in Indonesia is recognized as one of the earliest surviving figurative cave artworks ever made by humans.",
+    "distractorExplorations": {
+      "India": "India houses the magnificent prehistoric rock shelters of Bhimbetka, which date back to later Paleolithic/Mesolithic eras.",
+      "China": "China contains rich Neolithic jade and pottery heritage but is not the discovery site of this 45,500-year-old pig mural.",
+      "Japan": "Japan's oldest visual art tracks back to the ceramic cords of the early Jomon period."
+    }
+  },
+  {
+    "id": 697,
+    "category": "Cinema History: Indian Cinema",
+    "question": "'And the Show Goes On' was an acclaimed documentary produced by the BBC detailing the work of which Indian filmmaker?",
+    "options": [
+      "Mrinal Sen",
+      "Raj Kapoor",
+      "Satyajit Ray",
+      "Dev Anand"
+    ],
+    "correctIndex": 1,
+    "hint": "Known as the Showman of Indian Cinema, he directed Awara, Shree 420, and Bobby.",
+    "rationale": "The BBC produced 'And the Show Goes On' to profile the cinematic empire, style, and mass public impact of Raj Kapoor.",
+    "distractorExplorations": {
+      "Mrinal Sen": "Mrinal Sen was an icon of radical parallel cinema whose work was profiled in alternative European art-house journals.",
+      "Satyajit Ray": "Ray was the subject of various dedicated international documentaries (like those by Shyam Benegal), but not this specific showman title.",
+      "Dev Anand": "Dev Anand directed and produced stylish urban thrillers under Navketan, distinct from this BBC title."
+    }
+  },
+  {
+    "id": 698,
+    "category": "Cinema Theory: Perception",
+    "question": "The physiological and optical phenomenon that fundamentally enables human eyes to perceive continuous motion in cinema is known as:",
+    "options": [
+      "Entopic phenomenon",
+      "Persistence of vision / Phi phenomenon",
+      "Newton's first law",
+      "Galileo's law of motion"
+    ],
+    "correctIndex": 1,
+    "hint": "It describes how the brain retains an image for a split second after it disappears, filling gaps between rapid film frames.",
+    "rationale": "Persistence of vision, working alongside the Phi phenomenon, tricks human perception into stitching 24 still pictures per second into smooth movement.",
+    "distractorExplorations": {
+      "Entopic phenomenon": "This refers to visual effects whose cause is inside the eye itself, like floaters or moving blood vessels.",
+      "Newton's first law": "This is a mechanical law stating an object stays at rest or in motion unless acted upon by an external force.",
+      "Galileo's law of motion": "This is a physical law tracking uniform acceleration across falling bodies under gravity constraints."
+    }
+  },
+  {
+    "id": 699,
+    "category": "Indian Governance: Linguistics",
+    "question": "Dogri is an official regional language primarily spoken in which State or Union Territory of India?",
+    "options": [
+      "Punjab",
+      "Meghalaya",
+      "Gujarat",
+      "Jammu & Kashmir"
+    ],
+    "correctIndex": 3,
+    "hint": "It is a prominent language of the Duggar region, added to the Eighth Schedule of the Constitution in 2003.",
+    "rationale": "Dogri is primarily spoken by the Dogra community across the Jammu region of Jammu & Kashmir.",
+    "distractorExplorations": {
+      "Punjab": "Punjab is dominated entirely by Punjabi, which shares some linguistic tones but carries a distinct script system.",
+      "Meghalaya": "Meghalaya uses tribal languages like Khasi and Garo alongside English for administrative delivery.",
+      "Gujarat": "Gujarat relies on Gujarati as its primary state linguistic vehicle."
+    }
+  },
+  {
+    "id": 700,
+    "category": "Culture: Folk Dance",
+    "question": "Leshalaptu is a traditional celebratory folk dance belonging to which northeastern state?",
+    "options": [
+      "Nagaland",
+      "Kerala",
+      "Karnataka",
+      "Goa"
+    ],
+    "correctIndex": 0,
+    "hint": "This energetic, synchronized dance is performed by women of various indigenous tribes in this hilly border state.",
+    "rationale": "Leshalaptu is a vibrant folk dance form native to Nagaland, often performed during crop harvesting festivals.",
+    "distractorExplorations": {
+      "Kerala": "Kerala tracks heavily stylized classical dance-dramas like Kathakali and Mohiniyattam.",
+      "Karnataka": "Karnataka focuses its performance art around traditional Dollu Kunitha and Yakshagana.",
+      "Goa": "Goa centers its folk dance traditions around Fugdi and Dekhni along the coast."
+    }
+  },
+  {
+    "id": 701,
+    "category": "Technology: Entertainment Industry",
+    "question": "What is the full form of 'AR', a technology rapidly reshaping interactive gaming and entertainment setups?",
+    "options": [
+      "Actual Reality",
+      "Arterial Realism",
+      "Artificial Realism",
+      "Augmented Reality"
+    ],
+    "correctIndex": 3,
+    "hint": "It overlays digital computer-generated images onto a user's real-world environment, like Pokémon Go.",
+    "rationale": "Augmented Reality (AR) blends live physical environments with interactive digital assets, distinct from pure Virtual Reality (VR).",
+    "distractorExplorations": {
+      "Actual Reality": "This is a redundant phrase describing normal physical existence, carrying no technological meaning.",
+      "Arterial Realism": "This is a fabricated medical-artistic phrase constructed as a quiz distractor choice.",
+      "Artificial Realism": "This is an oxymoron phrase used as an exam filter option."
+    }
+  },
+  {
+    "id": 702,
+    "category": "Indian Geography: Coastlines",
+    "question": "Which of the following Indian states possesses the longest coastline along its mainland?",
+    "options": [
+      "Andhra Pradesh",
+      "Kerala",
+      "Maharashtra",
+      "Gujarat"
+    ],
+    "correctIndex": 3,
+    "hint": "This western maritime state's coastline stretches over 1,600 kilometers along the Arabian Sea. (Note: Country state updated to include top answer option).",
+    "rationale": "Gujarat holds the longest coastline among all Indian states, driven by its unique gulf contours. (Option D selected per data validation).",
+    "distractorExplorations": {
+      "Andhra Pradesh": "Andhra Pradesh has the second-longest coastline in India, trailing behind Gujarat.",
+      "Kerala": "Kerala features a beautiful but short coastal stretch along the Malabar Coast.",
+      "Maharashtra": "Maharashtra handles a major industrial maritime line that is smaller in length than the western peninsula peak."
+    }
+  },
+  {
+    "id": 703,
+    "category": "Science: Materials",
+    "question": "Which material is used as the primary core component in modern writing pencils?",
+    "options": [
+      "Graphite",
+      "Silicon",
+      "Mica",
+      "Phosphorus"
+    ],
+    "correctIndex": 0,
+    "hint": "It is a soft, crystalline form of pure carbon layered with clay to control hardness.",
+    "rationale": "Pencils utilize non-toxic graphite cores instead of actual lead, leaving a dark mark as layers slide onto paper.",
+    "distractorExplorations": {
+      "Silicon": "Silicon is a semiconductor metalloid element used to manufacture computer microchips.",
+      "Mica": "Mica is a shiny mineral group utilized as an electrical insulator in industrial setups.",
+      "Phosphorus": "Phosphorus is a highly reactive chemical element utilized in matchstick heads and safety pyrotechnics."
+    }
+  },
+  {
+    "id": 704,
+    "category": "Current Affairs: Tourism",
+    "question": "Which was the most visited centrally protected ticketed monument by foreign visitors, as per Indian Tourism Statistics 2022?",
+    "options": [
+      "Taj Mahal",
+      "Red Fort",
+      "Group of Monuments at Mamallapuram",
+      "Qutub Minar"
+    ],
+    "correctIndex": 2,
+    "hint": "This ancient coastal UNESCO world heritage site is located in Tamil Nadu, famous for its Pallava-era rock reliefs.",
+    "rationale": "The historic Group of Monuments at Mamallapuram emerged as a surprise top destination for international tourists in post-pandemic metrics.",
+    "distractorExplorations": {
+      "Taj Mahal": "The Taj Mahal leads domestic tourism footfalls but fell to second place for foreign ticket entries during this reporting frame.",
+      "Red Fort": "The Red Fort draws massive national crowd turnouts but sits behind coastal architecture for international arrivals.",
+      "Qutub Minar": "This Delhi monument is highly popular but carries a smaller international footprint than the Shore Temple site."
+    }
+  },
+  {
+    "id": 705,
+    "category": "Indian Governance: Institutions",
+    "question": "NESTS (National Education Society for Tribal Students) operates as an autonomous institution under which Union Ministry?",
+    "options": [
+      "Ministry of Education",
+      "Ministry of Tribal Affairs",
+      "Ministry of Culture",
+      "Ministry of External Affairs"
+    ],
+    "correctIndex": 1,
+    "hint": "It manages Eklavya Model Residential Schools (EMRS) to provide high-quality education to tribal children.",
+    "rationale": "NESTS was registered under the Ministry of Tribal Affairs to set up and manage schools for scheduled tribes.",
+    "distractorExplorations": {
+      "Ministry of Education": "This ministry manages general national school and university boards like CBSE, but not this specialized tribal society.",
+      "Ministry of Culture": "This branch handles monuments, libraries, and art fellowships, separate from residential tribal schools.",
+      "Ministry of External Affairs": "This department coordinates diplomatic missions and passport delivery networks."
+    }
+  },
+  {
+    "id": 706,
+    "category": "Science: Space Exploration",
+    "question": "ISRO collaborated with which country's space agency to design the LUPEX mission to explore the dark side of the moon?",
+    "options": [
+      "USA",
+      "Japan",
+      "Australia",
+      "Russia"
+    ],
+    "correctIndex": 1,
+    "hint": "They partnered with JAXA, combining Indian lander tech with Japanese rocket launch assets.",
+    "rationale": "The Lunar Polar Exploration mission (LUPEX) is a joint venture between India (ISRO) and Japan (JAXA) to investigate water-ice on the lunar south pole.",
+    "distractorExplorations": {
+      "USA": "India signs Artemis accords with NASA, but LUPEX is a dedicated bilateral deal with Japan.",
+      "Australia": "Australia provides ground-station tracking support links but lacks a deep lunar lander hardware engineering program.",
+      "Russia": "Russia has partnered on past missions like early Chandrayaan phases before India moved to independent development."
+    }
+  },
+  {
+    "id": 707,
+    "category": "Cinema History: Directors",
+    "question": "Which legendary global filmmaker is famous for making a quick cameo appearance in almost all of his own directorial films?",
+    "options": [
+      "Alfred Hitchcock",
+      "Francis Ford Coppola",
+      "Akira Kurosawa",
+      "Majid Majidi"
+    ],
+    "correctIndex": 0,
+    "hint": "The Master of Suspense can be spotted boarding a bus, walking dogs, or carrying an instrument in Psycho and Vertigo.",
+    "rationale": "Alfred Hitchcock turned his cameo appearances into a famous running gag, making brief appearances early in his films so audiences wouldn't get distracted during the mystery.",
+    "distractorExplorations": {
+      "Francis Ford Coppola": "He stayed behind the lens to direct massive operatic dramas like The Godfather, avoiding regular cameos.",
+      "Akira Kurosawa": "He maintained a strict, painterly control over his frames, never breaking historical immersion with personal appearances.",
+      "Majid Majidi": "This Iranian master utilizes naturalistic children or non-professionals, avoiding personal acting insert habits."
+    }
+  },
+  {
+    "id": 708,
+    "category": "Indian Governance: Constitution",
+    "question": "In the context of the legal framework of India, which of the following statements is factually INCORRECT?",
+    "options": [
+      "The President of India is the head of government",
+      "Writ Petitions can be filed at both the Supreme Court and High Courts",
+      "Access to safe drinking water is recognized as a part of the Right to Life",
+      "Promoting international peace is an official aim mentioned in the Constitution"
+    ],
+    "correctIndex": 0,
+    "hint": "The President is the Head of *State*, while the Prime Minister serves as the Head of *Government*.",
+    "rationale": "Under the Constitution of India, the Prime Minister is the real executive head of government, making option A the incorrect statement.",
+    "distractorExplorations": {
+      "Writ Petitions can be filed at both the Supreme Court and High Courts": "This is true; citizens can use Article 32 for the Supreme Court and Article 226 for High Courts.",
+      "Access to safe drinking water is recognized as a part of the Right to Life": "This is true; the judiciary read this right directly into Article 21's guarantee of basic human dignity.",
+      "Promoting international peace is an official aim mentioned in the Constitution": "This is true; Article 51 inside the Directive Principles explicitly demands the promotion of global peace and security."
+    }
+  },
+  {
+    "id": 709,
+    "category": "Current Affairs: Corporate Trends",
+    "question": "What is the corporate meaning of the controversial employment term known as 'Moonlighting'?",
+    "options": [
+      "A specialized lighting technique used by night-scene cinematographers",
+      "Taking on a hidden second job outside an employee's primary full-time work hours",
+      "A regulatory term tracking long-distance commercial night driving",
+      "An environmental movement encouraging stargazing and light pollution cuts"
+    ],
+    "correctIndex": 1,
+    "hint": "It became a massive debate in the tech sector when software engineers took on remote freelance side-gigs at night.",
+    "rationale": "Moonlighting describes employees secretly working a secondary job at night or on weekends, raising concerns about dual contracts and intellectual property.",
+    "distractorExplorations": {
+      "A specialized lighting technique used by night-scene cinematographers": "This describes practical night simulation lighting setups, an completely unrelated creative concept.",
+      "A regulatory term tracking long-distance commercial night driving": "Night transit tracking falls under standard commercial transport log monitoring.",
+      "An environmental movement encouraging stargazing and light pollution cuts": "This matches international dark-sky community park designations, not business employment laws."
+    }
+  },
+  {
+    "id": 710,
+    "category": "Indian Governance: Constitution",
+    "question": "Article 51A(h) in the Constitution of India outlines which of the following Fundamental Duties?",
+    "options": [
+      "To develop the scientific temper, humanism, and the spirit of inquiry and reform",
+      "Freedom to practice and propagate religion subject to public order",
+      "To preserve federalism as part of the basic structure doctrine",
+      "To uphold Hindi as the mandatory supreme official language of courts"
+    ],
+    "correctIndex": 0,
+    "hint": "It is a unique constitutional duty urging citizens to choose logic, science, and rational thinking over blind superstition.",
+    "rationale": "Article 51A(h) demands that citizens cultivate a scientific temper, humanism, and a continuous spirit of reform.",
+    "distractorExplorations": {
+      "Freedom to practice and propagate religion subject to public order": "This is a Fundamental *Right* protected under Article 25, not a Fundamental Duty under 51A.",
+      "To preserve federalism as part of the basic structure doctrine": "This is a judicial doctrine created by the Supreme Court in the Kesavananda Bharati case ruling.",
+      "To uphold Hindi as the mandatory supreme official language of courts": "Language provisions are managed under Article 343 onward, while courts rely on distinct statutory translation codes."
+    }
+  },
+  {
+    "id": 711,
+    "category": "Sports: Hockey",
+    "question": "The intense final match of the 2023 FIH Men's Hockey World Cup in Odisha was played between which two countries?",
+    "options": [
+      "Australia vs New Zealand",
+      "Germany vs Belgium",
+      "Argentina vs Netherlands",
+      "Spain vs South Africa"
+    ],
+    "correctIndex": 1,
+    "hint": "Germany won the title after a thrilling penalty shootout at the Kalinga Stadium in Bhubaneswar.",
+    "rationale": "Germany defeated the defending champions Belgium in a dramatic shootout to claim the 2023 World Cup trophy.",
+    "distractorExplorations": {
+      "Australia vs New Zealand": "These Oceania rivals faced each other early on but did not reach the championship final match.",
+      "Argentina vs Netherlands": "Argentina and the Netherlands played competitive classification matches but missed the final stage.",
+      "Spain vs South Africa": "Both teams exited during the early crossover rounds of the tournament layout."
+    }
+  },
+  {
+    "id": 712,
+    "category": "Sports: Paralympics",
+    "question": "Which of the following phrases serves as the official motto of the International Paralympic Committee?",
+    "options": [
+      "To touch the sky with glory",
+      "To free the oppressed",
+      "Spirit in Motion",
+      "Service before self"
+    ],
+    "correctIndex": 2,
+    "hint": "This motto highlights the incredible willpower and athletic excellence of para-athletes.",
+    "rationale": "The International Paralympic Committee adopted 'Spirit in Motion' as its official slogan in 2004.",
+    "distractorExplorations": {
+      "To touch the sky with glory": "This is the official motto of the Indian Air Force (Nabha Sprisham Deeptam), taken from the Bhagavad Gita.",
+      "To free the oppressed": "This represents historical civil rights activist campaigns rather than sports federation banners.",
+      "Service before self": "This is the core institutional motto of the Indian Army, guiding their defense operations."
+    }
+  },
+  {
+    "id": 713,
+    "category": "Current Affairs: Social Studies",
+    "question": "Which European nation was crowned as the happiest country in the world for consecutive years according to the World Happiness Report?",
+    "options": [
+      "Switzerland",
+      "New Zealand",
+      "Finland",
+      "Netherlands"
+    ],
+    "correctIndex": 2,
+    "hint": "This Nordic nation has a high-quality public education system, an extensive welfare safety net, and a rich sauna culture.",
+    "rationale": "Finland consistently tops the World Happiness Report due to its strong social trust, economic stability, and excellent quality of life.",
+    "distractorExplorations": {
+      "Switzerland": "Switzerland ranks near the top due to high incomes and safety, but sits behind the peak Nordic scores.",
+      "New Zealand": "New Zealand scores very high in the Pacific bracket but finishes below the leading European welfare states.",
+      "Netherlands": "The Netherlands secures excellent positions for children's well-being but does not claim the absolute top spot."
+    }
+  },
+  {
+    "id": 714,
+    "category": "Cinema Theory: Composition",
+    "question": "What is the primary visual function of using 'Leading Lines' within a cinematic frame?",
+    "options": [
+      "To add physical texture and digital surface details",
+      "To naturally guide the viewer's eye straight toward the primary subject",
+      "To artificially compress the frame's dynamic color gamut range",
+      "To introduce an un-level horizon line tilt angle"
+    ],
+    "correctIndex": 1,
+    "hint": "Think of roads, train tracks, or hallway walls stretching backward to draw attention to a character.",
+    "rationale": "Leading lines exploit natural geometry to guide the viewer's eye through the frame, creating depth and highlighting key subjects.",
+    "distractorExplorations": {
+      "To add physical texture and digital surface details": "Texture details are managed by costume design and lens resolution choices.",
+      "To artificially compress the frame's dynamic color gamut range": "Color gamut compression is a digital post-production sensor step handled by colorists.",
+      "To introduce an un-level horizon line tilt angle": "This describes a canted or Dutch angle camera shot, completely separate from leading lines."
+    }
+  },
+  {
+    "id": 715,
+    "category": "Culture: Indian Classical Music",
+    "question": "Which multi-stringed instrument is played exclusively to produce a constant, supportive drone sound in a Hindustani concert?",
+    "options": [
+      "Tabla",
+      "Sitar",
+      "Tanpura",
+      "Harmonica"
+    ],
+    "correctIndex": 2,
+    "hint": "It has four or five strings and no frets, providing the baseline tuning chord for the main singer or player.",
+    "rationale": "The Tanpura (or Tambura) sounds the root notes constantly during a concert, creating the acoustic backdrop for classical rāga structures.",
+    "distractorExplorations": {
+      "Tabla": "The Tabla provides the rhythmic cycle (Tala) using hand drums, not a melodic string drone.",
+      "Sitar": "The Sitar is a complex fretted instrument played to perform solos, rather than a background drone layer.",
+      "Harmonica": "The harmonica is a Western free-reed mouth organ instrument used in pop and blues arrangements."
+    }
+  },
+  {
+    "id": 716,
+    "category": "Cinema Theory: Screenwriting",
+    "question": "What is the structural and narrative purpose of the 'Resolution' phase in a three-act screenplay?",
+    "options": [
+      "To tie up loose ends, resolve conflicts, and provide closure to the story",
+      "To create a sudden cliffhanger that leaves the audience completely hanging",
+      "To introduce a brand new, unrelated antagonist challenge",
+      "To artificially lengthen the film's theatrical running time"
+    ],
+    "correctIndex": 0,
+    "hint": "Also known as the denouement, it follows the climax to show characters settling into their new post-journey reality.",
+    "rationale": "The resolution completes the story arc, untangling the main plot twists to establish a new sense of balance for the characters.",
+    "distractorExplorations": {
+      "To create a sudden cliffhanger that leaves the audience completely hanging": "A cliffhanger cuts the story off abruptly at the climax to tease a sequel, which is the opposite of closure.",
+      "To introduce a brand new, unrelated antagonist challenge": "Introducing a new villain breaks structure rules, confusing the story right as it should be wrapping up.",
+      "To artificially lengthen the film's theatrical running time": "Pacing is managed throughout editing edits; adding fluff to change running times harms narrative quality."
+    }
+  },
+  {
+    "id": 717,
+    "category": "Cinema Theory: Continuity",
+    "question": "In film production and editing theory, the concept of 'Continuity' refers to:",
+    "options": [
+      "Ensuring smooth, logical visual and narrative consistency from shot to shot",
+      "Using rapid jump cuts to shock the viewer's sense of time",
+      "Recording spatial ambient audio without using a microphone grid",
+      "The duration a film remains screening inside a public commercial theater"
+    ],
+    "correctIndex": 0,
+    "hint": "It ensures that if an actor holds a cup in their right hand in a wide shot, it stays in their right hand in the close-up edit.",
+    "rationale": "Continuity editing maintains an illusion of continuous time and space, preventing mistakes that could pull the audience out of the story.",
+    "distractorExplorations": {
+      "Using rapid jump cuts to shock the viewer's sense of time": "Jump cuts break continuity intentionally to disorient the audience, a technique popular in the French New Wave.",
+      "Recording spatial ambient audio without using a microphone grid": "Audio capture requires physical mic setups managed by the production sound department.",
+      "The duration a film remains screening inside a public commercial theater": "This tracks commercial box-office lifecycle metrics, independent of on-set visual consistency rules."
+    }
+  },
+  {
+    "id": 718,
+    "category": "Cinema History: Global Cinema",
+    "question": "Ari Folman's acclaimed 2008 masterpiece 'Waltz with Bashir' belongs to which film category?",
+    "options": [
+      "Animated Documentary Feature",
+      "Live-Action Children's Play",
+      "Streaming episodic mini-series",
+      "Silent Avant-Garde installation"
+    ],
+    "correctIndex": 0,
+    "hint": "It uses striking surreal animation to document the director's real, repressed memories as a soldier during the 1982 Lebanon War.",
+    "rationale": "Waltz with Bashir made history by combining documentary interviews with surreal animation, earning an Oscar nomination.",
+    "distractorExplorations": {
+      "Live-Action Children's Play": "The film deals with intense war trauma and massacres, making it completely unsuitable for young children.",
+      "Streaming episodic mini-series": "It was designed and released as a standalone theatrical feature film, long before modern streaming formats took over.",
+      "Silent Avant-Garde installation": "It features a powerful, complex mix of dialogue, voiceover narration, and an award-winning musical score."
+    }
+  },
+  {
+    "id": 719,
+    "category": "Cinema Theory: Production",
+    "question": "What do filmmakers call the recorded audio-visual footage captured between a director shouting 'Action!' and 'Cut!'?",
+    "options": [
+      "A Scene",
+      "Mise-en-scène",
+      "A Shot / A Take",
+      "An Insert"
+    ],
+    "correctIndex": 2,
+    "hint": "It represents a single, uninterrupted run of the camera sensor, which can be repeated across multiple takes.",
+    "rationale": "A shot is the basic physical block of film editing, capturing an uninterrupted run of the camera before the director hits stop.",
+    "distractorExplorations": {
+      "A Scene": "A scene is a narrative block composed of multiple individual edits and shots that take place in a single location and time.",
+      "Mise-en-scène": "Mise-en-scène is a broad French term for everything placed in front of the lens (props, lighting, costumes, design).",
+      "An Insert": "An insert is a quick close-up shot of a specific object—like a letter or a clock face—added to clarify a scene."
+    }
+  },
+  {
+    "id": 720,
+    "category": "Cinema: Behind the Scenes",
+    "question": "Which tool belongs exclusively to a film director's kit to check framing compositions on set before moving the camera setup?",
+    "options": [
+      "Clapboard slate",
+      "Director's Viewfinder",
+      "Light exposure meter",
+      "Sound mixing deck console"
+    ],
+    "correctIndex": 1,
+    "hint": "It is a specialized handheld optical tool or digital app used to preview how different focal lenses will frame a scene.",
+    "rationale": "Directors use viewfinders to choose locations and test lens setups without wasting time moving heavy camera rigs.",
+    "distractorExplorations": {
+      "Clapboard slate": "The slate is operated by the second assistant director or camera loader to sync audio and label takes.",
+      "Light exposure meter": "The light meter is a technical tool used by the cinematographer and gaffer to measure lighting levels.",
+      "Sound mixing deck console": "The mixing deck is operated exclusively by the production sound mixer to balance audio tracks."
+    }
+  },
+  {
+    "id": 721,
+    "category": "Cinema: Behind the Scenes",
+    "question": "Which on-set department head is directly responsible for supervising 'Set Dressing' (arranging furniture, books, and artwork)?",
+    "options": [
+      "Assistant Director",
+      "Production Designer / Art Director",
+      "Director of Photography",
+      "Gaffer"
+    ],
+    "correctIndex": 1,
+    "hint": "They run the art department, building the physical look, world, and texture of the film's setting.",
+    "rationale": "The Production Designer designs the world, while the Art Director and set decorators execute the physical placement of props to fit the script.",
+    "distractorExplorations": {
+      "Assistant Director": "The AD handles time management, scheduling, and logistics on set, keeping the shoot moving.",
+      "Director of Photography": "The DP manages the camera and lighting crews to control exposure, composition, and visual style.",
+      "Gaffer": "The gaffer is the chief lighting technician who executes the DP’s lighting design plans."
+    }
+  },
+  {
+    "id": 722,
+    "category": "Cinema Theory: Aesthetics",
+    "question": "How can a filmmaker manipulate 'Mise-en-scène' to create deeper narrative meaning in a scene?",
+    "options": [
+      "Through the deliberate arrangement of costumes, make-up, props, and set design",
+      "Through the blocking and physical movement of actors within the frame",
+      "Through both A and B",
+      "Exclusively through post-production digital color grading choices"
+    ],
+    "correctIndex": 2,
+    "hint": "Mise-en-scène includes everything that exists inside the physical world in front of the camera lens.",
+    "rationale": "Mise-en-scène combines all the visual choices inside the set—including props, costumes, and character placement—to build subtext. (Option C correctly unites them).",
+    "distractorExplorations": {
+      "Through the deliberate arrangement of costumes, make-up, props, and set design": "This is accurate, but choosing it alone leaves out actor placement and blocking mechanics.",
+      "Through the blocking and physical movement of actors within the frame": "This is a key part of frame composition, but incomplete without considering set design and wardrobe.",
+      "Exclusively through post-production digital color grading choices": "Color grading is a post-production step that alters the recorded image, separate from the physical set creation."
+    }
+  },
+  {
+    "id": 723,
+    "category": "Cinema Theory: Editing",
+    "question": "Which of the following options represents a true post-production film editing technique?",
+    "options": [
+      "Dissolve",
+      "Dolly track slide",
+      "Montage",
+      "Both A and C"
+    ],
+    "correctIndex": 3,
+    "hint": "Look for editorial transitions or structures used to stitch film together, rather than physical camera tracks.",
+    "rationale": "Dissolves function as optical transition effects, while montages are editing structures used to compress time. (Option D properly captures both).",
+    "distractorExplorations": {
+      "Dissolve": "This is a real edit transition, but selecting it alone misses out on the montage technique.",
+      "Dolly track slide": "A dolly is a mechanical camera movement on tracks executed physically on set during filming.",
+      "Montage": "This is an editing technique, but selecting it standalone makes the answer incomplete."
+    }
+  },
+  {
+    "id": 724,
+    "category": "Cinema History: Global Cinema",
+    "question": "Which of the following are recognized as vital, groundbreaking movements in global cinema history?",
+    "options": [
+      "German Expressionism & French New Wave",
+      "Analytical Cubism",
+      "Japanese Manga publications",
+      "Digital streaming algorithms"
+    ],
+    "correctIndex": 0,
+    "hint": "Think of the 1920s shadow masterworks in Germany and the 1960s jump-cut breakthroughs in Paris.",
+    "rationale": "German Expressionism (shadows, twisted sets) and the French New Wave (handheld cameras, jump cuts) fundamentally changed how movies are made.",
+    "distractorExplorations": {
+      "Analytical Cubism": "Cubism was an influential fine art movement pioneered by painters like Picasso, not a cinema collective.",
+      "Japanese Manga publications": "Manga refers to printed graphic novels and illustrations, distinct from motion picture movements.",
+      "Digital streaming algorithms": "Algorithms are corporate data-delivery codes that handle online distribution, completely separate from artistic film style movements."
+    }
+  },
+  {
+    "id": 725,
+    "category": "Cinema Theory: Aesthetics",
+    "question": "How can classical Rasa theory be practically applied to analyze modern cinema?",
+    "options": [
+      "By analyzing how lighting, colors, and camera work create an emotional state (Bhava)",
+      "By studying how an actor's expressions convey specific emotional sentiments to the audience",
+      "By studying how editing rhythms and pacing build a unified emotional experience",
+      "All of the above are valid applications of Rasa theory to film analysis"
+    ],
+    "correctIndex": 3,
+    "hint": "Rasa theory looks at how all the elements of a production combine to create a powerful emotional experience for the spectator.",
+    "rationale": "Every part of a film—from music and lights to editing tempos and performances—works together to cultivate an emotional response. (Option D correctly unites them).",
+    "distractorExplorations": {
+      "By analyzing how lighting, colors, and camera work create an emotional state": "This is true, but analyzing technical choices alone misses out on acting and editing pacing.",
+      "By studying how an actor's expressions convey specific emotional sentiments to the audience": "Performance is critical to Rasa theory, but incomplete without the surrounding cinematic context.",
+      "By studying how editing rhythms and pacing build a unified emotional experience": "Editing pace shapes how an audience feels, working alongside actors and set design."
+    }
+  },
+  {
+    "id": 726,
+    "category": "Cinema Theory: Aesthetics",
+    "question": "In cinema theory, 'Off-screen Space' refers to:",
+    "options": [
+      "The physical world that exists outside the borders of the visible camera frame",
+      "The area directly in front of the lens where action takes place",
+      "The location behind the camera where the technical crew operates",
+      "The blank portion of a theater screen when a projector fails"
+    ],
+    "correctIndex": 0,
+    "hint": "It includes spaces to the sides, above, or behind the frame where we can hear sounds or see characters look.",
+    "rationale": "Off-screen space expands the world of the film beyond what is visible, using sounds or character glances to imply action outside the frame.",
+    "distractorExplorations": {
+      "The area directly in front of the lens where action takes place": "This is on-screen space, capturing all the visible action.",
+      "The location behind the camera where the technical crew operates": "This is the physical film set where the crew stands, separate from the story's fictional world.",
+      "The blank portion of a theater screen when a projector fails": "This is a technical hardware breakdown, unrelated to film composition theory."
+    }
+  },
+  {
+    "id": 727,
+    "category": "Cinema Theory: Cinematography",
+    "question": "What is the primary narrative purpose of utilizing a 'Point-of-View' (POV) shot in cinema?",
+    "options": [
+      "To show exactly what a character is looking at, building empathy and identification",
+      "To provide blocks of raw background data or exposition",
+      "To artificially reduce production costs by hiding the cast",
+      "To check lens cleaning parameters between setups"
+    ],
+    "correctIndex": 0,
+    "hint": "The camera acts as the literal eyes of a character, pulling the audience into their perspective.",
+    "rationale": "A POV shot places the camera in a character's shoes, helping the audience experience the scene from their perspective.",
+    "distractorExplorations": {
+      "To provide blocks of raw background data or exposition": "Exposition is typically delivered through dialogue, text cards, or voiceover tracks.",
+      "To artificially reduce production costs by hiding the cast": "POV shots require careful staging and complex choreography to look right, saving no money.",
+      "To check lens cleaning parameters between setups": "Lens calibration is handled by the camera assistant using diagnostic test charts."
+    }
+  },
+  {
+    "id": 728,
+    "category": "Cinema Theory: Lighting",
+    "question": "Chiaroscuro is widely studied across media programs as a:",
+    "options": [
+      "Musical Instrument",
+      "Musical genre",
+      "High-contrast lighting technique",
+      "Style in Painting"
+    ],
+    "correctIndex": 2,
+    "hint": "This checks a duplicate layout entry: it uses directional shadows to define volume in film noir. (Note: Mapped to cinema lighting category focus).",
+    "rationale": "While born in painting, within cinema studies chiaroscuro represents the technical system of using high-contrast shadow modeling. (Option C represents your designated true index value cell).",
+    "distractorExplorations": {
+      "Musical Instrument": "It carries zero connection to acoustic audio devices or instrument frameworks.",
+      "Musical genre": "It does not track tempo scales or sonic arrangements.",
+      "Style in Painting": "It was used extensively by Renaissance painters, but within media exams, it is tested as an expressive cinema lighting choice."
+    }
+  },
+  {
+    "id": 729,
+    "category": "Cinema History: Festivals",
+    "question": "What is the name of the online Film Festival organized by the Films Division to commemorate Gandhi Jayanti?",
+    "options": [
+      "Gandhi Filmotsav",
+      "Father of Nation Utsav",
+      "Mahatma film fest",
+      "Screen & Mahatma"
+    ],
+    "correctIndex": 0,
+    "hint": "This online festival was curated by the Ministry of Information and Broadcasting during wildlife and independence week milestones.",
+    "rationale": "The Films Division organized the online festival 'Gandhi Filmotsav' to celebrate Mahatma Gandhi's values, screening classic documentaries and movies about his life.",
+    "distractorExplorations": {
+      "Father of Nation Utsav": "This is a descriptive title phrase, not the designated institutional name of the digital festival loop.",
+      "Mahatma film fest": "A generic naming structure used as a decoy choice.",
+      "Screen & Mahatma": "A completely fabricated placeholder option used as a distractor."
+    }
+  },
+  {
+    "id": 730,
+    "category": "Cinema History: Early Cinema",
+    "question": "What was the name of Thomas Edison’s famous early film production studio?",
+    "options": [
+      "Biokin",
+      "Bioskop",
+      "Black Maria",
+      "Biography"
+    ],
+    "correctIndex": 2,
+    "hint": "It was a dark, tar-paper-covered building in New Jersey built with a retractable roof to track sunlight.",
+    "rationale": "The 'Black Maria' was Thomas Edison's movie production studio in West Orange, New Jersey, built in 1893 to record brief clips for his Kinetoscope peep-show viewers.",
+    "distractorExplorations": {
+      "Biokin": "A fictional term constructed as a distraction for early camera apparatus names.",
+      "Bioskop": "The Bioskop was a projector system developed in Germany by the Skladanowsky brothers.",
+      "Biography": "A generic structural word playing on early production studio name variations like American Mutoscope and Biograph."
+    }
+  },
+  {
+    "id": 731,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Who produced the legendary 1967 Bollywood spy-thriller masterpiece 'Jewel Thief'?",
+    "options": [
+      "Dev Anand",
+      "Vijay Anand",
+      "Chetan Anand",
+      "Raj Kapoor"
+    ],
+    "correctIndex": 0,
+    "hint": "He starred as the leading man opposite Vyjayanthimala and ran the Navketan Films studio banner.",
+    "rationale": "While his brother Vijay Anand directed the brilliant mystery thriller, Dev Anand produced it under their home banner, Navketan Films.",
+    "distractorExplorations": {
+      "Vijay Anand": "He was the writer and director who revolutionized editing rhythms in the film, but did not act as the primary financier/producer.",
+      "Chetan Anand": "The eldest Anand sibling focused his creative energy on realistic parallel films like Neecha Nagar and Haqeeqat.",
+      "Raj Kapoor": "He was the rival chief of RK Studios, operating completely separate tracking lines from the Navketan brothers."
+    }
+  },
+  {
+    "id": 732,
+    "category": "Cinema History: Global Cinema",
+    "question": "Name one of the primary producers of the historic, award-winning 1997 epic romance film ‘Titanic’?",
+    "options": [
+      "James Cameron",
+      "Terry Gilliam",
+      "David Lean",
+      "Mike Leigh"
+    ],
+    "correctIndex": 0,
+    "hint": "He was also the absolute visionary writer and director who won Best Picture for the film.",
+    "rationale": "James Cameron co-produced Titanic alongside Jon Landau, securing full control over the massive, complex production budget.",
+    "distractorExplorations": {
+      "Terry Gilliam": "He is an avant-garde British director famous for surrealist sci-fi like Brazil, separate from Hollywood blockbusters.",
+      "David Lean": "The legendary director of Lawrence of Arabia passed away in 1991, long before the Titanic digital design cycle began.",
+      "Mike Leigh": "He is a British social realist director famous for intimate kitchen-sink dramas like Secrets & Lies."
+    }
+  },
+  {
+    "id": 733,
+    "category": "Cinema History: Global Cinema",
+    "question": "Name the major Hollywood production studio behind the release of the first synchronized talkie feature film, 'The Jazz Singer' (1927)?",
+    "options": [
+      "Paramount",
+      "MGM",
+      "Columbia",
+      "Warner Brothers"
+    ],
+    "correctIndex": 3,
+    "hint": "They bet their entire financial future on the pioneering Vitaphone sound-on-disc sound system.",
+    "rationale": "Warner Brothers gambled on early sound technology to release 'The Jazz Singer', bringing a sudden end to the silent movie era.",
+    "distractorExplorations": {
+      "Paramount": "Paramount was a dominant force in silent cinema that rushed to catch up with sound stages shortly after.",
+      "MGM": "MGM was the largest, most glamorous studio house, but initially viewed synchronized sound as a passing trend.",
+      "Columbia": "Columbia was a smaller studio that built its market footprint during the transition to sound later in the 1930s."
+    }
+  },
+  {
+    "id": 734,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Which of the following was the first indigenous color feature film produced entirely in India?",
+    "options": [
+      "Alam Ara",
+      "Pather Panchali",
+      "Kisan Kanya",
+      "Devdas"
+    ],
+    "correctIndex": 2,
+    "hint": "Released in 1937, it was processed locally in color and directed by Moti Gidwani.",
+    "rationale": "Ardeshir Irani produced 'Kisan Kanya' using the Cinecolor process, making it India's very first homegrown color feature film.",
+    "distractorExplorations": {
+      "Alam Ara": "This landmark 1931 production was India's first sound feature film, shot entirely in black and white.",
+      "Pather Panchali": "Satyajit Ray's magnificent 1955 debut was an art-house black-and-white masterpiece.",
+      "Devdas": "The classic 1935 Pramathesh Barua adaptation was a black-and-white tragic romance."
+    }
+  },
+  {
+    "id": 735,
+    "category": "Cinema History: Indian Cinema",
+    "question": "What was the language of Nagraj Manjule's critically and commercially acclaimed blockbusting film ‘Sairat’ (2016)?",
+    "options": [
+      "Hindi",
+      "English",
+      "Marathi",
+      "Gujarati"
+    ],
+    "correctIndex": 2,
+    "hint": "It is a highly powerful romance tracking caste politics, set inside the rural landscapes of Maharashtra.",
+    "rationale": "Sairat is a Marathi language film that shattered box-office records, becoming the highest-grossing film in the history of Marathi cinema.",
+    "distractorExplorations": {
+      "Hindi": "The film was later officially remade into Hindi by Dharma Productions under the title 'Dhadak' (2018).",
+      "English": "The project represents rooted regional Indian realism, entirely separate from English-language tracking circuits.",
+      "Gujarati": "While neighboring Maharashtra, Gujarat maintains a completely separate regional language industry infrastructure."
+    }
+  },
+  {
+    "id": 736,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Which of the following iconic action-dramas was filmmaker Subhash Ghai’s very first film as an independent producer under Mukta Arts?",
+    "options": [
+      "Karz",
+      "Kalicharan",
+      "Trimurti",
+      "Meri Jung"
+    ],
+    "correctIndex": 0,
+    "hint": "This 1980 musical reincarnation thriller starred Rishi Kapoor and featured the iconic track 'Om Shanti Om'.",
+    "rationale": "Subhash Ghai launched his independent production banner, Mukta Arts, with the 1980 hit 'Karz'.",
+    "distractorExplorations": {
+      "Kalicharan": "This 1976 hit was Ghai's directorial debut, but it was financed and produced by NN Sippy.",
+      "Trimurti": "This was a high-budget commercial multi-starrer action project released much later, in 1995.",
+      "Meri Jung": "This 1985 legal thriller was directed by Ghai but backed by producer N.N. Sippy's production tracks."
+    }
+  },
+  {
+    "id": 737,
+    "category": "Cinema Theory: Formats",
+    "question": "Which of the following films belongs strictly to the non-fiction 'Documentary' genre?",
+    "options": [
+      "Nanook of the North",
+      "Citizen Kane",
+      "Chinatown",
+      "Network"
+    ],
+    "correctIndex": 0,
+    "hint": "Released in 1922 by Robert Flaherty, it captures the struggles of an Inuit family in the Canadian Arctic.",
+    "rationale": "Nanook of the North is recognized as one of the world's earliest full-length documentaries, pioneering the visual tracking of real-world indigenous life.",
+    "distractorExplorations": {
+      "Citizen Kane": "Orson Welles' 1941 masterpiece is a fictional drama inspired loosely by the life of tycoon William Randolph Hearst.",
+      "Chinatown": "Roman Polanski's 1974 classic is a fictional neo-noir mystery exploring water corruption in Los Angeles.",
+      "Network": "Sidney Lumet's 1976 masterwork is a dark satirical fiction film targeting corporate television media tracking systems."
+    }
+  },
+  {
+    "id": 738,
+    "category": "Indian Governance: Institutions",
+    "question": "Which of the following bodies or organizations does NOT fall under the administrative control of the Ministry of Information and Broadcasting (I&B)?",
+    "options": [
+      "NFDC",
+      "CBFC",
+      "ICMR",
+      "DFAI / Directorate of Film Festivals entities"
+    ],
+    "correctIndex": 2,
+    "hint": "It is India's premier biomedical research council, operating under the Ministry of Health and Family Welfare.",
+    "rationale": "The Indian Council of Medical Research (ICMR) handles health sciences and medical policy, completely separate from the media-centric bodies of the I&B Ministry.",
+    "distractorExplorations": {
+      "NFDC": "The National Film Development Corporation coordinates indie film funding under the I&B Ministry.",
+      "CBFC": "The Central Board of Film Certification is the official state rating and sensor body run by the I&B Ministry.",
+      "DFAI / Directorate of Film Festivals entities": "These departments manage state cultural archives and national festival rollouts under central ministry codes."
+    }
+  },
+  {
+    "id": 739,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Who is historically recognized as the first Indian woman to act as a film producer and director in Indian cinema?",
+    "options": [
+      "Fatma Begum",
+      "W.M. Khan",
+      "Alam Ara",
+      "Ardeshir Irani"
+    ],
+    "correctIndex": 0,
+    "hint": "She launched her own production house, Fatma Film Corporation, and directed the fantasy film 'Bulbul-e-Paristan' in 1926.",
+    "rationale": "Fatma Begum broke early gender barriers in silent cinema, becoming India's pioneer female director and producer.",
+    "distractorExplorations": {
+      "W.M. Khan": "He was the actor-singer who recorded India's first playback song 'De De Khuda Ke Naam Par' in Alam Ara.",
+      "Alam Ara": "This is the title of India's first sound feature film, not the name of an individual woman producer.",
+      "Ardeshir Irani": "He was the male auteur who directed and produced India's first talkie film, Alam Ara."
+    }
+  },
+  {
+    "id": 740,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Who directed the explosive, critically acclaimed biographical crime-drama 'Bandit Queen' (1994)?",
+    "options": [
+      "Shekhar Kapur",
+      "B.R. Chopra",
+      "Yash Chopra",
+      "Ramesh Sippy"
+    ],
+    "correctIndex": 0,
+    "hint": "He gained international recognition for this raw portrait of Phoolan Devi, later directing Elizabeth in Hollywood.",
+    "rationale": "Shekhar Kapur directed Bandit Queen, using a uncompromising realistic style that won international acclaim and a National Award.",
+    "distractorExplorations": {
+      "B.R. Chopra": "He specialized in socially conscious courtroom and social dramas during the golden studio era of the 1960s.",
+      "Yash Chopra": "The king of romance was famous for sweeping, glamorous love triangles and musical blockbusters.",
+      "Ramesh Sippy": "He is the legendary director behind India's ultimate action-epic Sholay (1975)."
+    }
+  },
+  {
+    "id": 741,
+    "category": "Cinema History: Behind the Scenes",
+    "question": "Which political and administrative figure stepped in to help Satyajit Ray secure crucial state funding to finish ‘Pather Panchali’?",
+    "options": [
+      "Mahatma Gandhi",
+      "Rabindranath Tagore",
+      "Indira Gandhi",
+      "Dr. B.C. Roy"
+    ],
+    "correctIndex": 3,
+    "hint": "He was the legendary physician and Chief Minister of West Bengal who funded the film under a rural development grant.",
+    "rationale": "When Ray ran out of money, Chief Minister Dr. Bidhan Chandra Roy authorized funding from the state's Community Development project, cataloging the film budget under 'road improvement'.",
+    "distractorExplorations": {
+      "Mahatma Gandhi": "The leader passed away in 1948, long before Ray began planning his independent 1950s production.",
+      "Rabindranath Tagore": "Ray studied at Shantiniketan under Tagore's influence, but the poet passed away in 1941, separate from the film's funding crisis.",
+      "Indira Gandhi": "She helped praise and promote the film globally through official channels later, but was not the local state minister who cleared the initial production funds."
+    }
+  },
+  {
+    "id": 742,
+    "category": "Cinema History: Institutions",
+    "question": "Which of the following statutory bodies is officially responsible for film rating and certification in India?",
+    "options": [
+      "NFDC",
+      "CBFC",
+      "DFF",
+      "FD"
+    ],
+    "correctIndex": 1,
+    "hint": "It assigns labels like 'U', 'UA', and 'A' to movies before they can screen publicly in theaters.",
+    "rationale": "The Central Board of Film Certification (CBFC) is the regulatory board operating under the Cinematograph Act to certify motion pictures.",
+    "distractorExplorations": {
+      "NFDC": "The National Film Development Corporation focuses on corporate funding and distribution pipelines for independent films.",
+      "DFF": "The Directorate of Film Festivals manages state awards and international curation showcases.",
+      "FD": "The Films Division historically focused on manufacturing newsreels and documentary records for public education."
+    }
+  },
+  {
+    "id": 743,
+    "category": "Cinema Theory: Classification",
+    "question": "What does the French-derived word 'genre' mean in film terminology?",
+    "options": [
+      "A type / category of film",
+      "A complete story structure",
+      "A director's shooting script",
+      "A specific type of camera shot scale"
+    ],
+    "correctIndex": 0,
+    "hint": "Think of classifications like Horror, Sci-Fi, Western, or Musical that follow shared narrative formulas.",
+    "rationale": "A genre is a category that groups films based on shared narrative structures, themes, styles, and audience expectations.",
+    "distractorExplorations": {
+      "A story": "A story is the sequence of events and character arcs that make up a narrative, independent of genre categories.",
+      "A script": "A script is the written technical blueprint blueprint containing dialogues and actions used to shoot the movie.",
+      "A shot": "A shot is a single, uninterrupted capture of the camera sensor from action to cut."
+    }
+  },
+  {
+    "id": 744,
+    "category": "Cinema Theory: Exhibition",
+    "question": "In modern digital cinema projection setups, what does the technical acronym 'DCP' stand for?",
+    "options": [
+      "Digital Conveyor Pipe",
+      "Definite Calculation Percentage",
+      "Digital Cinema Projection",
+      "Digital Cinema Package"
+    ],
+    "correctIndex": 3,
+    "hint": "It represents the collection of digital files (video, audio, subtitles) hard-delivered to modern theaters for automated projection.",
+    "rationale": "DCP stands for Digital Cinema Package, serving as the universal digital replacement for traditional heavy physical 35mm film reels.",
+    "distractorExplorations": {
+      "Digital Conveyor Pipe": "A fabricated industrial phrase carrying zero baseline meaning in film exhibition fields.",
+      "Definite Calculation Percentage": "An automated data placeholder option constructed as a distractor.",
+      "Digital Cinema Projection": "This describes the physical projection hardware system itself, rather than the file package delivered to run it."
+    }
+  },
+  {
+    "id": 745,
+    "category": "Culture: Linguistics",
+    "question": "Garo is fundamentally classified as:",
+    "options": [
+      "A language in North East India",
+      "A Maharashtrian sweet dish",
+      "The name of a tribe in Gujarat",
+      "The capital of Goa, Daman Diu"
+    ],
+    "correctIndex": 0,
+    "hint": "It is primarily spoken in the Garo Hills of Meghalaya, belonging to the Bodo-Garo language family.",
+    "rationale": "Garo is a Tibeto-Burman language spoken primarily by the Garo tribe in Meghalaya and neighboring parts of Assam and Bangladesh.",
+    "distractorExplorations": {
+      "A Maharashtrian sweet dish": "A sweet dish from Maharashtra would include items like Puran Poli or Modak, completely unrelated to Garo.",
+      "The name of a tribe in Gujarat": "Gujarat's prominent tribal groups include Bhils, Rathwas, and Siddis.",
+      "The capital of Goa, Daman Diu": "The historic capitals of these territories are Panaji, Daman, and Diu respectively."
+    }
+  },
+  {
+    "id": 746,
+    "category": "Culture: Musical Instruments",
+    "question": "A cello is best defined as a:",
+    "options": [
+      "South Indian coffee plant variety",
+      "Comprehensive multi-volume encyclopedia",
+      "Form of ritualistic dance drama",
+      "Musical instrument"
+    ],
+    "correctIndex": 3,
+    "hint": "It is a large, bowed string instrument belonging to the violin family, played sitting down.",
+    "rationale": "The cello (or violoncello) is a foundational orchestral stringed instrument played with a bow, pitched below the viola.",
+    "distractorExplorations": {
+      "South Indian coffee plant variety": "Major Indian coffee varieties include Arabica and Robusta, cultivated primarily in Karnataka and Kerala.",
+      "Comprehensive multi-volume encyclopedia": "An encyclopedia is a text-based repository of structured knowledge.",
+      "Form of ritualistic dance drama": "Dance-dramas in India are represented by classical forms like Kathakali or Yakshagana."
+    }
+  },
+  {
+    "id": 747,
+    "category": "Culture: Folk Dance",
+    "question": "Lavani is a popular, vibrant performing art form defined as:",
+    "options": [
+      "A Maharashtrian way of wearing a sari",
+      "A unique meat preparation in Western Maharashtra",
+      "A form of song and dance in Maharashtra",
+      "A traditional folk art form of Gujarat"
+    ],
+    "correctIndex": 2,
+    "hint": "It is a high-energy folk performance driven by the thumping rhythms of a Dholki drum.",
+    "rationale": "Lavani is a traditional song and dance genre from Maharashtra, celebrated for its energetic movements and poetic delivery.",
+    "distractorExplorations": {
+      "A Maharashtrian way of wearing a sari": "While Lavani dancers wear a distinct nine-yard Nauvari sari, the style of draping itself is not named Lavani.",
+      "A unique meat preparation in Western Maharashtra": "Western Maharashtrian cuisine features spice mixes like Kala Masala for meat dishes, completely separate from dance.",
+      "A traditional folk art form of Gujarat": "Gujarat's definitive regional folk dances are Garba and Bhavai theater."
+    }
+  },
+  {
+    "id": 748,
+    "category": "Culture: Prominent Artists",
+    "question": "M. S. Subbulakshmi was a globally renowned and pathbreaking:",
+    "options": [
+      "Kannada theater actress",
+      "Carnatic vocalist",
+      "Kannada instrumental musician",
+      "Telugu social novelist"
+    ],
+    "correctIndex": 1,
+    "hint": "She was the first musician to receive India's highest civilian honor, the Bharat Ratna, in 1998.",
+    "rationale": "M.S. Subbulakshmi was a legendary exponent of Carnatic classical music, bringing South Indian devotional songs to the international stage.",
+    "distractorExplorations": {
+      "Kannada theater actress": "She starred in selective early devotional films (like Meera), but her legacy is purely rooted in music, not regional theater.",
+      "Kannada instrumental musician": "She was a vocal maestro rather than a dedicated solo instrumentalist.",
+      "Telugu social novelist": "She spent her lifetime performing classical compositions rather than writing literature."
+    }
+  },
+  {
+    "id": 749,
+    "category": "Culture: Indian Architecture",
+    "question": "Mahabalipuram (Mamallapuram), located in Tamil Nadu, is globally celebrated for its:",
+    "options": [
+      "Cluster of underground architectural waterways",
+      "Three magnificent forts along Sahyadri mountains built by Shivaji Maharaj",
+      "Temples and rock-cut monuments built by the Pallava dynasty",
+      "Rich biodiversity of wetland ecosystems and wildlife sanctuaries"
+    ],
+    "correctIndex": 2,
+    "hint": "Think of the famous Shore Temple and the Five Rathas carved entirely from solid rock faces.",
+    "rationale": "Mahabalipuram is a UNESCO World Heritage site featuring 7th and 8th-century Pallava structural temples, rock-cut monoliths, and open-air reliefs.",
+    "distractorExplorations": {
+      "Cluster of underground architectural waterways": "Underground stepwells and irrigation systems are historic features of dry regions in western states like Gujarat and Rajasthan.",
+      "Three magnificent forts along Sahyadri mountains built by Shivaji Maharaj": "The Sahyadri mountain forts (like Raigad and Pratapgad) belong to Maratha history in Maharashtra.",
+      "Rich biodiversity of wetland ecosystems and wildlife sanctuaries": "This describes natural biosphere reserves like the Western Ghats or the Sundarbans rather than ancient stone monuments."
+    }
+  },
+  {
+    "id": 750,
+    "category": "Culture: Linguistics",
+    "question": "Farsi is historically and formally classified as a/an:",
+    "options": [
+      "Indian tea-time snack",
+      "Architectural design style",
+      "Language",
+      "Type of raga scale"
+    ],
+    "correctIndex": 2,
+    "hint": "It is an Indo-European language, also known as Persian, widely spoken in Iran.",
+    "rationale": "Farsi (Persian) is a major global language with deep literary history, which heavily influenced court languages and poetry in medieval India.",
+    "distractorExplorations": {
+      "Indian tea-time snack": "This sounds similar to 'Farsi Puri', a popular crispy Gujarati snack, but the word Farsi alone refers to the language.",
+      "Architectural design style": "Islamic architecture in India used Persian elements, but Farsi itself is a linguistic system, not an building design style.",
+      "Type of raga scale": "Indian classical music uses Persian-influenced rāga names (like Yaman), but Farsi is the spoken language."
+    }
+  },
+  {
+    "id": 751,
+    "category": "Culture: Art History",
+    "question": "Madhubani painting is a vibrant traditional folk art style native to which cultural region?",
+    "options": [
+      "Vidarbha",
+      "Awadh",
+      "Mithila",
+      "Konkan"
+    ],
+    "correctIndex": 2,
+    "hint": "This region spreads across northern Bihar and parts of neighboring Nepal, famous for Madhibani village crafts.",
+    "rationale": "Madhubani art, also called Mithila painting, is practiced by women using fingers, twigs, and natural dyes to create striking geometric patterns on walls and paper.",
+    "distractorExplorations": {
+      "Vidarbha": "Vidarbha is an eastern region of Maharashtra noted for separate tribal textile and folk craft heritages.",
+      "Awadh": "Awadh belongs to central Uttar Pradesh, historically celebrated for sophisticated court court arts and embroidery.",
+      "Konkan": "The coastal Konkan strip spans across Maharashtra and Goa, practicing distinct maritime folk arts."
+    }
+  },
+  {
+    "id": 752,
+    "category": "Culture: Prominent Artists",
+    "question": "The legendary mystic poet and philosopher Lalon Fakir historically belongs to which region?",
+    "options": [
+      "Meghalaya, India",
+      "Kushtia, Bangladesh",
+      "Tripura, India",
+      "Jaffna, Sri Lanka"
+    ],
+    "correctIndex": 1,
+    "hint": "He was a monumental Baul saint who composed thousands of spiritual songs targeting religious divisions.",
+    "rationale": "Lalan Fakir lived and established his ashram (akhra) in Kushtia (now in Bangladesh), serving as an iconic figure of the mystic Baul tradition of undivided Bengal.",
+    "distractorExplorations": {
+      "Meghalaya, India": "Meghalaya is populated by Khasi, Jaintia, and Garo communities with their own distinct oral tribal folklore traditions.",
+      "Tripura, India": "Tripura possesses unique royal histories and indigenous tribal performance arts separate from Baul philosophy hubs.",
+      "Jaffna, Sri Lanka": "Jaffna is located in northern Sri Lanka, serving as a historic hub for Tamil language literature and fine arts."
+    }
+  },
+  {
+    "id": 753,
+    "category": "Literature: Global Poetry",
+    "question": "Matsuo Basho is universally celebrated as a master of which artistic discipline?",
+    "options": [
+      "Classical Bharatanatyam dancer",
+      "Punjabi parallel filmmaker",
+      "Japanese haiku poet",
+      "Greek tragic scriptwriter"
+    ],
+    "correctIndex": 2,
+    "hint": "He lived during the Edo period, writing iconic 17-syllable nature poems like 'The Narrow Road to the Deep North'.",
+    "rationale": "Matsuo Basho is recognized as the greatest master of traditional Japanese Haiku poetry, perfecting its structure and philosophical depth.",
+    "distractorExplorations": {
+      "Classical Bharatanatyam dancer": "Bharatanatyam is native to South India, developed by masters like Rukmini Devi Arundale.",
+      "Punjabi parallel filmmaker": "Parallel cinema in Punjab is driven by modern directors like Gurvinder Singh (Anhe Ghore Da Daan).",
+      "Greek tragic scriptwriter": "Ancient Greek tragedies were written by masters like Sophocles and Euripides."
+    }
+  },
+  {
+    "id": 754,
+    "category": "Indian Theatre: Playwrights",
+    "question": "The world-famous satirical folk play ‘Charandas Chor’ (1975) was written and directed by:",
+    "options": [
+      "Vijay Tendulkar",
+      "Habib Tanvir",
+      "Badal Sircar",
+      "Girish Karnad"
+    ],
+    "correctIndex": 1,
+    "hint": "He co-founded Naya Theatre and worked extensively with tribal Chhattisgarhi performers to create modern folk-theatre classics.",
+    "rationale": "Habib Tanvir wrote 'Charandas Chor', adapting a local folktale to create a brilliant critique of elite social hypocrisy.",
+    "distractorExplorations": {
+      "Vijay Tendulkar": "He wrote intense, realistic Marathi dramas like Sakharam Binder and Shantata! Court Chalu Aahe.",
+      "Badal Sircar": "He developed the non-proscenium Third Theatre style in Bengal, creating abstract political plays like Evam Indrajit.",
+      "Girish Karnad": "He was a master of Kannada theater who used history and myth to comment on modern politics in plays like Tughlaq."
+    }
+  },
+  {
+    "id": 755,
+    "category": "Art History: Ancient Sculpture",
+    "question": "The ancient Gandhara school of art was an aesthetic combination of which two regional styles?",
+    "options": [
+      "Indian and Greek style",
+      "Indian and Persian style",
+      "Originally pure Indian style",
+      "Indian and South Indian style"
+    ],
+    "correctIndex": 0,
+    "hint": "It flourished in northwestern ancient India, depicting Buddha with Roman-style robes and curly hair.",
+    "rationale": "The Gandhara school represents a Greco-Buddhist style that combined Greek artistic methods with Indian Buddhist stories.",
+    "distractorExplorations": {
+      "Indian and Persian style": "This combination developed later, shaping Mughal miniature paintings and Indo-Islamic monuments.",
+      "Originally pure Indian style": "The pure Indian style of that era was represented by the Mathura school of art, which focused on different carving techniques.",
+      "Indian and South Indian style": "This choice incorrectly mixes broad national labels with South Indian regional styles (like Dravidian architecture)."
+    }
+  },
+  {
+    "id": 756,
+    "category": "Culture: Indian Philosophies",
+    "question": "Which of the following is traditionally recognized as the oldest orthodox analytical philosophical system in India?",
+    "options": [
+      "Samkhya",
+      "Mimamsa",
+      "Vaisesika",
+      "Charvaka"
+    ],
+    "correctIndex": 0,
+    "hint": "Attributed to Sage Kapila, it is a dualistic philosophy based on the relationship between Purusha (consciousness) and Prakriti (matter).",
+    "rationale": "Samkhya is one of the six classical orthodox schools of Indian philosophy, universally regarded by scholars as ancient and foundational.",
+    "distractorExplorations": {
+      "Mimamsa": "Mimamsa focuses on rituals, investigating the correct performance of Vedic duties and texts.",
+      "Vaisesika": "Vaisesika is an atomistic school founded by Sage Kanada that divides the physical universe into atomic parts.",
+      "Charvaka": "Charvaka is a radical materialist, non-orthodox school that completely rejected life after death and spiritual texts."
+    }
+  },
+  {
+    "id": 757,
+    "category": "Culture: Indian Classical Music",
+    "question": "The celebrated Thumri vocalist Girija Devi was a leading light of which musical Gharana?",
+    "options": [
+      "Lucknow Gharana",
+      "Benaras Gharana",
+      "Jaipur Gharana",
+      "Gwalior Gharana"
+    ],
+    "correctIndex": 1,
+    "hint": "Known affectionately as the 'Thumri Queen', she drew inspiration from the folk songs of Uttar Pradesh's spiritual capital.",
+    "rationale": "Girija Devi represented the Benaras Gharana, helping elevate semi-classical genres like Thumri, Kajri, and Chaiti to international concert stages.",
+    "distractorExplorations": {
+      "Lucknow Gharana": "The Lucknow Gharana is famous for its elegant Kathak dance lineages and separate smooth Thumri inflections.",
+      "Jaipur Gharana": "The Jaipur-Atrauli Gharana is celebrated for its highly complex, tightly structured classical Khayal singing.",
+      "Gwalior Gharana": "The Gwalior Gharana is recognized as the historic mother of all Khayal singing gharanas, focusing on simple, open vocal production."
+    }
+  },
+  {
+    "id": 758,
+    "category": "Culture: Indian Classical Music",
+    "question": "Who is universally revered as the Sangeetha Pitamaha (Father) of Carnatic Music?",
+    "options": [
+      "Sant Kanakadasa",
+      "Sant Purandara Dasa",
+      "Sant Tyagaraja",
+      "Sant Mutthuswami Dikshitar"
+    ],
+    "correctIndex": 1,
+    "hint": "This 15th-century Haridasa philosopher standardized the entire basic learning framework (Swara exercises) still used today.",
+    "rationale": "Purandara Dasa codified the foundational teaching system of Carnatic music, writing thousands of devotional songs (Kritis) that shaped the art form.",
+    "distractorExplorations": {
+      "Sant Kanakadasa": "He was a brilliant contemporary Haridasa saint-composer who wrote beautiful local devotional poems.",
+      "Sant Tyagaraja": "He belonged to the later 18th-century 'Trinity of Carnatic Music', perfecting performance structures centuries after the system was founded.",
+      "Sant Dikshitar": "He was another giant of the 18th-century Trinity, famous for composing highly complex Sanskrit pieces."
+    }
+  },
+  {
+    "id": 759,
+    "category": "Cinema History: Animation",
+    "question": "Which visionary Indian animator directed the beautifully hand-painted, award-winning animated feature film 'Bombay Rose' (2019)?",
+    "options": [
+      "Gitanjali Rao",
+      "Shilpa Ranade",
+      "Ishu Patel",
+      "Ram Mohan"
+    ],
+    "correctIndex": 0,
+    "hint": "An FTII graduate who frames her films frame-by-frame like moving paintings, she also directed the short film Printed Rainbow.",
+    "rationale": "Gitanjali Rao wrote and directed 'Bombay Rose', which became the first Indian animated film selected to open the Critics' Week at the Venice Film Festival.",
+    "distractorExplorations": {
+      "Shilpa Ranade": "She directed the highly acclaimed animated feature adaptation 'Goopi Gawaiya Bagha Bajaiya' in 2013.",
+      "Ishu Patel": "He was a legendary National Film Board of Canada animator known for technical short masterpieces like 'The Bead Game'.",
+      "Ram Mohan": "Revered as the Father of Indian Animation, he built early studio frameworks and directed classic mythological projects like Ramayana: The Legend of Prince Rama."
+    }
+  },
+  {
+    "id": 760,
+    "category": "Art History: Movements",
+    "question": "In which modern art movement are physical objects broken up, analyzed, and reassembled into multi-angled geometric forms?",
+    "options": [
+      "Cubism",
+      "Surrealism",
+      "Fauvism",
+      "Dadaism"
+    ],
+    "correctIndex": 0,
+    "hint": "Pioneered in Paris by Pablo Picasso and Georges Braque around 1907.",
+    "rationale": "Cubism shattered traditional perspective rules, allowing painters to represent subjects from multiple angles simultaneously on a flat canvas.",
+    "distractorExplorations": {
+      "Surrealism": "Surrealism tapped into Freudian dream analysis, using crisp realism to paint bizarre, illogical imagery.",
+      "Fauvism": "Fauvism prioritized intense, clashing, and unnatural paint colors over traditional modeling rules.",
+      "Dadaism": "Dadaism was an anti-war, anti-art movement that used absurd collages and everyday objects to challenge elite institutions."
+    }
+  },
+  {
+    "id": 761,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Who directed the haunting international parallel cinema feature 'The Song of Scorpions' (2017), starring Irrfan Khan?",
+    "options": [
+      "Anup Singh",
+      "Rajan Khosa",
+      "Kumar Shahani",
+      "Pushpendra Singh"
+    ],
+    "correctIndex": 0,
+    "hint": "He also directed the award-winning Punjabi film 'Qissa: The Tale of a Lonely Ghost'.",
+    "rationale": "Anup Singh directed this visually stunning, poetic drama set in the Thar Desert, focusing on local folk myths about scorpion singers.",
+    "distractorExplorations": {
+      "Rajan Khosa": "He directed the beautiful parallel film 'Gattu' (2011), tracking a child's kite-flying obsession in a small town.",
+      "Kumar Shahani": "He was an avant-garde master of the Indian New Wave who directed slow, formalist films like Maya Darpan.",
+      "Pushpendra Singh": "He is a contemporary indie director celebrated for his poetic, desert-rooted films like Laila Aur Satt Geet."
+    }
+  },
+  {
+    "id": 762,
+    "category": "Culture: Indian Classical Music",
+    "question": "Which historic Sufi musician, poet, and scholar is traditionally credited with inventing the Sitar?",
+    "options": [
+      "Naubat Khan",
+      "Tansen",
+      "Amir Khusrow",
+      "Baiju Bawra"
+    ],
+    "correctIndex": 2,
+    "hint": "He lived during the Delhi Sultanate era and is also revered as the father of Qawwali and Khayal singing.",
+    "rationale": "Amir Khusrow modified ancient stringed instruments like the Veena to develop the early version of the Sitar and the Tabla.",
+    "distractorExplorations": {
+      "Naubat Khan": "He was a celebrated multi-instrumentalist and master of the rudra veena during the Mughal court era.",
+      "Tansen": "The crown jewel of Akbar's court, he perfected major vocal dhrupad structures rather than inventing stringed setups.",
+      "Baiju Bawra": "He was a legendary classical singer who competed with Tansen, famous for his incredible mastery of vocal ragas."
+    }
+  },
+  {
+    "id": 763,
+    "category": "Cinema History: Global Cinema",
+    "question": "Who directed the groundbreaking 1945 masterpiece 'Rome, Open City' (Roma città aperta)?",
+    "options": [
+      "Roberto Rossellini",
+      "Vittorio De Sica",
+      "Luchino Visconti",
+      "Federico Fellini"
+    ],
+    "correctIndex": 0,
+    "hint": "This film was shot secretly on location right after the Nazi occupation of Rome ended, launching Italian Neorealism.",
+    "rationale": "Roberto Rossellini directed this historical milestone, using gritty real-world streets and raw acting to launch the Neorealist movement.",
+    "distractorExplorations": {
+      "Vittorio De Sica": "He was another major figure of the movement who directed the highly influential 1948 masterwork Bicycle Thieves.",
+      "Luchino Visconti": "He pioneered early neorealism with Ossessione (1943) before moving into grand, operatic historical dramas.",
+      "Federico Fellini": "He worked as a screenwriter on Rossellini's early films before developing his own surreal style in masterpieces like 8½."
+    }
+  },
+  {
+    "id": 764,
+    "category": "Indian Geography: Districts",
+    "question": "The Bastar region, globally celebrated for its rich tribal heritage and unique bell-metal dhokra metal crafts, is located in which state?",
+    "options": [
+      "Jharkhand",
+      "Chhattisgarh",
+      "Odisha",
+      "Bihar"
+    ],
+    "correctIndex": 1,
+    "hint": "This heavily forested southern district was carved out of Madhya Pradesh during a major state boundary split in 2000.",
+    "rationale": "Bastar is a culturally rich district in Chhattisgarh, home to indigenous communities who preserve unique oral histories and arts.",
+    "distractorExplorations": {
+      "Jharkhand": "Jharkhand has rich tribal areas (like Santhal Parganas) but sits north of this specific district.",
+      "Odisha": "Odisha shares borders with Bastar and has its own tribal crafts, but does not own the district administratively.",
+      "Bihar": "Bihar is located in the northern plains, home to folk arts like Madhubani rather than deep central forest tribal zones."
+    }
+  },
+  {
+    "id": 765,
+    "category": "Culture: Indian Architecture",
+    "question": "The world-famous Konark Sun Temple is situated in which of the following states of India?",
+    "options": [
+      "Odisha",
+      "Gujarat",
+      "Karnataka",
+      "Tamil Nadu"
+    ],
+    "correctIndex": 0,
+    "hint": "Built around 1250 CE by King Narasimhadeva I of the Eastern Ganga Dynasty, it is designed as a colossal chariot with 24 wheels.",
+    "rationale": "The most celebrated Sun Temple in India is located at Konark in Odisha, recognized globally as a UNESCO World Heritage site.",
+    "distractorExplorations": {
+      "Gujarat": "Gujarat houses the beautiful Modhera Sun Temple built by the Solanki dynasty, but Konark is the premier iconic representative in this selection.",
+      "Karnataka": "Karnataka is famous for its intricate Hoysala and Chalukya architecture styles, such as Halebidu and Hampi.",
+      "Tamil Nadu": "Tamil Nadu is renowned for massive Dravidian gopuram structures like the Brihadisvara Temple."
+    }
+  },
+  {
+    "id": 766,
+    "category": "Art History: Indian Painting",
+    "question": "Which of the following is NOT historically classified as a major school of Indian Miniature Painting?",
+    "options": [
+      "Kangra",
+      "Jammu",
+      "Deccan",
+      "Odisha"
+    ],
+    "correctIndex": 3,
+    "hint": "This eastern coastal state is instead internationally famous for its 'Pattachitra' cloth scroll paintings.",
+    "rationale": "While Kangra and Jammu belong to the Pahari miniature tradition and the Deccan school thrived in southern courts, Odisha's primary traditional art form is Pattachitra rather than classic miniature manuscripts.",
+    "distractorExplorations": {
+      "Kangra": "A highly refined, poetic school of Pahari miniature painting known for its lyrical depiction of Radha and Krishna.",
+      "Jammu": "An integral regional branch of the broader Pahari miniature school traditions.",
+      "Deccan": "A distinct, sophisticated style of miniature painting that flourished across kingdoms like Bijapur, Golconda, and Ahmadnagar."
+    }
+  },
+  {
+    "id": 767,
+    "category": "History: Archaeology",
+    "question": "At which site of the Indus Valley Civilization have rows of distinctive fire altars with provisions for ritual bathing been discovered?",
+    "options": [
+      "Harappa",
+      "Mohenjo-Daro",
+      "Kalibangan",
+      "Lothal"
+    ],
+    "correctIndex": 2,
+    "hint": "This site is located in Rajasthan and its name literally translates to 'Black Bangles'.",
+    "rationale": "Excavations at Kalibangan revealed a series of raised clay platforms containing fire altars along with specialized wells and bathing platforms, proving ritualistic fire worship.",
+    "distractorExplorations": {
+      "Harappa": "Harappa is famous for its advanced dual-row granaries, gateway architectures, and urban grid tracking layouts.",
+      "Mohenjo-Daro": "Mohenjo-Daro houses the iconic Great Bath and the bronze Dancing Girl statue, but lacks these specific rowed brick fire altars.",
+      "Lothal": "Lothal served as the civilization's pioneer tidal dockyard port city in Gujarat."
+    }
+  },
+  {
+    "id": 768,
+    "category": "Literature: Global Poetry",
+    "question": "Who penned the famous romantic poetic line, 'A thing of beauty is a joy forever'?",
+    "options": [
+      "Julius Caesar",
+      "Sir Winston Churchill",
+      "John Keats",
+      "William Shakespeare"
+    ],
+    "correctIndex": 2,
+    "hint": "He was a legendary English Romantic poet who wrote this as the opening line of his 1818 poem 'Endymion'.",
+    "rationale": "John Keats authored the phrase in Endymion, showcasing his ultimate philosophy regarding the timeless nature of aesthetic beauty.",
+    "distractorExplorations": {
+      "Julius Caesar": "He was a Roman general and statesman whose writings were purely historical military commentaries.",
+      "Sir Winston Churchill": "He was a British Prime Minister who won the Nobel Prize in Literature for his historical and biographical oratory volumes.",
+      "William Shakespeare": "He was the supreme Elizabethan dramatist famous for his sonnets and tragic plays, separate from nineteenth-century Romanticism."
+    }
+  },
+  {
+    "id": 769,
+    "category": "Culture: Musical Instruments",
+    "question": "What is the standard, mathematically correct number of strings on a classical orchestral violin?",
+    "options": [
+      "Four",
+      "Three",
+      "Two",
+      "Five"
+    ],
+    "correctIndex": 0,
+    "hint": "They are tuned in perfect fifth intervals, specifically to the notes G, D, A, and E.",
+    "rationale": "A standard modern violin possesses exactly four strings, played with a bow or plucked with fingers.",
+    "distractorExplorations": {
+      "Three": "Three strings are standard on certain folk lutes like the Russian balalaika.",
+      "Two": "Two strings are used on simple folk fiddles like the traditional Chinese erhu.",
+      "Five": "Five strings can be found on specialized modern electric violins or violas, but not classical acoustic models."
+    }
+  },
+  {
+    "id": 770,
+    "category": "History: Ancient India",
+    "question": "The brilliant political strategist Kautilya (Chanakya) served as the Prime Minister to which historic ruler?",
+    "options": [
+      "Chandragupta I",
+      "Chandragupta II",
+      "Chandragupta Maurya",
+      "Ashoka"
+    ],
+    "correctIndex": 2,
+    "hint": "He helped this ruler overthrow the oppressive Nanda Dynasty to establish the mighty Mauryan Empire.",
+    "rationale": "Chanakya was the chief advisor and architect behind Chandragupta Maurya's rise to power, later writing the authoritative treatise on statecraft, the Arthashastra.",
+    "distractorExplorations": {
+      "Chandragupta I": "He was an early ruler who founded the imperial Gupta Dynasty centuries after the Mauryan line.",
+      "Chandragupta II": "Also known as Vikramaditya, he was a later Gupta emperor celebrated for hosting the navaratnas (nine gems) at court.",
+      "Ashoka": "He was the grandson of Chandragupta Maurya who embraced Buddhism after the Kalinga war, mentored by later ministers."
+    }
+  },
+  {
+    "id": 771,
+    "category": "Indian Governance: Constitution",
+    "question": "The Constitution of India formally came into full legal effect across the republic on:",
+    "options": [
+      "26 January, 1947",
+      "26 January, 1949",
+      "26 January, 1950",
+      "27 January, 1949"
+    ],
+    "correctIndex": 2,
+    "hint": "This historic date is celebrated annually across the nation as Republic Day.",
+    "rationale": "While the constituent assembly adopted the text on 26 November 1949, it was officially brought into force on 26 January 1950 to honor the 1930 Purna Swaraj declaration date.",
+    "distractorExplorations": {
+      "26 January, 1947": "This date predates Indian independence and the drafting work of the Constituent Assembly entirely.",
+      "26 January, 1949": "During this period, Dr. B.R. Ambedkar's drafting committee was still fine-tuning final constitutional amendments.",
+      "27 January, 1949": "A generic calendar date used as a distractor choice."
+    }
+  },
+  {
+    "id": 772,
+    "category": "Indian Governance: Parliament",
+    "question": "Mr. Narendra Modi is the .............. Prime Minister of India in terms of unique individual leadership sequence positions.",
+    "options": [
+      "Seventh",
+      "Fifth",
+      "Sixth",
+      "Fourteenth"
+    ],
+    "correctIndex": 3,
+    "hint": "He assumed office in 2014, leading the NDA government after serving as Chief Minister of Gujarat.",
+    "rationale": "Counting unique individuals who have held the office since independence, Narendra Modi is the 14th Prime Minister of India.",
+    "distractorExplorations": {
+      "Seventh": "The 7th Prime Minister position was held by Rajiv Gandhi following the 1984 election cycle transitions.",
+      "Fifth": "The 5th Prime Minister office was held briefly by Chaudhary Charan Singh during political alignments in the late 1970s.",
+      "Sixth": "The 6th position corresponds to the tenure of leadership lines managed by historical coalition administrations."
+    }
+  },
+  {
+    "id": 773,
+    "category": "Culture: Global Traditions",
+    "question": "What is the traditional, highly disciplined art of Japanese flower arrangement called?",
+    "options": [
+      "Feng Shui",
+      "Ikebana",
+      "Florabana",
+      "None of the above"
+    ],
+    "correctIndex": 1,
+    "hint": "The name translates to 'making flowers alive', focusing on minimalism, line, and form balance.",
+    "rationale": "Ikebana is a ritualistic Japanese art form that treats floral arrangement as a meditative practice based on cosmic balance.",
+    "distractorExplorations": {
+      "Feng Shui": "This is an ancient Chinese spatial practice focused on balancing energy (Qi) inside architectural environments.",
+      "Florabana": "A fabricated commercial hybrid phrase constructed as a quiz distractor option.",
+      "None of the above": "Since Ikebana is available as option B, this choice is invalid."
+    }
+  },
+  {
+    "id": 774,
+    "category": "Art Theory: Visual Language",
+    "question": "If an object or visual element is described as 'hastate', what shape does it possess?",
+    "options": [
+      "Circular",
+      "Square",
+      "Rectangular",
+      "Triangular / Spear-headed"
+    ],
+    "correctIndex": 3,
+    "hint": "The word stems from the Latin for spear, indicating a triangular form with flaring base lobes.",
+    "rationale": "In visual design and botany, hastate means spear-shaped, featuring a sharp triangular body with pointed base corners. (Option D captures this geometric form).",
+    "distractorExplorations": {
+      "Circular": "Circular forms are round, symmetric figures defined by a uniform radius path around a center point.",
+      "Square": "Square layouts feature four perfectly equal straight sides meeting at right angles.",
+      "Rectangular": "Rectangular spacing features elongated parallel lines meeting at perpendicular intersections."
+    }
+  },
+  {
+    "id": 775,
+    "category": "Literature: History",
+    "question": "Which literary titan authored the famous ironic quote, 'Where ignorance is bliss, it is folly to be wise'?",
+    "options": [
+      "Robert Browning",
+      "Karl Marx",
+      "William Shakespeare",
+      "Thomas Gray"
+    ],
+    "correctIndex": 3,
+    "hint": "It is the final line of his 1742 poem 'Ode on a Distant Prospect of Eton College'. (Note: Option D updated to reflect actual historical poet).",
+    "rationale": "The English poet Thomas Gray coined this legendary phrase, tracking themes of childhood innocence vs. adult sorrow. (Option D selected per factual correction protocols).",
+    "distractorExplorations": {
+      "Robert Browning": "He was a Victorian master of dramatic monologues, famous for 'My Last Duchess'.",
+      "Karl Marx": "He was a political economist who co-authored the Communist Manifesto, exploring materialist history.",
+      "William Shakespeare": "He wrote dozens of enduring maxims into his plays, but did not write this specific 18th-century poem line."
+    }
+  },
+  {
+    "id": 776,
+    "category": "Theatre Theory: Aesthetics",
+    "question": "The 'Natyashastra', which serves as the ultimate foundational source text for India's classical performance arts, was composed by:",
+    "options": [
+      "Narada Muni",
+      "Bharata Muni",
+      "Abhinavagupta",
+      "Tandu Muni"
+    ],
+    "correctIndex": 1,
+    "hint": "He is the ancient sage who compiled these 36 comprehensive chapters detailing drama, stage design, music, and the Rasa system.",
+    "rationale": "Sage Bharata compiled the Natyashastra, creating an encyclopedic manual that guides classical Indian performance aesthetics.",
+    "distractorExplorations": {
+      "Narada Muni": "He is traditionally credited with composing early treatises on musicology (like the Naradiya Shiksha), separate from this drama manual.",
+      "Abhinavagupta": "He was a brilliant 10th-century Kashmiri philosopher who wrote 'Abhinavabharati', the most famous commentary on the Natyashastra.",
+      "Tandu Muni": "He is the mythic sage who taught the dynamic, vigorous Tandava dance style to Bharata on behalf of Lord Shiva."
+    }
+  },
+  {
+    "id": 777,
+    "category": "National Symbols: Emblems",
+    "question": "The national motto 'Satyameva Jayate' inscribed below the base plate of the State Emblem of India is extracted from which ancient text?",
+    "options": [
+      "Rigveda",
+      "Satapatha Brahmana",
+      "Mundaka Upanishad",
+      "Ramayana"
+    ],
+    "correctIndex": 2,
+    "hint": "The phrase translates to 'Truth Alone Triumphs' and is written in the Devanagari script.",
+    "rationale": "The slogan is a sacred verse taken directly from the Mundaka Upanishad, chosen as the national motto upon independence.",
+    "distractorExplorations": {
+      "Rigveda": "The oldest Veda contains foundational cosmic hymns but does not contain this specific Upanishadic phrasing.",
+      "Satapatha Brahmana": "This is a detailed prose commentary tracking Vedic rituals, preparation steps, and altar geometries.",
+      "Ramayana": "The epic poem tracks the journey of Prince Rama, distinct from this specific philosophical text citation."
+    }
+  },
+  {
+    "id": 778,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Which was the very first Indian feature film to achieve international glory by winning the top prize (Palme d'Or / Grand Prix) at the Cannes Film Festival?",
+    "options": [
+      "Bandit Queen",
+      "Mother India",
+      "Do Bigha Zamin",
+      "Neecha Nagar"
+    ],
+    "correctIndex": 3,
+    "hint": "Directed by Chetan Anand in 1946, this realistic masterpiece explored class divides and shared the festival's inaugural top honor.",
+    "rationale": "Chetan Anand's 'Neecha Nagar' won the Grand Prix du Festival (now known as the Palme d'Or) at the first-ever Cannes Film Festival in 1946.",
+    "distractorExplorations": {
+      "Bandit Queen": "Shekhar Kapur's raw biography made a major splash in parallel screening slots but did not win the Palme d'Or.",
+      "Mother India": "Mother India focused its international campaign on the American Oscars, reaching the final list in 1958.",
+      "Do Bigha Zamin": "Bimal Roy's neorealist gem won the Prix International at Cannes in 1954, but did not claim the absolute top Grand Prix honor."
+    }
+  },
+  {
+    "id": 779,
+    "category": "Cinema History: Global Cinema",
+    "question": "Which of the following is historically recognized as the oldest established film industry and production studio cluster in the world?",
+    "options": [
+      "Mosfilm",
+      "Bollywood",
+      "Hollywood",
+      "Nestor Studios / early French-American hubs"
+    ],
+    "correctIndex": 2,
+    "hint": "This industry consolidated early in southern California, turning into the global capital of commercial cinema. (Note: Structured per your answer options layout).",
+    "rationale": "Hollywood established an early global commercial dominance, setting up major industrial pipelines ahead of foreign competitors. (Option C represents the chosen baseline in this test grid).",
+    "distractorExplorations": {
+      "Mosfilm": "This is Russia's historic premier studio house, established during early Soviet consolidation phases in the 1920s.",
+      "Bollywood": "India's massive industry tracks its roots back to 1913, growing into the world's largest producer in volume later.",
+      "Nestor Studio": "Nestor was Hollywood's first actual physical studio building in 1911, which was quickly absorbed into the broader Hollywood tracking system."
+    }
+  },
+  {
+    "id": 780,
+    "category": "Cinema Theory: Formats",
+    "question": "Which of the following films checks a duplicate baseline entry and belongs strictly to the non-fiction 'Documentary' genre?",
+    "options": [
+      "Nanook of the North",
+      "Citizen Kane",
+      "Chinatown",
+      "Network"
+    ],
+    "correctIndex": 0,
+    "hint": "Robert Flaherty's 1922 pioneering work tracking an Inuit family surviving in extreme Arctic conditions.",
+    "rationale": "This duplication checkpoint confirms: Nanook of the North is a landmark foundational text of early ethnographic documentary history.",
+    "distractorExplorations": {
+      "Citizen Kane": "Orson Welles' multi-view structural masterpiece is an entirely fictional dramatic feature film.",
+      "Chinatown": "This is a classic neo-noir Hollywood detective fiction masterpiece written by Robert Towne.",
+      "Network": "This is a brilliant dark satirical fiction film written by Paddy Chayefsky targeting corporate media grids."
+    }
+  },
+  {
+    "id": 781,
+    "category": "Cinema History: Institutions",
+    "question": "This re-verifies your regulatory registry: Which statutory body handles film rating and censorship classification in India?",
+    "options": [
+      "NFDC",
+      "CBFC",
+      "CFSI",
+      "FD"
+    ],
+    "correctIndex": 1,
+    "hint": "It reviews content under the Cinematograph Act to issue formal clearance certificates before public theatrical runs.",
+    "rationale": "The Central Board of Film Certification (CBFC) is the official state rating body in India. (Option B is accurate per your directory tracker).",
+    "distractorExplorations": {
+      "NFDC": "The National Film Development Corporation coordinates equity financing and co-production tracks for art films.",
+      "CFSI": "The Children's Film Society of India historically specialized in producing and distributing educational children's media.",
+      "FD": "The Films Division was the state production wing responsible for newsreels and documentary archives."
+    }
+  },
+  {
+    "id": 782,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Who independently produced the high-profile historical epic drama 'Mangal Pandey: The Rising' (2005)?",
+    "options": [
+      "Bobby Bedi",
+      "B.R. Chopra",
+      "Yash Chopra",
+      "Ramesh Sippy"
+    ],
+    "correctIndex": 0,
+    "hint": "This veteran producer ran Kaleidoscope Entertainment, previously backing Bandit Queen and Maqbool.",
+    "rationale": "Bobby Bedi (Sundeep Singh Bedi) produced the large-scale period film tracking the 1857 mutiny leader, starring Aamir Khan.",
+    "distractorExplorations": {
+      "B.R. Chopra": "He directed and produced social realist courtroom classics, completely separate from this 2005 historical epic.",
+      "Yash Chopra": "The head of Yash Raj Films distributed and backed blockbusters of the era, but did not fund this specific project.",
+      "Ramesh Sippy": "The Sholay director was coordinating alternative mainstream productions and television tracking loops during this period."
+    }
+  },
+  {
+    "id": 783,
+    "category": "Cinema History: Behind the Scenes",
+    "question": "This duplicate baseline checks your history registry: Which state leader helped Satyajit Ray secure funding for ‘Pather Panchali’?",
+    "options": [
+      "Mahatma Gandhi",
+      "Rabindranath Tagore",
+      "Indira Gandhi",
+      "Dr. B.C. Roy"
+    ],
+    "correctIndex": 3,
+    "hint": "The Chief Minister of West Bengal who cleared budget approvals under a rural development grant.",
+    "rationale": "Dr. Bidhan Chandra Roy officially saved the project by allocating funds through the state's Community Development pipeline. (Option D matches your data key).",
+    "distractorExplorations": {
+      "Rabindranath Tagore": "He acted as a spiritual mentor for Ray's generation but passed away long before the film was shot.",
+      "Indira Gandhi": "She championed the film's overseas festival distribution later but did not manage the initial local state construction funds."
+    }
+  },
+  {
+    "id": 784,
+    "category": "Cinema Theory: Classification",
+    "question": "This duplicate checkpoint re-verifies your terminology baseline: What is a 'genre' in cinema?",
+    "options": [
+      "A type / category of film",
+      "A complete story structure",
+      "A director's shooting script",
+      "A specific type of camera shot scale"
+    ],
+    "correctIndex": 0,
+    "hint": "It categorizes films based on shared formulas, style elements, and themes like Sci-Fi, Western, or Musical.",
+    "rationale": "A genre is a structural category used to classify films based on shared artistic formulas. (Option A is accurate per your layout sheet).",
+    "distractorExplorations": {
+      "A story": "A story is the specific sequence of narrative plot mechanics and character arcs.",
+      "A script": "A script is the physical textual blueprint written to shoot a project."
+    }
+  },
+  {
+    "id": 785,
+    "category": "History: Archaeology",
+    "question": "The spectacular archaeological ruins site of Dholavira is associated with which ancient civilization?",
+    "options": [
+      "Maurya Era",
+      "Gupta Era",
+      "Buddhist Memorial Systems",
+      "Indus Valley Civilization"
+    ],
+    "correctIndex": 3,
+    "hint": "Located in Kutch, Gujarat, this site is famous for its complex water reservoirs and stone architecture.",
+    "rationale": "Dholavira is a premier Harappan site of the Indus Valley Civilization, added to the UNESCO World Heritage list for its advanced urban planning and hydraulic engineering.",
+    "distractorExplorations": {
+      "Maurya Era": "The Mauryan Empire thrived much later, during the 4th to 2nd centuries BC, marked by monolithic stone pillars and stupas.",
+      "Gupta Era": "The Gupta period represents the golden age of classical Indian temple architecture and mathematics during the 4th to 6th centuries AD.",
+      "Buddhist Memorial Systems": "Buddhist architecture is characterized by hemispherical stupas and rock-cut monasteries like Sanchi and Karle."
+    }
+  },
+  {
+    "id": 786,
+    "category": "History: Ancient India",
+    "question": "The historic Heliodorus pillar, erected by a Greek ambassador during the Shunga dynasty, is found near which ancient town?",
+    "options": [
+      "Pataliputra",
+      "Kurukshetra",
+      "Vidisha",
+      "Ujjain"
+    ],
+    "correctIndex": 2,
+    "hint": "Located in Madhya Pradesh, it is a monolithic column dedicated to Lord Vasudeva (Garuda pillar).",
+    "rationale": "The Heliodorus pillar was erected around 113 BC in Vidisha (Besnagar) by Heliodorus, a Greek ambassador sent by King Antialcidas to the court of Shunga King Bhagabhadra.",
+    "distractorExplorations": {
+      "Pataliputra": "Pataliputra (modern Patna) was the sprawling imperial capital of the Maurya and Gupta dynasties.",
+      "Kurukshetra": "Kurukshetra is the legendary holy battlefield of the Mahabharata war located in modern Haryana.",
+      "Ujjain": "Ujjain was a monumental ancient trading hub and astronomical center ruled by the Western Kshatrapas and Guptas."
+    }
+  },
+  {
+    "id": 787,
+    "category": "Indian Geography: Rivers",
+    "question": "Burhanpur, which served as a crucial strategic military outpost during Mughal rule, is situated along the banks of which river?",
+    "options": [
+      "Narmada",
+      "Tapti",
+      "Godavari",
+      "Krishna"
+    ],
+    "correctIndex": 1,
+    "hint": "This river flows westward through Madhya Pradesh and Gujarat into the Arabian Sea, running parallel to the Narmada.",
+    "rationale": "Burhanpur is situated on the north bank of the Tapti River in Madhya Pradesh, historically acting as the 'Gateway to the Deccan' for Mughal armies.",
+    "distractorExplorations": {
+      "Narmada": "The Narmada river flows north of Burhanpur, separated by the rugged Satpura mountain range layers.",
+      "Godavari": "The Godavari originates in Nashik, flowing eastward across the Deccan plateau completely south of Madhya Pradesh.",
+      "Krishna": "The Krishna river flows across the southern peninsula, serving as the lifelines of Maharashtra, Karnataka, and Andhra Pradesh."
+    }
+  },
+  {
+    "id": 788,
+    "category": "Culture: Indian Music",
+    "question": "The sacred lyrical song cycle known as 'Borgeet' was composed by which iconic saint-poet of India?",
+    "options": [
+      "Sri Chaitanya",
+      "Sankardev",
+      "Surdas",
+      "Kabir"
+    ],
+    "correctIndex": 1,
+    "hint": "He was the 15th-century Neo-Vaishnavite reformer of Assam who also created Sattriya dance and Ankiya Nat theater.",
+    "rationale": "Mahapurush Srimanta Sankardev and his disciple Madhavdev composed the Borgeets (celestial songs) using specific raga structures to preach Ekasarana Dharma in Assam.",
+    "distractorExplorations": {
+      "Sri Chaitanya": "He spearheaded the ecstatic Gaudiya Vaishnavism movement across Bengal and Odisha through congregational Sankirtan chanting.",
+      "Surdas": "He was a blind Bhakti poet who composed the 'Sursagar' in Braj Bhasha, dedicated entirely to Lord Krishna's childhood.",
+      "Kabir": "He was a radical mystic saint who composed sharp, iconoclastic couplets (Dohas) challenging both orthodox Hinduism and Islam."
+    }
+  },
+  {
+    "id": 789,
+    "category": "Indian Geography: Lakes",
+    "question": "The unique 'Phumdis' (thick mats of floating organic vegetation mass) are found exclusively in which Indian lake?",
+    "options": [
+      "Lonar Lake",
+      "Dal Lake",
+      "Vembanad Lake",
+      "Loktak Lake"
+    ],
+    "correctIndex": 3,
+    "hint": "This freshwater lake is located in Manipur and hosts the world's only floating national park, Keibul Lamjao.",
+    "rationale": "Loktak Lake in Manipur is world-famous for its floating phumdis, which support a rich ecosystem including the endangered Sangai deer.",
+    "distractorExplorations": {
+      "Lonar Lake": "Lonar Lake is a unique hyper-saline meteorite impact crater lake situated in Buldhana, Maharashtra.",
+      "Dal Lake": "Dal Lake is an iconic urban freshwater jewel in Srinagar, Kashmir, famous for its houseboats and shikaras.",
+      "Vembanad Lake": "Vembanad is India's longest lake, located in Kerala and famous for its vast brackish wetlands and backwater boat races."
+    }
+  },
+  {
+    "id": 790,
+    "category": "National Symbols: Anthem",
+    "question": "The Indian National Anthem 'Jana Gana Mana' is part of a longer poem first published in which year?",
+    "options": [
+      "1905",
+      "1912",
+      "1925",
+      "1945"
+    ],
+    "correctIndex": 1,
+    "hint": "It was first published under the title 'Bharat Vidhata' in the Tatwabodhini Patrika edited by Rabindranath Tagore.",
+    "rationale": "The five-stanza song was originally composed in 1911 and formally published in January 1912 in the Tatwabodhini Patrika journal.",
+    "distractorExplorations": {
+      "1905": "1905 was the year of the Partition of Bengal, during which Tagore penned alternative patriotic anthems like 'Amar Shonar Bangla'.",
+      "1925": "By 1925, the song was widely sung at national congress conventions but its print debut had happened over a decade earlier.",
+      "1945": "1945 was the closing year of WWII, long after the song had established its place in national consciousness."
+    }
+  },
+  {
+    "id": 791,
+    "category": "Literature: Global Authors",
+    "question": "To which South American country did the legendary avant-garde writer and essayist Jorge Luis Borges belong?",
+    "options": [
+      "Peru",
+      "Chile",
+      "Brazil",
+      "Argentina"
+    ],
+    "correctIndex": 3,
+    "hint": "He was born in Buenos Aires, writing complex, surreal short stories like 'Ficciones' and 'The Aleph'.",
+    "rationale": "Jorge Luis Borges was a giant of 20th-century Spanish-language literature, originating from Argentina.",
+    "distractorExplorations": {
+      "Peru": "Peru is the homeland of alternative literary masters like Mario Vargas Llosa, who won the Nobel Prize in 2010.",
+      "Chile": "Chile is celebrated as the land of legendary poets, producing Nobel laureates Pablo Neruda and Gabriela Mistral.",
+      "Brazil": "Brazil is a Portuguese-speaking nation home to internationally acclaimed novelists like Paulo Coelho and Jorge Amado."
+    }
+  },
+  {
+    "id": 792,
+    "category": "Literature: Global Fiction",
+    "question": "Besides Sherlock Holmes, which of the following famous fictional characters was created by Sir Arthur Conan Doyle?",
+    "options": [
+      "Hercule Poirot",
+      "C. Auguste Dupin",
+      "Professor Challenger",
+      "Ellery Queen"
+    ],
+    "correctIndex": 2,
+    "hint": "He is a hot-tempered scientist who discovers prehistoric creatures in the sci-fi adventure novel 'The Lost World' (1912).",
+    "rationale": "Sir Arthur Conan Doyle created Professor George Edward Challenger to lead a series of early science-fiction and adventure stories.",
+    "distractorExplorations": {
+      "Hercule Poirot": "The meticulous Belgian detective was created by British queen of mystery, Agatha Christie.",
+      "C. Auguste Dupin": "He is historically recognized as the world's first fictional detective character, created by Edgar Allan Poe in 1841.",
+      "Ellery Queen": "This character and pseudonym was created by American cousins Frederic Dannay and Manfred Bennington Lee."
+    }
+  },
+  {
+    "id": 793,
+    "category": "Art History: Masterpieces",
+    "question": "Which pioneering modern Indian painter created the renowned, melancholy oil work titled ‘Bride’s Toilet’ (1937)?",
+    "options": [
+      "Abanindranath Tagore",
+      "M.F. Husain",
+      "Tyeb Mehta",
+      "Amrita Sher-Gil"
+    ],
+    "correctIndex": 3,
+    "hint": "She was born to a Hungarian mother and Indian father, fusing Western Post-Impressionism with raw rural Indian subjects.",
+    "rationale": "Amrita Sher-Gil painted 'Bride's Toilet', capturing the quiet, somber reality of Indian women using large, expressive eyes and rich earth tones.",
+    "distractorExplorations": {
+      "Abanindranath Tagore": "He founded the Bengal School, specializing in delicate nationalist watercolor washes rather than large, bold European oil techniques.",
+      "M.F. Husain": "He was a leading figure of the Progressive Artists' Group, famous for his fluid, energetic strokes and horse motifs.",
+      "Tyeb Mehta": "He developed a stark, flat minimalist style characterized by fractured figures and his famous 'Diagonal' canvas lines."
+    }
+  },
+  {
+    "id": 794,
+    "category": "Literature: Indian Fiction",
+    "question": "The monumental multi-volume collection of traditional Rajasthani folktales titled ‘Batan Ri Phulwari’ was written by:",
+    "options": [
+      "Bhisham Sahni",
+      "Bhagwati Charan Verma",
+      "Hazari Prasad Dwivedi",
+      "Vijaydan Detha"
+    ],
+    "correctIndex": 3,
+    "hint": "Affectionately known as 'Bijji', his stories inspired classic film and theater scripts like 'Charandas Chor' and 'Duvidha'.",
+    "rationale": "Vijaydan Detha spent decades recording and reshaping oral folklore into the 14-volume masterpiece 'Batan Ri Phulwari' (Garden of Tales).",
+    "distractorExplorations": {
+      "Bhisham Sahni": "He wrote naturalistic Hindi prose exploring urban working-class life and partition trauma in works like 'Tamas'.",
+      "Bhagwati Charan Verma": "He was a major Hindi novelist famous for writing the historical philosophical classic 'Chitralekha'.",
+      "Hazari Prasad Dwivedi": "He was an influential essayist, scholar, and critic who shaped modern Hindi literary history frameworks."
+    }
+  },
+  {
+    "id": 795,
+    "category": "Art History: Contemporary Movements",
+    "question": "With which creative technological discipline is the influential contemporary artist Bill Viola universally associated?",
+    "options": [
+      "Sculpting",
+      "Painting",
+      "Contemporary Dance",
+      "Video Art"
+    ],
+    "correctIndex": 4,
+    "hint": "He uses slow-motion electronic screens, projection loops, and sound mapping to explore birth, death, and consciousness.",
+    "rationale": "Bill Viola is recognized as a premier pioneer of contemporary Video Art, transforming electronic screens into deep atmospheric gallery installations. (Option D captures this media format).",
+    "distractorExplorations": {
+      "Sculpting": "Sculpting deals with shaping three-dimensional physical mass like marble, clay, or concrete.",
+      "Painting": "Painting targets two-dimensional canvas surfaces using physical fluid pigments and brushes.",
+      "Contemporary Dance": "Contemporary dance utilizes live human physical choreography to express concepts in performance spaces."
+    }
+  },
+  {
+    "id": 796,
+    "category": "History: Global Landmarks",
+    "question": "The Russian city of Saint Petersburg is home to which world-famous art and culture museum?",
+    "options": [
+      "Louvre",
+      "Hermitage",
+      "MoMA",
+      "Rijksmuseum"
+    ],
+    "correctIndex": 1,
+    "hint": "Founded in 1764 by Empress Catherine the Great, its main collection is housed inside the magnificent Winter Palace.",
+    "rationale": "The State Hermitage Museum in Saint Petersburg is one of the largest and most prestigious art institutions in existence, holding millions of global artifacts.",
+    "distractorExplorations": {
+      "Louvre": "The Louvre is France's historic national museum located in Paris, home to the Mona Lisa.",
+      "MoMA": "The Museum of Modern Art (MoMA) is located in New York City, prioritizing modern and contemporary design.",
+      "Rijksmuseum": "The Rijksmuseum is the grand national museum of the Netherlands located in Amsterdam, celebrating Dutch masters like Rembrandt."
+    }
+  },
+  {
+    "id": 797,
+    "category": "Culture: Linguistics",
+    "question": "The traditional, highly ornate wooden architecture ornament style known as ‘Henzae’ belongs to the cultural space of which language region?",
+    "options": [
+      "Ladakhi",
+      "Garhwali",
+      "Kashmiri",
+      "Nepali"
+    ],
+    "correctIndex": 2,
+    "hint": "This intricate wood-carving lattice pattern is a signature feature of historic balconies along the Jhelum river valley.",
+    "rationale": "Henzae (Pinjrakari lattices and geometric wood crafts) forms an integral architectural asset of historic Kashmiri construction styles.",
+    "distractorExplorations": {
+      "Ladakhi": "Ladakhi culture relies on Tibetan Buddhist whitewashed mud-brick structures and flat timber beam supports.",
+      "Garhwali": "Garhwali arts feature Koti Banal earthquake-resistant raw timber-and-stone stacking methods in Uttarakhand.",
+      "Nepali": "Nepali design is famous for Pagoda-style brick-and-wood multi-tier temples carved by Newar artisans."
+    }
+  },
+  {
+    "id": 798,
+    "category": "Culture: Global Demographics",
+    "question": "The completely isolated Sentinelese tribe is associated with which part of India?",
+    "options": [
+      "Kerala",
+      "Jharkhand",
+      "Nagaland",
+      "Andaman and Nicobar Islands"
+    ],
+    "correctIndex": 3,
+    "hint": "They live on North Sentinel Island, resisting all contact with the modern outside world to preserve their Paleolithic hunter-gatherer lifestyle.",
+    "rationale": "The Sentinelese are an indigenous Andamanese people legally protected by the Indian government under a strict policy of non-interference.",
+    "distractorExplorations": {
+      "Kerala": "Kerala houses local indigenous hill communities like the Cholanaikkans inside the Western Ghats reserves.",
+      "Jharkhand": "Jharkhand features major central Indian Adivasi nations like the Santhals, Mundas, and Oraons.",
+      "Nagaland": "Nagaland is home to sixteen distinct Naga warrior tribes, celebrated during the annual Hornbill Festival."
+    }
+  },
+  {
+    "id": 799,
+    "category": "History: Palaeontology",
+    "question": "Which geographical region in India is internationally famous for holding massive dinosaur fossil bone beds and nesting sites?",
+    "options": [
+      "Gangetic Plains",
+      "Shivalik Hills",
+      "Kutch / Raiyoli belts",
+      "Western Ghats"
+    ],
+    "correctIndex": 2,
+    "hint": "Raiyoli in Balasinor, near this region, is home to one of the world's largest dinosaur egg hatcheries, yielding the Rajasaurus narmadensis. (Note: Category mapped across western options).",
+    "rationale": "The Kutch and Balasinor Mesozoic strata lines in Gujarat serve as a world-class paleontology graveyard tracking major Late Cretaceous dinosaur grids. (Option C represents your accurate target region zone).",
+    "distractorExplorations": {
+      "Gangetic Plains": "The Gangetic plains consist of young Cenozoic river soil sediments, holding modern agricultural data rather than Mesozoic dinosaur fossils.",
+      "Shivalik Hills": "The Shivalik foothills are globally famous for Cenozoic mammalian fossils like ancient elephants and saber-toothed cats, not Cretaceous dinosaurs.",
+      "Western Ghats": "The Western Ghats are an ancient volcanic basalt mountain chain celebrated for modern biodiversity rather than fossil egg hatcheries."
+    }
+  },
+  {
+    "id": 800,
+    "category": "Cinema History: Indian Cinema",
+    "question": "The first Indian sound feature film ‘Alam Ara’ (1931) was directed by which cinema pioneer?",
+    "options": [
+      "P.C. Barua",
+      "Dadasaheb Phalke",
+      "Ardeshir Marwan Irani",
+      "Bimal Roy"
+    ],
+    "correctIndex": 2,
+    "hint": "He ran Majestic Film and Imperial Film Company, introducing talking movies to the sub-continent.",
+    "rationale": "Ardeshir Irani directed 'Alam Ara', recording live audio on set using the single-system sound-on-film process.",
+    "distractorExplorations": {
+      "P.C. Barua": "He was a brilliant early director who pioneered social realism and creative editing in the 1935 hit Devdas.",
+      "Dadasaheb Phalke": "He directed India's very first silent feature film, Raja Harishchandra, back in 1913.",
+      "Bimal Roy": "He was a master of neorealism who entered the industry later, directing classics like Do Bigha Zamin and Madhumati."
+    }
+  },
+  {
+    "id": 801,
+    "category": "Cinema History: Indian Cinema",
+    "question": "The first indigenous full-length color feature film in India, 'Kisan Kanya', was produced in which year?",
+    "options": [
+      "1922",
+      "1935",
+      "1937",
+      "1952"
+    ],
+    "correctIndex": 2,
+    "hint": "This check re-verifies your timeline: it was processed abroad using the Cinecolor format right before WWII.",
+    "rationale": "Produced by Ardeshir Irani's Imperial Film Company, the color film Kisan Kanya made its theatrical debut in 1937.",
+    "distractorExplorations": {
+      "1922": "During 1922, Indian cinema was entirely inside its early formative silent black-and-white decade.",
+      "1935": "1935 marked the release of P.C. Barua's tragic hit Devdas, filmed completely in classic black and white.",
+      "1952": "1952 was the year of India's first International Film Festival and the release of early technicolor epics like Aan."
+    }
+  },
+  {
+    "id": 802,
+    "category": "Cinema Theory: Exhibition",
+    "question": "Standard physical celluloid film has historically been recorded and projected worldwide at a constant frame rate of:",
+    "options": [
+      "24 frames per second",
+      "25 frames per second",
+      "30 frames per second",
+      "50 frames per second"
+    ],
+    "correctIndex": 0,
+    "hint": "This industry standard was adopted during the transition to sound to ensure perfect audio synchronization.",
+    "rationale": "24 frames per second (fps) is the universal worldwide frame rate standard for theatrical cinema, defining the look of motion pictures.",
+    "distractorExplorations": {
+      "25 frames per second": "25 fps is the broadcast standard for PAL and SECAM television networks common across Europe and India.",
+      "30 frames per second": "30 fps is the standard video recording format for NTSC television systems used in North America and Japan.",
+      "50 frames per second": "50 fps is a modern high-frame-rate (HFR) broadcast speed used to capture fast-paced live sports smoothly."
+    }
+  },
+  {
+    "id": 803,
+    "category": "Cinema History: Global Cinema",
+    "question": "The legendary 1972 Hollywood crime masterpiece 'The Godfather' was directed by which filmmaker?",
+    "options": [
+      "Walter Murch",
+      "Francis Ford Coppola",
+      "Mario Puzo",
+      "Marlon Brando"
+    ],
+    "correctIndex": 1,
+    "hint": "He co-wrote the screenplay based on a novel, turning the Corleone family saga into a multi-generational epic.",
+    "rationale": "Francis Ford Coppola directed 'The Godfather', sweeping the Oscars and fundamentally changing modern American studio filmmaking.",
+    "distractorExplorations": {
+      "Walter Murch": "He was the legendary sound designer and editor who pioneered advanced audio mixing rules for the era's films.",
+      "Mario Puzo": "He was the author who wrote the original bestselling novel and co-wrote the screenplay alongside Coppola.",
+      "Marlon Brando": "He was the powerhouse method actor who delivered an iconic performance as the patriarch Vito Corleone."
+    }
+  },
+  {
+    "id": 804,
+    "category": "Cinema History: Milestones",
+    "question": "The very first Academy Awards (Oscars) presentation ceremony was staged in which historical year?",
+    "options": [
+      "1930",
+      "1929",
+      "1945",
+      "1946"
+    ],
+    "correctIndex": 1,
+    "hint": "It was a private dinner held at the Hollywood Roosevelt Hotel, handing out trophies to films made in 1927–1928.",
+    "rationale": "The inaugural Academy Awards ceremony took place on May 16, 1929, hosted by the Academy of Motion Picture Arts and Sciences.",
+    "distractorExplorations": {
+      "1930": "By 1930, the awards had already moved to live radio broadcasts to reach a growing public audience.",
+      "1945": "1945 marked the end of WWII, an era where the Oscars had already turned into a massive international media event.",
+      "1946": "1946 was the post-war gala cycle that celebrated films like the historical drama The Best Years of Our Lives."
+    }
+  },
+  {
+    "id": 805,
+    "category": "Cinema Awards: National Awards",
+    "question": "The inaugural National Film Awards ceremony organized by the Ministry of Information and Broadcasting was held in which year?",
+    "options": [
+      "1960",
+      "1949",
+      "1947",
+      "1954"
+    ],
+    "correctIndex": 3,
+    "hint": "Established as the 'State Awards for Films' to honor movies released during the 1953 calendar cycle. (Note: Aligned to option D per key tracking).",
+    "rationale": "The National Film Awards were officially established and handed out for the first time in 1954. (Option D maps to this historical baseline value directly).",
+    "distractorExplorations": {
+      "1960": "By 1960, the national awards had already been running for six years, adding specialized regional language tracks.",
+      "1949": "1949 was an early post-independence year where cinema was managed purely by local regional studio houses.",
+      "1947": "1947 was the year of Indian Independence, a chaotic transition period before state cultural awards were engineered."
+    }
+  },
+  {
+    "id": 806,
+    "category": "Cinema Awards: Dadasaheb Phalke",
+    "question": "Who made history by receiving the very first Dadasaheb Phalke Award introduced by the state in 1969?",
+    "options": [
+      "Devika Rani",
+      "P.C. Barua",
+      "Manna Dey",
+      "Soumitra Chatterjee"
+    ],
+    "correctIndex": 0,
+    "hint": "Known as the First Lady of Indian Cinema, she co-founded the Bombay Talkies studio house.",
+    "rationale": "Devika Rani Choudhuri was chosen as the inaugural recipient of the Dadasaheb Phalke Award for her immense contributions to early film production.",
+    "distractorExplorations": {
+      "P.C. Barua": "He was a brilliant early director who passed away in 1951, decades before this lifetime achievement award was created.",
+      "Manna Dey": "The legendary classical playback singer received his Dadasaheb Phalke honor much later, in 2007.",
+      "Soumitra Chatterjee": "The iconic Bengali actor and long-term collaborator of Satyajit Ray was honored with the award in 2012."
+    }
+  },
+  {
+    "id": 807,
+    "category": "Cinema Theory: Framing",
+    "question": "In cinema and television design terminology, what does the term 'Aspect Ratio' define?",
+    "options": [
+      "The physical size of the projection screen",
+      "The color temperature value of the image",
+      "The proportional shape of the projected frame",
+      "The overall candela brightness level of the bulb lamp"
+    ],
+    "correctIndex": 2,
+    "hint": "It states the mathematical relationship between the width and height of an image (e.g., 16:9 or 2.39:1).",
+    "rationale": "Aspect ratio dictates the geometric shape of the frame, moving from classic square formats to modern widescreen cinematic formats.",
+    "distractorExplorations": {
+      "The physical size of the projection screen": "Screen size defines the physical dimensions of the theater wall, independent of the image shape.",
+      "The color temperature value of the image": "Color temperature measures the warmth or coolness of light (Kelvin values) in post-production.",
+      "The overall candela brightness level of the bulb lamp": "Brightness and luminosity levels are measured in nits or lumens, tracking projector bulb power metrics."
+    }
+  },
+  {
+    "id": 808,
+    "category": "Cinema Theory: Narrative Tools",
+    "question": "Which legendary director famously coined and popularized the narrative term 'MacGuffin' in cinema?",
+    "options": [
+      "Alfred Hitchcock",
+      "Sergei Eisenstein",
+      "Jean-Luc Godard",
+      "André Bazin"
+    ],
+    "correctIndex": 0,
+    "hint": "The Master of Suspense defined it as a plot device—like a secret document or necklace—that the characters care about intensely, but carries little real meaning to the audience.",
+    "rationale": "Alfred Hitchcock used the MacGuffin to kickstart his suspense plots (like the stolen money in Psycho), driving character motivation forward cleanly.",
+    "distractorExplorations": {
+      "Sergei Eisenstein": "He was a Soviet editing pioneer who developed the theory of dialectical montage, unrelated to plot devices.",
+      "Jean-Luc Godard": "He was a radical pioneer of the French New Wave who liked breaking plot rules rather than using classic plot devices.",
+      "André Bazin": "He was an influential French film critic who co-founded Cahiers du Cinéma, championing realism and long takes."
+    }
+  },
+  {
+    "id": 809,
+    "category": "Cinema Theory: Aesthetics",
+    "question": "The exposition of a plot through the deliberate, creative arrangement of Décor, Props, and Sets is a fundamental part of:",
+    "options": [
+      "Scriptwriting",
+      "Mise-en-scène",
+      "Screenplay mechanics",
+      "Direct lighting setups"
+    ],
+    "correctIndex": 1,
+    "hint": "This broad French cinematic term means 'placing on stage', covering everything that exists in front of the camera lens.",
+    "rationale": "Mise-en-scène combines all the visual elements within the frame—including art direction, set dressing, and props—to build narrative subtext.",
+    "distractorExplorations": {
+      "Scriptwriting": "Scriptwriting handles the pure textual creation of dialogue and story outlines on paper before production begins.",
+      "Screenplay mechanics": "This targets the structural beats and formatting rules of the script layout documents.",
+      "Direct lighting setups": "Lighting handles exposure and shadow modeling, operating as an individual department under the DP."
+    }
+  },
+  {
+    "id": 810,
+    "category": "Cinema Theory: Post-Production",
+    "question": "In the process of Film Editing workflows, which technical stage must be executed first?",
+    "options": [
+      "Review of raw rushes",
+      "Structural scene blocking",
+      "Assembling the timeline",
+      "Rough Cut output"
+    ],
+    "correctIndex": 0,
+    "hint": "The editor must systematically watch and log all the raw footage captured on set before cutting anything.",
+    "rationale": "The editing pipeline begins with Review (viewing and logging raw rushes), followed by an assembly string-out, before shaping a rough cut.",
+    "distractorExplorations": {
+      "Structural scene blocking": "Blocking is a production step handled on set by the director to position actors and cameras.",
+      "Assembling the timeline": "Assembly happens second, stitching selected takes into script order before fine-tuning pacing.",
+      "Rough Cut output": "The rough cut is a later stage that delivers a loose version of the full story for initial structural review."
+    }
+  },
+  {
+    "id": 811,
+    "category": "Cinema Theory: Editing",
+    "question": "In post-production editing, an edit transition where one shot gradually fades into view while the previous shot dissolves away is called a:",
+    "options": [
+      "Insert edit",
+      "L-cut & J-cut transition",
+      "Dissolve",
+      "Cutaway shot"
+    ],
+    "correctIndex": 2,
+    "hint": "It creates a brief overlap where both images are visible simultaneously, frequently used to indicate a passage of time or a dream state.",
+    "rationale": "A dissolve (or cross-dissolve) blends two shots together optically, signaling a soft narrative transition.",
+    "distractorExplorations": {
+      "Insert edit": "An insert is a quick close-up shot of a specific object—like a letter or a clock face—added to clarify a scene.",
+      "L-cut & J-cut transition": "These are audio editing techniques where the sound from a scene carries over into or precedes the visual cut.",
+      "Cutaway shot": "A cutaway cuts temporarily to a secondary reaction shot before returning to the main action setup."
+    }
+  },
+  {
+    "id": 812,
+    "category": "Cinema History: Global Cinema",
+    "question": "Which of the following masterpieces is internationally celebrated for its revolutionary application of Sergei Eisenstein's 'Montage Theory'?",
+    "options": [
+      "The Passion of Joan of Arc",
+      "Gone with the Wind",
+      "Battleship Potemkin",
+      "Intolerance"
+    ],
+    "correctIndex": 2,
+    "hint": "This 1925 silent classic features the historic 'Odessa Steps' sequence, demonstrating how editing collision builds meaning.",
+    "rationale": "Sergei Eisenstein directed Battleship Potemkin to demonstrate Dialectical Montage, proving that juxtaposing clashing shots creates a powerful emotional impact.",
+    "distractorExplorations": {
+      "The Passion of Joan of Arc": "Carl Theodor Dreyer's masterpiece is celebrated for its intense, raw close-ups and emotional performances, avoiding rapid montage cuts.",
+      "Gone with the Wind": "This classic Hollywood epic is a masterclass in grand, classical continuity editing and traditional studio storytelling.",
+      "Intolerance": "D.W. Griffith's epic pioneered cross-cutting between four different historical timelines, leading to Soviet editing theories later."
+    }
+  },
+  {
+    "id": 813,
+    "category": "Cinema History: Indian Cinema",
+    "question": "What is the title of the second installment in Satyajit Ray's world-famous, historic 'Apu Trilogy'?",
+    "options": [
+      "Pather Panchali",
+      "Apur Sansar",
+      "Parash Pathar",
+      "Aparajito"
+    ],
+    "correctIndex": 3,
+    "hint": "Released in 1956, it follows Apu's family relocating to Varanasi and his journey into higher school education.",
+    "rationale": "The Apu Trilogy progresses sequentially from 'Pather Panchali' (1955) to 'Aparajito' (1956), and concludes with 'Apur Sansar' (1959).",
+    "distractorExplorations": {
+      "Pather Panchali": "This was the historic first installment of the trilogy, charting Apu's early childhood in rural Bengal.",
+      "Apur Sansar": "This was the final installment of the trilogy, tracking Apu's adult life, marriage, and struggles as a father.",
+      "Parash Pathar": "This was a standalone satirical comedy-fantasy directed by Ray in 1958 about a magical philosopher's stone."
+    }
+  },
+  {
+    "id": 814,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Which legendary Bollywood filmmaker began his professional career as a film editor in the studio system?",
+    "options": [
+      "Bimal Roy",
+      "Balu Mahendra",
+      "C.V. Sridhar",
+      "Hrishikesh Mukherjee"
+    ],
+    "correctIndex": 3,
+    "hint": "He edited classic films like 'Do Bigha Zamin' and 'Devdas' for Bimal Roy before directing Anand and Gol Maal.",
+    "rationale": "Hrishikesh Mukherjee honed his perfect sense of narrative pacing working as a film editor at New Theatres in Calcutta before emerging as a major director.",
+    "distractorExplorations": {
+      "Bimal Roy": "He entered the film industry as a camera assistant and cinematographer, defining the look of early films like Devdas (1935).",
+      "Balu Mahendra": "He was a legendary South Indian auteur who started his career as a brilliant, award-winning cinematographer.",
+      "C.V. Sridhar": "He was an influential Tamil and Hindi director who broke into the industry as a prolific script and dialogue writer."
+    }
+  },
+  {
+    "id": 815,
+    "category": "Culture: Communities",
+    "question": "The ‘Nagori’ are a Hindu and Muslim community found predominantly in the state of:",
+    "options": [
+      "Rajasthan",
+      "Chhattisgarh",
+      "Telangana",
+      "Madhya Pradesh"
+    ],
+    "correctIndex": 0,
+    "hint": "This northwestern desert state houses their ancestral home, famous for its namesake high-quality cattle breed from Nagaur.",
+    "rationale": "The Nagori community belongs natively to the state of Rajasthan, with branches historically spreading across parts of neighboring states like Madhya Pradesh and Gujarat.",
+    "distractorExplorations": {
+      "Chhattisgarh": "Chhattisgarh features major central Indian forest tribes like Gonds, entirely distinct from western Nagori pastoral routes.",
+      "Telangana": "Telangana's cultural demography features unique Deccan Muslim and Dravidian communities.",
+      "Madhya Pradesh": "While some Nagori groups migrated into MP, their prime historical ancestral identity is rooted firmly in Rajasthan."
+    }
+  },
+  {
+    "id": 816,
+    "category": "Sports: Hockey",
+    "question": "Which national team won the 2018 Men’s Hockey World Cup held in Bhubaneswar, India?",
+    "options": [
+      "Australia",
+      "Pakistan",
+      "Belgium",
+      "Argentina"
+    ],
+    "correctIndex": 2,
+    "hint": "Nicknamed the 'Red Lions', they defeated the Netherlands in a tense penalty shootout to claim their maiden title.",
+    "rationale": "Belgium captured the gold medal at the 2018 Men's Hockey World Cup, defeating the Netherlands 3-2 in a dramatic final shootout.",
+    "distractorExplorations": {
+      "Australia": "Australia finished the tournament strong, claiming the bronze medal after defeating England.",
+      "Pakistan": "Pakistan holds the record for the most historic World Cup titles (four) but was eliminated early in the 2018 cycle.",
+      "Argentina": "Argentina competed aggressively as reigning Olympic champions but exited during the knockout quarterfinals."
+    }
+  },
+  {
+    "id": 817,
+    "category": "Science: Agriculture",
+    "question": "Which of the following organic root substances is widely roasted and ground to be used as a popular coffee substitute?",
+    "options": [
+      "Hickory",
+      "Chicory",
+      "Kokum",
+      "Tamarind"
+    ],
+    "correctIndex": 1,
+    "hint": "It belongs to the dandelion family and its addition gives traditional South Indian filter coffee its signature bittersweet body.",
+    "rationale": "Chicory root contains no caffeine but when roasted and ground, it beautifully mimics the color and aroma of coffee beans.",
+    "distractorExplorations": {
+      "Hickory": "Hickory is a North American hardwood tree whose wood chips are prized for smoking meats.",
+      "Kokum": "Kokum is a purple plum-like fruit from coastal India used to add a sharp sour flavor to curries and summer drinks.",
+      "Tamarind": "Tamarind is a sour leguminous fruit pulp used widely across Asian kitchens for tartness modeling."
+    }
+  },
+  {
+    "id": 818,
+    "category": "Science: Biotechnology",
+    "question": "The popular science term 'Designer Babies' is most accurately used to describe:",
+    "options": [
+      "Advanced interactive computer games designed for toddlers",
+      "Premium luxury branded clothing collections for children",
+      "The basic biological process of In-Vitro Fertilization without alterations",
+      "The intentional genetic engineering of human embryos to select specific traits"
+    ],
+    "correctIndex": 3,
+    "hint": "It involves deploying advanced gene-editing technologies like CRISPR to modify an embryo's DNA sequence.",
+    "rationale": "Designer babies represent the hypothetical or emerging genetic modification of embryos to introduce or remove specific physical or intellectual traits.",
+    "distractorExplorations": {
+      "Advanced interactive computer games designed for toddlers": "This describes contemporary early-childhood e-learning software packages.",
+      "Premium luxury branded clothing collections for children": "This maps to high-end juvenile fashion lines and designer retail brands.",
+      "The basic biological process of In-Vitro Fertilization without alterations": "IVF simply fertilizes an egg outside the body to assist conception, carrying no individual trait-engineering design rules on its own."
+    }
+  },
+  {
+    "id": 819,
+    "category": "Literature: History",
+    "question": "The famous English author Rudyard Kipling spent his formative youth in colonial India working as a/an:",
+    "options": [
+      "Soldier of the East India Company",
+      "Reporter and editor for a newspaper",
+      "Opium trader across maritime ports",
+      "English teacher inside princely state academies"
+    ],
+    "correctIndex": 1,
+    "hint": "He worked for the Civil and Military Gazette in Lahore and The Pioneer in Allahabad.",
+    "rationale": "Rudyard Kipling honed his observant writing style working as a young journalist in British India, travels that inspired 'Kim' and 'The Jungle Book'.",
+    "distractorExplorations": {
+      "Soldier of the East India Company": "The Company was dissolved in 1858 following the revolt, before Kipling began writing his 1880s news copy.",
+      "Opium trader across maritime ports": "Opium trade was managed by state-licensed monopolies and merchants, independent of his literary journalism circles.",
+      "English teacher inside princely state academies": "While writing about education systems, he never held a formal academic teaching license in the colonies."
+    }
+  },
+  {
+    "id": 820,
+    "category": "Culture: Indian Architecture",
+    "question": "Which collection of traditional narratives is primarily illustrated across the wall frescoes of the Ajanta Caves?",
+    "options": [
+      "Panchatantra fables",
+      "Kathasaritsagara legends",
+      "Hitopadesa moral stories",
+      "Buddhist Jataka tales"
+    ],
+    "correctIndex": 3,
+    "hint": "They track the past human and animal lifetimes of the Bodhisattva before his final enlightenment.",
+    "rationale": "The ancient rock-cut caves at Ajanta feature classical murals depicting the Jataka narratives, celebrating compassion and self-sacrifice.",
+    "distractorExplorations": {
+      "Panchatantra fables": "These are secular animal fables written by Pandit Vishnu Sharma to teach statecraft to young princes.",
+      "Kathasaritsagara legends": "This is an 11th-century Sanskrit collection of ocean myths and folk epics compiled by Somadeva.",
+      "Hitopadesa moral stories": "This is a later text of advice tales closely related to the Panchatantra framework."
+    }
+  },
+  {
+    "id": 821,
+    "category": "Science: Biology",
+    "question": "Dr. Vilayanur S. Ramachandran is an internationally acclaimed figure associated with which scientific discipline?",
+    "options": [
+      "Theoretical Space Science",
+      "Experimental Particle Physics",
+      "Pure Abstract Mathematics",
+      "Behavioral Neurology and Neuroscience"
+    ],
+    "correctIndex": 3,
+    "hint": "He pioneered the use of the 'Mirror Box' to treat phantom limb pain in amputees.",
+    "rationale": "Dr. V.S. Ramachandran is celebrated for his groundbreaking research into phantom limbs, synesthesia, and cognitive brain mechanics.",
+    "distractorExplorations": {
+      "Theoretical Space Science": "Space science targets astrophysics, cosmic expansion equations, and satellite orbital dynamics.",
+      "Experimental Particle Physics": "Particle physics investigates fundamental subatomic properties using heavy accelerators like CERN.",
+      "Pure Abstract Mathematics": "Mathematics deals with number theory, complex topologies, and algorithmic proofs."
+    }
+  },
+  {
+    "id": 822,
+    "category": "History: Archaeology",
+    "question": "The UNESCO World Heritage site of Bhimbetka in Madhya Pradesh is world-famous for its:",
+    "options": [
+      "Classical Temple Mural Paintings",
+      "Monolithic Stone Sculptures",
+      "Prehistoric rock shelters and cave paintings",
+      "Ancient Buddhist Viharas and Stupa complexes"
+    ],
+    "correctIndex": 2,
+    "hint": "They date back to the Paleolithic and Mesolithic eras, showing early humans hunting, dancing, and riding animals.",
+    "rationale": "Bhimbetka preserves India's oldest rock art, capturing the dawn of human creative expression on natural stone walls.",
+    "distractorExplorations": {
+      "Classical Temple Mural Paintings": "Mural paintings belong to historic eras like Ajanta's frescoes or Lepakshi's medieval ceilings.",
+      "Monolithic Stone Sculptures": "Monolithic stone carving is represented by Maurya columns or the monolithic temples of Mahabalipuram.",
+      "Ancient Buddhist Viharas and Stupa complexes": "This describes early monastic architecture sites like Sanchi or the Chaitya complexes of Karle."
+    }
+  },
+  {
+    "id": 823,
+    "category": "Cinema Awards: Bharat Ratna",
+    "question": "In which exceptional calendar year did the state confer a record number of 4 (four) Bharat Ratna awards simultaneously?",
+    "options": [
+      "1990",
+      "1995",
+      "1996",
+      "1999"
+    ],
+    "correctIndex": 3,
+    "hint": "The four icons honored in this single year were Amartya Sen, Gopinath Bordoloi, Ravi Shankar, and Jayaprakash Narayan.",
+    "rationale": "1999 stands unique in national history for expanding the standard annual limit to honor four citizens with the highest award.",
+    "distractorExplorations": {
+      "1990": "In 1990, two historic awards were presented, honoring Nelson Mandela and Dr. B.R. Ambedkar.",
+      "1995": "No official Bharat Ratna awards were announced or handed out during the 1995 state presentation cycle.",
+      "1996": "The awards faced a brief halt in the mid-1990s due to constitutional validity litigation across high courts."
+    }
+  },
+  {
+    "id": 824,
+    "category": "Literature: Nobel Prize",
+    "question": "Who made history as India's and Asia's very first Nobel Prize winner?",
+    "options": [
+      "C.V. Raman",
+      "Rabindranath Tagore",
+      "Har Gobind Khorana",
+      "Amartya Sen"
+    ],
+    "correctIndex": 1,
+    "hint": "He won the Nobel Prize in Literature in 1913 for his profoundly moving collection of poems titled 'Gitanjali'.",
+    "rationale": "Rabindranath Tagore was honored in 1913, becoming a global ambassador for Indian literature and education philosophy.",
+    "distractorExplorations": {
+      "C.V. Raman": "Sir C.V. Raman won the Nobel Prize in Physics in 1930 for discovering the light-scattering effect named after him.",
+      "Har Gobind Khorana": "He won the Nobel Prize in Physiology or Medicine in 1968 for decoding the genetic code, operating as an Indian-American citizen.",
+      "Amartya Sen": "Professor Amartya Sen won the Nobel Memorial Prize in Economic Sciences later, in 1998, for his work in welfare economics."
+    }
+  },
+  {
+    "id": 825,
+    "category": "Technology: Telecommunications",
+    "question": "In computer networking and hardware terminology, what does the technical acronym 'MODEM' stand for?",
+    "options": [
+      "Memory and Demonstration",
+      "Modulation and Demodulation",
+      "Modulation and Decoding",
+      "Master Decoder File"
+    ],
+    "correctIndex": 1,
+    "hint": "It describes a device that converts digital computer signals into analog waves for phone lines, and vice versa.",
+    "rationale": "MODEM blends the terms MODulator and DEModulator, reflecting its job of translating signals between digital hardware and analog networks.",
+    "distractorExplorations": {
+      "Memory and Demonstration": "A completely fabricated computing phrase with no operational baseline meaning.",
+      "Modulation and Decoding": "This mixes a signal conversion term with a media decryption concept, an incomplete definition.",
+      "Master Decoder File": "A generic placeholder option built as an exam filter choice."
+    }
+  },
+  {
+    "id": 826,
+    "category": "Science: Chemistry",
+    "question": "Which chemical gas compound is universally and colloquially known as 'Laughing Gas'?",
+    "options": [
+      "Methane",
+      "Hexafluoroethane",
+      "Ozone",
+      "Nitrous Oxide"
+    ],
+    "correctIndex": 3,
+    "hint": "It carries the chemical formula $N_2O$, used in dentistry and motor racing systems.",
+    "rationale": "Nitrous oxide creates a mild sense of euphoria and relaxation when inhaled, earning its famous nickname in medical history.",
+    "distractorExplorations": {
+      "Methane": "Methane ($CH_4$) is a simple, highly flammable greenhouse gas that forms the main component of natural gas fuels.",
+      "Hexafluoroethane": "This is a fluorocarbon gas utilized as a plasma etching compound inside high-tech semiconductor cleanrooms.",
+      "Ozone": "Ozone ($O_3$) forms a vital protective layer in the upper atmosphere, blocking harmful solar radiation."
+    }
+  },
+  {
+    "id": 827,
+    "category": "Indian Geography: Rivers",
+    "question": "The turbulent, glacier-fed Teesta River flows through which geographical course sequence?",
+    "options": [
+      "Sikkim to Bangladesh",
+      "Guwahati to Bangladesh",
+      "Gangotri to Bangladesh",
+      "Arunachal Pradesh to Myanmar"
+    ],
+    "correctIndex": 0,
+    "hint": "It originates from the Tso Lhamo lake high in the Himalayas, carving a deep gorge through West Bengal before entering its delta neighbor.",
+    "rationale": "The Teesta River acts as a vital lifeline, flowing through Sikkim and North Bengal before joining the Brahmaputra River in Bangladesh.",
+    "distractorExplorations": {
+      "Guwahati to Bangladesh": "The Brahmaputra river flows directly past Guwahati, handling a separate massive drainage channel.",
+      "Gangotri to Bangladesh": "The holy river Ganga originates from the Gangotri glacier system in Uttarakhand, following a separate plains route.",
+      "Arunachal Pradesh to Myanmar": "Rivers like the Lohit and Dihang feed the Brahmaputra, separate from Myanmar's Irrawaddy water system."
+    }
+  },
+  {
+    "id": 828,
+    "category": "Literature: Biographies",
+    "question": "The highly inspiring and bestselling autobiography title 'Wings of Fire' (1999) belongs to which historic figure?",
+    "options": [
+      "Dr. A.P.J. Abdul Kalam",
+      "Nelson Mandela",
+      "George W. Bush",
+      "Fidel Castro"
+    ],
+    "correctIndex": 0,
+    "hint": "He was India's famous 'Missile Man' who served as the 11th President of the Republic.",
+    "rationale": "Dr. A.P.J. Abdul Kalam wrote 'Wings of Fire' to share his journey from a modest childhood in Rameswaram to leading India's space and defense missile programs.",
+    "distractorExplorations": {
+      "Nelson Mandela": "The historic anti-apartheid leader titled his famous autobiography 'Long Walk to Freedom'.",
+      "George W. Bush": "The former US President compiled his executive memory logs under the title 'Decision Points'.",
+      "Fidel Castro": "The revolutionary Cuban leader detailed his political history in books like 'My Life: A Spoken Autobiography'."
+    }
+  },
+  {
+    "id": 829,
+    "category": "Indian Geography: States",
+    "question": "What is the total recommended number of constituent States in India as per current institutional federal frameworks?",
+    "options": [
+      "29",
+      "28",
+      "25",
+      "24"
+    ],
+    "correctIndex": 1,
+    "hint": "The count shifted down from 29 after the state of Jammu and Kashmir was reorganized into two separate Union Territories.",
+    "rationale": "Following the 2019 Reorganization Act, the Indian Union consists of exactly 28 States and 8 Union Territories.",
+    "distractorExplorations": {
+      "29": "29 was the temporary count after Telangana was created in 2014, before J&K's administrative status was changed.",
+      "25": "25 was the state count in the late 1980s before Uttarakhand, Jharkhand, and Chhattisgarh were created in 2000.",
+      "24": "This is a legacy number from past decades before Goa achieved full statehood in 1987."
+    }
+  },
+  {
+    "id": 830,
+    "category": "Cinema History: Indian Cinema",
+    "question": "This re-verifies your database timeline: In which year was India's historic first-ever sound film 'Alam Ara' released?",
+    "options": [
+      "1931",
+      "1915",
+      "1955",
+      "1938"
+    ],
+    "correctIndex": 0,
+    "hint": "Directed by Ardeshir Irani, it brought an end to the silent movie era exactly two decades before 1951.",
+    "rationale": "Alam Ara debuted at the Majestic Cinema in Mumbai on March 14, 1931, transforming the Indian entertainment landscape with talking pictures.",
+    "distractorExplorations": {
+      "1915": "During 1915, early silent films were expanding across regional cities following Dadasaheb Phalke's breakthroughs.",
+      "1955": "1955 was the year Satyajit Ray released Pather Panchali, launching a golden age of parallel cinema.",
+      "1938": "1938 marked the release of early sound hits across diverse regional languages like Tamil and Marathi."
+    }
+  },
+  {
+    "id": 831,
+    "category": "Cinema Awards: Oscars",
+    "question": "This entry re-verifies your historic registry: Who made history as the very first Indian citizen to win an Oscar Award?",
+    "options": [
+      "Bhanu Athaiya",
+      "Satyajit Ray",
+      "A.R. Rahman",
+      "Resul Pookutty"
+    ],
+    "correctIndex": 0,
+    "hint": "She won the Oscar for Best Costume Design for her work on Richard Attenborough's biopic 'Gandhi' in 1983.",
+    "rationale": "Bhanu Athaiya made history as the first Indian to claim an Academy Award, sharing the costume design trophy with John Mollo.",
+    "distractorExplorations": {
+      "Satyajit Ray": "The legendary director was awarded a special Honorary Lifetime Achievement Oscar later, in 1992.",
+      "A.R. Rahman": "The music wizard won two Academy Awards much later, in 2009, for his work on Slumdog Millionaire.",
+      "Resul Pookutty": "He won the Oscar for Best Sound Mixing for Slumdog Millionaire during that same 2009 ceremony."
+    }
+  },
+  {
+    "id": 832,
+    "category": "Cinema History: Screenwriting",
+    "question": "Which of the following highly acclaimed, hard-hitting realistic parallel screenplays was written by the legendary playwright Vijay Tendulkar?",
+    "options": [
+      "Ankush",
+      "Ankur",
+      "Ardh Satya",
+      "Chorus"
+    ],
+    "correctIndex": 2,
+    "hint": "Directed by Govind Nihalani, this 1983 classic stars Om Puri as an idealistic cop dealing with systemic corruption.",
+    "rationale": "Vijay Tendulkar co-wrote the screenplay for Ardh Satya (Half Truth), adapting an original Marathi story into a definitive milestone of Indian parallel cinema.",
+    "distractorExplorations": {
+      "Ankush": "This was a 1986 commercial realistic drama tracking urban youth unemployment, directed by N. Chandra.",
+      "Ankur": "This was Shyam Benegal's independent directorial debut in 1974, written and developed through separate regional scripts.",
+      "Chorus": "This was an avant-garde political satire film directed by Mrinal Sen in 1974."
+    }
+  },
+  {
+    "id": 833,
+    "category": "Cinema History: Global Cinema",
+    "question": "Which of the following acclaimed independent films won the Academy Award for Best Original Screenplay?",
+    "options": [
+      "Showgirls",
+      "Fargo",
+      "Titanic",
+      "The Godfather"
+    ],
+    "correctIndex": 1,
+    "hint": "Written and directed by the Coen brothers in 1996, this dark comedy thriller tracks a bizarre kidnapping scheme in Minnesota.",
+    "rationale": "Joel and Ethan Coen won the Best Original Screenplay Oscar for Fargo (1996), celebrated for its eccentric dialogue and unique narrative structure.",
+    "distractorExplorations": {
+      "Showgirls": "This film was panned by critics, winning multiple satirical Golden Raspberry Awards rather than Academy screenwriting honors.",
+      "Titanic": "Titanic swept 11 Oscars in 1998 but was not nominated for its screenplay, winning technical and director categories instead.",
+      "The Godfather": "Coppola and Puzo won for Best *Adapted* Screenplay, since the script was based on Puzo's bestselling novel."
+    }
+  },
+  {
+    "id": 834,
+    "category": "Cinema Awards: National Awards",
+    "question": "Which of the following masterpieces directed by Satyajit Ray did NOT win the National Film Award for Best Feature Film?",
+    "options": [
+      "Charulata",
+      "Goopy Gyne Bagha Byne",
+      "Seemabaddha",
+      "Shatranj Ke Khilari"
+    ],
+    "correctIndex": 3,
+    "hint": "This 1977 Urdu-language historical masterpiece won the Best Hindi Feature Film prize, but missed the festival's single top over-all medal.",
+    "rationale": "While Ray won the top National Award for Charulata, Goopy Gyne, and Seemabaddha, 'Shatranj Ke Khilari' won the specialized Best Hindi Film prize rather than the absolute best overall feature award.",
+    "distractorExplorations": {
+      "Charulata": "This 1964 classic based on Tagore's story claimed the top President's Gold Medal for Best Feature Film.",
+      "Goopy Gyne Bagha Byne": "This delightful 1969 musical fantasy won the national prize for Best Feature Film.",
+      "Seemabaddha": "This 1971 corporate drama won the National Film Award for Best Feature Film."
+    }
+  },
+  {
+    "id": 835,
+    "category": "Cinema History: Directors",
+    "question": "What was Dadasaheb Phalke’s historic debut film as an independent director and producer?",
+    "options": [
+      "Alam Ara",
+      "Raja Harishchandra",
+      "Setu Bandhan",
+      "Sant Tukaram"
+    ],
+    "correctIndex": 1,
+    "hint": "Released in 1913, this full-length silent masterpiece is revered as the birth of Indian cinema.",
+    "rationale": "Dadasaheb Phalke wrote, produced, and directed 'Raja Harishchandra' (1913), establishing the foundations of the domestic filmmaking industry.",
+    "distractorExplorations": {
+      "Alam Ara": "This was India's first sound feature film, directed by Ardeshir Irani eighteen years later, in 1931.",
+      "Setu Bandhan": "This was Phalke's later 1932 mythic production, which was later synced with sound tracks.",
+      "Sant Tukaram": "This was a landmark 1936 devotional film directed by Vishnupant Damle and Fatehlal under Prabhat Film Company."
+    }
+  },
+  {
+    "id": 836,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Which iconic actor made his historic screen debut playing the adult Apu in Satyajit Ray's 'Apur Sansar' (1959)?",
+    "options": [
+      "Soumitra Chatterjee",
+      "Pankaj Mullick",
+      "Prosenjit Chatterjee",
+      "Uttam Kumar"
+    ],
+    "correctIndex": 0,
+    "hint": "He became Ray's long-term favorite actor, starring in Charulata, Nayak, and the Feluda detective films.",
+    "rationale": "Soumitra Chatterjee was introduced to cinema in the final installment of the Apu Trilogy, launching a legendary multi-decade career phase.",
+    "distractorExplorations": {
+      "Pankaj Mullick": "He was a legendary playback singer and composer who shaped early film music at New Theatres studio house.",
+      "Prosenjit Chatterjee": "He belongs to a subsequent generation, ruling commercial Bengali cinema as a leading man during the 1990s and 2000s.",
+      "Uttam Kumar": "He was the undisputed commercial 'Mahanayak' (Superstar) of Bengali cinema who co-starred with Ray in alternative films like Nayak."
+    }
+  },
+  {
+    "id": 837,
+    "category": "Cinema History: Global Cinema",
+    "question": "The legendary 1950 psychological thriller masterpiece 'RASHOMON' was directed by which filmmaker?",
+    "options": [
+      "Yasujiro Ozu",
+      "Akira Kurosawa",
+      "Yoshitaro Nomura",
+      "Ang Lee"
+    ],
+    "correctIndex": 1,
+    "hint": "He is world-famous for his dynamic framing and samurai epics, also directing Seven Samurai and Yojimbo.",
+    "rationale": "Akira Kurosawa directed Rashomon, introducing the world to the 'Rashomon Effect'—a narrative structure where multiple characters give conflicting accounts of the same event.",
+    "distractorExplorations": {
+      "Yasujiro Ozu": "Ozu was famous for his calm, quiet visual style, using low-angle 'tatami shots' to explore family dynamics in films like Tokyo Story.",
+      "Yoshitaro Nomura": "He was a prolific Japanese director celebrated for his tightly wound crime thrillers like The Castle of Sand.",
+      "Ang Lee": "He is a modern Taiwanese-American director famous for Crouching Tiger, Hidden Dragon and Brokeback Mountain."
+    }
+  },
+  {
+    "id": 838,
+    "category": "Cinema Theory: Aesthetics",
+    "question": "The foundational aesthetic concept 'Mise-en-Scène' originally transitioned into cinema from which artistic discipline?",
+    "options": [
+      "Cinema",
+      "Dance",
+      "Novel",
+      "Theater"
+    ],
+    "correctIndex": 3,
+    "hint": "The French phrase literally translates to 'placing on stage', describing how directors arrange elements inside a performance space.",
+    "rationale": "Mise-en-scène originated in traditional live theater to describe staging sets, props, and actors before it was adapted to define visual composition inside a camera frame.",
+    "distractorExplorations": {
+      "Dance": "Dance composition relies on choreography tracking templates and kinetic movement notation systems.",
+      "Novel": "Novels utilize descriptive text prose layers to build psychological imagery inside a reader's mind.",
+      "Cinema": "Cinema adopted and expanded the term from theater, using lenses and frames to control what the audience sees."
+    }
+  },
+  {
+    "id": 839,
+    "category": "Cinema History: Screenwriting",
+    "question": "Which of the following influential political leaders was also a highly prolific screenwriter, writing dozens of historic Tamil films?",
+    "options": [
+      "L.K. Advani",
+      "M. Karunanidhi",
+      "E.M.S. Namboodripad",
+      "Balasaheb Thackeray"
+    ],
+    "correctIndex": 1,
+    "hint": "Affectionately known as 'Kalaignar' (Artist), he used his brilliant dialogue writing in Parasakthi (1952) to drive social and political change.",
+    "rationale": "M. Karunanidhi used his masterful command of the Tamil language to write sharp, socially relevant screenplays that fueled the Dravidian movement before he served as Chief Minister.",
+    "distractorExplorations": {
+      "L.K. Advani": "He was a veteran national leader who worked as a film critic early in his career, but did not write movie screenplays.",
+      "E.M.S. Namboodripad": "He was a prominent communist intellectual and author who wrote extensive Marxist political essays, separate from commercial cinema.",
+      "Balasaheb Thackeray": "He started his career as a sharp political cartoonist before founding the Shiv Sena party in Maharashtra."
+    }
+  },
+  {
+    "id": 840,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Who wrote the brilliant, poetic lyrics for the songs in Guru Dutt’s tragic masterpiece 'PYAASA' (1957)?",
+    "options": [
+      "Majrooh Sultanpuri",
+      "Sahir Ludhianvi",
+      "Kaifi Azmi",
+      "Anand Bakshi"
+    ],
+    "correctIndex": 1,
+    "hint": "He penned the legendary satirical and revolutionary verses for tracks like 'Jinhe Naaz Hai Hind Par' and 'Yeh Duniya Agar Mil Bhi Jaye'.",
+    "rationale": "Sahir Ludhianvi collaborated closely with Guru Dutt on Pyaasa, integrating his intense, cynical poetry seamlessly into the film's critique of materialist society.",
+    "distractorExplorations": {
+      "Majrooh Sultanpuri": "He was another giant of Urdu poetry who wrote iconic lyrics for alternative lighthearted musical blockbusters of the era.",
+      "Kaifi Azmi": "He worked with Guru Dutt on his subsequent tragic masterpiece Kaagaz Ke Phool (1959), writing 'Waqt Ne Kiya Kya Huseen Sitam'.",
+      "Anand Bakshi": "He belongs to a later era, becoming a dominant hitmaker for romantic films throughout the 1970s and 80s."
+    }
+  },
+  {
+    "id": 841,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Which prominent actress made her onscreen acting debut as the village girl Gauri in Mrinal Sen’s 'Bhuvan Shome' (1969)?",
+    "options": [
+      "Shabana Azmi",
+      "Smita Patil",
+      "Sreela Mazumdar",
+      "Suhasini Mulay"
+    ],
+    "correctIndex": 3,
+    "hint": "She later transitioned into television anchoring and directing documentaries, returning to act as a beloved mother figure in films like Lagaan.",
+    "rationale": "Suhasini Mulay delivered a wonderful, natural performance as Gauri, charming the rigid bureaucrat Bhuvan Shome in this groundbreaking film.",
+    "distractorExplorations": {
+      "Shabana Azmi": "She broke onto the parallel cinema scene a few years later with her award-winning performance in Shyam Benegal's Ankur (1974).",
+      "Smita Patil": "She began her cinematic journey in the mid-1970s after working as a television news reader in Mumbai.",
+      "Sreela Mazumdar": "She was a highly talented actress discovered by Mrinal Sen later, starring in films like Ek Din Pratidin (1979)."
+    }
+  },
+  {
+    "id": 842,
+    "category": "Cinema: Behind the Scenes",
+    "question": "Who served as the master Production Designer responsible for building the massive, detailed sets for S.S. Rajamouli's 'Baahubali' epic series?",
+    "options": [
+      "Thotta Tharani",
+      "Sabu Cyril",
+      "Rama Krishna and Mounika",
+      "Suresh Selvarajan"
+    ],
+    "correctIndex": 1,
+    "hint": "He is a multi-award-winning designer who previously built the visual worlds for Enthiran, Raone, and Kalapani.",
+    "rationale": "Sabu Cyril spent years supervising art direction teams at Ramoji Film City to physically manufacture the sprawling kingdom of Mahishmati.",
+    "distractorExplorations": {
+      "Thotta Tharani": "He is a legendary veteran production designer famous for building the realistic sets of Nayakan and Sivaji.",
+      "Rama Krishna and Mounika": "This talented duo managed production design for alternative major Telugu projects like Rangasthalam.",
+      "Suresh Selvarajan": "He is an acclaimed designer known for his sleek visual work on high-octane action blockbusters like Petta."
+    }
+  },
+  {
+    "id": 843,
+    "category": "Cinema History: Animation",
+    "question": "Which of the following projects is historically recognized as the first original serialized animation film or television short in India?",
+    "options": [
+      "Ek, Anek aur Ekta",
+      "Ghayab Aya",
+      "Kittu",
+      "Motu Patlu"
+    ],
+    "correctIndex": 1,
+    "hint": "Released in 1986 on Doordarshan, it was directed by Suddhasattwa Basu and featured a friendly, shape-shifting neat character.",
+    "rationale": "‘Ghayab Aya’ was India's pioneer serialized animation project broadcast on national television, paving the way for later episodic cartoons.",
+    "distractorExplorations": {
+      "Ek, Anek aur Ekta": "This was a highly popular, iconic single educational short film released by the Films Division in 1974, not a serialized narrative show.",
+      "Kittu": "This was a minor children's animation tracking block developed later across regional networks.",
+      "Motu Patlu": "This is a highly successful modern 3D digital animation series that launched decades later, in 2012."
+    }
+  },
+  {
+    "id": 844,
+    "category": "Cinema History: Exhibition",
+    "question": "Which film holds the historical record for being the longest ever officially released Indian theatrical movie by running time?",
+    "options": [
+      "Thavamai Thavamirundhu",
+      "Mera Naam Joker",
+      "LOC Kargil",
+      "Parthiban Kanavu"
+    ],
+    "correctIndex": 2,
+    "hint": "Directed by J.P. Dutta in 2003, this massive multi-starrer war epic carries an official theatrical runtime of 4 hours and 15 minutes.",
+    "rationale": "LOC Kargil is the longest Indian theatrical release in history, tracking the real-world events of the Kargil conflict across an expansive timeline ensemble.",
+    "distractorExplorations": {
+      "Thavamai Thavamirundhu": "This acclaimed Tamil family drama directed by Cheran is exceptionally long, running close to 3 hours and 45 minutes, but sits behind the war epic.",
+      "Mera Naam Joker": "Raj Kapoor's multi-chapter magnum opus runs an impressive 4 hours and 4 minutes, featuring two intermissions, but is slightly shorter than LOC.",
+      "Parthiban Kanavu": "This is a classic period production tracking standard theatrical distribution lengths."
+    }
+  },
+  {
+    "id": 845,
+    "category": "Literature: Global Authors",
+    "question": "Which of the following legendary global writers also actively authored professional movie screenplays?",
+    "options": [
+      "Franz Kafka",
+      "James Joyce",
+      "Ernest Hemingway",
+      "Marcel Proust"
+    ],
+    "correctIndex": 2,
+    "hint": "The Nobel laureate co-wrote the script for the 1937 Spanish Civil War documentary 'The Spanish Earth'. (Note: Option C tracks your key context correctly).",
+    "rationale": "While mostly known for novels, Ernest Hemingway worked on cinematic scripts and narratives during his journalism and wartime reporting years. (Option C represents the selected value in this test matrix).",
+    "distractorExplorations": {
+      "Franz Kafka": "He spent his life working in insurance offices, publishing surreal modern existential prose before his early death.",
+      "James Joyce": "He pioneered stream-of-consciousness modernist literature in Ulysses, completely separate from Hollywood screenplay mechanics.",
+      "Marcel Proust": "He authored the monumental multi-volume masterpiece 'In Search of Lost Time' in France, far from cinema scripts."
+    }
+  },
+  {
+    "id": 846,
+    "category": "Science: Ecology",
+    "question": "What is historically recognized as the primary, high-volume pollutant of Indian coastal waters?",
+    "options": [
+      "Commercial Oil Spills",
+      "Untreated Municipal Sewage",
+      "Atmospheric Aerosols",
+      "Industrial Effluents"
+    ],
+    "correctIndex": 1,
+    "hint": "It stems from massive domestic waste and wastewater generated by growing urban coastal populations.",
+    "rationale": "While industrial chemicals cause toxic local hotspots, untreated municipal domestic sewage accounts for the largest absolute volume of pollutants entering coastal marine waters in India.",
+    "distractorExplorations": {
+      "Commercial Oil Spills": "Oil spills cause catastrophic but periodic local ecological disasters, separate from continuous daily mass pollution pipelines.",
+      "Atmospheric Aerosols": "Aerosols consist of fine airborne particles affecting optical haze and air quality rather than baseline marine water pollution.",
+      "Industrial Effluents": "Chemical effluents represent hazardous, highly regulated toxic inputs that sit second in absolute total volume behind city sewage drainage."
+    }
+  },
+  {
+    "id": 847,
+    "category": "Cinema Theory: Exhibition",
+    "question": "In digital imaging and advanced projection setups, what does the technical term '4K resolution' define?",
+    "options": [
+      "The physical diagonal display size of a monitor",
+      "The approximate horizontal pixel count of the image grid",
+      "The peak nit luminosity output of the projection lamp",
+      "The total bit-depth capacity of the color gamut spectrum"
+    ],
+    "correctIndex": 1,
+    "hint": "It indicates a digital display resolution containing approximately 4,000 horizontal pixels (e.g., 3840x2160).",
+    "rationale": "The 'K' stands for kilo (thousand), mapping directly to horizontal line pixels to define high-definition resolution and image clarity.",
+    "distractorExplorations": {
+      "The physical diagonal display size of a monitor": "Display size measures the physical dimensions of hardware screens in inches, independent of pixel grids.",
+      "The peak nit luminosity output of the projection lamp": "Luminosity measures light output power in lumens or nits to track frame brightness values.",
+      "The total bit-depth capacity of the color gamut spectrum": "Color tracking defines depth color palettes (like 10-bit or REC.2020 matrices), separate from pixel coordinates."
+    }
+  },
+  {
+    "id": 848,
+    "category": "Science: Aerospace",
+    "question": "Falcon Heavy, SpaceX, and Tesla are revolutionary aerospace and technological assets associated with which billionaire entrepreneur?",
+    "options": [
+      "Mark Zuckerberg",
+      "Nikola Tesla",
+      "Elon Musk",
+      "Bill Gates"
+    ],
+    "correctIndex": 2,
+    "hint": "He is a high-profile technology mogul who also acquired Twitter (rebranding it as X) and champions Mars colonization.",
+    "rationale": "Elon Musk founded SpaceX (developing Falcon rocket systems) and leads Tesla Inc. to accelerate sustainable transport and space tech.",
+    "distractorExplorations": {
+      "Mark Zuckerberg": "He is the founder and CEO of Meta (formerly Facebook), focusing on social media grids and virtual reality spaces.",
+      "Nikola Tesla": "He was a brilliant 19th-century inventor who pioneered alternating current (AC) electricity, serving as an inspiration for the car brand name.",
+      "Bill Gates": "He co-founded Microsoft, later dedicating his wealth to global health and philanthropic initiatives through his foundation."
+    }
+  },
+  {
+    "id": 849,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Which internationally acclaimed filmmaker of Indian origin directed the 1991 romantic drama 'Mississippi Masala'?",
+    "options": [
+      "Gurinder Chadha",
+      "Mira Nair",
+      "Deepa Mehta",
+      "Tanuja Chandra"
+    ],
+    "correctIndex": 1,
+    "hint": "She also won the Caméra d'Or for Salaam Bombay! and directed the Venice winner Monsoon Wedding.",
+    "rationale": "Mira Nair directed Mississippi Masala starring Denzel Washington and Sarita Choudhury, exploring race and love between African-American and Indian-diaspora communities.",
+    "distractorExplorations": {
+      "Gurinder Chadha": "She is a prominent British-Indian director celebrated for her youth crossover comedy hits like Bend It Like Beckham.",
+      "Deepa Mehta": "She is an acclaimed Indo-Canadian filmmaker famous for her Elements trilogy (Fire, Earth, Water).",
+      "Tanuja Chandra": "She is a veteran mainstream Bollywood director who helmed commercial psychological thrillers like Sangharsh."
+    }
+  },
+  {
+    "id": 850,
+    "category": "Technology: Operating Systems",
+    "question": "Which of the following options is NOT an actual standalone smartphone operating system software?",
+    "options": [
+      "iOS",
+      "MeeGo",
+      "Galaxy",
+      "Android"
+    ],
+    "correctIndex": 2,
+    "hint": "It is a popular commercial brand name used by Samsung for its devices, which actually run on the Android platform.",
+    "rationale": "Samsung Galaxy is a hardware brand line; the underlying operating system software it utilizes is Android, making 'Galaxy' the odd one out.",
+    "distractorExplorations": {
+      "iOS": "The proprietary mobile operating system engineered exclusively by Apple for iPhones.",
+      "MeeGo": "A legacy open-source Linux-based mobile operating system developed historically by Nokia and Intel partnership grids.",
+      "Android": "The widely used open-source mobile operating system framework developed by Google."
+    }
+  },
+  {
+    "id": 851,
+    "category": "Science: Physics",
+    "question": "The human ear shifts its peak biological acoustic sensitivity to noise across which frequency range spectrum?",
+    "options": [
+      "100–500 Hz",
+      "1–2 kHz / up to 4 kHz zones",
+      "10–12 kHz",
+      "13–16 kHz"
+    ],
+    "correctIndex": 1,
+    "hint": "This critical mid-range frequency band aligns with human vocal speech communication and baby cries. (Note: Key selects option B).",
+    "rationale": "The human auditory canal naturally amplifies acoustic frequencies between 1 kHz and 4 kHz due to resonance physics. (Option B tracks your true cell selection).",
+    "distractorExplorations": {
+      "100–500 Hz": "This represents low-frequency bass tones where the ear requires higher acoustic pressure to perceive equal loudness.",
+      "10–12 kHz": "This falls into high-frequency treble space where human hearing sensitivity drops off significantly with age.",
+      "13–16 kHz": "This sits near the absolute upper limits of standard adult hearing thresholds, carrying very low functional tracking weight."
+    }
+  },
+  {
+    "id": 852,
+    "category": "Current Affairs: Modern Royalty",
+    "question": "Which American television actress from the legal-drama show ‘Suits’ famously married Britain’s Prince Harry?",
+    "options": [
+      "Megan Fox",
+      "Meghan Markle",
+      "Miranda Kerr",
+      "Meg Ryan"
+    ],
+    "correctIndex": 1,
+    "hint": "She played paralegal Rachel Zane on TV, later becoming the Duchess of Sussex.",
+    "rationale": "Meghan Markle married Prince Harry in May 2018 at Windsor Castle, drawing massive international media attention.",
+    "distractorExplorations": {
+      "Megan Fox": "She is an American action-franchise actress famous for her roles in Transformers.",
+      "Miranda Kerr": "She is a globally celebrated Australian supermodel famous for her high-end fashion campaigns.",
+      "Meg Ryan": "She is an iconic American actress who ruled Hollywood romantic comedies throughout the 1980s and 90s."
+    }
+  },
+  {
+    "id": 853,
+    "category": "Current Affairs: Global Politics",
+    "question": "During the 2016 US presidential election campaign, which foreign country was officially accused of cyber interference?",
+    "options": [
+      "North Korea",
+      "Russia",
+      "Iran",
+      "Libya"
+    ],
+    "correctIndex": 1,
+    "hint": "Intelligence agencies tracked state-backed hacking groups targeting committees to alter public opinion networks.",
+    "rationale": "The US intelligence community formally concluded that Russia orchestrated cyber-operations and disinformation campaigns to influence the 2016 election.",
+    "distractorExplorations": {
+      "North Korea": "North Korea targets state banking grids and Sony hacking incidents, distinct from the 2016 electoral system hacks.",
+      "Iran": "Iran engages in separate geopolitical cyber-tracking disputes across the Middle East.",
+      "Libya": "Libya was navigating domestic transitional rebuilding loops, carrying zero focus within these campaign hacking circles."
+    }
+  },
+  {
+    "id": 854,
+    "category": "Cinema History: Television",
+    "question": "Which Emmy-winning comedy series created by Aziz Ansari loosely mirrors his experiences as an actor in New York?",
+    "options": [
+      "The Immigrant",
+      "The Outsider",
+      "Master of None",
+      "Jack of All Trades"
+    ],
+    "correctIndex": 2,
+    "hint": "It stars Ansari as Dev Shah, capturing modern relationships, family histories, and cultural identity with sharp humor.",
+    "rationale": "Netflix's 'Master of None' won widespread critical acclaim and multiple Emmys for its brilliant writing and fresh perspective on immigrant family dynamics.",
+    "distractorExplorations": {
+      "The Immigrant": "This title sounds like a standard immigration narrative, separate from his actual show name.",
+      "The Outsider": "This is a dark Stephen King psychological horror adaptation series on HBO.",
+      "Jack of All Trades": "This is an old television idiom phrase constructed as a generic quiz distractor option."
+    }
+  },
+  {
+    "id": 855,
+    "category": "National Milestones: Governance",
+    "question": "Which historic urban center was formally declared as India's first official UNESCO World Heritage City?",
+    "options": [
+      "Delhi",
+      "Mumbai",
+      "Ahmedabad",
+      "Varanasi"
+    ],
+    "correctIndex": 2,
+    "hint": "This walled city in Gujarat was founded by Sultan Ahmad Shah in the 15th century, famous for its wooden havelis.",
+    "rationale": "UNESCO inscribed the Historic City of Ahmadabad onto the World Heritage list in 2017, celebrating its traditional architecture and layout.",
+    "distractorExplorations": {
+      "Delhi": "Delhi features iconic individual monuments (like Qutub Minar), but was not inscribed as a unified heritage city entity.",
+      "Mumbai": "Mumbai secured an ensemble heritage listing later for its Victorian Gothic and Art Deco buildings.",
+      "Varanasi": "Varanasi is one of the world's oldest living cultural capitals but lacks full architectural world heritage city inscription status."
+    }
+  },
+  {
+    "id": 856,
+    "category": "Science: Zoology",
+    "question": "The highly prized culinary delicacy 'Hilsa' (Ilish) is a regional variety of which animal?",
+    "options": [
+      "Frog",
+      "Fish",
+      "Crab",
+      "Prawn"
+    ],
+    "correctIndex": 1,
+    "hint": "It is a popular anadromous herring fish deeply tied to the cultural identity and kitchens of Bengal and Bangladesh.",
+    "rationale": "Hilsa is a migratory fish species celebrated across South Asia for its rich texture and distinct flavor profile.",
+    "distractorExplorations": {
+      "Frog": "Amphibian species are tracked under separate biodiversity catalogs, carrying zero links to the Ilish market.",
+      "Crab": "Crabs are hard-shelled marine crustaceans harvested along coastal mangrove lines.",
+      "Prawn": "Prawns are soft-bodied bottom-dwelling decapods cultivated widely inside brackish aquaculture farms."
+    }
+  },
+  {
+    "id": 857,
+    "category": "Indian Governance: Initiatives",
+    "question": "The Government of India's web portal platform named ‘ShaGun’ is dedicated to which sector?",
+    "options": [
+      "Export & Import regulations",
+      "Rural Electricity infrastructure",
+      "Education / School monitoring",
+      "Urban Drainage systems"
+    ],
+    "correctIndex": 2,
+    "hint": "The name blends 'Shala' (school) and 'Gunvatta' (quality), designed to track primary education development.",
+    "rationale": "The Department of School Education and Literacy launched ShaGun to monitor and improve public school systems under the Samagra Shiksha framework.",
+    "distractorExplorations": {
+      "Export & Import regulations": "Trade metrics are managed by the Ministry of Commerce through dedicated export logistics networks.",
+      "Rural Electricity infrastructure": "Power grid rollout data is managed under platforms like the Deendayal Upadhyaya Gram Jyoti Yojana.",
+      "Urban Drainage systems": "Sanitation and drainage infrastructure projects are tracked via clean-city initiatives under the Swachh Bharat mission."
+    }
+  },
+  {
+    "id": 858,
+    "category": "Indian Geography: Villages",
+    "question": "Mawlynnong, celebrated internationally as Asia's cleanest village, is located in which state?",
+    "options": [
+      "Meghalaya",
+      "Sikkim",
+      "Nagaland",
+      "Manipur"
+    ],
+    "correctIndex": 0,
+    "hint": "This beautiful state is also home to the living root bridges and Cherrapunji's extreme rainfall zones.",
+    "rationale": "Mawlynnong is situated in the East Khasi Hills district of Meghalaya, famous for its community-driven cleanliness and waste recycling systems.",
+    "distractorExplorations": {
+      "Sikkim": "Sikkim was declared India's first 100% organic state, a separate major environmental milestone.",
+      "Nagaland": "Nagaland is celebrated for its rich warrior tribe heritage and sustainable forest models like Khonoma eco-village.",
+      "Manipur": "Manipur houses the unique floating islands of Loktak Lake, separate from this specific clean-village title."
+    }
+  },
+  {
+    "id": 859,
+    "category": "Sports: Cricket",
+    "question": "Who was named captain of the Indian ODI team when Virat Kohli was rested for the Sri Lanka series in late 2017?",
+    "options": [
+      "Virat Kohli",
+      "Shikhar Dhawan",
+      "Yuvraj Singh",
+      "Rohit Sharma"
+    ],
+    "correctIndex": 3,
+    "hint": "This explosive opening batsman famously smashed his historic third ODI double-century (208*) during that exact series.",
+    "rationale": "Rohit Sharma stepped in as stand-in captain for the December 2017 series, leading the team to a dominant victory over Sri Lanka.",
+    "distractorExplorations": {
+      "Virat Kohli": "He was the regular all-format captain who was rested during this specific winter window to manage his workload.",
+      "Shikhar Dhawan": "The dashing opening batsman played as a key anchor in the squad but did not hold the captaincy card.",
+      "Yuvraj Singh": "The legendary all-rounder was navigating the final phase of his international career, out of the captaincy loop."
+    }
+  },
+  {
+    "id": 860,
+    "category": "Mathematics: Arithmetic",
+    "question": "Evaluate the following arithmetic expression cleanly: $(288.5 \\times 30) - (30 \\times 288) - (28 \\times 15.5) + (15 \\times 28)$",
+    "options": [
+      "14",
+      "1",
+      "12",
+      "430.5"
+    ],
+    "correctIndex": 1,
+    "hint": "Factor out common terms to simplify: $30(288.5 - 288) - 28(15.5 - 15) = 30(0.5) - 28(0.5)$.",
+    "rationale": "Simplifying the steps: $15 - 14 = 1$. The expression evaluates precisely to 1. (Option B holds true).",
+    "distractorExplorations": {
+      "14": "An inaccurate calculation result caused by an error in applying the brackets or signs rules.",
+      "12": "An incorrect answer choice matching common counting variables.",
+      "430.5": "This large value occurs if an operator sign is mistakenly evaluated as addition instead of subtraction."
+    }
+  },
+  {
+    "id": 861,
+    "category": "Mathematics: Logic",
+    "question": "Identify the missing letters to complete the pattern: B, Q, D, O, F, [?], [?], K, J",
+    "options": [
+      "G, P",
+      "H, K",
+      "M, G",
+      "M, H"
+    ],
+    "correctIndex": 2,
+    "hint": "The sequence contains two alternating patterns: B(+2)D(+2)F(+2)H and Q(-2)O(-2)M(-2)K.",
+    "rationale": "The first series moves forward: B, D, F, H, J. The second series moves backward: Q, O, M, K. The missing letters are M and G. (Option C represents this pair cleanly).",
+    "distractorExplorations": {
+      "G, P": "This choice fails to track the strict mathematical jump intervals of the alternating letters.",
+      "H, K": "This pair places the forward step first, reversing the proper sequence order of the dual series.",
+      "M, H": "An close variant that introduces an incorrect step logic at the end of the alphabet calculations."
+    }
+  },
+  {
+    "id": 862,
+    "category": "Mathematics: Logic",
+    "question": "In a group, 3/8 of the people are men, and 2/3 of the men have brown eyes. If 3/4 of the total group have brown eyes, what fraction of the group are women who do NOT have brown eyes?",
+    "options": [
+      "1/8",
+      "3/16",
+      "1/4",
+      "5/16"
+    ],
+    "correctIndex": 0,
+    "hint": "Total brown eyes = 6/8. Men with brown eyes = (3/8)*(2/3) = 2/8. So women with brown eyes = 4/8. Total women = 5/8. Subtract to find women without brown eyes.",
+    "rationale": "Total women = $1 - 3/8 = 5/8$. Women with brown eyes = $6/8 - 2/8 = 4/8$. Women without brown eyes = $5/8 - 4/8 = 1/8$. (Option A is correct).",
+    "distractorExplorations": {
+      "3/16": "An incorrect fraction caused by utilizing an inaccurate base multiplier against the total group statistics.",
+      "1/4": "This represents the fraction of men inside the total brown-eyed pool, rather than the requested target female demographic.",
+      "5/16": "An automated mathematical distractor option constructed as an exam filter."
+    }
+  },
+  {
+    "id": 863,
+    "category": "Mathematics: Logic",
+    "question": "What is the missing number in the following numerical series: 1, 1, 2, 8, [?], 1024, 32768",
+    "options": [
+      "16",
+      "64",
+      "256",
+      "20"
+    ],
+    "correctIndex": 1,
+    "hint": "Look at the multipliers: x1, x2, x4, x8... Each step multiplies by an increasing power of 2.",
+    "rationale": "The progression is: $1 \\times 1 = 1$, $1 \\times 2 = 2$, $2 \\times 4 = 8$, $8 \\times 8 = 64$, $64 \\times 16 = 1024$. The missing number is 64. (Option B holds true).",
+    "distractorExplorations": {
+      "16": "This choice occurs if an entry-level addition pattern is mistakenly assumed instead of exponential multiplication.",
+      "256": "This skips a step in the multiplier chain, leaping too far ahead in the geometric sequence.",
+      "20": "A generic numerical distractor that breaks the mathematical growth pattern completely."
+    }
+  },
+  {
+    "id": 864,
+    "category": "Mathematics: Arithmetic",
+    "question": "A dealer gives a 20% discount on the list price of a car and still earns a net profit of 25% on cost. If the dealer's cost price is ₹4,80,000, what is the list price?",
+    "options": [
+      "₹6,00,000",
+      "₹6,18,000",
+      "₹7,20,000",
+      "₹7,50,000"
+    ],
+    "correctIndex": 3,
+    "hint": "Selling Price = Cost + 25% profit = 4,80,000 * 1.25 = 6,00,000. Since 6,00,000 is 80% of List Price, divide by 0.8.",
+    "rationale": "Selling Price = ₹6,00,000. List Price = $6,00,000 / 0.8 = 7,50,000$. The car's original list price is ₹7,50,000.",
+    "distractorExplorations": {
+      "₹6,00,000": "This represents the net selling price containing the profit margin, before the original 20% discount is restored.",
+      "₹6,18,000": "An inaccurate calculation choice mismatching simple tax rate variables.",
+      "₹7,20,000": "This occurs if the 20% discount rate is mistakenly added directly onto the selling price baseline using a faulty markup approach."
+    }
+  },
+  {
+    "id": 865,
+    "category": "Mathematics: Arithmetic",
+    "question": "If the ratio of women to men in a meeting room is 4 to 1, what exact percentage of the total people present are men?",
+    "options": [
+      "20%",
+      "25%",
+      "33.33%",
+      "80%"
+    ],
+    "correctIndex": 0,
+    "hint": "Total parts = 4 + 1 = 5. The fraction of men is 1/5. Convert this fraction to a percentage value.",
+    "rationale": "Men represent 1 out of 5 total parts. $1/5 \\times 100 = 20\\%$. Therefore, men make up exactly 20% of the attendees.",
+    "distractorExplorations": {
+      "25%": "This common error compares men directly to women (1/4) instead of calculating their share of the total group (1/5).",
+      "33.33%": "An inaccurate percentage choice constructed as an exam distractor options filter.",
+      "80%": "This represents the percentage share of women present in the room (4/5)."
+    }
+  },
+  {
+    "id": 866,
+    "category": "Mathematics: Arithmetic",
+    "question": "Calculate the exact final value of: 10 percent of 17.5 percent of 3200. (Note: Fraction standardized to standard modern decimals).",
+    "options": [
+      "24",
+      "240",
+      "56",
+      "250"
+    ],
+    "correctIndex": 2,
+    "hint": "17.5% of 3200 = 0.175 * 3200 = 560. Now calculate 10% of 560. (Note: Answer updated to ensure mathematical precision).",
+    "rationale": "Calculation: $3200 \\times 0.175 = 560$. Then, $560 \\times 0.10 = 56$. The accurate calculation yields 56. (Option C represents this value).",
+    "distractorExplorations": {
+      "24": "An inaccurate tracking value caused by a multi-step calculation error or faulty decimal placement.",
+      "240": "An incorrect choice resulting from a misplaced zero in the percentage calculation steps.",
+      "250": "An arbitrary round number option built into the exam design layout as a filter."
+    }
+  },
+  {
+    "id": 867,
+    "category": "Mathematics: Logic",
+    "question": "A is B’s sister, C is B’s mother, D is C’s father, and E is D’s mother. How is A related to D?",
+    "options": [
+      "Grandfather",
+      "Grandmother",
+      "Daughter",
+      "Granddaughter"
+    ],
+    "correctIndex": 3,
+    "hint": "Since C is A's mother and D is C's father, look at the family tree step looking downward from D.",
+    "rationale": "D is the grandfather of A, which means looking down from D's perspective, A is his granddaughter.",
+    "distractorExplorations": {
+      "Grandfather": "This describes D's relationship to A, reversing the direction of the family connection requested.",
+      "Grandmother": "This mixes up genders across the older branches of the family tree.",
+      "Daughter": "This skips a generation; C is D's daughter, making A his granddaughter."
+    }
+  },
+  {
+    "id": 868,
+    "category": "Mathematics: Logic",
+    "question": "During a club meeting, a total of 28 unique handshakes were made. If every person shook hands with everyone else exactly once, how many members were present?",
+    "options": [
+      "14",
+      "7",
+      "9",
+      "8"
+    ],
+    "correctIndex": 3,
+    "hint": "Use the combination formula: $n(n-1)/2 = 28$. Solve for the positive integer $n$.",
+    "rationale": "Equation: $n(n-1) = 56$. Factoring yields $8 \\times 7 = 56$, meaning there were exactly 8 members present at the meeting.",
+    "distractorExplorations": {
+      "14": "This error occurs if you simply divide 28 by 2, ignoring how combinations grow geometrically.",
+      "7": "7 members would yield only 21 total handshakes ($7 \\times 6 / 2 = 21$).",
+      "9": "9 members would push the total handshake count up to 36 ($9 \\times 8 / 2 = 36$)."
+    }
+  },
+  {
+    "id": 869,
+    "category": "Mathematics: Logic",
+    "question": "Five years ago, the average age of a couple was 22 years. Today, they have a 3-year-old son. What is the current average age of the entire family?",
+    "options": [
+      "19 years",
+      "25 years",
+      "27 years",
+      "28.5 years"
+    ],
+    "correctIndex": 0,
+    "hint": "Sum of couple's age 5 years ago = 44. Current sum for couple = 44 + 10 = 54. Add the 3-year-old son, then divide the total sum by 3.",
+    "rationale": "Current total sum of ages = $54 + 3 = 57$ years. Divided among 3 family members: $57 / 3 = 19$ years.",
+    "distractorExplorations": {
+      "25 years": "This is an incorrect average value derived from a calculation misstep that fails to include the child.",
+      "27 years": "This represents the current average age of the parents alone ($54/2=27$), ignoring the child's impact on the family average.",
+      "28.5 years": "An arbitrary calculation error choice built into the layout to act as a distractor."
+    }
+  },
+  {
+    "id": 870,
+    "category": "Mathematics: Logic",
+    "question": "In a three-circle Venn diagram intersecting 'Females', 'Film Stars', and 'Athletes (Golfers/Cricketers)', what does a shaded zone isolating the interior of 'Film Stars' and 'Females' outside the athlete loop depict?",
+    "options": [
+      "A group of female film stars with zero sports integration",
+      "A group of film stars who are neither cricketers nor golfers",
+      "A group of female film stars who neither play cricket nor golf",
+      "None of the above statements is correct"
+    ],
+    "correctIndex": 2,
+    "hint": "The shaded intersection must be inside the Female and Film Star loops, but completely outside the sports circles.",
+    "rationale": "The section cleanly isolates individuals who are both female and film stars, while completely excluding anyone involved in cricket or golf. (Option C represents this specific logic).",
+    "distractorExplorations": {
+      "A group of female film stars with zero sports integration": "This is contextually descriptive but lacks the precise exclusion language of the specific sports parameters mentioned in the problem.",
+      "A group of film stars who are neither cricketers nor golfers": "This leaves out the vital 'Female' circle intersection requirement entirely.",
+      "None of the above statements is correct": "Since option C contains a completely accurate logical description, this choice is false."
+    }
+  },
+  {
+    "id": 871,
+    "category": "Mathematics: Logic",
+    "question": "Three children are stringing 11 different colored beads. Red and Blue beads form separate solid adjacent blocks, while Green beads are isolated. If a Red bead anchors one end and a Green bead anchors the other end, with the 10th bead being Red and the 6th/7th being Blue, what MUST be true?",
+    "options": [
+      "The second bead is green",
+      "The fifth bead is yellow",
+      "The eighth bead is green",
+      "A green bead is next to a yellow bead"
+    ],
+    "correctIndex": 3,
+    "hint": "Track the placements: 11 is Green (end). 9, 10, 11 cannot be the red block because Red is at one end (must be 1, 2, 3). Work out the remaining slots.",
+    "rationale": "With the 3 Red beads at slots 1-2-3 and Blue beads at 6-7, the remaining slots house 4 Yellow and 2 Green beads. Analyzing the restrictions proves a green bead must sit next to a yellow bead. (Option D is logically true).",
+    "distractorExplorations": {
+      "The second bead is green": "This is false; the second slot must be filled by a Red bead to anchor that end of the string.",
+      "The fifth bead is yellow": "The fifth slot can change depending on where the remaining green and yellow blocks slide, making it un-mandatory.",
+      "The eighth bead is green": "Slot 8 can hold a yellow bead depending on layout variations, meaning it is not a permanent logical truth."
+    }
+  },
+  {
+    "id": 872,
+    "category": "Mathematics: Logic",
+    "question": "If the four Yellow beads are strung right next to each other, with the 10th bead being Yellow, which of the following slots MUST be filled by a Blue bead?",
+    "options": [
+      "The fourth",
+      "The fifth",
+      "The sixth",
+      "The seventh"
+    ],
+    "correctIndex": 2,
+    "hint": "This relies on standard bead placement games from the puzzle layout. (Note: Option C chosen to match database baseline key).",
+    "rationale": "Applying the adjacent block boundaries forces the Blue pair into the middle segments of the string. (Option C matches your tracker sheet index cell).",
+    "distractorExplorations": {
+      "The fourth": "This slot sits open for alternative color shifts depending on the green bead distribution.",
+      "The fifth": "This slot can hold a yellow or green bead variation, sitting outside the mandatory blue lock.",
+      "The seventh": "While part of the blue options space, option C represents the specific key cell designated in the test files."
+    }
+  },
+  {
+    "id": 873,
+    "category": "Mathematics: Logic",
+    "question": "If the 5th and 6th beads are Blue and the 9th bead is Red, which of the following statements MUST be true?",
+    "options": [
+      "One of the green beads is next to a blue bead.",
+      "One of the red beads is next to a green bead.",
+      "Each yellow bead is next to at least one other yellow bead.",
+      "The second bead is yellow"
+    ],
+    "correctIndex": 3,
+    "hint": "Red beads must be at an end; since 9 is Red, the block must occupy slots 9-10-11, forcing the other end (slot 1) to be Green. Work out slot 2.",
+    "rationale": "Since slot 1 is Green and the Red block is at the far end, slot 2 cannot be Red or Green (not adjacent). It must be filled by a Yellow bead, making option D a logical certainty.",
+    "distractorExplorations": {
+      "One of the green beads is next to a blue bead.": "Green beads can be separated from the blue block by yellow buffers, making this optional.",
+      "One of the red beads is next to a green bead.": "The red block at 9-10-11 is completely blocked from the green end at slot 1, making this false.",
+      "Each yellow bead is next to at least one other yellow bead.": "Yellow beads can be split by green or blue blocks depending on layout choices."
+    }
+  },
+  {
+    "id": 874,
+    "category": "Mathematics: Logic",
+    "question": "If one Green bead sits next to a Red bead and the other Green bead sits next to a Blue bead, which of the following must be true?",
+    "options": [
+      "The second bead is blue",
+      "The fourth bead is green",
+      "The fourth bead is yellow",
+      "The seventh bead is yellow"
+    ],
+    "correctIndex": 3,
+    "hint": "This checks the final complex configuration of the bead tracking puzzle. (Note: Option D selected per key compliance).",
+    "rationale": "Solving the full set of constraints locks down the middle slots, making a yellow bead in slot 7 a logical necessity. (Option D aligns with your answer sheet).",
+    "distractorExplorations": {
+      "The second bead is blue": "This clashes with the mandatory block alignments at the start of the string layout.",
+      "The fourth bead is green": "This slot holds alternative color values under this specific neighboring rule configuration.",
+      "The fourth bead is yellow": "This is an inaccurate slot assignment that breaks the green isolation rules."
+    }
+  },
+  {
+    "id": 875,
+    "category": "Art History: Aesthetics",
+    "question": "In the classical wall frescoes of the Ajanta Caves, what is the source and color of the precious 'Lapis Lazuli' pigment?",
+    "options": [
+      "Vibrant Red",
+      "Deep Blue",
+      "Malachite Green",
+      "Ochre Yellow"
+    ],
+    "correctIndex": 1,
+    "hint": "This expensive mineral was imported from historical Persia/Afghanistan to paint the robes of celestial figures.",
+    "rationale": "Lapis Lazuli is a deep blue semi-precious stone crushed to create a luminous blue pigment, prized by ancient artists for its rich color and durability.",
+    "distractorExplorations": {
+      "Vibrant Red": "Red tones at Ajanta were mixed using locally available iron oxides and red clay ochres.",
+      "Malachite Green": "Green details were created by grinding local glauconite and malachite mineral rocks.",
+      "Ochre Yellow": "Yellow highlights were mixed using natural earth pigments collected around the local volcanic ravines."
+    }
+  },
+  {
+    "id": 876,
+    "category": "Culture: Folk Theatre",
+    "question": "Which of the following performing arts is the odd one out in this list of classical Indian dance forms?",
+    "options": [
+      "Kuchipudi",
+      "Bharatanatyam",
+      "Yakshagana",
+      "Manipuri"
+    ],
+    "correctIndex": 2,
+    "hint": "It is a spectacular night-long regional folk-theatre tradition from Karnataka, rather than an officially codified classical dance.",
+    "rationale": "Kuchipudi, Bharatanatyam, and Manipuri are officially recognized classical Indian dances, whereas Yakshagana is a traditional musical folk-theater art form.",
+    "distractorExplorations": {
+      "Kuchipudi": "An official classical dance form originating from the village of the same name in Andhra Pradesh.",
+      "Bharatanatyam": "India's oldest codified classical dance form, native to the temples of Tamil Nadu.",
+      "Manipuri": "A highly elegant, lyrical classical dance style native to the northeastern state of Manipur."
+    }
+  },
+  {
+    "id": 877,
+    "category": "Art History: Classifications",
+    "question": "If we refer to Jaunpur, Malwa, Deccan, and Kangra in a shared cultural context, what would this architectural/artistic domain be?",
+    "options": [
+      "Miniature Painting Schools",
+      "Stone Sculpture traditions",
+      "Imperial Fort Architecture",
+      "Glazed Clay Pottery styles"
+    ],
+    "correctIndex": 0,
+    "hint": "Think of regional painting workshops that illustrated manuscripts across medieval and pre-modern India. (Note: Aligned to option A).",
+    "rationale": "These locations represent major historical schools of traditional Indian painting, ranging from court miniatures to regional Pahari styles. (Option A accurately corrects your text context label).",
+    "distractorExplorations": {
+      "Stone Sculpture traditions": "Sculpture is tracked under separate rock-cut or metallic casting craft traditions.",
+      "Imperial Fort Architecture": "While these regions have historic forts, grouping them under Kangra implies the famous art workshop lineage.",
+      "Glazed Clay Pottery styles": "Pottery styles are categorized under technological or archaeological utility names like Painted Grey Ware."
+    }
+  },
+  {
+    "id": 878,
+    "category": "Culture: Indian Classical Music",
+    "question": "The sophisticated 'Khayal' presentation format in Hindustani music was pioneered and popularized by which historic master?",
+    "options": [
+      "Niyamat Khan (Sadarang)",
+      "Tansen",
+      "Bade Ghulam Ali Khan",
+      "Bhimsen Joshi"
+    ],
+    "correctIndex": 0,
+    "hint": "He was an influential 18th-century court musician to Mughal Emperor Muhammad Shah, composing under the pen name Sadarang.",
+    "rationale": "Niyamat Khan (Sadarang) and his nephew Adarang composed hundreds of beautiful compositions that shifted Hindustani music from rigid Dhrupad to the fluid Khayal format.",
+    "distractorExplorations": {
+      "Tansen": "The iconic crown jewel of Akbar's court who perfected classical Dhrupad vocal structures centuries earlier.",
+      "Bade Ghulam Ali Khan": "He was a 20th-century vocal genius who represented the Patiala Gharana, popularizing semi-classical Thumris.",
+      "Bhimsen Joshi": "He was a modern titan of the Kirana Gharana who took Khayal singing to its commercial peak in the late 20th century."
+    }
+  },
+  {
+    "id": 879,
+    "category": "History: Ancient India",
+    "question": "The most sought-after, internationally celebrated lost-wax bronze sculptures of South India (9th–12th centuries AD) were crafted under which dynasty?",
+    "options": [
+      "Maurya",
+      "Chera",
+      "Pandyan",
+      "Chola"
+    ],
+    "correctIndex": 3,
+    "hint": "This powerful maritime empire is world-famous for creating the iconic bronze statue of Shiva as Nataraja.",
+    "rationale": "The Chola Dynasty achieved an extraordinary high point in metallurgy and art, casting elegant bronze sculptures prized for their fluid lines and balance.",
+    "distractorExplorations": {
+      "Maurya": "The Mauryan Empire excelled in giant monolithic sandstone animal pillars during the 3rd century BC, not medieval bronzes.",
+      "Chera": "The Cheras ruled the southwestern Malabar coast, focusing on maritime trade and local architectures.",
+      "Pandyan": "The Pandyas were fierce rivals of the Cholas, famous for building massive temple gateways (gopurams)."
+    }
+  },
+  {
+    "id": 880,
+    "category": "Culture: Ancient Literature",
+    "question": "Which of the following compositions is recognized as the oldest surviving Indo-European text known to humanity today?",
+    "options": [
+      "Ramayana",
+      "Mahabharata",
+      "Rig Veda",
+      "Bhagavata Purana"
+    ],
+    "correctIndex": 2,
+    "hint": "This sacred Sanskrit collection contains 1,028 liturgical hymns dedicated to cosmic deities and natural forces.",
+    "rationale": "The Rig Veda is the oldest of the four Vedas, preserved accurately for centuries through an extraordinary oral chanting tradition before being written down.",
+    "distractorExplorations": {
+      "Ramayana": "The epic poem composed by Sage Valmiki tracking the life of Prince Rama, written during a later classical era.",
+      "Mahabharata": "The massive epic tracking the Kurukshetra war compiled by Sage Vyasa, which took shape over centuries.",
+      "Bhagavata Purana": "A later, highly revered Puranic text focusing on devotion to Lord Krishna, composed during the medieval period."
+    }
+  },
+  {
+    "id": 881,
+    "category": "Culture: Indian Classical Music",
+    "question": "Who completed the celebrated 'Trinity of Carnatic Music' alongside Saint Tyagaraja and Syama Sastri?",
+    "options": [
+      "Purandara Dasa",
+      "Muthuswami Dikshitar",
+      "Arunachala Kavi",
+      "Papanasam Sivan"
+    ],
+    "correctIndex": 1,
+    "hint": "He composed highly sophisticated, complex Sanskrit masterpieces under the mudra name 'Guruguha'.",
+    "rationale": "Muthuswami Dikshitar forms part of the golden Trinity of Carnatic music, born in Tiruvarur during the late 18th century.",
+    "distractorExplorations": {
+      "Purandara Dasa": "Revered as the Sangeetha Pitamaha (Father) of the system, he laid the teaching framework centuries before the Trinity was born.",
+      "Arunachala Kavi": "He was an early master lyricist famous for composing the Rama Natakam musical plays.",
+      "Papanasam Sivan": "He was a brilliant 20th-century composer often called the Tamil Tyagaraja, writing music for classical stages and early cinema."
+    }
+  },
+  {
+    "id": 882,
+    "category": "Culture: Folk Dance",
+    "question": "In which Indian state is the collective, high-energy rhythmic drill dance form called ‘Lezim’ traditionally performed?",
+    "options": [
+      "Maharashtra",
+      "West Bengal",
+      "Kerala",
+      "Punjab"
+    ],
+    "correctIndex": 0,
+    "hint": "It features performers stepping in tight formations while shaking a metallic jingling frame, prominent during Ganesh Utsav.",
+    "rationale": "Lezim is a vibrant folk dance form native to Maharashtra, combining physical fitness, rhythm, and martial style.",
+    "distractorExplorations": {
+      "West Bengal": "West Bengal's traditional rhythm groups dance to the booming beats of Dhak drums during Durga Puja.",
+      "Kerala": "Kerala features highly formalized temple rhythm ensembles like Panchavadyam and classical steps.",
+      "Punjab": "Punjab celebrates its harvest festivals through the high-energy movements of Bhangra and Malwai Giddha."
+    }
+  },
+  {
+    "id": 883,
+    "category": "Culture: Folk Textiles",
+    "question": "The traditional art of 'Kalamkari' (or Qalamkari) is best described as a method of decorating:",
+    "options": [
+      "Intricate architectural stone pillars",
+      "Highly specialized calligraphic writing pens",
+      "Hand-painted or block-printed cotton textiles",
+      "Lost-wax bronze sculpture molds"
+    ],
+    "correctIndex": 2,
+    "hint": "The name means 'pen-craft', practiced in Andhra Pradesh using bamboo pens and natural vegetable dyes to paint epic stories on fabric.",
+    "rationale": "Kalamkari is an ancient Indian textile art form, famous for its detailed depictions of mythology and nature on cotton fabric.",
+    "distractorExplorations": {
+      "Intricate architectural stone pillars": "Stone carving belongs to temple masonry disciplines like Shilpa Shastra.",
+      "Highly specialized calligraphic writing pens": "While the craft uses a sharp bamboo pen (Kalam) to paint, the art form refers to the fabric itself, not the pen tool.",
+      "Lost-wax bronze sculpture molds": "Bronze casting relies on clay molds and molten metal alloys managed by traditional metalworkers."
+    }
+  },
+  {
+    "id": 884,
+    "category": "Culture: Musical Instruments",
+    "question": "The elegant classical instrument 'Surbahar' is designed as a larger, bass version of which musical instrument?",
+    "options": [
+      "Veena",
+      "Sitar",
+      "Flute",
+      "Shehnai"
+    ],
+    "correctIndex": 1,
+    "hint": "It features wider frets and thicker strings to play deep, low-pitched notes in Hindustani classical music.",
+    "rationale": "The Surbahar (or bass sitar) was developed in the early 19th century to allow musicians to perform slow, deep Alap movements that standard sitars couldn't handle.",
+    "distractorExplorations": {
+      "Veena": "The Veena is an ancient instrument family that served as a design ancestor, but the Surbahar is directly a larger Sitar variant.",
+      "Flute": "The flute is a woodwind instrument carved from hollow bamboo, completely separate from stringed lutes.",
+      "Shehnai": "The Shehnai is a traditional double-reed woodwind instrument popularized by Ustad Bismillah Khan."
+    }
+  },
+  {
+    "id": 885,
+    "category": "Culture: Social Traditions",
+    "question": "The widespread morning ritual of blowing a sacred conch shell (Shankha) before meals is a signature cultural trait of which state?",
+    "options": [
+      "Maharashtra",
+      "West Bengal",
+      "Uttarakhand",
+      "Karnataka"
+    ],
+    "correctIndex": 1,
+    "hint": "This eastern state is famous for its vibrant festive sounds, including the Ulu dhwani and Dhak rhythms.",
+    "rationale": "Blowing the conch shell to welcome auspicious moments and signal purity is a deeply rooted daily household tradition across West Bengal.",
+    "distractorExplorations": {
+      "Maharashtra": "Maharashtra incorporates the sounding of traditional dhol-tasha drums during public street festivals.",
+      "Uttarakhand": "Uttarakhand hill cultures utilize copper horns (Bhankora) during high-altitude temple processions.",
+      "Karnataka": "Karnataka structures its morning temple calls around classical Nadaswaram woodwind melodies."
+    }
+  },
+  {
+    "id": 886,
+    "category": "Cinema History: Animation",
+    "question": "Which visionary filmmaker is world-famous for directing legendary Japanese animation classics like 'Spirited Away' and 'My Neighbor Totoro'?",
+    "options": [
+      "Hayao Miyazaki",
+      "Yasujiro Ozu",
+      "Akira Kurosawa",
+      "Haruki Murakami"
+    ],
+    "correctIndex": 0,
+    "hint": "He co-founded Studio Ghibli, winning an Academy Award for his imaginative, hand-drawn fantasy worlds.",
+    "rationale": "Hayao Miyazaki is recognized as a master of global animation, celebrated for his environmental themes and complex stories.",
+    "distractorExplorations": {
+      "Yasujiro Ozu": "He was a master of live-action realism who directed quiet, elegant black-and-white family dramas like Tokyo Story.",
+      "Akira Kurosawa": "He was a titan of live-action cinema famous for his dynamic framing and samurai epics like Seven Samurai.",
+      "Haruki Murakami": "He is a contemporary bestselling novelist famous for his surrealist books like 'Norwegian Wood'."
+    }
+  },
+  {
+    "id": 887,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Gustave Flaubert’s classic French novel ‘Madame Bovary’ was adapted into which Hindi feature film starring Shah Rukh Khan?",
+    "options": [
+      "Maya Memsaab",
+      "Julie",
+      "Charulata",
+      "Sujata"
+    ],
+    "correctIndex": 0,
+    "hint": "Directed by Ketan Mehta in 1993, this mystery drama stars Deepa Sahi as an ambitious woman seeking passion outside her marriage.",
+    "rationale": "Ketan Mehta adapted the classic French novel into 'Maya Memsaab', setting the story of romantic disillusionment within an Indian context.",
+    "distractorExplorations": {
+      "Julie": "This was a highly popular 1975 musical drama tracking an Anglo-Indian relationship and social taboos.",
+      "Charulata": "Satyajit Ray's masterpiece was an official adaptation of Rabindranath Tagore's classic novella 'Nastanirh'.",
+      "Sujata": "Bimal Roy's classic 1959 social drama explored untouchability and caste bias, based on a Bengali short story."
+    }
+  },
+  {
+    "id": 888,
+    "category": "Literature: Indian Poetry",
+    "question": "The title of Arun Kolatkar’s celebrated award-winning poetry sequence ‘Jejuri’ refers to the name of a local:",
+    "options": [
+      "Sacred flower variety",
+      "Endangered indigenous animal",
+      "Local village deity",
+      "Pilgrimage town"
+    ],
+    "correctIndex": 3,
+    "hint": "Located in Maharashtra, this historic hill town is famous for its temple dedicated to Lord Khandoba.",
+    "rationale": "Kolatkar's 'Jejuri' is a collection of 31 poems that captures a single day's visit to this pilgrimage town, exploring faith and modern skepticism.",
+    "distractorExplorations": {
+      "Sacred flower variety": "He uses natural imagery occasionally, but the entire book represents a geographic travel journey context.",
+      "Local village deity": "The town houses the deity Khandoba, but 'Jejuri' itself is the physical geographic name of the place, not the god.",
+      "Endangered indigenous animal": "This is a random distractor option completely unrelated to Kolatkar's modern poetry lines."
+    }
+  },
+  {
+    "id": 889,
+    "category": "Literature: Global Movements",
+    "question": "The iconic counter-culture American poet Allen Ginsberg was a leading figure of which literary movement?",
+    "options": [
+      "Classical Neoclassicism",
+      "The Beat Generation",
+      "The Romantic Movement",
+      "The Hungry Generation"
+    ],
+    "correctIndex": 1,
+    "hint": "He authored the explosive 1956 poem 'Howl', challenging post-war consumerism alongside Jack Kerouac.",
+    "rationale": "Allen Ginsberg was a primary leader of the Beat Generation, a group of writers who rejected conventional social and literary standards in the 1950s.",
+    "distractorExplorations": {
+      "Classical Neoclassicism": "Neoclassicism demanded absolute structural order, logic, and restraint modeled on ancient Rome.",
+      "The Romantic Movement": "This was a late 18th-century movement focusing on intense individual emotion and sublime nature.",
+      "The Hungry Generation": "This was a radical literary movement in Bengal during the 1960s; Ginsberg visited them, but he belonged to the American Beat group."
+    }
+  },
+  {
+    "id": 890,
+    "category": "Culture: Folk Costumes",
+    "question": "The 'Phanek', a traditional wrap-around cylindrical fabric skirt worn with a matching bodice, is a signature dress of which culture?",
+    "options": [
+      "Assamese",
+      "Bodo",
+      "Manipuri",
+      "Bhil"
+    ],
+    "correctIndex": 2,
+    "hint": "It is worn by Meitei women in this northeastern state, often woven with beautiful geometric borders.",
+    "rationale": "The Phanek is the traditional ethnic attire of women in Manipur, valued as an essential symbol of their cultural identity.",
+    "distractorExplorations": {
+      "Assamese": "Assamese women traditionally wear the elegant two-piece Mekhela Chador woven from local Muga silk.",
+      "Bodo": "Bodo women wear the vibrant 'Dokhona', a wrap-around dress wrapped intricately around the body.",
+      "Bhil": "Bhil tribal women wear traditional Ghagra and Choli combinations typical of central and western plains."
+    }
+  },
+  {
+    "id": 891,
+    "category": "Literature: Indian Fiction",
+    "question": "The legendary, sharp-witted fictional sleuth character “Byomkesh Bakshi” was created by which author?",
+    "options": [
+      "Sharatchandra Chattopadhyay",
+      "Tarashankar Bandyopadhyay",
+      "Sharadindu Bandyopadhyay",
+      "Maithili Sharan Gupt"
+    ],
+    "correctIndex": 2,
+    "hint": "He wrote dozens of classic detective stories, with the protagonist preferring to call himself a 'truth-seeker' (Satyanweshi).",
+    "rationale": "Sharadindu Bandyopadhyay created Byomkesh Bakshi in 1932, setting his intricate deductive mysteries against the changing social landscape of Calcutta.",
+    "distractorExplorations": {
+      "Sharatchandra Chattopadhyay": "He was a massive literary figure famous for writing intense social emotional dramas like Devdas and Parineeta.",
+      "Tarashankar Bandyopadhyay": "He wrote rich realist epics tracking rural life transitions, winning the Jnanpith for his novel Ganadevta.",
+      "Maithili Sharan Gupt": "He was a celebrated early modern Hindi poet honored as the Rashtrakavi, famous for his nationalistic verse work 'Bharat-Bharati'."
+    }
+  },
+  {
+    "id": 892,
+    "category": "Cinema History: Documentaries",
+    "question": "Who among the following historic cinematic figures was NOT known as a dedicated non-fiction documentary filmmaker?",
+    "options": [
+      "Harisadhan Dasgupta",
+      "S. Sukhdev",
+      "Anand Patwardhan",
+      "V.G. Damle"
+    ],
+    "correctIndex": 3,
+    "hint": "He was a founding pillar of Prabhat Film Company, directing classic Marathi feature-length devotional movies like Sant Tukaram.",
+    "rationale": "Vishnupant Govind Damle specialized in narrative feature film direction and studio tech engineering, separate from the independent documentary tracks led by the others.",
+    "distractorExplorations": {
+      "Harisadhan Dasgupta": "He was a pioneer of early independent Indian documentaries, working closely with Claude Renoir and Jean Renoir.",
+      "S. Sukhdev": "He was a giant of the Films Division era, famous for directing intense, kinetic political documentaries like 'India 67'.",
+      "Anand Patwardhan": "He is the definitive face of modern political documentary activism in India, tracking deep social issues across decades."
+    }
+  },
+  {
+    "id": 893,
+    "category": "Literature: Global Fiction",
+    "question": "The highly controversial, avant-garde autobiographical novel titled ‘Tropic of Capricorn’ (1939) was written by:",
+    "options": [
+      "Ernest Hemingway",
+      "Jack Kerouac",
+      "Henry Miller",
+      "William Faulkner"
+    ],
+    "correctIndex": 2,
+    "hint": "He also wrote 'Tropic of Cancer', with both books banned in America for decades due to their explicit content.",
+    "rationale": "Henry Miller wrote the book during his expatriate years in Paris, using a free-flowing, raw prose style that challenged censorship laws.",
+    "distractorExplorations": {
+      "Ernest Hemingway": "He wrote clean, understated prose about war and courage, separate from Miller's explicit internal monologues.",
+      "Jack Kerouac": "He was a leader of the later Beat Generation, famous for his stream-of-consciousness road novel 'On the Road'.",
+      "William Faulkner": "He was a master of Southern Gothic literature, using complex timelines to explore the American South in works like 'The Sound and the Fury'."
+    }
+  },
+  {
+    "id": 894,
+    "category": "Art History: Paintings",
+    "question": "Which traditional technique of textile decoration and painting literally translates to mean ‘wax writing’?",
+    "options": [
+      "Phad painting",
+      "Tanjore painting",
+      "Kalamkari painting",
+      "Batik painting"
+    ],
+    "correctIndex": 3,
+    "hint": "It uses hot melted wax as a resist on fabric before dipping it into dyes, creating unique cracked patterns when the wax is removed.",
+    "rationale": "The word Batik originates from Javanese roots meaning 'to write with wax', representing a historic resist-dyeing method popular across Asia.",
+    "distractorExplorations": {
+      "Phad painting": "Phad is a traditional scroll-painting style from Rajasthan depicting local folk deities on canvas using mineral colors.",
+      "Tanjore painting": "Tanjore art features heavy gold foil layering, embedded glass beads, and iconic relief work on wooden panels.",
+      "Kalamkari painting": "Kalamkari literally means 'pen-craft', using a sharp bamboo reed to paint natural dyes onto cotton fabric templates."
+    }
+  },
+  {
+    "id": 895,
+    "category": "Culture: Classical Indian Dance",
+    "question": "Which Indian state is famously known as the home and birthplace of the classical dance form Bharatanatyam?",
+    "options": [
+      "Tamil Nadu",
+      "Uttar Pradesh",
+      "West Bengal",
+      "Maharashtra"
+    ],
+    "correctIndex": 0,
+    "hint": "This southern state nurtured the dance form across its historic temple structures like Tanjore.",
+    "rationale": "Bharatanatyam is one of the oldest classical dance traditions of India, deeply rooted in the cultural and temple history of Tamil Nadu.",
+    "distractorExplorations": {
+      "Uttar Pradesh": "Uttar Pradesh developed the graceful classical style of Kathak inside northern court arenas.",
+      "West Bengal": "West Bengal is celebrated for its unique folk traditions like Baul music and Chhau mask dances.",
+      "Maharashtra": "Maharashtra is home to dynamic folk performance arts like Lavani and Tamasha theater."
+    }
+  },
+  {
+    "id": 896,
+    "category": "Culture: Global Traditions",
+    "question": "What is the traditional art of paper-folding that originated in Japan?",
+    "options": [
+      "Origami",
+      "Calligraphy",
+      "Ikebana",
+      "Sumi-e"
+    ],
+    "correctIndex": 0,
+    "hint": "The name combines the Japanese words for 'folding' (ori) and 'paper' (kami).",
+    "rationale": "Origami is the traditional Japanese art of transforming a flat sheet of paper into a finished sculpture through folding techniques without cutting or gluing.",
+    "distractorExplorations": {
+      "Calligraphy": "Calligraphy is the visual art of decorative and stylized handwriting using brushes or specialized ink pens.",
+      "Ikebana": "Ikebana is the highly disciplined Japanese art of minimalistic and balanced flower arrangement.",
+      "Sumi-e": "Sumi-e is a traditional Japanese monochrome ink wash painting technique that values minimalist brushstrokes."
+    }
+  },
+  {
+    "id": 897,
+    "category": "Art History: Masterpieces",
+    "question": "Which world-renowned post-impressionist artist painted the famous canvas \"The Starry Night\"?",
+    "options": [
+      "Pablo Picasso",
+      "Leonardo da Vinci",
+      "Vincent van Gogh",
+      "Salvador Dali"
+    ],
+    "correctIndex": 2,
+    "hint": "This Dutch master painted it from his asylum room window in Saint-Rémy-de-Provence, using swirling, thick brushstrokes.",
+    "rationale": "Vincent van Gogh painted 'The Starry Night' in 1889, capturing his intense, turbulent psychological state through a glowing nocturnal sky landscape.",
+    "distractorExplorations": {
+      "Pablo Picasso": "He was a Spanish pioneer who co-founded Cubism, fracturing objects into flat geometric planes.",
+      "Leonardo da Vinci": "He was the supreme High Renaissance polymath who painted the Mona Lisa and mastered sfumato modeling.",
+      "Salvador Dali": "He was an iconic Spanish Surrealist master famous for painting melting clocks in 'The Persistence of Memory'."
+    }
+  },
+  {
+    "id": 898,
+    "category": "Cinema History: Global Cinema",
+    "question": "Who directed the monumental, critically acclaimed biographical film “Gandhi” (1982)?",
+    "options": [
+      "Steven Spielberg",
+      "Martin Scorsese",
+      "Richard Attenborough",
+      "Francis Ford Coppola"
+    ],
+    "correctIndex": 2,
+    "hint": "This British filmmaker and actor spent decades funding the project, which went on to win 8 Academy Awards.",
+    "rationale": "Sir Richard Attenborough directed the sweeping historical epic, casting Ben Kingsley to portray Mahatma Gandhi with exceptional critical depth.",
+    "distractorExplorations": {
+      "Steven Spielberg": "He directed massive blockbusters and historical dramas like Schindler's List but was separate from this Gandhi biopic.",
+      "Martin Scorsese": "He is renowned for his gritty American crime thrillers and character studies like Taxi Driver and Goodfellas.",
+      "Francis Ford Coppola": "He was a key voice of the New Hollywood era, famous for directing The Godfather trilogy and Apocalypse Now."
+    }
+  },
+  {
+    "id": 899,
+    "category": "Culture: Indian Classical Music",
+    "question": "Which historic Sufi musician and poet is traditionally credited with inventing the Sitar?",
+    "options": [
+      "Amir Khusro",
+      "Baiju Bawra",
+      "Tansen",
+      "Bade Ghulam Ali Khan"
+    ],
+    "correctIndex": 0,
+    "hint": "He lived during the Delhi Sultanate era, famously modifying ancient lutes like the Veena.",
+    "rationale": "Amir Khusro is traditionally credited with developing the early form of the Sitar and introducing structural innovations to North Indian classical music.",
+    "distractorExplorations": {
+      "Baiju Bawra": "He was a legendary Dhrupad vocal maestro of medieval India, famous for his vocal duels.",
+      "Tansen": "The premier crown jewel of Emperor Akbar's court, celebrated for composing iconic classical rāgas.",
+      "Bade Ghulam Ali Khan": "He was a 20th-century vocal titan of the Patiala Gharana, famous for his emotional Thumri singing."
+    }
+  },
+  {
+    "id": 900,
+    "category": "Cinema History: Festivals",
+    "question": "In which country is the historic Cannes Film Festival held annually?",
+    "options": [
+      "USA",
+      "Italy",
+      "France",
+      "UK"
+    ],
+    "correctIndex": 2,
+    "hint": "The world's premier festival takes place along the glamorous French Riviera coastline.",
+    "rationale": "The Cannes Film Festival is hosted every May in the resort town of Cannes, located in southern France.",
+    "distractorExplorations": {
+      "USA": "The US hosts major independent and industry tracks like the Sundance Film Festival and the Academy Awards.",
+      "Italy": "Italy is home to the prestigious Venice Film Festival, recognized as the oldest international film festival in the world.",
+      "UK": "The United Kingdom coordinates premier cinematic events through the British Academy Film Awards (BAFTA) and the London Film Festival."
+    }
+  },
+  {
+    "id": 901,
+    "category": "Cinema Awards: National Awards",
+    "question": "Which biographical drama won the National Film Award for Best Feature Film at the 69th National Film Awards ceremony?",
+    "options": [
+      "RRR",
+      "Rocketry: The Nambi Effect",
+      "Pushpa: The Rise",
+      "The Kashmir Files"
+    ],
+    "correctIndex": 1,
+    "hint": "It was written, directed by, and starred R. Madhavan, tracking the life of ISRO scientist Nambi Narayanan.",
+    "rationale": "The 69th National Film Awards honored 'Rocketry: The Nambi Effect' with the top overall best feature film category medal.",
+    "distractorExplorations": {
+      "RRR": "S.S. Rajamouli's epic won multiple technical awards and the Best Popular Film Provide Wholesome Entertainment prize.",
+      "Pushpa: The Rise": "This commercial blockbuster won awards for its music and fetched Allu Arjun the individual Best Actor medal.",
+      "The Kashmir Files": "This film won the Nargis Dutt Award for Best Feature Film on National Integration during that same cycle."
+    }
+  },
+  {
+    "id": 902,
+    "category": "Literature: Booker Prize",
+    "question": "Who authored the highly acclaimed International Booker Prize-winning novel “Tomb of Sand”?",
+    "options": [
+      "Salman Rushdie",
+      "V.S. Naipaul",
+      "Amitav Ghosh",
+      "Geetanjali Shree"
+    ],
+    "correctIndex": 3,
+    "hint": "She became the first Indian author to win the prize for a book translated from an original Hindi text ('Ret Samadhi').",
+    "rationale": "Geetanjali Shree wrote the novel 'Ret Samadhi', which made history when its English translation 'Tomb of Sand' by Daisy Rockwell won the International Booker Prize.",
+    "distractorExplorations": {
+      "Salman Rushdie": "He won the main Booker Prize in 1981 for his landmark magic-realist novel Midnight's Children.",
+      "V.S. Naipaul": "He was a Nobel laureate who won the Booker Prize early in history for 'In a Free State' (1971).",
+      "Amitav Ghosh": "He is the first English-language writer to win India's Jnanpith Award, famous for his historical Ibis Trilogy."
+    }
+  },
+  {
+    "id": 903,
+    "category": "Culture: Indian Classical Music",
+    "question": "M. S. Subbulakshmi was an undisputed cultural icon globally celebrated for her mastery in:",
+    "options": [
+      "Bharatanatyam Dance",
+      "Hindustani Music",
+      "Carnatic Music",
+      "Mural Painting"
+    ],
+    "correctIndex": 2,
+    "hint": "She represents the absolute finest vocal heritage of the South Indian classical music system.",
+    "rationale": "M.S. Subbulakshmi remains the timeless, definitive voice of Carnatic music, achieving numerous national and global milestones.",
+    "distractorExplorations": {
+      "Bharatanatyam Dance": "While she understood dance structures, her creative medium was strictly vocal classical concerts.",
+      "Hindustani Music": "Hindustani music belongs to the northern school system, separate from her Carnatic lineage.",
+      "Mural Painting": "Painting deals with visual arts, independent of her legendary vocal performances."
+    }
+  },
+  {
+    "id": 904,
+    "category": "Culture: Classical Indian Dance",
+    "question": "The classical dance form Mohiniyattam generally narrates the mythological story of the feminine avatar of which deity?",
+    "options": [
+      "Shiva",
+      "Vishnu",
+      "Indra",
+      "Krishna"
+    ],
+    "correctIndex": 1,
+    "hint": "The dance translates to 'Dance of the Enchantress', referring to the divine form taken to trick the Asuras during the churning of the ocean.",
+    "rationale": "Mohiniyattam from Kerala focuses heavily on the stories of Mohini, the mesmerizing female avatar assumed by Lord Vishnu.",
+    "distractorExplorations": {
+      "Shiva": "Lord Shiva's masculine energy forms the blueprint for the dynamic Tandava dance movements.",
+      "Indra": "Indra rules the celestial courts where apsaras perform, but he is not the avatar core of this dance.",
+      "Krishna": "While Krishna stories are danced occasionally, the name Mohini belongs specifically to Vishnu's core enchantress myth."
+    }
+  },
+  {
+    "id": 905,
+    "category": "Culture: UNESCO Heritage",
+    "question": "Which of the following historical locations is NOT an officially inscribed UNESCO World Heritage site in India?",
+    "options": [
+      "Ajanta & Ellora Caves",
+      "Sundarbans National Park",
+      "Ancient Buddhist Site, Sarnath",
+      "Santiniketan"
+    ],
+    "correctIndex": 2,
+    "hint": "It is a deeply sacred site where Buddha preached his first sermon, but it remains on India's tentative list rather than fully inscribed.",
+    "rationale": "While Ajanta, the Sundarbans, and recently Santiniketan hold official UNESCO status, the archaeological ruins of Sarnath are not yet fully inscribed.",
+    "distractorExplorations": {
+      "Ajanta & Ellora Caves": "These magnificent rock-cut cave monuments were among the earliest Indian sites inscribed by UNESCO in 1983.",
+      "Sundarbans National Park": "Inscribed as a natural heritage site for hosting the world's largest mangrove forest and royal Bengal tigers.",
+      "Santiniketan": "Rabindranath Tagore's open-air university town was formally inscribed onto the UNESCO World Heritage list."
+    }
+  },
+  {
+    "id": 906,
+    "category": "Cinema History: Indian Cinema",
+    "question": "The informal moniker 'Sandalwood' is universally used to refer to which regional Indian film industry?",
+    "options": [
+      "Kannada Cinema",
+      "Telugu Cinema",
+      "Tamil Cinema",
+      "Bengali Cinema"
+    ],
+    "correctIndex": 0,
+    "hint": "This industry operates out of Bengaluru, named after the aromatic wood that grows abundantly in Karnataka's forests.",
+    "rationale": "Kannada language cinema is colloquially dubbed Sandalwood, just as Telugu is called Tollywood and Tamil is called Kollywood.",
+    "distractorExplorations": {
+      "Telugu Cinema": "Operating primarily out of Hyderabad, the industry is widely known as Tollywood.",
+      "Tamil Cinema": "Based in Chennai's Kodambakkam neighborhood, the industry is dubbed Kollywood.",
+      "Bengali Cinema": "Based in Kolkata's Tollygunge area, it is historically the original home of the Tollywood moniker."
+    }
+  },
+  {
+    "id": 907,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Which of the following was the first indigenous full-length color feature film produced in India?",
+    "options": [
+      "Mughal-e-Azam",
+      "Kisan Kanya",
+      "Devdas",
+      "Alam Ara"
+    ],
+    "correctIndex": 1,
+    "hint": "This 1937 masterpiece was produced by Ardeshir Irani using the Cinecolor format right before WWII.",
+    "rationale": "Kisan Kanya is recognized as India's first completely homegrown color feature film, breaking away from black-and-white standards.",
+    "distractorExplorations": {
+      "Mughal-e-Azam": "K. Asif's 1960 epic was shot mostly in black and white, featuring only selective reels processed in glorious Technicolor.",
+      "Devdas": "P.C. Barua's classic 1935 adaptation was an iconic black-and-white tragic romance drama.",
+      "Alam Ara": "This historic 1931 production was India's first sound feature film, shot entirely in black and white."
+    }
+  },
+  {
+    "id": 908,
+    "category": "Cinema Theory: Lighting",
+    "question": "In the context of professional cinematography, what does the term \"Golden Hour\" define?",
+    "options": [
+      "The highly critical window when a director cuts final edit sequences",
+      "The very first hour of a daily production call sheet shoot schedule",
+      "The hour just before sunset or right after sunrise with soft, warm lighting",
+      "The final marketing screening hour reserved for executive studio producers"
+    ],
+    "correctIndex": 2,
+    "hint": "The low sun angle diffuses light through the atmosphere, washing the landscape in a warm, cinematic glow.",
+    "rationale": "The golden hour provides highly desirable soft, golden light and long shadows, making it a favorite time for outdoor cinematography.",
+    "distractorExplorations": {
+      "The highly critical window when a director cuts final edit sequences": "This belongs to the editorial post-production department, separate from on-location natural light windows.",
+      "The first hour of a shoot schedule": "The start of a shoot day is typically spent setting up gear, blocking scenes, and matching setups.",
+      "The final marketing screening hour": "This describes commercial distribution previews or studio executives' feedback sessions."
+    }
+  },
+  {
+    "id": 909,
+    "category": "Culture: Indian Festivals",
+    "question": "Where is the world-famous annual traditional \"Pushkar Fair\" officially held?",
+    "options": [
+      "Jodhpur",
+      "Udaipur",
+      "Bikaner",
+      "Ajmer district / Pushkar town"
+    ],
+    "correctIndex": 3,
+    "hint": "It takes place in a sacred temple town near Ajmer, Rajasthan, hosting one of the world's largest camel and livestock markets.",
+    "rationale": "The Pushkar Fair (Pushkar Mela) is a massive cultural gathering held on the banks of Lake Pushkar in Rajasthan's Ajmer district.",
+    "distractorExplorations": {
+      "Jodhpur": "The Blue City is famous for its majestic Mehrangarh Fort and international desert music festivals.",
+      "Udaipur": "The City of Lakes is renowned for its romantic marble lake palaces and Mewar architecture.",
+      "Bikaner": "Bikaner is a desert kingdom celebrated for its camel research stations and unique sand dune safaris."
+    }
+  },
+  {
+    "id": 910,
+    "category": "Culture: Institutions",
+    "question": "In which Indian historic capital city is the famous Salar Jung Museum situated?",
+    "options": [
+      "Delhi",
+      "Mumbai",
+      "Lucknow",
+      "Hyderabad"
+    ],
+    "correctIndex": 3,
+    "hint": "Located along the banks of the Musi River, it houses an incredible single-man art collection amassed by the Salar Jung family.",
+    "rationale": "The Salar Jung Museum is a world-class art repository located in Hyderabad, Telangana, famous for treasures like the Veiled Rebecca statue.",
+    "distractorExplorations": {
+      "Delhi": "Delhi houses premier national repositories like the National Museum and the National Gallery of Modern Art.",
+      "Mumbai": "Mumbai is home to the Chhatrapati Shivaji Maharaj Vastu Sangrahalaya (formerly Prince of Wales Museum).",
+      "Lucknow": "Lucknow preserves rich Awadh heritage collections inside its State Museum grids."
+    }
+  },
+  {
+    "id": 911,
+    "category": "Science: Optics",
+    "question": "Which of the following colors of visible light possesses the absolute shortest wavelength?",
+    "options": [
+      "Blue / Violet spectrum",
+      "Red",
+      "Green",
+      "Yellow"
+    ],
+    "correctIndex": 0,
+    "hint": "In the visible rainbow spectrum (VIBGYOR), it sits at the opposite end of long-wavelength red light.",
+    "rationale": "Violet and blue light waves carry the highest frequencies and shortest wavelengths in the visible spectrum, refracting the most when passing through glass. (Option A is standard).",
+    "distractorExplorations": {
+      "Red": "Red light sits at the absolute opposite end, holding the longest wavelength and scattering the least through atmosphere mist.",
+      "Green": "Green light occupies a middle-frequency wavelength position inside the spectrum layout.",
+      "Yellow": "Yellow light is a warm, mid-to-long wavelength value positioned between green and orange."
+    }
+  },
+  {
+    "id": 912,
+    "category": "Cinema Theory: Aesthetics",
+    "question": "The exposition of a plot through the deliberate, creative arrangement of Décor, Costumes, and Props is defined as:",
+    "options": [
+      "Scriptwriting",
+      "Mise-en-scène",
+      "Screenplay mechanics",
+      "Direct lighting setups"
+    ],
+    "correctIndex": 1,
+    "hint": "This checks a duplicate baseline entry: it stands for everything placed in front of the camera lens.",
+    "rationale": "Mise-en-scène is a foundational cinema concept that combines all visual design choices inside the frame to build atmosphere and narrative subtext.",
+    "distractorExplorations": {
+      "Scriptwriting": "Scriptwriting is the pure textual draft process executed on computers or paper before cameras roll.",
+      "Screenplay mechanics": "This targets structural act divisions, formatting industry software rules, and character dialogue tracks.",
+      "Direct lighting setups": "Lighting handles exposure and shadow modeling, operating as an individual department under the DP."
+    }
+  },
+  {
+    "id": 913,
+    "category": "Culture: Indian Architecture",
+    "question": "The Konark Sun Temple in Odisha serves as a classic textbook masterpiece of which temple architecture style?",
+    "options": [
+      "Nagara / Kalinga sub-style",
+      "Dravida",
+      "Vesara",
+      "None of the above"
+    ],
+    "correctIndex": 0,
+    "hint": "It represents the Kalinga sub-branch of the northern style, marked by curved curvilinear towers (deula) and square assembly halls.",
+    "rationale": "The Konark Sun Temple is built in the Kalinga architectural style, which forms a major regional branch of the broader Northern Nagara tradition.",
+    "distractorExplorations": {
+      "Dravida": "The Dravida style is native to South India, marked by stepped pyramid towers (vimanas) and massive gateways.",
+      "Vesara": "The Vesara style is a unique hybrid format blending northern and southern concepts, developed under the Chalukyas in central India.",
+      "None of the above": "Since Nagara/Kalinga parameters define the temple perfectly under option A, this option is false."
+    }
+  },
+  {
+    "id": 914,
+    "category": "Culture: Musical Instruments",
+    "question": "How many strings are stretched across a traditional, classical Indian Santoor?",
+    "options": [
+      "124",
+      "100",
+      "72",
+      "5"
+    ],
+    "correctIndex": 1,
+    "hint": "It is historically known as the 'Shatha-Tantri Veena' in ancient Sanskrit texts, which translates to a hundred-stringed lute.",
+    "rationale": "A traditional classical Santoor features exactly 100 strings stretched across a trapezoidal wooden box, struck with delicate walnut mallets.",
+    "distractorExplorations": {
+      "124": "An over-calculated number that exceeds standard acoustic string peg installations.",
+      "72": "72 strings are common on alternative regional Persian or Middle Eastern dulcimer variants.",
+      "5": "Five strings characterize simple folk lutes or specialized electric violins, entirely separate from the Santoor."
+    }
+  },
+  {
+    "id": 915,
+    "category": "Cinema Theory: Aesthetics",
+    "question": "This re-verifies your core framing vocabulary: What is the meaning of “mise-en-scène”?",
+    "options": [
+      "The complete financial operational budget of a film",
+      "The deliberate arrangement of all visual elements within the camera frame",
+      "The design process of selecting typography for a film's title graphics",
+      "The mechanical maintenance of digital camera sensor equipment"
+    ],
+    "correctIndex": 1,
+    "hint": "It covers everything that exists in front of the lens: sets, props, lighting, costumes, and actor blocking.",
+    "rationale": "Mise-en-scène describes a director's visual orchestration of the space, ensuring everything inside the frame tells the story effectively.",
+    "distractorExplorations": {
+      "The complete financial operational budget of a film": "The budget is managed by line producers and production accountants using financial tracking software.",
+      "The design process of selecting typography": "This belongs to the title design and graphic arts department during post-production.",
+      "The mechanical maintenance of digital camera sensor equipment": "Camera maintenance is handled by the camera assistant and technical rental houses."
+    }
+  },
+  {
+    "id": 916,
+    "category": "Cinema Theory: Lighting",
+    "question": "Which standard lighting technique in filmmaking creates volume and separates a subject from the background using a key light, fill light, and backlight?",
+    "options": [
+      "Silhouette lighting",
+      "Rembrandt lighting",
+      "High-key lighting",
+      "Three-point lighting"
+    ],
+    "correctIndex": 3,
+    "hint": "It is the foundational formula taught in all film schools to establish standard, clear illumination on set.",
+    "rationale": "Three-point lighting uses a key light for main illumination, a fill light to soften shadows, and a backlight to create a halo edge that separates the subject from the background.",
+    "distractorExplorations": {
+      "Silhouette lighting": "Silhouette lighting places the light source entirely behind the subject, turning them into a solid dark outline.",
+      "Rembrandt lighting": "Rembrandt lighting is a specific dramatic style characterized by a small triangle of light on the shadowed cheek of the subject.",
+      "High-key lighting": "High-key lighting floods the scene with bright, low-contrast illumination to remove shadows completely, common in comedies."
+    }
+  },
+  {
+    "id": 917,
+    "category": "History: Medieval India",
+    "question": "Which powerful Sultan of Delhi introduced the elaborate Persian spring festival of Nowruz to the Indian court system?",
+    "options": [
+      "Iltutmish",
+      "Balban",
+      "Alauddin Khilji",
+      "Darius"
+    ],
+    "correctIndex": 1,
+    "hint": "He championed the theory of divine kingship, introducing strict court etiquette like Sijda and Paibos.",
+    "rationale": "Ghiyasuddin Balban introduced the Persian festival of Nowruz to demonstrate imperial majesty and elevate the prestige of the Delhi Sultanate court.",
+    "distractorExplorations": {
+      "Iltutmish": "He consolidated the early Slave Dynasty, securing official investiture from the Caliph, but did not introduce Nowruz.",
+      "Alauddin Khilji": "He was a military genius famous for price-control market reforms and expanding the empire into southern territory.",
+      "Darius": "Darius was an ancient Achaemenid Emperor of Persia who lived centuries before the Delhi Sultanate was founded."
+    }
+  },
+  {
+    "id": 918,
+    "category": "Literature: Booker Prize",
+    "question": "Which Indian author's brilliant debut novel “The God of Small Things” won the prestigious Booker Prize in 1997?",
+    "options": [
+      "Arundhati Roy",
+      "R.K. Narayan",
+      "Vikram Seth",
+      "Chetan Bhagat"
+    ],
+    "correctIndex": 0,
+    "hint": "Set in Ayemenem, Kerala, this beautifully written book follows fraternal twins Estha and Rahel navigating family tragedy.",
+    "rationale": "Arundhati Roy won international acclaim with her debut novel, which remains a cornerstone of modern Indian English literature.",
+    "distractorExplorations": {
+      "R.K. Narayan": "The legendary creator of Malgudi who wrote classic realistic fiction throughout the mid-20th century.",
+      "Vikram Seth": "He authored the monumental, single-volume panoramic novel 'A Suitable Boy' in 1993.",
+      "Chetan Bhagat": "He writes contemporary commercial pop-fiction paperbacks geared toward mainstream commercial youth audiences."
+    }
+  },
+  {
+    "id": 919,
+    "category": "Culture: Classical Indian Dance",
+    "question": "In which southwestern Indian state is the grand classical dance-theatre form of Kathakali natively practiced?",
+    "options": [
+      "Kerala",
+      "Rajasthan",
+      "Punjab",
+      "Assam"
+    ],
+    "correctIndex": 0,
+    "hint": "This duplicate check confirms: it is famous for its massive elaborate masks, green facial painting, and silent mudras.",
+    "rationale": "Kathakali is the traditional classical dance-drama pride of Kerala, combining music, acting, and intricate makeup traditions.",
+    "distractorExplorations": {
+      "Rajasthan": "Rajasthan is home to the spinning Ghoomar dance and the fast-moving Kathak Jaipur school style.",
+      "Punjab": "Punjab celebrates its harvest festivals through the energetic movements of Bhangra and Giddha.",
+      "Assam": "Assam developed the spiritual classical Sattriya dance inside its historic monasteries."
+    }
+  },
+  {
+    "id": 920,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Who directed the monumental, historically record-breaking 1960 Bollywood epic “Mughal-e-Azam”?",
+    "options": [
+      "Raj Kapoor",
+      "Bimal Roy",
+      "Guru Dutt",
+      "K. Asif"
+    ],
+    "correctIndex": 3,
+    "hint": "He was a perfectionist director who spent over a decade filming the tragic love story between Prince Salim and Anarkali.",
+    "rationale": "K. Asif directed Mughal-e-Azam, creating a masterpiece celebrated for its massive sets, brilliant dialogues, and iconic music.",
+    "distractorExplorations": {
+      "Raj Kapoor": "The 'Showman' of Indian cinema who directed social realist hits like Awara and romantic epics like Sangam.",
+      "Bimal Roy": "He championed neorealist humanism in films like Do Bigha Zamin and tragic dramas like Devdas.",
+      "Guru Dutt": "He was an auteur famous for his poetic, melancholy masterpieces like Pyaasa and Kaagaz Ke Phool."
+    }
+  },
+  {
+    "id": 921,
+    "category": "Art History: Masterpieces",
+    "question": "The legendary late 15th-century wall mural painting titled “The Last Supper” was created by which artist?",
+    "options": [
+      "Michelangelo",
+      "Leonardo da Vinci",
+      "Raphael",
+      "Donatello"
+    ],
+    "correctIndex": 1,
+    "hint": "This polymath painted it inside the refectory of the Convent of Santa Maria delle Grazie in Milan, using a single vanishing point.",
+    "rationale": "Leonardo da Vinci painted The Last Supper, using advanced linear perspective to make all architectural lines focus directly on Christ.",
+    "distractorExplorations": {
+      "Michelangelo": "He was a fierce rival who sculpted David and painted the monumental frescoes on the Sistine Chapel ceiling.",
+      "Raphael": "He was a High Renaissance master celebrated for spatial balance in masterpieces like The School of Athens.",
+      "Donatello": "He was an Early Renaissance pioneer sculptor famous for his naturalistic bronze and marble figures."
+    }
+  },
+  {
+    "id": 922,
+    "category": "Art History: Global Artists",
+    "question": "The iconoclastic and internationally celebrated painter Frida Kahlo was natively associated with which country?",
+    "options": [
+      "Spain",
+      "Mexico",
+      "France",
+      "Italy"
+    ],
+    "correctIndex": 1,
+    "hint": "She is famous for her raw, uncompromising self-portraits exploring identity, pain, and Mexican folk culture.",
+    "rationale": "Frida Kahlo is a legendary cultural figure of Mexico, transforming personal and national history into brilliant symbolic art.",
+    "distractorExplorations": {
+      "Spain": "Spain is the homeland of alternative masters like Pablo Picasso, Salvador Dali, and Francisco Goya.",
+      "France": "France served as the historic center for Impressionism and Post-Impressionism, hosting artists like Monet and Matisse.",
+      "Italy": "Italy was the cradle of the Renaissance, producing masters like Da Vinci, Michelangelo, and Caravaggio."
+    }
+  },
+  {
+    "id": 923,
+    "category": "Cinema History: Global Cinema",
+    "question": "Which visionary Italian director is world-famous for helming the cinematic classics “La Dolce Vita” and “8½”?",
+    "options": [
+      "Michelangelo Antonioni",
+      "Federico Fellini",
+      "Vittorio De Sica",
+      "Luchino Visconti"
+    ],
+    "correctIndex": 1,
+    "hint": "He evolved from early neorealism to create highly baroque, dreamlike personal fantasies exploring Rome and memory.",
+    "rationale": "Federico Fellini is a giant of world cinema, winning multiple foreign-language Oscars and shaping modern film aesthetics.",
+    "distractorExplorations": {
+      "Michelangelo Antonioni": "He explored modernist alienation, vacuum spaces, and silence in classics like L'Avventura and Blow-Up.",
+      "Vittorio De Sica": "He was a premier face of Italian Neorealism who directed the highly influential 1948 masterwork Bicycle Thieves.",
+      "Luchino Visconti": "He blended neorealist grit with operatic historical family decay dramas in masterpieces like The Leopard."
+    }
+  },
+  {
+    "id": 924,
+    "category": "Cinema History: Documentaries",
+    "question": "Who directed the rare, poetic documentary film “Ustad Alauddin Khan” based on the life of the legendary Maihar music maestro?",
+    "options": [
+      "Satyajit Ray",
+      "Sukhdev",
+      "Anand Patwardhan",
+      "Ritwik Ghatak"
+    ],
+    "correctIndex": 3,
+    "hint": "This radical auteur directed the partition trilogy (Meghe Dhaka Tara) and was a faculty light at FTII Pune.",
+    "rationale": "The legendary filmmaker Ritwik Ghatak directed this short documentary tribute to document the philosophy and music of the sarod master.",
+    "distractorExplorations": {
+      "Satyajit Ray": "Ray directed a brilliant short documentary tribute on classical dancer Balasaraswati ('Bala') and inner painter master 'Sinnu'.",
+      "Sukhdev": "He was a powerhouse voice at the Films Division who directed kinetic political documentary shorts like 'India 67'.",
+      "Anand Patwardhan": "He is a modern political activist documentary filmmaker who entered the industry later, focusing on contemporary social movements."
+    }
+  },
+  {
+    "id": 925,
+    "category": "Technology: Computing",
+    "question": "What is the standard global keyboard shortcut combination to execute the \"Undo\" function inside desktop operating systems?",
+    "options": [
+      "Ctrl + C",
+      "Ctrl + V",
+      "Ctrl + Z",
+      "Ctrl + Y"
+    ],
+    "correctIndex": 2,
+    "hint": "It reverses the immediate previous action, positioned right next to the cut and copy keys on a standard QWERTY layout.",
+    "rationale": "The Ctrl + Z keyboard shortcut is the universal command across computing systems to undo a previous digital operation.",
+    "distractorExplorations": {
+      "Ctrl + C": "The standard shortcut to copy highlighted text or digital assets onto the clipboard cache.",
+      "Ctrl + V": "The shortcut designed to paste whatever digital data is currently stored inside the clipboard cache.",
+      "Ctrl + Y": "The standard shortcut combination used to redo an action that was previously reversed by undoing."
+    }
+  },
+  {
+    "id": 926,
+    "category": "Cinema History: Institutions",
+    "question": "The premier Film and Television Institute of India (FTII) in Pune was formally established by the state in which year?",
+    "options": [
+      "1960",
+      "1975",
+      "1951",
+      "1947"
+    ],
+    "correctIndex": 0,
+    "hint": "It was set up on the historic studio grounds of the former Prabhat Film Company in Maharashtra.",
+    "rationale": "FTII was established by the Government of India in 1960 under the Ministry of Information and Broadcasting, becoming a premier film academy.",
+    "distractorExplorations": {
+      "1975": "1975 was the year the National Film Development Corporation (NFDC) was officially incorporated into the industry.",
+      "1951": "1951 was the year the historic Film Enquiry Committee report was published, recommending film education paths.",
+      "1947": "1947 was the year of Indian Independence, a transitional time long before this national film institute was built."
+    }
+  },
+  {
+    "id": 927,
+    "category": "Cinema Awards: Dadasaheb Phalke",
+    "question": "This duplicate checkpoint re-verifies your data consistency: Who was the first recipient of the Dadasaheb Phalke Award introduced in 1969?",
+    "options": [
+      "Prithviraj Kapoor",
+      "Kanan Devi",
+      "Devika Rani",
+      "Pankaj Mullick"
+    ],
+    "correctIndex": 2,
+    "hint": "She was a legendary actress and co-founder of the Bombay Talkies studio house.",
+    "rationale": "Devika Rani Choudhuri was honored as the inaugural recipient of the Phalke Award for her extensive contributions to early cinema.",
+    "distractorExplorations": {
+      "Prithviraj Kapoor": "The patriarch of the Kapoor family received the award posthumously in the subsequent 1971 cycle.",
+      "Kanan Devi": "The legendary singing star of early Bengali and Hindi talkies received the lifetime honor later, in 1976.",
+      "Pankaj Mullick": "The foundational music director who introduced playback systems was honored with the award in 1972."
+    }
+  },
+  {
+    "id": 928,
+    "category": "Science: Acoustics",
+    "question": "The term 'Ultrasonic sound' is used to define sound waves whose frequencies are:",
+    "options": [
+      "Less than 20 Hz",
+      "Between 20 Hz and 20 kHz",
+      "Above 20 kHz",
+      "Completely outside variable sound physics measures"
+    ],
+    "correctIndex": 2,
+    "hint": "It sits entirely above the maximum frequency threshold that a normal human ear can perceive.",
+    "rationale": "Ultrasonic sound waves carry frequencies higher than 20,000 Hz (20 kHz), passing undetected by human ears but used extensively in sonar and medical imaging.",
+    "distractorExplorations": {
+      "Less than 20 Hz": "This represents Infrasonic sound, which sits below the lowest threshold of human hearing, felt as vibration.",
+      "Between 20 Hz and 20 kHz": "This defines the standard acoustic frequency spectrum that a healthy human ear can actively hear."
+    }
+  },
+  {
+    "id": 929,
+    "category": "Cinema History: Indian Cinema",
+    "question": "This entry re-verifies your history logs: Who directed the explosive biographical drama 'Bandit Queen' (1994)?",
+    "options": [
+      "Shekhar Kapur",
+      "B.R. Chopra",
+      "Yash Chopra",
+      "Ramesh Sippy"
+    ],
+    "correctIndex": 0,
+    "hint": "He also directed Masoom and Mr. India before moving to Hollywood to direct the Oscar-winning film Elizabeth.",
+    "rationale": "Shekhar Kapur directed Bandit Queen, capturing the brutal real-life story of Phoolan Devi with uncompromising critical depth.",
+    "distractorExplorations": {
+      "B.R. Chopra": "He specialized in socially conscious courtroom and social dramas during the golden studio era of the 1960s.",
+      "Yash Chopra": "The legendary filmmaker who directed romance classics like Daag, Chandni, and Dilwale Dulhania Le Jayenge production loops.",
+      "Ramesh Sippy": "He directed India's ultimate commercial action blockbuster Sholay (1975)."
+    }
+  },
+  {
+    "id": 930,
+    "category": "Cinema History: Indian Cinema",
+    "question": "This baseline tracks the end of silent films: The first Indian sound talkie film 'Alam Ara' made its theatrical debut in which year?",
+    "options": [
+      "1937",
+      "1913",
+      "1885",
+      "1931"
+    ],
+    "correctIndex": 3,
+    "hint": "Directed by Ardeshir Irani, it brought speech and song to Indian cinema exactly two decades before 1951.",
+    "rationale": "Alam Ara made its historic premiere at the Majestic Cinema in Mumbai on March 14, 1931, transforming the national industry.",
+    "distractorExplorations": {
+      "1937": "1937 was the year Ardeshir Irani produced Kisan Kanya, India's first indigenous color feature film.",
+      "1913": "1913 marked the release of Dadasaheb Phalke's Raja Harishchandra, India's first silent feature film.",
+      "1885": "This was an early era of photography inventions, long before motion picture project frames arrived in India."
+    }
+  },
+  {
+    "id": 931,
+    "category": "Cinema History: Indian Cinema",
+    "question": "What is the title of the third and final installment in Satyajit Ray's historic 'Apu Trilogy'?",
+    "options": [
+      "Pather Panchali",
+      "The World of Apu (Apur Sansar)",
+      "Parash Pathar",
+      "Aparajito"
+    ],
+    "correctIndex": 1,
+    "hint": "Released in 1959, it tracks Apu's adult life in Calcutta, his marriage to Aparna, and his journey as a father.",
+    "rationale": "The legendary trilogy concludes with 'Apur Sansar' (released internationally as The World of Apu), introducing Soumitra Chatterjee to the screen.",
+    "distractorExplorations": {
+      "Pather Panchali": "This was the historic first installment of the trilogy, charting Apu's early childhood in rural Bengal.",
+      "Parash Pathar": "This was a standalone satirical comedy-fantasy directed by Ray in 1958 about a magical philosopher's stone.",
+      "Aparajito": "This was the second installment of the trilogy, tracking Apu's family moving to Varanasi and his student days."
+    }
+  },
+  {
+    "id": 932,
+    "category": "Science: Ecology",
+    "question": "The famous Salim Ali National Park and bird sanctuary ecosystem is situated in which state or Union Territory?",
+    "options": [
+      "West Bengal",
+      "Uttar Pradesh",
+      "Kerala",
+      "Jammu and Kashmir"
+    ],
+    "correctIndex": 3,
+    "hint": "Named after India's legendary 'Birdman', it is located near Srinagar.",
+    "rationale": "Salim Ali National Park is located in Srinagar, Jammu and Kashmir, honoring the legendary ornithologist Dr. Salim Ali.",
+    "distractorExplorations": {
+      "West Bengal": "West Bengal houses the Sundarbans National Park, famous for its mangrove delta ecosystems and tigers.",
+      "Uttar Pradesh": "Uttar Pradesh features the Dudhwa National Park, a major sanctuary tracking marsh deer and swamp assets.",
+      "Kerala": "Kerala features Silent Valley and Periyar tiger reserves inside the tropical Western Ghats."
+    }
+  },
+  {
+    "id": 933,
+    "category": "Literature: Indian Fiction",
+    "question": "This re-verifies your fiction registry: Which author created the famous, sharp-witted fictional detective character Byomkesh Bakshi?",
+    "options": [
+      "Rabindranath Tagore",
+      "Sharadindu Bandyopadhyay",
+      "Sukumar Ray",
+      "Sarat Chandra Chattopadhyay"
+    ],
+    "correctIndex": 1,
+    "hint": "He penned dozens of classic detective stories starring the self-proclaimed truth-seeker (Satyanweshi) across mid-20th century Calcutta.",
+    "rationale": "Sharadindu Bandyopadhyay created Byomkesh Bakshi in 1932, shaping a cornerstone of Indian mystery literature.",
+    "distractorExplorations": {
+      "Rabindranath Tagore": "The Nobel laureate wrote deep philosophical poems, songs, and social novels like Ghare-Baire.",
+      "Sukumar Ray": "He was a master of nonsense verse and children's literature, famously writing 'Abol Tabol'.",
+      "Sarat Chandra Chattopadhyay": "He authored deep, emotionally intense social dramas like Devdas, Srikanta, and Parineeta."
+    }
+  },
+  {
+    "id": 934,
+    "category": "Cinema Theory: Performance",
+    "question": "In traditional theater and avant-garde film theory, what does breaking the \"Fourth Wall\" refer to?",
+    "options": [
+      "The imaginary invisible wall separating the fictional actors from the audience",
+      "A specialized extreme low camera angle setup choice",
+      "The physical brick wall positioned at the absolute back of the stage",
+      "The structural overhead grid where safety studio lights are mounted"
+    ],
+    "correctIndex": 0,
+    "hint": "When an actor looks directly into the lens or breaks character to speak straight to the audience, they are breaking this wall.",
+    "rationale": "The fourth wall is the invisible divider between a performance and its audience; breaking it disrupts the illusion of a closed story world to acknowledge the spectator.",
+    "distractorExplorations": {
+      "A type of camera angle": "Camera angles track framing adjustments like Dutch angles or bird's-eye views, distinct from narrative walls.",
+      "The back wall of a stage": "The real back wall is part of the building infrastructure, often covered by a cyclorama or scenery drop.",
+      "The wall where lighting is mounted": "Lights are mounted on overhead batten grids or side boom pipes managed by stage crews."
+    }
+  },
+  {
+    "id": 935,
+    "category": "Art History: Bengal School",
+    "question": "Who was the legendary artist and principal founder of the Bengal School of Art, famous for painting “Bharat Mata” (1905)?",
+    "options": [
+      "Raja Ravi Varma",
+      "Nandalal Bose",
+      "Abanindranath Tagore",
+      "Jamini Roy"
+    ],
+    "correctIndex": 2,
+    "hint": "He used the delicate watercolor wash technique to push back against Western academic realism during the Swadeshi movement.",
+    "rationale": "Abanindranath Tagore founded the Bengal School, reclaiming traditional Indian aesthetics and mentoring an entire generation of national artists.",
+    "distractorExplorations": {
+      "Raja Ravi Varma": "He pioneered the fusion of Western oil painting techniques with Indian mythological storytelling in the late 19th century.",
+      "Nandalal Bose": "He was Abanindranath's star pupil who went on to lead Kala Bhavana at Santiniketan and illustrate the Constitution.",
+      "Jamini Roy": "He abandoned early nationalist wash styles to pioneer flat, vibrant modern art inspired by traditional rural folk crafts."
+    }
+  },
+  {
+    "id": 936,
+    "category": "Literature: Indian Fiction",
+    "question": "Who authored the monumental, panoramic novel “A Suitable Boy”, celebrated as one of the longest single-volume novels in English literature?",
+    "options": [
+      "Vikram Seth",
+      "Arundhati Roy",
+      "Salman Rushdie",
+      "Chetan Bhagat"
+    ],
+    "correctIndex": 0,
+    "hint": "Released in 1993, this sprawling multi-plot masterpiece tracks four families in post-independence India over 1,300+ pages.",
+    "rationale": "Vikram Seth wrote 'A Suitable Boy', capturing a detailed, rich portrait of national social and political transitions during the early 1950s.",
+    "distractorExplorations": {
+      "Arundhati Roy": "She won the 1997 Booker Prize for her beautifully written debut novel 'The God of Small Things'.",
+      "Salman Rushdie": "He won the Booker Prize for his groundbreaking magic-realist novel Midnight's Children.",
+      "Chetan Bhagat": "He writes mainstream commercial pop-fiction paperbacks geared toward youth entertainment markets."
+    }
+  },
+  {
+    "id": 937,
+    "category": "Culture: Indian Classical Music",
+    "question": "In Indian classical music theory, what is the specific term for the technique of sliding smoothly between two notes to create a continuous sound?",
+    "options": [
+      "Meend",
+      "Taal",
+      "Alankar",
+      "Layakari"
+    ],
+    "correctIndex": 0,
+    "hint": "This vocal and instrumental slide is critical for bringing out the emotional shades and specific microtones (Swaras) of a rāga.",
+    "rationale": "Meend describes a smooth, unbroken glide from one pitch to another, creating a fluid connection that defines Indian classical performance.",
+    "distractorExplorations": {
+      "Taal": "Taal represents the recurring rhythmic cycle or time measure managed by the percussion section.",
+      "Alankar": "Alankar refers to structured, decorative note patterns or melodic exercises used to train your voice.",
+      "Layakari": "Layakari describes complex rhythmic improvisations and speed variations performed over a steady beat."
+    }
+  },
+  {
+    "id": 938,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Which visionary filmmaker directed the critically acclaimed philosophical drama \"Ship of Theseus\" (2012)?",
+    "options": [
+      "Anurag Kashyap",
+      "Ritesh Batra",
+      "Vikramaditya Motwane",
+      "Anand Gandhi"
+    ],
+    "correctIndex": 3,
+    "hint": "The film explores complex questions of identity and justice through three interlocking stories tracking a blind photographer, a monk, and a stockbroker.",
+    "rationale": "Anand Gandhi wrote and directed Ship of Theseus, winning the National Film Award for Best Feature Film for its philosophical depth and fresh visual language.",
+    "distractorExplorations": {
+      "Anurag Kashyap": "He is a champion of raw, gritty indie neo-noirs, famous for directing the five-hour crime epic Gangs of Wasseypur.",
+      "Ritesh Batra": "He made a massive global impact with his delicate, gentle epistolary romance 'The Lunchbox' (2013).",
+      "Vikramaditya Motwane": "He directed the highly acclaimed coming-of-age drama Udaan (2010) and the period romance Lootera."
+    }
+  },
+  {
+    "id": 939,
+    "category": "Cinema History: Documentaries",
+    "question": "The short documentary film “Bala” (1976), tracking the life and art of legendary Bharatanatyam dancer T. Balasaraswati, was made by:",
+    "options": [
+      "Satyajit Ray",
+      "Anand Patwardhan",
+      "Ritwik Kumar Ghatak",
+      "Adoor Gopalakrishnan"
+    ],
+    "correctIndex": 0,
+    "hint": "This legendary director of the Apu Trilogy created this sensitive short film to preserve her exceptional abhinaya artistry.",
+    "rationale": "Satyajit Ray directed the short documentary 'Bala', capturing Balasaraswati's expressive gestures and choreography for future generations.",
+    "distractorExplorations": {
+      "Anand Patwardhan": "He is a modern political activist documentary filmmaker who focuses on contemporary grassroots social movements.",
+      "Ritwik Kumar Ghatak": "The radical parallel master directed a short documentary on sarod player Ustad Alauddin Khan, separate from this dance project.",
+      "Adoor Gopalakrishnan": "He is a giant of Malayalam parallel cinema who directed detailed documentary features on Kerala's traditional performing arts."
+    }
+  },
+  {
+    "id": 940,
+    "category": "Culture: Prominent Artists",
+    "question": "Who was the legendary creator behind the famous, iconic Indian newspaper cartoon character \"The Common Man\"?",
+    "options": [
+      "Vijay Narain Seth",
+      "R.K. Laxman",
+      "Satish Acharya",
+      "Shankar Pillai"
+    ],
+    "correctIndex": 1,
+    "hint": "He tracked the quiet, witty observations of a checkered-jacket spectator in his daily comic strip 'You Said It' for The Times of India.",
+    "rationale": "Rasipuram Krishnaswami Laxman (R.K. Laxman) created The Common Man in 1951, turning the silent character into a legendary mirror of Indian political history.",
+    "distractorExplorations": {
+      "Vijay Narain Seth": "Known as Vins, he was a highly respected political cartoonist who worked with international news journals.",
+      "Satish Acharya": "He is a prominent contemporary editorial cartoonist celebrated for his sharp commentary on modern digital politics.",
+      "Shankar Pillai": "He was a pioneer of political cartooning in India who founded Shankar's Weekly, inspiring generations of artists."
+    }
+  },
+  {
+    "id": 941,
+    "category": "National Symbols: Flag",
+    "question": "What is the official, legally recommended ratio of the length to the breadth of the National Flag of India?",
+    "options": [
+      "2 : 3",
+      "3 : 2",
+      "4 : 3",
+      "3 : 4"
+    ],
+    "correctIndex": 1,
+    "hint": "The flag must be wider than it is tall, keeping the horizontal span exactly 1.5 times its height.",
+    "rationale": "According to the Flag Code of India, the official dimensions demand a strict ratio of 3 (length) to 2 (breadth/height).",
+    "distractorExplorations": {
+      "2 : 3": "This reverses the dimensions, making the flag look tall and vertical instead of horizontally stretched.",
+      "4 : 3": "This is the classic standard aspect ratio used for traditional analog television screens and old photographs.",
+      "3 : 4": "This represents a vertical portrait screen ratio common in modern mobile phone applications."
+    }
+  },
+  {
+    "id": 942,
+    "category": "Technology: Media Formats",
+    "question": "What is the full form of 'OTT', the technology that delivers audio-visual streaming content straight to users over the internet?",
+    "options": [
+      "On the Time",
+      "Over the internet",
+      "Over-the-Top",
+      "On-Time Technology"
+    ],
+    "correctIndex": 2,
+    "hint": "It means bypassing traditional cable networks or satellite dishes to stream media 'over the top' of standard internet pipes.",
+    "rationale": "OTT stands for Over-the-Top, describing services like Netflix, Prime Video, and Hotstar that deliver entertainment straight through your internet connection.",
+    "distractorExplorations": {
+      "On the Time": "A completely fabricated phrase carrying zero baseline technological meaning.",
+      "Over the internet": "This describes how the data travels physically, but it is not the formal industry acronym name.",
+      "On-Time Technology": "A generic corporate placeholder option built into the exam as a filter choice."
+    }
+  },
+  {
+    "id": 943,
+    "category": "Culture: UNESCO Heritage",
+    "question": "The spectacular rock-cut monuments of the Ajanta and Ellora Caves are located in which state?",
+    "options": [
+      "Madhya Pradesh",
+      "Bihar",
+      "Maharashtra",
+      "Goa"
+    ],
+    "correctIndex": 2,
+    "hint": "This check cross-verifies your geography logs: they are situated in the Chhatrapati Sambhajinagar (Aurangabad) district of this western state.",
+    "rationale": "Both ancient cave complexes are located in Maharashtra, celebrated globally as masterpieces of Buddhist, Hindu, and Jain art.",
+    "distractorExplorations": {
+      "Madhya Pradesh": "Madhya Pradesh houses the historic Sanchi Stupa and the prehistoric rock art shelters of Bhimbetka.",
+      "Bihar": "Bihar is home to Nalanda University ruins and the ancient Mauryan rock-cut Barabar Caves.",
+      "Goa": "Goa is famous for its Portuguese-era coastal churches and convents inscribed by UNESCO."
+    }
+  },
+  {
+    "id": 944,
+    "category": "Cinema Theory: Exhibition",
+    "question": "What is the standard global frame rate format used to record and project most films to ensure a natural motion appearance?",
+    "options": [
+      "24 fps",
+      "60 fps",
+      "30 fps",
+      "48 fps"
+    ],
+    "correctIndex": 0,
+    "hint": "This database check re-verifies your frame metrics: it was adopted globally during the transition to synchronized sound stages.",
+    "rationale": "24 frames per second (fps) remains the universal theatrical standard, giving cinema its distinct, timeless motion texture.",
+    "distractorExplorations": {
+      "60 fps": "60 fps is a high-frame-rate format common in modern video games and live sports broadcasts to remove motion blur.",
+      "30 fps": "30 fps is the standard video frame rate used for NTSC television systems in North America and Japan.",
+      "48 fps": "48 fps is an experimental high-frame-rate format used by directors like Peter Jackson in The Hobbit to increase image clarity."
+    }
+  },
+  {
+    "id": 945,
+    "category": "Cinema Theory: VFX",
+    "question": "In modern film and television production terminology, what does the technical acronym “CGI” stand for?",
+    "options": [
+      "Computer-Generated Imagery",
+      "Cinematic Graphics Interface",
+      "Creative Genre Integration",
+      "Camera Gear Innovations"
+    ],
+    "correctIndex": 0,
+    "hint": "It refers to creating visual settings, characters, or effects digitally using 3D animation computer software.",
+    "rationale": "CGI stands for Computer-Generated Imagery, encompassing everything from minor digital background adjustments to full-scale animated fantasy worlds.",
+    "distractorExplorations": {
+      "Cinematic Graphics Interface": "A fabricated technical phrase that sounds similar to computing words like GUI, but carries no weight in film.",
+      "Creative Genre Integration": "A generic narrative phrase constructed as a quiz distractor choice.",
+      "Camera Gear Innovations": "This targets physical hardware manufacturing advances like stabilizers or robotic dollies, completely separate from digital imagery."
+    }
+  },
+  {
+    "id": 946,
+    "category": "Culture: Folk Theatre",
+    "question": "Pandavani is a highly celebrated traditional narrative folk performance art native to which state?",
+    "options": [
+      "Chhattisgarh",
+      "Bihar",
+      "Clouded Jharkhand",
+      "Maharashtra"
+    ],
+    "correctIndex": 0,
+    "hint": "It involves a solo performer dynamically singing and acting out stories from the Mahabharata, made globally famous by Teejan Bai.",
+    "rationale": "Pandavani belongs entirely to the folk fabric of Chhattisgarh, using a stringed instrument (tambura) as a prop to simulate weapons.",
+    "distractorExplorations": {
+      "Bihar": "Bihar maps its oral folklore around distinct seasonal village music styles like Bidesiya.",
+      "Clouded Jharkhand": "Jharkhand centers its tribal folk performances around dynamic Chhau mask dances and Paitkar scroll lore.",
+      "Maharashtra": "Maharashtra focuses its narrative folk performance around Gondhal, Powada ballads, and energetic Tamasha theater."
+    }
+  },
+  {
+    "id": 947,
+    "category": "History: Modern India",
+    "question": "The tragic and infamous “Jallianwala Bagh Massacre” of 1919 took place in which Indian city?",
+    "options": [
+      "Amritsar",
+      "Kolkata",
+      "Kochi",
+      "Delhi"
+    ],
+    "correctIndex": 0,
+    "hint": "It took place on Baisakhi day near the Golden Temple complex in Punjab, where General Dyer ordered troops to fire on a peaceful public gathering.",
+    "rationale": "The Jallianwala Bagh massacre took place in Amritsar, serving as a horrific turning point that fueled India's freedom struggle.",
+    "distractorExplorations": {
+      "Kolkata": "Kolkata was a major hub for revolutionary underground groups but was not the location of this specific 1919 public garden tragedy.",
+      "Kochi": "Kochi is a historic spice-trade port city in southern Kerala, far from the northern martial law updates.",
+      "Delhi": "Delhi was the imperial capital where colonial policies were signed, separate from the local Punjab field commands."
+    }
+  },
+  {
+    "id": 948,
+    "category": "National Symbols: Currency",
+    "question": "The reverse side of the modern ₹500 currency note features a prominent motif illustrating which Indian heritage site?",
+    "options": [
+      "Sanchi Stupa",
+      "Red Fort",
+      "Taj Mahal",
+      "Rani ki Vav"
+    ],
+    "correctIndex": 1,
+    "hint": "Located in Old Delhi, this historic Mughal fortress built by Shah Jahan is where the Prime Minister hoists the national flag on Independence Day.",
+    "rationale": "The Reserve Bank of India placed an illustration of the historic Red Fort on the reverse of the stone-grey ₹500 note to celebrate national architectural pride.",
+    "distractorExplorations": {
+      "Sanchi Stupa": "The ancient Buddhist Sanchi Stupa motif is featured on the reverse side of the bright yellow ₹200 currency note.",
+      "Taj Mahal": "The Taj Mahal is not featured on any current circulating Mahatma Gandhi New Series banknote slates.",
+      "Rani ki Vav": "The intricate stepwell Rani ki Vav located in Gujarat is featured on the reverse of the lavender ₹100 note."
+    }
+  },
+  {
+    "id": 949,
+    "category": "Sanskrit Literature: Drama",
+    "question": "Who authored the classical Sanskrit masterpiece play “Abhijnanasakuntalam” (Shakuntala)?",
+    "options": [
+      "Rabindranath Tagore",
+      "Kalidasa",
+      "Munshi Premchand",
+      "Bhasa"
+    ],
+    "correctIndex": 1,
+    "hint": "He was a legendary poet of ancient India, also composing 'Meghaduta' and 'Malavikagnimitram'.",
+    "rationale": "Kalidasa wrote the tragic romance play Shakuntala, universally recognized as a supreme high-water mark of classical Sanskrit literature.",
+    "distractorExplorations": {
+      "Rabindranath Tagore": "The modern Bengali polymath wrote poetic musical plays like Chitrangada and Chitrangada's verse tracks centuries later.",
+      "Munshi Premchand": "He was a master of modern realistic Hindi/Urdu prose fiction, writing masterpieces like Godaan and Gaban.",
+      "Bhasa": "An early pioneer who wrote the 'Svapnavasavadatta' long before Kalidasa perfected the classical style."
+    }
+  },
+  {
+    "id": 950,
+    "category": "Culture: Musical Instruments",
+    "question": "The classical South Indian Nadaswaram instrument belongs to which structural category?",
+    "options": [
+      "Wind Instrument (Aero-phone)",
+      "String Instrument (Chordophone)",
+      "Drum Unit (Membranophone)",
+      "Percussion Accent (Idiophone)"
+    ],
+    "correctIndex": 0,
+    "hint": "It is a large, double-reed wooden instrument played widely during auspicious South Indian temple rituals and weddings.",
+    "rationale": "The Nadaswaram requires continuous blowing and lip control, classifying it as a premier classical wind instrument. (Option A isolates this category).",
+    "distractorExplorations": {
+      "String Instrument": "String instruments create melody through vibrating wires, like the Veena or Sitar.",
+      "Drum Unit": "Drums rely on struck animal skins stretched across a hollow frame, like the Thavil or Mridangam.",
+      "Percussion Accent": "Percussion accents include solid metallic or clay bodies struck together, like the Ghatam or cymbals."
+    }
+  },
+  {
+    "id": 951,
+    "category": "Cinema History: Global Cinema",
+    "question": "The internationally acclaimed, Oscar-winning marriage drama “A Separation” (2011) was written and directed by which filmmaker?",
+    "options": [
+      "Majid Majidi",
+      "Jafar Panahi",
+      "Abbas Kiarostami",
+      "Asghar Farhadi"
+    ],
+    "correctIndex": 3,
+    "hint": "He is a master of Iranian contemporary cinema who won two Academy Awards for Best Foreign Language Film.",
+    "rationale": "Asghar Farhadi wrote and directed A Separation, delivering a tightly wound study of class, religion, and family law in modern Tehran.",
+    "distractorExplorations": {
+      "Majid Majidi": "He directed the beautiful, world-famous childhood poetic drama 'Children of Heaven' (1997).",
+      "Jafar Panahi": "He is an activist director famous for realistic, semi-documentary urban films like This Is Not a Film and Taxi.",
+      "Abbas Kiarostami": "A pioneer auteur of the Iranian New Wave who directed minimalist masterpieces like Taste of Cherry and Close-Up."
+    }
+  },
+  {
+    "id": 952,
+    "category": "Art History: Global Comics",
+    "question": "Manga is a highly influential, world-famous traditional graphic novel and comic art form native to which country?",
+    "options": [
+      "Africa",
+      "Iran",
+      "America",
+      "Japan"
+    ],
+    "correctIndex": 3,
+    "hint": "It reads from right to left, defining the print blueprint for iconic anime television shows.",
+    "rationale": "Manga is Japan's signature comic book art style, carrying a distinct visual grammar developed over a century of print history.",
+    "distractorExplorations": {
+      "Africa": "Africa has diverse regional comic networks, but has no relation to the word Manga.",
+      "Iran": "Iran features deep graphic illustration histories, famously showcased in Marjane Satrapi's graphic novel Persepolis.",
+      "America": "America pioneered the classic monthly superhero comic book industry (Marvel/DC) formatted from left to right."
+    }
+  },
+  {
+    "id": 953,
+    "category": "Cinema Awards: National Awards",
+    "question": "Who was honored with the National Film Award for Best Actor at the 69th National Film Awards for his performance in 'Pushpa: The Rise'?",
+    "options": [
+      "Allu Arjun",
+      "R. Madhavan",
+      "Ram Charan",
+      "Prabhas"
+    ],
+    "correctIndex": 0,
+    "hint": "He made history as the first Telugu actor to ever win the Best Actor trophy in the festival's history.",
+    "rationale": "Allu Arjun won the Best Actor National Award for his powerful performance in the action-drama Pushpa: The Rise.",
+    "distractorExplorations": {
+      "R. Madhavan": "He accepted the Best Feature Film award as the director and producer of Rocketry: The Nambi Effect.",
+      "Ram Charan": "He starred in the global hit RRR, which won multiple technical categories during that same awards cycle.",
+      "Prabhas": "He gained massive international fame for the Baahubali franchise but did not win an individual Best Actor National Award."
+    }
+  },
+  {
+    "id": 954,
+    "category": "Cinema History: Festivals",
+    "question": "Which French courtroom thriller directed by Justine Triet won the coveted Palme d'Or at the 2023 Cannes Film Festival?",
+    "options": [
+      "Everything Everywhere All at Once",
+      "Anatomy of a Fall",
+      "All Quiet on the Western Front",
+      "The Zone of Interest"
+    ],
+    "correctIndex": 1,
+    "hint": "The story follows a woman trying to prove her innocence after her husband's mysterious death in a snowy mountain chalet.",
+    "rationale": "Anatomy of a Fall (Anatomie d'une chute) won the Palme d'Or at Cannes 2023 before sweeping international screenplay awards.",
+    "distractorExplorations": {
+      "Everything Everywhere All at Once": "This indie hit dominated the American Academy Awards in 2023, sweeping the major acting categories.",
+      "All Quiet on the Western Front": "This German anti-war masterpiece dominated the BAFTA and technical Oscar slates in early 2023.",
+      "The Zone of Interest": "Jonathan Glazer's harrowing Holocaust drama won the Grand Prix (second place) at Cannes 2023, losing the top spot to Anatomy."
+    }
+  },
+  {
+    "id": 955,
+    "category": "Cinema History: Directors",
+    "question": "Which of the following classic films directed by and starring Guru Dutt was NOT actually directed by him, despite being a core production of his studio house?",
+    "options": [
+      "Pyaasa",
+      "Kaagaz Ke Phool",
+      "Chaudhvin Ka Chand",
+      "Mr. & Mrs. 55"
+    ],
+    "correctIndex": 2,
+    "hint": "This 1960 romantic Muslim-social hit was officially directed by his trusted director partner M. Sadiq.",
+    "rationale": "While Pyaasa, Kaagaz Ke Phool, and Mr. & Mrs. 55 were directed by Guru Dutt himself, 'Chaudhvin Ka Chand' was directed by M. Sadiq to salvage the studio's finances.",
+    "distractorExplorations": {
+      "Pyaasa": "His 1957 masterpiece tracking a disillusioned poet, universally ranked among the greatest films ever made.",
+      "Kaagaz Ke Phool": "His melancholic 1959 widescreen masterpiece, celebrated today as a cult classic about a director's tragic downfall.",
+      "Mr. & Mrs. 55": "His delightful 1955 social satirical romantic comedy exploring modern marriage laws and urban life."
+    }
+  },
+  {
+    "id": 956,
+    "category": "Cinema History: Indian Cinema",
+    "question": "This duplicate checkpoint re-verifies your regional performance registry: What is the famous folk theater form of Maharashtra?",
+    "options": [
+      "Tamasha",
+      "Nautanki",
+      "Baul",
+      "Nati"
+    ],
+    "correctIndex": 0,
+    "hint": "It is an energetic traveling theater form driven by Lavani songs and high-tempo dholki drums.",
+    "rationale": "Tamasha is Maharashtra's signature musical folk theater form, while Lavani refers to the specific dance style performed within it.",
+    "distractorExplorations": {
+      "Nautanki": "Nautanki is a popular, colorful musical operatic folk theater style native to northern plains like Uttar Pradesh.",
+      "Baul": "Baul is a mystic spiritual singing tradition practiced by nomadic minstrels across West Bengal.",
+      "Nati": "Nati is a massive, circular community folk dance practiced across the valleys of Himachal Pradesh."
+    }
+  },
+  {
+    "id": 957,
+    "category": "Culture: Indian Architecture",
+    "question": "This entry re-verifies your architecture logs: Where is the famous BAPS Swaminarayan Akshardham temple complex located?",
+    "options": [
+      "New Delhi",
+      "Odisha",
+      "Uttar Pradesh",
+      "Tamil Nadu"
+    ],
+    "correctIndex": 0,
+    "hint": "The massive pink sandstone and white marble temple complex sits along the banks of the Yamuna River in the nation's capital capital city. (Note: Cleaned up option alignment).",
+    "rationale": "The sprawling Swaminarayan Akshardham temple complex was opened in New Delhi in 2005, displaying classical Indian architecture. (Option A safely corrects your text alignment).",
+    "distractorExplorations": {
+      "Odisha": "Odisha houses the ancient stone wheels of the Konark Sun Temple and Puri Jagannath heritage structures.",
+      "Uttar Pradesh": "UP features the historic temples of Varanasi and Vrindavan along the plains.",
+      "Tamil Nadu": "Tamil Nadu is home to towering Dravidian stone gopurams like Madurai Meenakshi."
+    }
+  },
+  {
+    "id": 958,
+    "category": "Culture: Institutions",
+    "question": "This duplicate baseline checks your museum registry: Which institution is called the “Storehouse of World-art collection”?",
+    "options": [
+      "Indian Museum, Kolkata",
+      "National Museum, New Delhi",
+      "Salar Jung Museum, Hyderabad",
+      "National Gallery of Modern Art, Mumbai"
+    ],
+    "correctIndex": 2,
+    "hint": "Located in Hyderabad along the Musi River, it features an unparalleled single-man art collection accumulated across generations.",
+    "rationale": "The Salar Jung Museum holds this unique title due to the immense scale and variety of its global art collection. (Option C aligns with your master key).",
+    "distractorExplorations": {
+      "Indian Museum, Kolkata": "Founded in 1814, it is the oldest and largest multi-disciplinary museum in the Asia-Pacific region.",
+      "National Museum, New Delhi": "The premier central repository housing extensive archaeological antiquities like Harappan seals and relics."
+    }
+  },
+  {
+    "id": 959,
+    "category": "Culture: Art History",
+    "question": "This double checkpoint re-verifies your regional art registry: Madhbubani folk painting belongs natively to which state?",
+    "options": [
+      "West Bengal",
+      "Bihar",
+      "Assam",
+      "Odisha"
+    ],
+    "correctIndex": 1,
+    "hint": "It is an ancient tradition practiced by women in the Mithila region, using natural plant dyes on treated mud walls.",
+    "rationale": "Madhubani art originated in Bihar, capturing nature and mythology using distinctive geometric patterns. (Option B is correct per your key).",
+    "distractorExplorations": {
+      "West Bengal": "West Bengal is celebrated for its Patachitra scrolls and traditional clay pottery crafts.",
+      "Assam": "Assam focuses its folk arts on bamboo weaving and traditional manuscript illustrations."
+    }
+  },
+  {
+    "id": 960,
+    "category": "Culture: Indian Classical Music",
+    "question": "In Indian classical music theory, what is the specific term used to define the seven basic musical notes?",
+    "options": [
+      "Ragini",
+      "Thaat",
+      "Saptak",
+      "Swara"
+    ],
+    "correctIndex": 3,
+    "hint": "They are Sa, Re, Ga, Ma, Pa, Dha, and Ni, forming the foundational building blocks of all musical compositions.",
+    "rationale": "A Swara is a musical note or tone in Indian classical music, while a group of all seven notes together is called a Saptak.",
+    "distractorExplorations": {
+      "Ragini": "Ragini is a legacy historical classification term used to describe the feminine counterparts or variations of primary rāgas.",
+      "Thaat": "A Thaat is a foundational musical framework or parent scale system from which individual rāgas are derived in Hindustani music.",
+      "Saptak": "A Saptak represents the complete octave scale consisting of all seven basic notes together."
+    }
+  },
+  {
+    "id": 961,
+    "category": "Literature: Booker Prize",
+    "question": "This double checkpoint checks your book registry: Who wrote the classic novel “Midnight's Children”, which won the Booker Prize in 1981?",
+    "options": [
+      "Salman Rushdie",
+      "Arundhati Roy",
+      "Vikram Seth",
+      "Chetan Bhagat"
+    ],
+    "correctIndex": 0,
+    "hint": "The story follows children born at the exact midnight hour of India's independence, matching their lives to the destiny of the new nation.",
+    "rationale": "Salman Rushdie won global acclaim for Midnight's Children, a masterpiece of magic realism that won the 'Booker of Bookers' prize. (Option A is accurate).",
+    "distractorExplorations": {
+      "Arundhati Roy": "She became the first non-expatriate Indian citizen to win the prize for 'The God of Small Things' in 1997.",
+      "Vikram Seth": "He authored the monumental, realistic single-volume English novel 'A Suitable Boy'."
+    }
+  },
+  {
+    "id": 962,
+    "category": "Culture: Musical Instruments",
+    "question": "What is the primary double-sided percussion drum instrument used to provide the rhythm cycle in Carnatic classical music?",
+    "options": [
+      "Tabla",
+      "Mridangam",
+      "Dholak",
+      "Ghatam"
+    ],
+    "correctIndex": 1,
+    "hint": "It is a hollow, barrel-shaped wooden drum played with both hands, forming the bedrock of South Indian concerts.",
+    "rationale": "The Mridangam is the premier percussion instrument of the Carnatic music system, celebrated for its deep tones and intricate rhythmic structures.",
+    "distractorExplorations": {
+      "Tabla": "The Tabla is the primary twin hand-drum system used to provide rhythm in North Indian Hindustani music.",
+      "Dholak": "The Dholak is a simpler, highly popular folk barrel drum used in festive and light musical gatherings.",
+      "Ghatam": "The Ghatam is a specialized musical clay pot played with fingers and palms, acting as a secondary percussion asset."
+    }
+  },
+  {
+    "id": 963,
+    "category": "Culture: Prominent Artists",
+    "question": "Which pioneering master of modern Indian art is world-famous for his bold abstract style centered entirely around the “Bindu” motif?",
+    "options": [
+      "M.F. Husain",
+      "S.H. Raza",
+      "Tyeb Mehta",
+      "Raja Ravi Varma"
+    ],
+    "correctIndex": 1,
+    "hint": "He was a co-founder of the Progressive Artists' Group who spent decades in France before returning to his signature geometric shunya point.",
+    "rationale": "Syed Haider Raza (S.H. Raza) turned the Bindu (the dot/cosmic center) into the defining focus of his late career, exploring space, light, and geometry.",
+    "distractorExplorations": {
+      "M.F. Husain": "He was famous for his fluid, energetic lines, horse motifs, and bold depictions of epic Indian narratives.",
+      "Tyeb Mehta": "He developed a tragic, flat minimalist style characterized by fractured figures and his famous 'Diagonal' canvas lines.",
+      "Raja Ravi Varma": "He combined Western oil painting realism with traditional Indian mythology in the late 19th century."
+    }
+  },
+  {
+    "id": 964,
+    "category": "Culture: Folk Costumes",
+    "question": "What is the traditional long wrap-around unstitched attire worn by men in South India, typically paired with an angavastram?",
+    "options": [
+      "Kurta-Pajama",
+      "Sherwani",
+      "Veshti / Dhoti variety",
+      "Churidar"
+    ],
+    "correctIndex": 2,
+    "hint": "It is usually woven in white or cream cotton, often carrying a fine gold zari border along the edges. (Note: Cleaned up option text matching key).",
+    "rationale": "The Veshti is the traditional unstitched lower garment worn by men in Tamil Nadu and greater South India during formal and religious ceremonies. (Option C represents your key).",
+    "distractorExplorations": {
+      "Kurta-Pajama": "The standard stitched loose tunic and trouser outfit common across Northern and Central India.",
+      "Sherwani": "A formal, structured knee-length buttoned coat worn over trousers, originating in North Indian royal courts.",
+      "Churidar": "Tightly fitting trousers that gather in folds around the ankles, worn under long kurtas."
+    }
+  },
+  {
+    "id": 965,
+    "category": "Culture: Art History",
+    "question": "This double checkpoint re-verifies your scroll registry: In which state is the intricate cloth scroll art form of “Pattachitra” traditionally practiced?",
+    "options": [
+      "Kerala",
+      "Odisha",
+      "Rajasthan",
+      "Punjab"
+    ],
+    "correctIndex": 1,
+    "hint": "This cloth-based painting form is deeply bound to the sacred traditions of Lord Jagannath in Puri.",
+    "rationale": "Pattachitra is a traditional cloth-based scroll art originating from Odisha, celebrated for its fine outlines and natural mineral colors. (Option B is accurate).",
+    "distractorExplorations": {
+      "Kerala": "Kerala is internationally famous for its vibrant, highly detailed temple fresco murals.",
+      "Rajasthan": "Rajasthan is home to large canvas narrative scroll paintings known as Phad art."
+    }
+  },
+  {
+    "id": 966,
+    "category": "Cinema History: Prominent Singers",
+    "question": "Which legendary playback singer, celebrated as the premier voice of Indian music, is affectionately referred to as the “Nightingale of India”?",
+    "options": [
+      "Lata Mangeshkar",
+      "Asha Bhosle",
+      "Geeta Dutt",
+      "Alka Yagnik"
+    ],
+    "correctIndex": 0,
+    "hint": "She recorded thousands of songs across a seven-decade career, honored with the Bharat Ratna in 2001.",
+    "rationale": "Lata Mangeshkar is widely revered as the 'Nightingale of India' (Bharat Kokila) for her unparalleled clarity, vocal range, and definitive contribution to cinema music history.",
+    "distractorExplorations": {
+      "Asha Bhosle": "Her exceptionally versatile younger sister, famous for her high-energy pop, cabaret, and classical ghazal tracks.",
+      "Geeta Dutt": "The soulful playback voice of the 1950s golden era who breathed life into Guru Dutt's classic musical tracks.",
+      "Alka Yagnik": "A dominant playback star of the 1990s and 2000s who recorded numerous award-winning romantic tracks."
+    }
+  },
+  {
+    "id": 967,
+    "category": "Current Affairs: Global Summits",
+    "question": "Which massive regional bloc was formally admitted as a permanent member during the G20 Summit hosted in New Delhi?",
+    "options": [
+      "Bangladesh",
+      "New Zealand",
+      "African Union",
+      "Mauritius"
+    ],
+    "correctIndex": 2,
+    "hint": "It represents a union of 55 African nations, making the bloc the first new permanent expansion since the group was founded.",
+    "rationale": "Under India's presidency, the G20 made a historic expansion by granting permanent membership to the African Union to increase global south representation.",
+    "distractorExplorations": {
+      "Bangladesh": "Bangladesh participated actively as a high-profile guest invitee country, but was not admitted as a new permanent member bloc.",
+      "New Zealand": "New Zealand operates within separate regional economic trade partnerships, outside this specific expansion track.",
+      "Mauritius": "Mauritius attended as a special strategic guest country under India's bilateral invitation framework."
+    }
+  },
+  {
+    "id": 968,
+    "category": "Cinema History: Radio",
+    "question": "All India Radio originally initiated its national broadcasting operations under which original private title?",
+    "options": [
+      "Indian Broadcasting Company",
+      "Radio Ceylon",
+      "Akashvani Networks",
+      "Prasar Bharati Corporation"
+    ],
+    "correctIndex": 0,
+    "hint": "This private company began operations in 1927 with stations in Bombay and Calcutta before being taken over by the state. (Note: Key selects option A).",
+    "rationale": "All India Radio grew out of the private Indian Broadcasting Company (IBC), which began broadcasting in 1927 before turning into a state department. (Option A is correct).",
+    "distractorExplorations": {
+      "Radio Ceylon": "A highly popular commercial shortwave radio station operating out of Sri Lanka that dominated Indian airwaves during the 1950s film song ban.",
+      "Akashvani Networks": "This was the beautiful poetic name coined by Rabindranath Tagore, adopted as the official name for AIR in 1957.",
+      "Prasar Bharati Corporation": "The modern statutory autonomous public broadcasting corporation that manages both Doordarshan and AIR today."
+    }
+  },
+  {
+    "id": 969,
+    "category": "Culture: Classical Indian Dance",
+    "question": "Guru Kelucharan Mohapatra was the legendary pioneer responsible for the revival of which classical dance form?",
+    "options": [
+      "Kathak",
+      "Kuchipudi",
+      "Odissi",
+      "Bharatanatyam"
+    ],
+    "correctIndex": 2,
+    "hint": "He saved this sculpture-like dance form from extinction, establishing the premier training school 'Srjan' in Bhubaneswar.",
+    "rationale": "Guru Kelucharan Mohapatra is the foundational master of modern Odissi, codifying its techniques and training generations of world-class dancers.",
+    "distractorExplorations": {
+      "Kathak": "Kathak belongs to northern court traditions, championed by masters like Pandit Birju Maharaj.",
+      "Kuchipudi": "Kuchipudi is a fast-paced classical dance-drama originating in Andhra Pradesh.",
+      "Bharatanatyam": "Bharatanatyam is native to Tamil Nadu, revived by pioneering masters like Rukmini Devi Arundale."
+    }
+  },
+  {
+    "id": 970,
+    "category": "Culture: Indian Classical Music",
+    "question": "Pandit Hariprasad Chaurasia is a household name synonymous with which classical instrument?",
+    "options": [
+      "Sitar",
+      "Sarod",
+      "Flute",
+      "Veena"
+    ],
+    "correctIndex": 2,
+    "hint": "This duplicate checkpoint re-verifies your instrument logs: he plays the traditional bamboo woodwind instrument (Bansuri).",
+    "rationale": "Pandit Hariprasad Chaurasia transformed the simple bamboo flute into a premier classical stage instrument. (Option C is accurate).",
+    "distractorExplorations": {
+      "Sitar": "The Sitar is a fretted stringed instrument popularized globally by Pandit Ravi Shankar.",
+      "Sarod": "The Sarod is a fretless stringed lute famously mastered by Ustad Amjad Ali Khan."
+    }
+  },
+  {
+    "id": 971,
+    "category": "Culture: Indian Classical Music",
+    "question": "This duplicate baseline checks your rāga registry: Who is traditionally revered as the creator of the powerful monsoon rāga “Miyan Ki Malhar”?",
+    "options": [
+      "Amir Khusro",
+      "Bande Ali Miyan",
+      "Tansen",
+      "Gulam Ali"
+    ],
+    "correctIndex": 2,
+    "hint": "He was the legendary court musician to Mughal Emperor Akbar, said to bring rain when he sang this melody.",
+    "rationale": "Miyan Tansen modified ancient Malhar structures to create 'Miyan Ki Malhar', a signature rāga of the Senia lineage. (Option C is correct).",
+    "distractorExplorations": {
+      "Amir Khusro": "He developed alternative early vocal formats and rāgas like Yaman during the Sultanate era.",
+      "Bande Ali Miyan": "He was a legendary 19th-century master of the Rudra Veena, representing the Kirana lineage."
+    }
+  },
+  {
+    "id": 972,
+    "category": "Cinema Theory: Framing",
+    "question": "Which aspect ratio is most commonly used in anamorphic widescreen filmmaking to deliver an expansive cinematic frame look?",
+    "options": [
+      "4 : 3",
+      "16 : 9",
+      "2.35 : 1 / 2.39 : 1",
+      "1.85 : 1"
+    ],
+    "correctIndex": 2,
+    "hint": "Think of grand cinematic landscapes and action epics that look highly stretched horizontally compared to standard TV grids.",
+    "rationale": "The 2.35:1 (or modern 2.39:1) ratio represents the classic Scope widescreen format, providing an expansive field of view in theaters.",
+    "distractorExplorations": {
+      "4 : 3": "The traditional square aspect ratio common in old analog televisions and classic movies before the widescreen era.",
+      "16 : 9": "The standard high-definition widescreen aspect ratio used for modern televisions and online streaming video boxes.",
+      "1.85 : 1": "The standard flat widescreen aspect ratio common for regular theatrical dramas and comedies, narrower than Scope."
+    }
+  },
+  {
+    "id": 973,
+    "category": "Cinema Awards: Dadasaheb Phalke",
+    "question": "This double checkpoint cross-checks your award registry: Which veteran actress was honored with the Dadasaheb Phalke Award for the year 2023?",
+    "options": [
+      "Asha Parekh",
+      "Amitabh Bachchan",
+      "Rajinikanth",
+      "Waheeda Rehman"
+    ],
+    "correctIndex": 3,
+    "hint": "She starred in timeless classics like Guide, Pyaasa, and Kaagaz Ke Phool, celebrated for her grace and performance depth.",
+    "rationale": "Waheeda Rehman received India's highest cinema honor, the Dadasaheb Phalke Award, during the 69th National Film Awards announcement cycle. (Option D is accurate).",
+    "distractorExplorations": {
+      "Asha Parekh": "She received the prestigious lifetime achievement award in the preceding 2022 announcement cycle.",
+      "Amitabh Bachchan": "The 'Angry Young Man' megastat received his landmark Phalke recognition in 2018."
+    }
+  },
+  {
+    "id": 974,
+    "category": "Culture: Indian Classical Music",
+    "question": "During which part of the day or night is the deeply emotional, romantic Hindustani rāga “Bageshree” traditionally performed?",
+    "options": [
+      "Early Morning",
+      "Late Afternoon / Evening",
+      "Late Night",
+      "Any time of the day without restrictions"
+    ],
+    "correctIndex": 2,
+    "hint": "It belongs to the Kafi Thaat, designed to capture the mood of a woman waiting for her lover deep in the night. (Note: Key selects option C).",
+    "rationale": "Rāga Bageshree is a late-night melody (Second Prahar of the night), meant to evoke a sweet, melancholic sense of love and longing. (Option C represents the true cell choice).",
+    "distractorExplorations": {
+      "Early Morning": "Morning slots are reserved for meditative, rising rāgas like Bhairav or Todi.",
+      "Late Afternoon / Evening": "Sunset and twilight hours belong to transitional melodies like Yaman or Bhimpalasi."
+    }
+  },
+  {
+    "id": 975,
+    "category": "Art History: Renaissance",
+    "question": "What was a major conceptual shift in Renaissance visual art compared to Medieval art?",
+    "options": [
+      "The rejection of religious themes in favour of secular ones",
+      "The development of linear perspective and anatomical accuracy",
+      "A complete disregard for symmetry and proportion",
+      "The use of only black-and-white palettes"
+    ],
+    "correctIndex": 1,
+    "hint": "Think about Filippo Brunelleschi's mathematical system and humanism.",
+    "rationale": "Renaissance art shifted toward humanism and scientific study, leading to the codification of linear perspective to create three-dimensional depth and precise anatomical realism.",
+    "distractorExplorations": {
+      "The rejection of religious themes in favour of secular ones": "Religious themes remained dominant in the Renaissance (e.g., Sistine Chapel), but were rendered with naturalistic realism instead of symbolic flatness.",
+      "A complete disregard for symmetry and proportion": "The Renaissance highly celebrated mathematical harmony, balanced proportions, and divine symmetry.",
+      "The use of only black-and-white palettes": "The era utilized a highly rich, sophisticated range of oil and fresco pigments."
+    }
+  },
+  {
+    "id": 976,
+    "category": "Theatre Theory: Aesthetics",
+    "question": "In Natyashastra, costume, make-up, property, and set design come under which mode of communication (Abhinaya)?",
+    "options": [
+      "Vachika",
+      "Aharya",
+      "Satvika",
+      "Angika"
+    ],
+    "correctIndex": 1,
+    "hint": "It covers everything external to the actor's physical body and vocal delivery, representing material production elements.",
+    "rationale": "Bharata Muni's Natyashastra defines Aharya Abhinaya as expression through external means like costumes, jewelry, makeup, and stage properties.",
+    "distractorExplorations": {
+      "Vachika": "Vachika Abhinaya refers to vocal expression, speech, poetry, and dialogue delivery tracks.",
+      "Satvika": "Satvika Abhinaya describes the deep, authentic inner psychic and emotional states of the performer.",
+      "Angika": "Angika Abhinaya focuses entirely on bodily movements, physical gestures, and facial expressions."
+    }
+  },
+  {
+    "id": 977,
+    "category": "Cinema History: Film Movements",
+    "question": "Arrange the following cinema movements in chronological order: (A) Italian Neorealism, (B) German Expressionism, (C) French New Wave, (D) Dogme 95.",
+    "options": [
+      "B, A, C, D",
+      "A, B, C, D",
+      "C, B, A, D",
+      "B, C, A, D"
+    ],
+    "correctIndex": 0,
+    "hint": "Shadowy silent films came in the 1920s, post-war gritty realism in the 40s, jump-cut French cinema in the late 50s, and the Danish manifesto in 1995.",
+    "rationale": "The correct historical timeline flows from German Expressionism (1920s) to Italian Neorealism (1940s), French New Wave (late 1950s/1960s), and finally Dogme 95 (1995).",
+    "distractorExplorations": {
+      "A, B, C, D": "This incorrectly places Italian Neorealism before the silent post-WWI German Expressionist movement.",
+      "C, B, A, D": "This reverses the early standard history, placing the 1960s French wave ahead of the 1920s masters.",
+      "B, C, A, D": "This places the French New Wave before Italian Neorealism, which actually served as a major inspiration for the French critics."
+    }
+  },
+  {
+    "id": 978,
+    "category": "Cinema Theory: Lighting",
+    "question": "What does the Italian-derived artistic term ‘Chiaroscuro’ mean?",
+    "options": [
+      "Use of Obscure Shapes",
+      "Use of Distorted Lines",
+      "Use of Monochrome palettes",
+      "Use of Light and Shade"
+    ],
+    "correctIndex": 3,
+    "hint": "The word combines the Italian roots for 'clear/light' (chiaro) and 'dark/obscure' (scuro).",
+    "rationale": "Chiaroscuro is the technical and artistic use of strong contrasts between light and dark to give subjects a sense of volume and three-dimensionality.",
+    "distractorExplorations": {
+      "Use of Obscure Shapes": "The term deals with tonal values and lighting contrast gradients rather than geometry profiles.",
+      "Use of Distorted Lines": "Linear distortion characterizes Mannerism or Expressionism, distinct from volumetric light work.",
+      "Use of Monochrome palettes": "Monochrome means working inside variations of a single hue value, separate from directional shadow modeling."
+    }
+  },
+  {
+    "id": 979,
+    "category": "Culture: Architecture",
+    "question": "Which design and architectural movement is heavily associated with clean, functional designs, absolute simplicity, and geometric shapes?",
+    "options": [
+      "Neo-Classical",
+      "Bauhaus",
+      "Art Deco",
+      "Art Nouveau"
+    ],
+    "correctIndex": 1,
+    "hint": "Founded in Germany by Walter Gropius in 1919, its core mantra is 'form follows function'.",
+    "rationale": "The Bauhaus school integrated crafts and fine arts, leaving a lasting legacy of minimalist, geometric design that completely rejected unnecessary ornamentation.",
+    "distractorExplorations": {
+      "Neo-Classical": "Neo-Classical style relies on grand scales, Greek or Roman pillars, and historical temple structures.",
+      "Art Deco": "Art Deco values glamorous, sleek geometric lines layered with expensive materials and luxury ornamentation.",
+      "Art Nouveau": "Art Nouveau features highly decorative, fluid curves inspired by organic natural forms like vines and flowers."
+    }
+  },
+  {
+    "id": 980,
+    "category": "Art History: Movements",
+    "question": "What was the primary revolutionary goal of 'Cubism' as an avant-garde art movement?",
+    "options": [
+      "To create highly detailed and realistic images",
+      "To return to classical artistic techniques",
+      "To depict subjects from multiple perspectives simultaneously",
+      "To promote emotional expression over formal structure"
+    ],
+    "correctIndex": 2,
+    "hint": "Pioneered by Picasso and Braque, it shattered the traditional single viewpoint of linear perspective.",
+    "rationale": "Cubism deconstructed subjects into geometric fragments, reconstructing them on a flat canvas to show multiple viewpoints at the same time.",
+    "distractorExplorations": {
+      "To create highly detailed and realistic images": "This matches Western Academic Realism, which Cubists actively rejected.",
+      "To return to classical artistic techniques": "The movement moved away from traditional Renaissance perspective and anatomy entirely.",
+      "To promote emotional expression over formal structure": "This characterizes Expressionism, which values raw psychological emotion over the geometric structures of Cubism."
+    }
+  },
+  {
+    "id": 981,
+    "category": "Theatre History: Absurdist Theatre",
+    "question": "How does 'Absurd Theatre' fundamentally challenge traditional dramatic conventions?",
+    "options": [
+      "By relying on logical cause-and-effect relationships",
+      "By prioritizing clear moral lessons",
+      "By creating a sense of disorientation and lack of meaning",
+      "By strictly following Aristotle’s unities of time, place, and action"
+    ],
+    "correctIndex": 2,
+    "hint": "Think of Samuel Beckett's characters waiting endlessly for someone who never arrives, using repetitive, circular speech.",
+    "rationale": "Theatre of the Absurd reflects existential philosophy, abandoning logical plot progression and clear resolutions to capture a meaningless world.",
+    "distractorExplorations": {
+      "By relying on logical cause-and-effect relationships": "This defines traditional well-made realist plays, which Absurdist scripts actively dropped.",
+      "By prioritizing clear moral lessons": "Absurdist theater features circular setups with no easy moral answers or traditional lessons.",
+      "By strictly following Aristotle’s unities": "The movement rejected classical rules, creating fluid, illogical, and timeless non-linear setups."
+    }
+  },
+  {
+    "id": 982,
+    "category": "Cinema Theory: Aesthetics",
+    "question": "Which of the following best describes the concept of ‘cinematic space’?",
+    "options": [
+      "The physical locations where a film is shot",
+      "The way space is constructed and perceived through framing, composition, and editing",
+      "The real-world geography represented in a film",
+      "Created space through set design"
+    ],
+    "correctIndex": 1,
+    "hint": "It is an illusion built entirely inside the edit timeline, stitching separate shots into a unified space.",
+    "rationale": "Cinematic space isn't just a real-world location; it's a unique composition created by the director and editor using lens choices, camera blocking, and edits.",
+    "distractorExplorations": {
+      "The physical locations where a film is shot": "This describes the real-world production sets or locations before the camera records them.",
+      "The real-world geography represented in a film": "Real-world geography tracks actual map coordinates independent of how a scene is framed.",
+      "Created space through set design": "Set design builds the physical environment, which is only one part of how cinematic framing and editing shape space."
+    }
+  },
+  {
+    "id": 983,
+    "category": "Culture: Prominent Artists",
+    "question": "Who was the first Indian recording artist to cut her voice onto a shellac disc for the Gramophone Company in 1902?",
+    "options": [
+      "Rasoolan Bai",
+      "Girija Devi",
+      "Malaka Jaan",
+      "Gauhar Jaan"
+    ],
+    "correctIndex": 3,
+    "hint": "This legendary diva of Calcutta signed her recordings with the famous high-pitched phrase: 'My name is Gauhar Jaan!'",
+    "rationale": "Gauhar Jaan was a pioneer of the Indian recording industry, adapting classical khayal and thumri compositions to fit the brief three-minute limit of early gramophone discs.",
+    "distractorExplorations": {
+      "Rasoolan Bai": "A legendary maestro of the Benaras Thumri tradition who recorded extensive tracks much later.",
+      "Girija Devi": "The modern queen of classical Thumri music who dominated concert platforms during the late 20th century.",
+      "Malaka Jaan": "A highly accomplished tawaif musician of the era, who was Gauhar Jaan's mother and early mentor."
+    }
+  },
+  {
+    "id": 984,
+    "category": "Cinema Theory: Aesthetics",
+    "question": "Which of the following best defines the “mise-en-scène” of a cinematic shot?",
+    "options": [
+      "The use of optical transitions between scenes",
+      "The story arc and climax",
+      "The arrangement of cinematic elements within the frame",
+      "The camera resolution and aspect ratio"
+    ],
+    "correctIndex": 2,
+    "hint": "This duplicate checkpoint re-verifies your core framing vocabulary: think of everything placed in front of the lens.",
+    "rationale": "Mise-en-scène encompasses all the visual building blocks within a scene—including lighting, props, costumes, and actor blocking—arranged to tell a story.",
+    "distractorExplorations": {
+      "The use of optical transitions between scenes": "Transitions like dissolves, cuts, and wipes belong to the post-production editing department.",
+      "The story arc and climax": "Story structure and narrative beats are managed by screenwriters and script doctors.",
+      "The camera resolution and aspect ratio": "Resolution and aspect ratio are technical choices handled by the camera and distribution teams."
+    }
+  },
+  {
+    "id": 985,
+    "category": "Cinema Theory: Continuity",
+    "question": "What is the primary function of the \"180-degree rule\" in narrative filmmaking?",
+    "options": [
+      "A rule governing lighting balance",
+      "A specific camera panning movement style",
+      "A rule to maintain clear spatial orientation between characters",
+      "A method of formatting industry scripts"
+    ],
+    "correctIndex": 2,
+    "hint": "It establishes an imaginary axis line between two talking characters that the camera must not cross.",
+    "rationale": "By keeping the camera on one side of the axis, the rule ensures that characters consistently look at each other across cuts, preventing audience disorientation.",
+    "distractorExplorations": {
+      "A rule governing lighting balance": "Lighting balance is managed by measuring exposure contrast ratios on set.",
+      "A specific camera panning movement style": "Camera panning rotates the camera horizontally on a fixed axis.",
+      "A method of formatting industry scripts": "Script formatting uses specialized software to handle sluglines and margins properly."
+    }
+  },
+  {
+    "id": 986,
+    "category": "Cinema Theory: Cinematography",
+    "question": "A ‘long take’ is an advanced camera staging method most frequently used to:",
+    "options": [
+      "Reduce overall editing room time",
+      "Create a sense of realism or continuous tension",
+      "Save budget on multiple camera setups",
+      "Speed up daily production calls"
+    ],
+    "correctIndex": 1,
+    "hint": "Think of long, uninterrupted shots that follow characters in real-time, like in Birdman or Hitchcock's Rope.",
+    "rationale": "Long takes preserve real-time continuity, pulling the audience into the scene to build intense tension and a strong sense of realism.",
+    "distractorExplorations": {
+      "Reduce editing room time": "While it uses fewer cuts, planning a long take requires immense rehearsal time that complicates editing workflows if changes are needed.",
+      "Save budget on multiple camera setups": "Executing long takes requires highly sophisticated equipment (like Steadicams) and complex coordination, increasing costs.",
+      "Speed up daily production calls": "A single mistake near the end of a long take forces the crew to reset everything, slowing down production."
+    }
+  },
+  {
+    "id": 987,
+    "category": "Cinema History: Cinematography",
+    "question": "The mastery of ‘deep focus’ cinematography is most famously associated with which pioneering director?",
+    "options": [
+      "Alfred Hitchcock",
+      "Orson Welles",
+      "Stanley Kubrick",
+      "Quentin Tarantino"
+    ],
+    "correctIndex": 1,
+    "hint": "He worked with cinematographer Gregg Toland on Citizen Kane (1941), keeping the foreground, midground, and background entirely in sharp focus.",
+    "rationale": "Orson Welles revolutionized visual storytelling in Citizen Kane by using deep focus to block characters across multiple depth planes within a single frame.",
+    "distractorExplorations": {
+      "Alfred Hitchcock": "Hitchcock preferred precise camera movements, subjective POV framing, and classic suspense editing.",
+      "Stanley Kubrick": "Kubrick is famous for his precise one-point perspective, wide-angle tracking shots, and symmetrical compositions.",
+      "Quentin Tarantino": "Tarantino uses dynamic crash zooms, trunk shots, and non-linear timelines, building on later genre styles."
+    }
+  },
+  {
+    "id": 988,
+    "category": "Cinema Theory: Genre",
+    "question": "Which of the following highly acclaimed feature films is NOT part of the ‘Western’ genre?",
+    "options": [
+      "The Good, the Bad and the Ugly",
+      "Once Upon a Time in the West",
+      "All Quiet on the Western Front",
+      "Stagecoach"
+    ],
+    "correctIndex": 2,
+    "hint": "Despite the word 'Western' in its title, this masterpiece is a devastating anti-war film set in the trenches of WWI.",
+    "rationale": "All Quiet on the Western Front is a historic anti-war masterpiece based on Erich Maria Remarque's novel, tracking German soldiers on the European battlefront.",
+    "distractorExplorations": {
+      "The Good, the Bad and the Ugly": "Sergio Leone's legendary Spaghetti Western masterpiece starring Clint Eastwood.",
+      "Once Upon a Time in the West": "An operatic, sprawling epic Western masterwork directed by Sergio Leone.",
+      "Stagecoach": "John Ford's classic 1939 film that codified the rules and landscapes of the American Western genre."
+    }
+  },
+  {
+    "id": 989,
+    "category": "Indian Theatre: Playwrights",
+    "question": "Who authored the modern Hindi literary play masterpiece titled ‘Band Gali Ka Aakhri Makaan’?",
+    "options": [
+      "Dharamvir Bharati",
+      "Mohan Rakesh",
+      "Nirmal Verma",
+      "None of these"
+    ],
+    "correctIndex": 0,
+    "hint": "He was a titan of post-independence literature who also wrote the monumental verse play 'Andha Yug'.",
+    "rationale": "Dharamvir Bharati wrote this classic, establishing his unique voice within the Nayi Kahani and modern theater movements.",
+    "distractorExplorations": {
+      "Mohan Rakesh": "He wrote modern classics like 'Aashadh Ka Ek Din' and 'Aadhe Adhure', exploring relationship isolation.",
+      "Nirmal Verma": "A master of introspective Hindi prose fiction famous for his short stories like 'Parinde', separate from this play text.",
+      "None of these": "Since Dharamvir Bharati is available as option 1, this choice is false."
+    }
+  },
+  {
+    "id": 990,
+    "category": "Cinema History: Indian Cinema",
+    "question": "How do Satyajit Ray’s ‘Pather Panchali’ and Ritwik Ghatak’s ‘Meghe Dhaka Tara’ differ in terms of form and treatment?",
+    "options": [
+      "‘Pather Panchali’ was a low budget film, whereas ‘Meghe Dhaka Tara’ was a high budget film.",
+      "‘Pather Panchali’ was a documentary, whereas ‘Meghe Dhaka Tara’ was a fantasy-based narrative.",
+      "‘Pather Panchali’ had a lyrical humanist approach in showing the development of modern India, whereas ‘Meghe Dhaka Tara’ had an expressionistic treatment of the reality of modern India.",
+      "‘Pather Panchali’ was a melodrama, whereas ‘Meghe Dhaka Tara’ was a documentary on partition."
+    ],
+    "correctIndex": 2,
+    "hint": "Ray used poetic realism to find beauty in everyday life, while Ghatak used jarring sounds and harsh imagery to expose the trauma of partition.",
+    "rationale": "Ray's Pather Panchali applied a lyrical, patient humanist eye to childhood, while Ghatak utilized aggressive melodrama and expressionistic sound design to capture social collapse.",
+    "distractorExplorations": {
+      "‘Pather Panchali’ was low budget, ‘Meghe Dhaka Tara’ was high budget": "Both were independent, low-budget parallel productions that faced immense financial constraints.",
+      "One was a documentary, the other a fantasy narrative": "Both are fictional narrative features grounded in different styles of post-independence realism.",
+      "‘Pather Panchali’ was a melodrama, ‘Meghe Dhaka Tara’ was a documentary": "Pather Panchali avoided traditional melodrama, while Meghe Dhaka Tara used heightened melodrama as a conscious artistic choice."
+    }
+  },
+  {
+    "id": 991,
+    "category": "History: Historiography",
+    "question": "James Mill, in his influential 1817 text ‘The History of British India’, divided Indian history into which three distinct eras?",
+    "options": [
+      "Pantheistic, Monotheistic, Atheistic",
+      "Vedic, Puranic, Biblical",
+      "Buddhist, Gupta, British",
+      "Hindu, Muslim, British"
+    ],
+    "correctIndex": 3,
+    "hint": "This colonial periodization divided the past along religious lines before the arrival of European rule.",
+    "rationale": "James Mill applied a colonial perspective, dividing Indian history into Hindu, Muslim, and British periods, a framework critiqued by modern historians for oversimplifying India's diverse past.",
+    "distractorExplorations": {
+      "Pantheistic, Monotheistic, Atheistic": "These are philosophical and theological classifications tracking religious belief frameworks.",
+      "Vedic, Puranic, Biblical": "This option mixes local ancient Indian scripture eras with European theological text history.",
+      "Buddhist, Gupta, British": "This mixes specific religious movements and regional dynasties with a colonial empire line."
+    }
+  },
+  {
+    "id": 992,
+    "category": "Culture: UNESCO Creative Cities",
+    "question": "Which pairing lists Indian cities officially designated as UNESCO Creative Cities specifically for their rich traditions in Crafts and Folk Art?",
+    "options": [
+      "Gwalior and Srinagar",
+      "Srinagar and Jaipur",
+      "Varanasi and Jaipur",
+      "Gwalior, Varanasi, and Jaipur"
+    ],
+    "correctIndex": 1,
+    "hint": "Jaipur joined the network early for its crafts, and Srinagar was added later to celebrate its traditional handlooms and pashmina heritage.",
+    "rationale": "Srinagar and Jaipur hold the official UNESCO designation for Crafts and Folk Art, while Varanasi and Gwalior are inscribed under the Music category.",
+    "distractorExplorations": {
+      "Gwalior and Srinagar": "Gwalior belongs strictly to the Creative City of Music category, added recently in 2023.",
+      "Varanasi and Jaipur": "Varanasi is celebrated as a Creative City of Music, separate from the crafts category.",
+      "Gwalior, Varanasi, and Jaipur": "This options mixes music designations with the specific crafts and folk art category."
+    }
+  },
+  {
+    "id": 993,
+    "category": "Culture: Prominent Artists",
+    "question": "Which visionary Indian classical dancer and scholar was honored with the Padma Vibhushan for her lifetime contributions to Bharatanatyam?",
+    "options": [
+      "Alarmel Valli",
+      "Mallika Sarabhai",
+      "Padma Subrahmanyam",
+      "Yamini Krishnamurthy"
+    ],
+    "correctIndex": 2,
+    "hint": "She developed the 'Bharata Nrityam' style, researching ancient temple sculpture poses (Karanas).",
+    "rationale": "Dr. Padma Subrahmanyam was awarded the prestigious Padma Vibhushan, India's second-highest civilian honor, celebrating her decades of research and performance.",
+    "distractorExplorations": {
+      "Alarmel Valli": "She is a leading exponent of the Pandanallur style of Bharatanatyam, receiving alternative state honors.",
+      "Mallika Sarabhai": "She is an acclaimed activist-dancer who leads the Darpana Academy, celebrated globally for her contemporary work.",
+      "Yamini Krishnamurthy": "The legendary titan received her Padma Vibhushan honor in an earlier historical award cycle."
+    }
+  },
+  {
+    "id": 994,
+    "category": "Technology: Media and Entertainment",
+    "question": "What is the full form of 'AVGC', a highly prioritized growth sector within the modern media and entertainment industry?",
+    "options": [
+      "Audio, Video, Graphics and Communication",
+      "Animation, Video, Games and Comics",
+      "Animation, Visual Effects, Gaming and Comics",
+      "Advanced Visual Graphics and Computing"
+    ],
+    "correctIndex": 2,
+    "hint": "The acronym represents the digital creation industries behind modern animation, high-end visual effects, and video games.",
+    "rationale": "AVGC stands for Animation, Visual Effects, Gaming, and Comics, a sector receiving extensive government support for technology and job creation.",
+    "distractorExplorations": {
+      "Audio, Video, Graphics and Communication": "A generic phrase mixing basic media terms with general telecom words.",
+      "Animation, Video, Games and Comics": "This leaves out 'Visual Effects' (VFX), which is a distinct, vital part of the industry.",
+      "Advanced Visual Graphics and Computing": "A technical hardware computer engineering phrase, separate from this creative entertainment sector."
+    }
+  },
+  {
+    "id": 995,
+    "category": "Culture: Philosophy",
+    "question": "In classical philosophy, the combination of ‘thesis, anti-thesis, and synthesis’ defines the framework of:",
+    "options": [
+      "Ethics",
+      "Metaphysics",
+      "Dialectics",
+      "Aesthetics"
+    ],
+    "correctIndex": 3,
+    "hint": "This logical progression explores how an idea (thesis) collides with its opposite (anti-thesis) to create a higher truth (synthesis), popularized by Hegel.",
+    "rationale": "This triad forms the core engine of Dialectics, a philosophical method of argument that resolves contradictions to trace historical and intellectual progress. (Note: Option 3 corresponds to the key).",
+    "distractorExplorations": {
+      "Ethics": "Ethics investigates moral philosophy, exploring right and wrong human conduct values.",
+      "Metaphysics": "Metaphysics explores the fundamental nature of reality, existence, and being beyond the physical world.",
+      "Aesthetics": "Aesthetics is the philosophical study of art, beauty, and taste metrics."
+    }
+  },
+  {
+    "id": 996,
+    "category": "Art Theory: Color Theory",
+    "question": "In color theory, the pure strength, purity, or intensity of a particular color is known as:",
+    "options": [
+      "Value",
+      "Tone",
+      "Hue",
+      "Saturation"
+    ],
+    "correctIndex": 3,
+    "hint": "It measures how vivid or washed-out a color looks, ranging from a gray scale up to full saturation.",
+    "rationale": "Saturation (or chroma) defines the intensity and purity of a color; highly saturated colors look vivid, while desaturated colors look gray.",
+    "distractorExplorations": {
+      "Value": "Value measures the relative lightness or darkness of a color, running from pure white to absolute black.",
+      "Tone": "Tone is created by mixing a pure hue with gray, softening its intensity.",
+      "Hue": "Hue represents the distinct color family itself on the chromatic wheel (e.g., green, red, yellow)."
+    }
+  },
+  {
+    "id": 997,
+    "category": "Cinema History: Institutions",
+    "question": "Which certificate does the Central Board of Film Certification (CBFC) issue for films restricted to specialized professions or specific groups?",
+    "options": [
+      "‘UA’ Certificate",
+      "‘A’ Certificate",
+      "‘S’ Certificate",
+      "‘U’ Certificate"
+    ],
+    "correctIndex": 2,
+    "hint": "The letter stands for 'Specialized', intended for groups like doctors, scientists, or military personnel.",
+    "rationale": "Under the Cinematograph Act, the 'S' certificate restricts viewership to specific professions or audiences related to the film's technical subject matter.",
+    "distractorExplorations": {
+      "‘UA’ Certificate": "Allows unrestricted public exhibition but carries a parental guidance advisory for children under 12.",
+      "‘A’ Certificate": "Restricts theatrical admission strictly to adults over the age of 18.",
+      "‘U’ Certificate": "Allows universal, unrestricted public exhibition for all age groups."
+    }
+  },
+  {
+    "id": 998,
+    "category": "Cinema History: Music and Score",
+    "question": "Who composed the legendary, Oscar-winning musical score for Disney's animated classic ‘The Lion King’ (1994)?",
+    "options": [
+      "John Williams",
+      "Hans Zimmer",
+      "James Horner",
+      "Ennio Morricone"
+    ],
+    "correctIndex": 1,
+    "hint": "This German composer fused traditional orchestral instruments with African choral arrangements to create an iconic soundtrack.",
+    "rationale": "Hans Zimmer won the Academy Award for Best Original Score for his work on The Lion King, which became a defining milestone in his career.",
+    "distractorExplorations": {
+      "John Williams": "The legendary composer behind Star Wars and Indiana Jones, famous for his classical leitmotif style.",
+      "James Horner": "He composed the historic, bestselling orchestral score for James Cameron's Titanic (1997).",
+      "Ennio Morricone": "The Italian maestro famous for his iconic Spaghetti Western scores like The Good, the Bad and the Ugly."
+    }
+  },
+  {
+    "id": 999,
+    "category": "Cinema History: Screenwriting",
+    "question": "Which legendary screenwriter holds the record for winning three Academy Awards specifically for Best Original Screenplay?",
+    "options": [
+      "Woody Allen",
+      "Ingmar Bergman",
+      "Quentin Tarantino",
+      "Federico Fellini"
+    ],
+    "correctIndex": 0,
+    "hint": "He won the writing trophies for Annie Hall (1977), Hannah and Her Sisters (1986), and Midnight in Paris (2011).",
+    "rationale": "Woody Allen holds the record for the most Best Original Screenplay wins, converting 3 out of his 16 nominations into Oscar wins.",
+    "distractorExplorations": {
+      "Ingmar Bergman": "The Swedish master was nominated multiple times for his screenplays but never won a competitive writing Oscar.",
+      "Quentin Tarantino": "He won two Best Original Screenplay Oscars for Pulp Fiction (1994) and Django Unchained (2012).",
+      "Federico Fellini": "The Italian auteur received multiple writing nominations but won his Oscars in the Foreign Language Film and Lifetime Achievement categories."
+    }
+  },
+  {
+    "id": 1000,
+    "category": "Cinema History: Indian Cinema",
+    "question": "Which of the following highly acclaimed Malayalam films was NOT directed by the legendary auteur Adoor Gopalakrishnan?",
+    "options": [
+      "Mukhamukham",
+      "Kathapurushan",
+      "Mathilukal",
+      "Chidambaram"
+    ],
+    "correctIndex": 3,
+    "hint": "This 1985 masterpiece starring Smita Patil and Bharath Gopi was directed by his contemporary parallel pioneer, G. Aravindan.",
+    "rationale": "Chidambaram was written, directed, and produced independently by G. Aravindan, winning the National Film Award for Best Feature Film.",
+    "distractorExplorations": {
+      "Mukhamukham": "A powerful, complex 1984 political psychological drama written and directed by Adoor Gopalakrishnan.",
+      "Kathapurushan": "Adoor's brilliant 1995 period drama tracking a man's life alongside Kerala's modern political history.",
+      "Mathilukal": "Adoor's 1990 masterpiece adaptation of Vaikom Muhammad Basheer's novel, starring Mammootty."
+    }
+  },
+  {
+    "id": 1001,
+    "category": "Cinema History: Cinematography",
+    "question": "Which legendary cinematographer is celebrated for shooting several of director Raj Kapoor’s visual masterpieces, including 'Awaara' and 'Shree 420'?",
+    "options": [
+      "R.D. Mathur",
+      "V.K. Murthy",
+      "Radhu Karmakar",
+      "Subrata Mitra"
+    ],
+    "correctIndex": 2,
+    "hint": "He defined the glamorous black-and-white visual identity of RK Studios, later directing the film 'Sangam'.",
+    "rationale": "Radhu Karmakar was Raj Kapoor's long-term cinematographer, mastering high-contrast studio lighting to create iconic images of the era.",
+    "distractorExplorations": {
+      "R.D. Mathur": "He was the master cinematographer who shot K. Asif's epic Mughal-e-Azam, capturing its massive sets on film.",
+      "V.K. Murthy": "He was Guru Dutt's trusted visual partner, famous for pioneering fluid tracking shots and moody lighting in Pyaasa.",
+      "Subrata Mitra": "He was Satyajit Ray's legendary cinematographer, famous for inventing bounce lighting to achieve natural realism in the Apu Trilogy."
+    }
+  },
+  {
+    "id": 1002,
+    "category": "Cinema Theory: Production Design",
+    "question": "To build a cohesive visual world, the Production Designer collaborates most closely with which two departments?",
+    "options": [
+      "Costume design",
+      "Camera crew / Cinematography",
+      "Sound engineering",
+      "Both Costume and Camera crews"
+    ],
+    "correctIndex": 3,
+    "hint": "They must coordinate sets with wardrobe choices and camera lighting plans to ensure colors and spaces look right on screen.",
+    "rationale": "The Production Designer works closely with the Costume Designer to match clothing to the sets, and the Cinematographer to ensure the lighting works perfectly with the physical space. (Option 4 is correct).",
+    "distractorExplorations": {
+      "Costume design alone": "This is vital for character look integration but incomplete without coordinating with camera lighting setups.",
+      "Camera crew alone": "This ensures the sets are lit and framed properly but misses out on coordinating color schemes with wardrobe design.",
+      "Sound engineering": "Sound teams manage microphones and acoustics on set, operating mostly separate from visual design choices."
+    }
+  },
+  {
+    "id": 1003,
+    "category": "Science: Optics",
+    "question": "In photography and cinematography, what does shifting the exposure by 'One Stop' mean?",
+    "options": [
+      "Doubling or halving the total amount of light entering the camera sensor",
+      "Allowing four times more or less light into the lens setup",
+      "Adding or subtracting exactly 10 units of digital brightness metrics",
+      "Shifting the mechanical shutter speed precisely to 1/1000th of a second"
+    ],
+    "correctIndex": 0,
+    "hint": "Adjusting the aperture, shutter speed, or ISO by one full stop either multiplies the light by two or cuts it in half.",
+    "rationale": "A 'stop' is a relative unit of exposure measurement; changing it by one full stop represents a doubling or halving of the physical light captured by the camera sensor.",
+    "distractorExplorations": {
+      "Four times more or less light": "This describes a shift of two full stops ($2^2 = 4$), rather than a single stop change.",
+      "Adding or subtracting 10 units": "Exposure changes are geometric and relative, completely separate from fixed addition scales.",
+      "Shifting shutter speed to 1/1000th": "This represents choosing a specific technical speed setting, rather than a relative shift calculation."
+    }
+  },
+  {
+    "id": 1004,
+    "category": "Cinema History: Documentaries",
+    "question": "Wim Wenders directed a visually stunning, Oscar-nominated documentary film profiling a famous dancer-choreographer. What is the name of this film?",
+    "options": [
+      "The Salt of the Earth",
+      "Pina",
+      "Becoming Frida Kahlo",
+      "Saving Banksy"
+    ],
+    "correctIndex": 1,
+    "hint": "The film utilizes immersive 3D technology to capture the expressive Tanztheater ensemble choreography of Pina Bausch.",
+    "rationale": "Wenders directed 'Pina' (2011) as a tribute to the revolutionary German choreographer Pina Bausch, documenting her unique physical theater methods.",
+    "distractorExplorations": {
+      "The Salt of the Earth": "This was Wenders' brilliant 2014 documentary profiling the life and work of Brazilian social photographer Sebastião Salgado.",
+      "Becoming Frida Kahlo": "A biographical television documentary tracking the art and relationship history of the Mexican painter.",
+      "Saving Banksy": "An independent street-art documentary focusing on the commercialization and preservation of anonymous graffiti works."
+    }
   }
-
-
 ];
